@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.9.6" size="41629">
+<fb version="0.9.6" size="10451">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <deleted t="I">8</deleted>
-    <error t="S">Judge github-events stopped by timeout after 3m0s: execution expired</error>
+    <error>
+      <v t="S">Judge github-events stopped by timeout after 3m0s: execution expired</v>
+      <v t="S">Judge quality-of-service stopped by timeout after 3m0s: execution expired</v>
+    </error>
     <inserted t="I">8</inserted>
-    <seconds t="F">412.936209591</seconds>
+    <seconds t="F">386.54026897</seconds>
     <version t="S">0.39.2</version>
     <what t="S">judges-summary</what>
-    <when t="T">2025-04-07T21:24:30Z</when>
+    <when t="T">2025-04-07T22:24:27Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
-    <_time t="T">2025-04-07T21:17:55Z</_time>
+    <_time t="T">2025-04-07T22:18:24Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <total_active_contributors t="I">4</total_active_contributors>
     <total_commits t="I">3797</total_commits>
@@ -26,29 +29,11 @@
     <total_repositories t="I">7</total_repositories>
     <total_stars t="I">34</total_stars>
     <what t="S">dimensions-of-terrain</what>
-    <when t="T">2025-04-07T21:17:37Z</when>
+    <when t="T">2025-04-07T22:18:01Z</when>
   </f>
   <f>
     <_id t="I">2</_id>
-    <_time t="T">2025-04-07T21:17:55Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">3</_id>
-    <_time t="T">2025-04-07T21:17:55Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">849726475</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">4</_id>
-    <_time t="T">2025-04-07T21:17:55Z</_time>
+    <_time t="T">2025-04-07T22:18:24Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">820463873</repository>
@@ -56,35 +41,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">5</_id>
-    <_time t="T">2025-04-07T21:17:55Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">6</_id>
-    <_time t="T">2025-04-07T21:17:55Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">798641472</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">7</_id>
-    <_time t="T">2025-04-07T21:17:55Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">802720676</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">8</_id>
-    <_time t="T">2025-04-07T21:17:55Z</_time>
+    <_id t="I">3</_id>
+    <_time t="T">2025-04-07T22:18:24Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">840215648</repository>
@@ -92,1102 +50,53 @@
     <where t="S">github</where>
   </f>
   <f>
+    <_id t="I">4</_id>
+    <_time t="T">2025-04-07T22:18:24Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">849726475</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">5</_id>
+    <_time t="T">2025-04-07T22:18:24Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799113787</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">6</_id>
+    <_time t="T">2025-04-07T22:18:24Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">802720676</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">7</_id>
+    <_time t="T">2025-04-07T22:18:24Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">798641472</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">8</_id>
+    <_time t="T">2025-04-07T22:18:24Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799177290</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
     <_id t="I">9</_id>
-    <_time t="T">2025-04-07T21:17:56Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">a55c377275d5c1c6e3e3a917a78a99ef4a8ed57a</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23611899698 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48405998242</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23611899698</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-04-07T14:48:56Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">10</_id>
-    <_time t="T">2025-04-07T21:17:56Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">0cf8d6f9a0f18c9c3e8c8132d8d0563c9cda617a</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23608110106 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48398030309</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23608110106</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-04-07T11:58:02Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">11</_id>
-    <_time t="T">2025-04-07T21:17:56Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#195 has been closed by @yegor256.</details>
-    <event_id t="I">48350634775</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">195</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-04-05T05:19:53Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">12</_id>
-    <_time t="T">2025-04-07T21:17:56Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">520</commits>
-    <contributors>
-      <v t="I">526301</v>
-      <v t="I">29139614</v>
-      <v t="I">29793349</v>
-      <v t="I">8086956</v>
-      <v t="I">1646020</v>
-      <v t="I">2566462</v>
-    </contributors>
-    <details t="S">A new release 'empty facts render weirdly in HTML' has been published in yegor256/judges by @rultor.</details>
-    <event_id t="I">48350584753</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">5535</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">aa966d222a24670826528e4d5256857b4c95875f</last_commit>
-    <release t="I">210526708</release>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.39.2</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-04-05T05:14:35Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">13</_id>
-    <_time t="T">2025-04-07T21:18:03Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.39.2' has been created in yegor256/judges by @rultor.</details>
-    <event_id t="I">48350575758</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.39.2</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-04-05T05:13:41Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">14</_id>
-    <_time t="T">2025-04-07T21:18:03Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">a265d7679219544aefe3a21934584c5deb611392</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23579719702 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48350509099</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23579719702</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-04-05T05:06:59Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">15</_id>
-    <_time t="T">2025-04-07T21:18:03Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#195 has been opened by @yegor256.</details>
-    <event_id t="I">48350298579</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">195</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-04-05T04:44:33Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">16</_id>
-    <_time t="T">2025-04-07T21:18:03Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <comments t="I">0</comments>
-    <comments_appreciated t="I">0</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">0</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request yegor256/judges#194 has been closed by @yegor256, with 6 HoC and 0 comments.</details>
-    <event_id t="I">48350117096</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">194</issue>
-    <repository t="I">799113787</repository>
-    <succeeded_builds t="I">10</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-05T04:24:47Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">17</_id>
-    <_time t="T">2025-04-07T21:18:07Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#193 has been closed by @yegor256.</details>
-    <event_id t="I">48350108502</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">193</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-04-05T04:23:52Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">18</_id>
-    <_time t="T">2025-04-07T21:18:07Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">1</commits>
-    <contributors t="I">8086956</contributors>
-    <details t="S">A new release 'host CSS and JS files in GitHub pages' has been published in yegor256/judges by @rultor.</details>
-    <event_id t="I">48350106699</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">4</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">95cb12bd73c47aaf0a6aa81e8a94b64739378d4f</last_commit>
-    <release t="I">210525237</release>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.39.1</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-04-05T04:23:40Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">19</_id>
-    <_time t="T">2025-04-07T21:18:07Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.39.1' has been created in yegor256/judges by @rultor.</details>
-    <event_id t="I">48350097668</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.39.1</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-04-05T04:22:40Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">20</_id>
-    <_time t="T">2025-04-07T21:18:07Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">1fe34b9339e6a9f23d784acf1b806e33eec6c8a8</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23579410140 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48350038921</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23579410140</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-04-05T04:16:27Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">21</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <details t="S">The pull request yegor256/judges#194 has been opened by @renovate[bot].</details>
-    <event_id t="I">48349926507</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">194</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-05T04:05:17Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">22</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">8fbd28606ed9fa2596a95ac14567862dc62fc3e5</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23579330694 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48349918639</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23579330694</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-04-05T04:04:34Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">23</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#111 has been closed by @yegor256.</details>
-    <event_id t="I">48349532400</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">111</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-04-05T03:25:38Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">24</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#193 has been opened by @yegor256.</details>
-    <event_id t="I">48349530006</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">193</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-04-05T03:25:23Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">25</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">48801515a8393bb2c923ab093293a3086fcc8a55</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23518559190 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48229260528</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23518559190</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-04-02T08:37:03Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">26</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">5862f483e6d51f1329cb1d2f3e0136cacd5f587c</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23460973622 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48117440150</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23460973622</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-30T06:06:10Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">27</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#192 has been closed by @yegor256.</details>
-    <event_id t="I">48116873254</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">192</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-30T04:57:58Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">28</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">5bfa66bfbedd7e4c0819e08bed194d04d8003fb9</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23459224144 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48114966159</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23459224144</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-30T01:05:33Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">29</_id>
-    <_time t="T">2025-04-07T21:18:08Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">723df5c3f8de04996626e09e89fc7f892f6cfeda</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23459215008 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48114953390</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23459215008</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-30T01:04:09Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">30</_id>
-    <_time t="T">2025-04-07T21:18:09Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">f3a2057836f467747734cba12839e29c8ef10651</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23459190592 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48114919393</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23459190592</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-30T01:00:49Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">31</_id>
-    <_time t="T">2025-04-07T21:18:09Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#192 has been opened by @yegor256.</details>
-    <event_id t="I">48114881066</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">192</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-03-30T00:56:58Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">32</_id>
-    <_time t="T">2025-04-07T21:18:09Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x</branch>
-    <comments t="I">3</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request yegor256/judges#191 has been closed by @renovate[bot], with 14 HoC and 3 comments.</details>
-    <event_id t="I">48022559303</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">14</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">191</issue>
-    <repository t="I">799113787</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-closed</what>
-    <when t="T">2025-03-27T07:32:43Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">33</_id>
-    <_time t="T">2025-04-07T21:18:18Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">121bcb835789f8865ab41bac6126a636fa654ff9</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23410681518 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48022543342</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23410681518</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-27T07:32:11Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">34</_id>
-    <_time t="T">2025-04-07T21:18:18Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x</branch>
-    <details t="S">The pull request yegor256/judges#191 has been opened by @renovate[bot].</details>
-    <event_id t="I">48001998947</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">191</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-26T17:47:57Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">35</_id>
-    <_time t="T">2025-04-07T21:18:18Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#190 has been closed by @yegor256.</details>
-    <event_id t="I">47899603505</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">190</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-24T14:44:11Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">36</_id>
-    <_time t="T">2025-04-07T21:18:18Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">9ddc05d2221616c4dcbb5a3eb88c7767b28ca999</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23341233313 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47883103350</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23341233313</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-24T08:20:40Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">37</_id>
-    <_time t="T">2025-04-07T21:18:18Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">91ff2d019f3a444e56630499b847fc4d67f0528a</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23341178470 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47882990638</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23341178470</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-24T08:17:33Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">38</_id>
-    <_time t="T">2025-04-07T21:18:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#190 has been opened by @yegor256.</details>
-    <event_id t="I">47882971158</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">190</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-03-24T08:17:02Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">39</_id>
-    <_time t="T">2025-04-07T21:18:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#189 has been closed by @yegor256.</details>
-    <event_id t="I">47764275603</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">189</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-20T07:26:58Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">40</_id>
-    <_time t="T">2025-04-07T21:18:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">1</commits>
-    <contributors t="I">8086956</contributors>
-    <details t="S">A new release '`--shuffle` breaks the list' has been published in yegor256/judges by @rultor.</details>
-    <event_id t="I">47762857745</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">4</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">46818fca361667c6c50c91f3da3a11f6fa4eb051</last_commit>
-    <release t="I">207073816</release>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.38.1</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-03-20T06:33:49Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">41</_id>
-    <_time t="T">2025-04-07T21:18:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.38.1' has been created in yegor256/judges by @rultor.</details>
-    <event_id t="I">47762829325</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.38.1</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-03-20T06:32:42Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">42</_id>
-    <_time t="T">2025-04-07T21:18:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">4e4f7b9ca03ae952349011867e876dd58eb75385</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23275941669 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47762682663</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23275941669</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-20T06:26:42Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">43</_id>
-    <_time t="T">2025-04-07T21:18:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#189 has been opened by @yegor256.</details>
-    <event_id t="I">47762079699</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">189</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-03-20T06:02:17Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">44</_id>
-    <_time t="T">2025-04-07T21:18:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#188 has been closed by @yegor256.</details>
-    <event_id t="I">47758153158</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">188</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-20T02:37:04Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">45</_id>
-    <_time t="T">2025-04-07T21:18:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">1</commits>
-    <contributors t="I">8086956</contributors>
-    <details t="S">A new release '`--shuffle` is necessary for `update`' has been published in yegor256/judges by @rultor.</details>
-    <event_id t="I">47758108030</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">4</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">a2243884dbc556d1a2bd72b6af3f8b6d7c27f536</last_commit>
-    <release t="I">207043307</release>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.38.0</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-03-20T02:35:00Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">46</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.38.0' has been created in yegor256/judges by @rultor.</details>
-    <event_id t="I">47758071850</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.38.0</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-03-20T02:33:26Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">47</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">f978a054b52ac266255c287e1fb2b1849498b691</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23273386117 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47757956895</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23273386117</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-20T02:27:46Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">48</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#188 has been opened by @yegor256.</details>
-    <event_id t="I">47743485916</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">188</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-03-19T17:20:51Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">49</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#187 has been closed by @yegor256.</details>
-    <event_id t="I">47684395533</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">187</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-18T12:49:05Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">50</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">1</commits>
-    <contributors t="I">8086956</contributors>
-    <details t="S">A new release 'print result too' has been published in yegor256/judges by @rultor.</details>
-    <event_id t="I">47684355564</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">4</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">9a2b8f47d4f4deb06576cdecf5f1ac3de73bce2d</last_commit>
-    <release t="I">206544165</release>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.36.5</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-03-18T12:48:09Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">51</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.36.5' has been created in yegor256/judges by @rultor.</details>
-    <event_id t="I">47684311935</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.36.5</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-03-18T12:47:23Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">52</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">fb6b1d300209a646f846de5016feccab2f2433dd</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23236877624 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47684070655</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23236877624</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-18T12:41:33Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">53</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#187 has been opened by @yegor256.</details>
-    <event_id t="I">47684062308</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">187</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-03-18T12:41:21Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">54</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#186 has been closed by @yegor256.</details>
-    <event_id t="I">47651215910</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">186</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-17T17:50:47Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">55</_id>
-    <_time t="T">2025-04-07T21:18:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">1</commits>
-    <contributors t="I">8086956</contributors>
-    <details t="S">A new release 'time is not printed for a failed test' has been published in yegor256/judges by @rultor.</details>
-    <event_id t="I">47650867719</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">4</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">c35e320482a53c1670acc12f6bbd21d08fcdb1e0</last_commit>
-    <release t="I">206316406</release>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.36.4</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-03-17T17:41:19Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">56</_id>
-    <_time t="T">2025-04-07T21:18:21Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.36.4' has been created in yegor256/judges by @rultor.</details>
-    <event_id t="I">47650822172</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.36.4</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-03-17T17:40:06Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">57</_id>
-    <_time t="T">2025-04-07T21:18:21Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">d7e756ab9fdc4810c141c062889e02511886507f</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23220189816 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47650607955</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23220189816</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-17T17:34:26Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">58</_id>
-    <_time t="T">2025-04-07T21:18:21Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#186 has been opened by @yegor256.</details>
-    <event_id t="I">47650525909</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">186</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-03-17T17:32:16Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">59</_id>
-    <_time t="T">2025-04-07T21:18:21Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue yegor256/judges#183 has been closed by @yegor256.</details>
-    <event_id t="I">47627900421</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">183</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-17T08:51:35Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">60</_id>
-    <_time t="T">2025-04-07T21:18:21Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">0341f1747c77a02a6390bacba5180f0bc0d3f40b</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23209385084 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47627893505</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23209385084</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-17T08:51:25Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">61</_id>
-    <_time t="T">2025-04-07T21:18:21Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request yegor256/judges#185 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">47515041703</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">185</issue>
-    <repository t="I">799113787</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-03-13T09:36:47Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">62</_id>
-    <_time t="T">2025-04-07T21:18:29Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x</branch>
-    <details t="S">The pull request yegor256/judges#185 has been opened by @renovate[bot].</details>
-    <event_id t="I">47513648162</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">185</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-13T09:02:56Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">63</_id>
-    <_time t="T">2025-04-07T21:18:29Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">0a978a1658f4ec8ec1f065136789aaf8ae27f003</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23145390630 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47511013986</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23145390630</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-13T07:49:18Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">64</_id>
-    <_time t="T">2025-04-07T21:18:29Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/minitest-5.x</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request yegor256/judges#184 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">47499021769</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">184</issue>
-    <repository t="I">799113787</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-03-12T22:35:38Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">65</_id>
-    <_time t="T">2025-04-07T21:18:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/minitest-5.x</branch>
-    <details t="S">The pull request yegor256/judges#184 has been opened by @renovate[bot].</details>
-    <event_id t="I">47497066936</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">184</issue>
-    <repository t="I">799113787</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-12T21:17:54Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">66</_id>
-    <_time t="T">2025-04-07T21:18:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">1</commits>
-    <contributors t="I">8086956</contributors>
-    <details t="S">A new release 'factbase 0.9.0' has been published in yegor256/judges by @rultor.</details>
-    <event_id t="I">47487639101</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">4</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">ecfc21f8acd71971e043055b0c029a6f063fe8e0</last_commit>
-    <release t="I">205359763</release>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.36.3</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-03-12T16:45:01Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">67</_id>
-    <_time t="T">2025-04-07T21:18:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.36.3' has been created in yegor256/judges by @rultor.</details>
-    <event_id t="I">47487582675</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799113787</repository>
-    <tag t="S">0.36.3</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-03-12T16:43:42Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">68</_id>
-    <_time t="T">2025-04-07T21:18:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">66aca93a6ba940260a4737c90f7ef7948bce957c</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23133332542 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47487321426</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23133332542</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-12T16:37:16Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">69</_id>
-    <_time t="T">2025-04-07T21:18:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">c82fcebe4213380a2db01ec7f0c70b8a021de68a</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23083304841 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">47385324823</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23083304841</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799113787</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-10T13:28:46Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">70</_id>
-    <_time t="T">2025-04-07T21:18:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">48405998242</latest>
-    <repository t="I">799113787</repository>
-    <what t="S">events-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">71</_id>
-    <_time t="T">2025-04-07T21:18:38Z</_time>
+    <_time t="T">2025-04-07T22:18:27Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">2881e0db309d2a671940e8a4b0ca698747370d47</commit>
     <default_branch t="S">master</default_branch>
@@ -1205,8 +114,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">72</_id>
-    <_time t="T">2025-04-07T21:18:39Z</_time>
+    <_id t="I">10</_id>
+    <_time t="T">2025-04-07T22:18:27Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/fbe-0.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1230,8 +139,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">73</_id>
-    <_time t="T">2025-04-07T21:18:49Z</_time>
+    <_id t="I">11</_id>
+    <_time t="T">2025-04-07T22:18:46Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/fbe-0.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#246 has been opened by @renovate[bot].</details>
@@ -1246,8 +155,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">74</_id>
-    <_time t="T">2025-04-07T21:18:49Z</_time>
+    <_id t="I">12</_id>
+    <_time t="T">2025-04-07T22:18:46Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/fbe-0.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1271,8 +180,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">75</_id>
-    <_time t="T">2025-04-07T21:18:59Z</_time>
+    <_id t="I">13</_id>
+    <_time t="T">2025-04-07T22:19:10Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/fbe-0.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#245 has been opened by @renovate[bot].</details>
@@ -1287,8 +196,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">76</_id>
-    <_time t="T">2025-04-07T21:18:59Z</_time>
+    <_id t="I">14</_id>
+    <_time t="T">2025-04-07T22:19:10Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/judges-0.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1312,8 +221,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">77</_id>
-    <_time t="T">2025-04-07T21:19:09Z</_time>
+    <_id t="I">15</_id>
+    <_time t="T">2025-04-07T22:19:29Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/judges-0.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#244 has been opened by @renovate[bot].</details>
@@ -1328,8 +237,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">78</_id>
-    <_time t="T">2025-04-07T21:19:09Z</_time>
+    <_id t="I">16</_id>
+    <_time t="T">2025-04-07T22:19:29Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1353,8 +262,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">79</_id>
-    <_time t="T">2025-04-07T21:19:19Z</_time>
+    <_id t="I">17</_id>
+    <_time t="T">2025-04-07T22:19:47Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#243 has been opened by @renovate[bot].</details>
@@ -1369,8 +278,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">80</_id>
-    <_time t="T">2025-04-07T21:19:19Z</_time>
+    <_id t="I">18</_id>
+    <_time t="T">2025-04-07T22:19:47Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-minitest-0.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1394,8 +303,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">81</_id>
-    <_time t="T">2025-04-07T21:19:25Z</_time>
+    <_id t="I">19</_id>
+    <_time t="T">2025-04-07T22:19:57Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-performance-1.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1419,8 +328,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">82</_id>
-    <_time t="T">2025-04-07T21:19:35Z</_time>
+    <_id t="I">20</_id>
+    <_time t="T">2025-04-07T22:20:21Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-performance-1.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#242 has been opened by @renovate[bot].</details>
@@ -1435,8 +344,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">83</_id>
-    <_time t="T">2025-04-07T21:19:35Z</_time>
+    <_id t="I">21</_id>
+    <_time t="T">2025-04-07T22:20:21Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-minitest-0.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#241 has been opened by @renovate[bot].</details>
@@ -1451,8 +360,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">84</_id>
-    <_time t="T">2025-04-07T21:19:35Z</_time>
+    <_id t="I">22</_id>
+    <_time t="T">2025-04-07T22:20:21Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/pages-action#240 has been opened by @yegor256.</details>
     <event_id t="I">48135958755</event_id>
@@ -1466,8 +375,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">85</_id>
-    <_time t="T">2025-04-07T21:19:35Z</_time>
+    <_id t="I">23</_id>
+    <_time t="T">2025-04-07T22:20:21Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/pages-action#84 has been closed by @yegor256.</details>
     <event_id t="I">48135798251</event_id>
@@ -1481,8 +390,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">86</_id>
-    <_time t="T">2025-04-07T21:19:35Z</_time>
+    <_id t="I">24</_id>
+    <_time t="T">2025-04-07T22:20:22Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/fbe-0.x-lockfile</branch>
     <comments t="I">0</comments>
@@ -1506,8 +415,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">87</_id>
-    <_time t="T">2025-04-07T21:19:41Z</_time>
+    <_id t="I">25</_id>
+    <_time t="T">2025-04-07T22:20:31Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/factbase-0.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1531,8 +440,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">88</_id>
-    <_time t="T">2025-04-07T21:19:50Z</_time>
+    <_id t="I">26</_id>
+    <_time t="T">2025-04-07T22:20:49Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/factbase-0.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#239 has been opened by @renovate[bot].</details>
@@ -1547,8 +456,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">89</_id>
-    <_time t="T">2025-04-07T21:19:50Z</_time>
+    <_id t="I">27</_id>
+    <_time t="T">2025-04-07T22:20:50Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/factbase-0.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1572,8 +481,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">90</_id>
-    <_time t="T">2025-04-07T21:20:00Z</_time>
+    <_id t="I">28</_id>
+    <_time t="T">2025-04-07T22:21:09Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/factbase-0.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#238 has been opened by @renovate[bot].</details>
@@ -1588,487 +497,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">91</_id>
-    <_time t="T">2025-04-07T21:20:00Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/factbase-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#234 has been closed by @rultor, with 13 HoC and 2 comments.</details>
-    <event_id t="I">48118386957</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">13</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">234</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">24</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-03-30T07:54:10Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">92</_id>
-    <_time t="T">2025-04-07T21:20:10Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/pages-action#237 has been opened by @renovate[bot].</details>
-    <event_id t="I">48118142290</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">237</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-30T07:26:32Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">93</_id>
-    <_time t="T">2025-04-07T21:20:11Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">version-up</branch>
-    <comments t="I">0</comments>
-    <comments_appreciated t="I">0</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">0</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#236 has been closed by @yegor256, with 2 HoC and 0 comments.</details>
-    <event_id t="I">48118115992</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">236</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">0</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-03-30T07:23:34Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">94</_id>
-    <_time t="T">2025-04-07T21:20:11Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/pages-action#235 has been closed by @yegor256.</details>
-    <event_id t="I">48117889318</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">235</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-30T06:58:47Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">95</_id>
-    <_time t="T">2025-04-07T21:20:11Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">515</commits>
-    <contributors>
-      <v t="I">526301</v>
-      <v t="I">29139614</v>
-      <v t="I">8086956</v>
-      <v t="I">31362961</v>
-      <v t="I">106069210</v>
-    </contributors>
-    <details t="S">A new release 'fb up' has been published in zerocracy/pages-action by @rultor.</details>
-    <event_id t="I">48117430450</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">3574</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">2b461eca0e05e7815e28e2058b4ec35c90114dc6</last_commit>
-    <release t="I">209192502</release>
-    <repository t="I">802720676</repository>
-    <tag t="S">0.0.48</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-03-30T06:05:01Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">96</_id>
-    <_time t="T">2025-04-07T21:20:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/factbase-0.x-lockfile</branch>
-    <comments t="I">0</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#234 has been closed by @renovate[bot], with 13 HoC and 0 comments.</details>
-    <event_id t="I">48117429746</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">13</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">234</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">24</succeeded_builds>
-    <what t="S">pull-was-closed</what>
-    <when t="T">2025-03-30T06:04:56Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">97</_id>
-    <_time t="T">2025-04-07T21:20:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">version-up</branch>
-    <details t="S">The pull request zerocracy/pages-action#236 has been opened by @github-actions[bot].</details>
-    <event_id t="I">48117428631</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">236</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-30T06:04:48Z</when>
-    <where t="S">github</where>
-    <who t="I">41898282</who>
-  </f>
-  <f>
-    <_id t="I">98</_id>
-    <_time t="T">2025-04-07T21:20:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.0.48' has been created in zerocracy/pages-action by @rultor.</details>
-    <event_id t="I">48117426351</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">802720676</repository>
-    <tag t="S">0.0.48</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-03-30T06:04:32Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">99</_id>
-    <_time t="T">2025-04-07T21:20:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">fc150bf46481b136ad077cd77d32938dd49b422d</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23460901277 has arrived to zerocracy/pages-action, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48117337552</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23460901277</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">802720676</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-30T05:54:03Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">100</_id>
-    <_time t="T">2025-04-07T21:20:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/pages-action#235 has been opened by @yegor256.</details>
-    <event_id t="I">48117335634</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">235</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-03-30T05:53:48Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">101</_id>
-    <_time t="T">2025-04-07T21:20:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/factbase-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/pages-action#234 has been opened by @renovate[bot].</details>
-    <event_id t="I">48117335413</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">234</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-30T05:53:47Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">102</_id>
-    <_time t="T">2025-04-07T21:20:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#233 has been closed by @rultor, with 4 HoC and 2 comments.</details>
-    <event_id t="I">48103600589</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">4</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">233</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">12</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-03-29T07:00:20Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">103</_id>
-    <_time t="T">2025-04-07T21:20:29Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/pages-action#233 has been opened by @renovate[bot].</details>
-    <event_id t="I">48102871018</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">233</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-29T05:44:21Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">104</_id>
-    <_time t="T">2025-04-07T21:20:29Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">fefda932037e167a01ef7a29653a5417f6b3b689</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #23410802951 has arrived to zerocracy/pages-action, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">48022794035</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">23410802951</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">802720676</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-03-27T07:40:09Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">105</_id>
-    <_time t="T">2025-04-07T21:20:30Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#232 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48013828918</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">232</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">12</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-03-27T01:08:52Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">106</_id>
-    <_time t="T">2025-04-07T21:20:40Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x</branch>
-    <details t="S">The pull request zerocracy/pages-action#232 has been opened by @renovate[bot].</details>
-    <event_id t="I">48011545752</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">232</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-26T23:09:16Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">107</_id>
-    <_time t="T">2025-04-07T21:20:40Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#231 has been closed by @rultor, with 16 HoC and 2 comments.</details>
-    <event_id t="I">48002265527</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">16</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">231</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">12</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-03-26T17:55:14Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">108</_id>
-    <_time t="T">2025-04-07T21:20:50Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x</branch>
-    <details t="S">The pull request zerocracy/pages-action#231 has been opened by @renovate[bot].</details>
-    <event_id t="I">47997451683</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">231</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-03-26T15:57:02Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">109</_id>
-    <_time t="T">2025-04-07T21:20:50Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">version-up</branch>
-    <comments t="I">0</comments>
-    <comments_appreciated t="I">0</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">0</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#229 has been closed by @yegor256, with 2 HoC and 0 comments.</details>
-    <event_id t="I">47781592563</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">229</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">0</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-03-20T14:35:44Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">110</_id>
-    <_time t="T">2025-04-07T21:20:51Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/pages-action#230 has been closed by @yegor256.</details>
-    <event_id t="I">47781453508</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">230</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-03-20T14:32:55Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">111</_id>
-    <_time t="T">2025-04-07T21:20:51Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">1</commits>
-    <contributors t="I">8086956</contributors>
-    <details t="S">A new release '`who-has-name.rb` is very slow' has been published in zerocracy/pages-action by @rultor.</details>
-    <event_id t="I">47780996860</event_id>
-    <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <last_commit t="S">728ef41ae8227b823fb45890abb75d7fa639d959</last_commit>
-    <release t="I">207188220</release>
-    <repository t="I">802720676</repository>
-    <tag t="S">0.0.47</tag>
-    <what t="S">release-published</what>
-    <when t="T">2025-03-20T14:24:00Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">112</_id>
-    <_time t="T">2025-04-07T21:20:51Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.0.47' has been created in zerocracy/pages-action by @rultor.</details>
-    <event_id t="I">47780931029</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">802720676</repository>
-    <tag t="S">0.0.47</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-03-20T14:22:41Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">114</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue yegor256/judges#186.</details>
-    <issue t="I">186</issue>
-    <label t="S">bug</label>
-    <repository t="I">799113787</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-03-17T17:32:14Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">116</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">849726475</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">117</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">798641472</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">118</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">119</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">840215648</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">120</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
+    <_id t="I">29</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">820463873</repository>
@@ -2076,8 +506,44 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">121</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
+    <_id t="I">30</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">840215648</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">31</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799113787</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">32</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">798641472</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">33</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799177290</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">34</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#enhancement' label was attached by @yegor256 to the issue zerocracy/pages-action#240.</details>
     <issue t="I">240</issue>
@@ -2089,8 +555,17 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">124</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
+    <_id t="I">36</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">849726475</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">37</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">802720676</repository>
@@ -2098,98 +573,11 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">125</_id>
-    <_time t="T">2025-04-07T21:20:57Z</_time>
+    <_id t="I">38</_id>
+    <_time t="T">2025-04-07T22:21:27Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#enhancement' label was attached by @yegor256 to the issue yegor256/judges#188.</details>
-    <issue t="I">188</issue>
-    <label t="S">enhancement</label>
-    <repository t="I">799113787</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-03-19T17:20:50Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">126</_id>
-    <_time t="T">2025-04-07T21:20:58Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue yegor256/judges#189.</details>
-    <issue t="I">189</issue>
-    <label t="S">bug</label>
-    <repository t="I">799113787</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-03-20T06:02:15Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">127</_id>
-    <_time t="T">2025-04-07T21:20:58Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue yegor256/judges#190.</details>
-    <issue t="I">190</issue>
-    <label t="S">bug</label>
-    <repository t="I">799113787</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-03-24T08:17:00Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">128</_id>
-    <_time t="T">2025-04-07T21:20:58Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue yegor256/judges#192.</details>
-    <issue t="I">192</issue>
-    <label t="S">bug</label>
-    <repository t="I">799113787</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-03-30T00:56:57Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">129</_id>
-    <_time t="T">2025-04-07T21:20:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue yegor256/judges#195.</details>
-    <issue t="I">195</issue>
-    <label t="S">bug</label>
-    <repository t="I">799113787</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-04-05T04:44:32Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">130</_id>
-    <_time t="T">2025-04-07T21:20:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">131</_id>
-    <_time t="T">2025-04-07T21:21:32Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <average_review_size t="F">0.14678899082568808</average_review_size>
-    <average_review_time t="F">28637.428571428572</average_review_time>
-    <average_reviewers_per_pull t="F">0.10091743119266056</average_reviewers_per_pull>
-    <average_reviews_per_pull t="F">0.1743119266055046</average_reviews_per_pull>
-    <since t="T">2025-03-10T21:20:59Z</since>
+    <since t="T">2025-03-10T22:21:27Z</since>
     <what t="S">quality-of-service</what>
-    <when t="T">2025-04-07T21:20:59Z</when>
-  </f>
-  <f>
-    <_id t="I">132</_id>
-    <_time t="T">2025-04-07T21:24:30Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <since t="T">2025-03-10T21:21:32Z</since>
-    <total_reviews_submitted t="I">19</total_reviews_submitted>
-    <what t="S">quantity-of-deliverables</what>
-    <when t="T">2025-04-07T21:21:32Z</when>
+    <when t="T">2025-04-07T22:21:27Z</when>
   </f>
 </fb>
