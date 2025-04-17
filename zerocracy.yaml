@@ -4,14 +4,14 @@
   deleted: 8
   error:
   - 'Judge github-events stopped by timeout after 3m0s: execution expired'
-  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 445.100278793
+  seconds: 387.183731457
   version: 0.39.2
   what: judges-summary
-  when: 2025-04-17 15:27:07.280322466 Z
+  when: 2025-04-17 16:30:15.172773031 Z
 - _id: 1
-  _time: 2025-04-17 15:20:08.552856278 Z
+  _time: 2025-04-17 16:24:12.771129748 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 4
   total_commits: 3878
@@ -24,96 +24,58 @@
   total_repositories: 7
   total_stars: 35
   what: dimensions-of-terrain
-  when: 2025-04-17 15:19:42.504394120 Z
+  when: 2025-04-17 16:23:48.310454307 Z
 - _id: 2
-  _time: 2025-04-17 15:20:08.576631993 Z
+  _time: 2025-04-17 16:24:12.805552230 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-04-17 15:20:08.579093997 Z
+  _time: 2025-04-17 16:24:12.821463634 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-04-17 15:20:08.581536935 Z
+  _time: 2025-04-17 16:24:12.836591265 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2025-04-17 15:20:08.583864988 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-04-17 15:20:08.586229228 Z
+  _time: 2025-04-17 16:24:12.846815121 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
-- _id: 7
-  _time: 2025-04-17 15:20:08.588741306 Z
+- _id: 6
+  _time: 2025-04-17 16:24:12.850853670 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 798641472
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2025-04-17 15:20:08.591313796 Z
+- _id: 7
+  _time: 2025-04-17 16:24:12.854876670 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
+- _id: 8
+  _time: 2025-04-17 16:24:12.859606911 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
 - _id: 9
-  _time: 2025-04-17 15:20:10.554920233 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/factbase-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#250 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 48724405459
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 250
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-15 22:32:47.000000000 Z
-  where: github
-  who: 8086956
-- _id: 10
-  _time: 2025-04-17 15:20:31.650362088 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/factbase-0.x-lockfile
-  details: The pull request zerocracy/pages-action#250 has been opened by @renovate[bot].
-  event_id: 48723418642
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 250
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-15 21:49:52.000000000 Z
-  where: github
-  who: 29139614
-- _id: 11
-  _time: 2025-04-17 15:20:31.949695754 Z
+  _time: 2025-04-17 16:24:14.585019843 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 2
@@ -122,36 +84,74 @@
   comments_by_reviewers: 3
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#249 has been closed by @rultor,
+  details: The pull request zerocracy/swarm-template#66 has been closed by @rultor,
     with 26 HoC and 2 comments.
-  event_id: 48714317331
+  event_id: 48705714927
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 26
   is_human: 0
-  issue: 249
-  repository: 802720676
-  succeeded_builds: 12
+  issue: 66
+  repository: 849726475
+  succeeded_builds: 9
   what: pull-was-merged
-  when: 2025-04-15 17:04:56.000000000 Z
+  when: 2025-04-15 13:49:59.000000000 Z
+  where: github
+  who: 8086956
+- _id: 10
+  _time: 2025-04-17 16:24:31.658305604 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/swarm-template#66 has been opened by @renovate[bot].
+  event_id: 48702379767
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 66
+  repository: 849726475
+  what: pull-was-opened
+  when: 2025-04-15 12:37:36.000000000 Z
+  where: github
+  who: 29139614
+- _id: 11
+  _time: 2025-04-17 16:24:32.355404020 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/swarm-template#65 has been closed by @rultor,
+    with 9 HoC and 2 comments.
+  event_id: 48656943546
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 9
+  is_human: 0
+  issue: 65
+  repository: 849726475
+  succeeded_builds: 9
+  what: pull-was-merged
+  when: 2025-04-14 13:00:07.000000000 Z
   where: github
   who: 8086956
 - _id: 12
-  _time: 2025-04-17 15:20:51.663798090 Z
+  _time: 2025-04-17 16:24:48.612083163 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#249 has been opened by @renovate[bot].
-  event_id: 48711765992
+  details: The pull request zerocracy/swarm-template#65 has been opened by @renovate[bot].
+  event_id: 48655460521
   event_type: PullRequestEvent
   is_human: 0
-  issue: 249
-  repository: 802720676
+  issue: 65
+  repository: 849726475
   what: pull-was-opened
-  when: 2025-04-15 15:58:13.000000000 Z
+  when: 2025-04-14 12:25:37.000000000 Z
   where: github
   who: 29139614
 - _id: 13
-  _time: 2025-04-17 15:20:51.685707511 Z
+  _time: 2025-04-17 16:24:49.026712611 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 2
@@ -160,149 +160,36 @@
   comments_by_reviewers: 3
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#248 has been closed by @rultor,
-    with 5 HoC and 2 comments.
-  event_id: 48656077927
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 5
-  is_human: 0
-  issue: 248
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-14 12:40:16.000000000 Z
-  where: github
-  who: 8086956
-- _id: 14
-  _time: 2025-04-17 15:21:11.492682207 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#248 has been opened by @renovate[bot].
-  event_id: 48654353422
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 248
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-14 11:58:23.000000000 Z
-  where: github
-  who: 29139614
-- _id: 15
-  _time: 2025-04-17 15:21:11.504432456 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#247 has been closed by @yegor256.
-  event_id: 48606360015
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 247
-  repository: 802720676
-  what: issue-was-closed
-  when: 2025-04-12 01:23:17.000000000 Z
-  where: github
-  who: 526301
-- _id: 16
-  _time: 2025-04-17 15:21:11.511370950 Z
-  _version: 0.9.10/0.39.2/
-  commit: b5c9cf9a9c76e16c4fe524dc099d671d530c6dfb
-  default_branch: master
-  details: 'A new Git push #23712653739 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 48606351314
-  event_type: PushEvent
-  is_human: 1
-  push_id: 23712653739
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-12 01:22:30.000000000 Z
-  where: github
-  who: 526301
-- _id: 17
-  _time: 2025-04-17 15:21:11.871470169 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#247 has been opened by @yegor256.
-  event_id: 48606296764
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 247
-  repository: 802720676
-  what: issue-was-opened
-  when: 2025-04-12 01:17:23.000000000 Z
-  where: github
-  who: 526301
-- _id: 18
-  _time: 2025-04-17 15:21:11.884906741 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#240 has been closed by @yegor256.
-  event_id: 48427139620
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 240
-  repository: 802720676
-  what: issue-was-closed
-  when: 2025-04-08 02:48:45.000000000 Z
-  where: github
-  who: 526301
-- _id: 19
-  _time: 2025-04-17 15:21:11.892153152 Z
-  _version: 0.9.10/0.39.2/
-  commit: 2881e0db309d2a671940e8a4b0ca698747370d47
-  default_branch: master
-  details: 'A new Git push #23612031214 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 48406282128
-  event_type: PushEvent
-  is_human: 1
-  push_id: 23612031214
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-07 14:54:54.000000000 Z
-  where: github
-  who: 526301
-- _id: 20
-  _time: 2025-04-17 15:21:12.245793866 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#246 has been closed by @rultor,
+  details: The pull request zerocracy/swarm-template#64 has been closed by @rultor,
     with 2 HoC and 2 comments.
-  event_id: 48372236076
+  event_id: 48372186976
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 2
   is_human: 0
-  issue: 246
-  repository: 802720676
-  succeeded_builds: 12
+  issue: 64
+  repository: 849726475
+  succeeded_builds: 9
   what: pull-was-merged
-  when: 2025-04-06 15:48:56.000000000 Z
+  when: 2025-04-06 15:44:48.000000000 Z
   where: github
   who: 8086956
-- _id: 21
-  _time: 2025-04-17 15:21:31.623703527 Z
+- _id: 14
+  _time: 2025-04-17 16:25:05.341569407 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#246 has been opened by @renovate[bot].
-  event_id: 48370707990
+  details: The pull request zerocracy/swarm-template#64 has been opened by @renovate[bot].
+  event_id: 48370959074
   event_type: PullRequestEvent
   is_human: 0
-  issue: 246
-  repository: 802720676
+  issue: 64
+  repository: 849726475
   what: pull-was-opened
-  when: 2025-04-06 13:47:39.000000000 Z
+  when: 2025-04-06 14:08:00.000000000 Z
   where: github
   who: 29139614
-- _id: 22
-  _time: 2025-04-17 15:21:31.962076009 Z
+- _id: 15
+  _time: 2025-04-17 16:25:05.362504543 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 2
@@ -311,287 +198,335 @@
   comments_by_reviewers: 3
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#245 has been closed by @rultor,
-    with 8 HoC and 2 comments.
-  event_id: 48365914632
+  details: The pull request zerocracy/swarm-template#63 has been closed by @rultor,
+    with 6 HoC and 2 comments.
+  event_id: 48364139172
   event_type: PullRequestEvent
   failed_builds: 0
-  hoc: 8
+  hoc: 6
   is_human: 0
-  issue: 245
-  repository: 802720676
-  succeeded_builds: 12
+  issue: 63
+  repository: 849726475
+  succeeded_builds: 9
   what: pull-was-merged
-  when: 2025-04-06 06:42:13.000000000 Z
+  when: 2025-04-06 03:15:50.000000000 Z
+  where: github
+  who: 8086956
+- _id: 16
+  _time: 2025-04-17 16:25:23.322179515 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/swarm-template#63 has been opened by @renovate[bot].
+  event_id: 48363793021
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 63
+  repository: 849726475
+  what: pull-was-opened
+  when: 2025-04-06 02:36:37.000000000 Z
+  where: github
+  who: 29139614
+- _id: 17
+  _time: 2025-04-17 16:25:23.364090218 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/judges-0.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/swarm-template#62 has been closed by @rultor,
+    with 30 HoC and 2 comments.
+  event_id: 48351551580
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 30
+  is_human: 0
+  issue: 62
+  repository: 849726475
+  succeeded_builds: 9
+  what: pull-was-merged
+  when: 2025-04-05 06:48:08.000000000 Z
+  where: github
+  who: 8086956
+- _id: 18
+  _time: 2025-04-17 16:25:41.776289346 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/judges-0.x-lockfile
+  details: The pull request zerocracy/swarm-template#62 has been opened by @renovate[bot].
+  event_id: 48350877881
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 62
+  repository: 849726475
+  what: pull-was-opened
+  when: 2025-04-05 05:43:33.000000000 Z
+  where: github
+  who: 29139614
+- _id: 19
+  _time: 2025-04-17 16:25:42.023846005 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/swarm-template#61 has been closed by @rultor,
+    with 6 HoC and 2 comments.
+  event_id: 48292758180
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 6
+  is_human: 0
+  issue: 61
+  repository: 849726475
+  succeeded_builds: 9
+  what: pull-was-merged
+  when: 2025-04-03 15:42:53.000000000 Z
+  where: github
+  who: 8086956
+- _id: 20
+  _time: 2025-04-17 16:25:58.781075506 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request zerocracy/swarm-template#61 has been opened by @renovate[bot].
+  event_id: 48291607532
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 61
+  repository: 849726475
+  what: pull-was-opened
+  when: 2025-04-03 15:15:31.000000000 Z
+  where: github
+  who: 29139614
+- _id: 21
+  _time: 2025-04-17 16:25:58.808228055 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-minitest-0.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/swarm-template#59 has been closed by @rultor,
+    with 6 HoC and 2 comments.
+  event_id: 48182101423
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 6
+  is_human: 0
+  issue: 59
+  repository: 849726475
+  succeeded_builds: 9
+  what: pull-was-merged
+  when: 2025-04-01 07:57:57.000000000 Z
+  where: github
+  who: 8086956
+- _id: 22
+  _time: 2025-04-17 16:26:09.535357498 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-performance-1.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/swarm-template#60 has been closed by @rultor,
+    with 6 HoC and 2 comments.
+  event_id: 48181632081
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 6
+  is_human: 0
+  issue: 60
+  repository: 849726475
+  succeeded_builds: 9
+  what: pull-was-merged
+  when: 2025-04-01 07:45:25.000000000 Z
   where: github
   who: 8086956
 - _id: 23
-  _time: 2025-04-17 15:21:51.341385311 Z
+  _time: 2025-04-17 16:26:26.832308446 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#245 has been opened by @renovate[bot].
-  event_id: 48365451009
+  branch: renovate/rubocop-performance-1.x-lockfile
+  details: The pull request zerocracy/swarm-template#60 has been opened by @renovate[bot].
+  event_id: 48180989446
   event_type: PullRequestEvent
   is_human: 0
-  issue: 245
-  repository: 802720676
+  issue: 60
+  repository: 849726475
   what: pull-was-opened
-  when: 2025-04-06 05:54:11.000000000 Z
+  when: 2025-04-01 07:28:09.000000000 Z
   where: github
   who: 29139614
 - _id: 24
-  _time: 2025-04-17 15:21:51.376744411 Z
+  _time: 2025-04-17 16:26:26.859657066 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#244 has been closed by @rultor,
-    with 28 HoC and 2 comments.
-  event_id: 48352160927
+  branch: renovate/rubocop-minitest-0.x-lockfile
+  details: The pull request zerocracy/swarm-template#59 has been opened by @renovate[bot].
+  event_id: 48180984456
   event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 28
   is_human: 0
-  issue: 244
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-05 07:49:57.000000000 Z
+  issue: 59
+  repository: 849726475
+  what: pull-was-opened
+  when: 2025-04-01 07:28:01.000000000 Z
   where: github
-  who: 8086956
+  who: 29139614
 - _id: 25
-  _time: 2025-04-17 15:22:11.010267153 Z
+  _time: 2025-04-17 16:26:26.916231316 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/pages-action#244 has been opened by @renovate[bot].
-  event_id: 48351654985
+  branch: renovate/fbe-0.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/swarm-template#58 has been closed by @rultor,
+    with 15 HoC and 2 comments.
+  event_id: 48120018987
   event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 15
   is_human: 0
-  issue: 244
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-05 06:58:51.000000000 Z
+  issue: 58
+  repository: 849726475
+  succeeded_builds: 9
+  what: pull-was-merged
+  when: 2025-03-30 10:37:11.000000000 Z
   where: github
-  who: 29139614
+  who: 8086956
 - _id: 26
-  _time: 2025-04-17 15:22:11.034968407 Z
+  _time: 2025-04-17 16:26:43.862029798 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#243 has been closed by @rultor,
-    with 6 HoC and 2 comments.
-  event_id: 48292795485
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/swarm-template#58 has been opened by @renovate[bot].
+  event_id: 48119573386
   event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
   is_human: 0
-  issue: 243
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-03 15:43:48.000000000 Z
+  issue: 58
+  repository: 849726475
+  what: pull-was-opened
+  when: 2025-03-30 09:55:29.000000000 Z
   where: github
-  who: 8086956
+  who: 29139614
 - _id: 27
-  _time: 2025-04-17 15:22:29.842216699 Z
+  _time: 2025-04-17 16:26:44.116031346 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/pages-action#243 has been opened by @renovate[bot].
-  event_id: 48291955287
+  branch: renovate/fbe-0.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/swarm-template#57 has been closed by @rultor,
+    with 4 HoC and 2 comments.
+  event_id: 48103602753
   event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 4
   is_human: 0
-  issue: 243
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-03 15:23:30.000000000 Z
+  issue: 57
+  repository: 849726475
+  succeeded_builds: 9
+  what: pull-was-merged
+  when: 2025-03-29 07:00:30.000000000 Z
   where: github
-  who: 29139614
+  who: 8086956
 - _id: 28
-  _time: 2025-04-17 15:22:29.864893271 Z
+  _time: 2025-04-17 16:27:00.656364424 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-minitest-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#241 has been closed by @rultor,
-    with 6 HoC and 2 comments.
-  event_id: 48187006590
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/swarm-template#57 has been opened by @renovate[bot].
+  event_id: 48103387446
   event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
   is_human: 0
-  issue: 241
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-01 09:57:19.000000000 Z
+  issue: 57
+  repository: 849726475
+  what: pull-was-opened
+  when: 2025-03-29 06:38:01.000000000 Z
   where: github
-  who: 8086956
+  who: 29139614
 - _id: 29
-  _time: 2025-04-17 15:22:40.606478083 Z
+  _time: 2025-04-17 16:27:00.679002935 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-performance-1.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#242 has been closed by @rultor,
-    with 6 HoC and 2 comments.
-  event_id: 48186642301
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
-  is_human: 0
-  issue: 242
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-01 09:48:28.000000000 Z
+  commit: d5dcc293dcda36185ab992065f4efc0ecd83a62f
+  default_branch: master
+  details: 'A new Git push #23410853074 has arrived to zerocracy/swarm-template, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 48022894745
+  event_type: PushEvent
+  is_human: 1
+  push_id: 23410853074
+  ref: refs/heads/master
+  repository: 849726475
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-03-27 07:43:14.000000000 Z
   where: github
-  who: 8086956
+  who: 526301
 - _id: 30
-  _time: 2025-04-17 15:22:59.739196092 Z
+  _time: 2025-04-17 16:27:15.147689050 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-performance-1.x-lockfile
-  details: The pull request zerocracy/pages-action#242 has been opened by @renovate[bot].
-  event_id: 48181891428
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 242
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-01 07:52:17.000000000 Z
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
   where: github
-  who: 29139614
 - _id: 31
-  _time: 2025-04-17 15:23:00.049340284 Z
+  _time: 2025-04-17 16:27:15.151116358 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-minitest-0.x-lockfile
-  details: The pull request zerocracy/pages-action#241 has been opened by @renovate[bot].
-  event_id: 48181885772
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 241
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-01 07:52:07.000000000 Z
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
   where: github
-  who: 29139614
 - _id: 32
-  _time: 2025-04-17 15:23:00.065423324 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#240 has been opened by @yegor256.
-  event_id: 48135958755
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 240
-  repository: 802720676
-  what: issue-was-opened
-  when: 2025-03-31 06:46:17.000000000 Z
-  where: github
-  who: 526301
-- _id: 33
-  _time: 2025-04-17 15:23:00.087305976 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#84 has been closed by @yegor256.
-  event_id: 48135798251
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 84
-  repository: 802720676
-  what: issue-was-closed
-  when: 2025-03-31 06:39:54.000000000 Z
-  where: github
-  who: 526301
-- _id: 34
-  _time: 2025-04-17 15:23:11.150590939 Z
+  _time: 2025-04-17 16:27:15.154682666 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 35
-  _time: 2025-04-17 15:23:11.157425752 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 36
-  _time: 2025-04-17 15:23:11.163265609 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 37
-  _time: 2025-04-17 15:23:11.168074625 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 38
-  _time: 2025-04-17 15:23:11.173122668 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 39
-  _time: 2025-04-17 15:23:11.177911666 Z
+- _id: 33
+  _time: 2025-04-17 16:27:15.158543023 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 40
-  _time: 2025-04-17 15:23:11.537128115 Z
+- _id: 34
+  _time: 2025-04-17 16:27:15.162267265 Z
   _version: 0.9.10/0.39.2/
-  details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/pages-action#240.
-  issue: 240
-  label: enhancement
-  repository: 802720676
-  what: label-was-attached
-  when: 2025-03-31 06:46:15.000000000 Z
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
   where: github
-  who: 526301
-- _id: 41
-  _time: 2025-04-17 15:23:12.162840328 Z
+- _id: 35
+  _time: 2025-04-17 16:27:15.166130267 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 42
-  _time: 2025-04-17 15:24:07.277256258 Z
+- _id: 36
+  _time: 2025-04-17 16:27:15.170076694 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 37
+  _time: 2025-04-17 16:27:24.291274144 Z
   _version: 0.9.10/0.39.2/
   average_issue_lifetime: 1040685.619047619
-  average_pull_files_size: 1.2164948453608246
-  average_pull_hoc_size: 13.123711340206185
   average_pull_lifetime: 439790.85217391304
-  since: 2025-03-20 15:23:12.166118111 Z
+  average_triage_time: 0
+  since: 2025-03-20 16:27:15.172634138 Z
   what: quality-of-service
-  when: 2025-04-17 15:23:12.166091841 Z
-- _id: 43
-  _time: 2025-04-17 15:24:09.845135633 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-03-20 15:24:07.279413152 Z
-  total_issues_created: 16
-  total_pulls_submitted: 1
-  what: quantity-of-deliverables
-  when: 2025-04-17 15:24:07.279374289 Z
+  when: 2025-04-17 16:27:15.172610174 Z
