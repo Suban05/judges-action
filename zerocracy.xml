@@ -1,72 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.9.6" size="40341">
+<fb version="0.9.6" size="50641">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <deleted t="I">8</deleted>
-    <error t="S">Judge quality-of-service stopped by timeout after 3m0s: execution expired</error>
+    <error>
+      <v t="S">Judge github-events stopped by timeout after 3m0s: execution expired</v>
+      <v t="S">Judge quality-of-service stopped by timeout after 3m0s: execution expired</v>
+    </error>
     <inserted t="I">8</inserted>
-    <seconds t="F">363.417662708</seconds>
+    <seconds t="F">383.367088351</seconds>
     <version t="S">0.39.2</version>
     <what t="S">judges-summary</what>
-    <when t="T">2025-05-01T05:25:30Z</when>
+    <when t="T">2025-05-01T06:34:25Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <total_active_contributors t="I">5</total_active_contributors>
-    <total_commits t="I">4003</total_commits>
+    <total_commits t="I">4009</total_commits>
     <total_contributors t="I">12</total_contributors>
     <total_files t="I">563</total_files>
     <total_forks t="I">20</total_forks>
-    <total_issues t="I">559</total_issues>
+    <total_issues t="I">560</total_issues>
     <total_pulls t="I">1027</total_pulls>
-    <total_releases t="I">444</total_releases>
+    <total_releases t="I">445</total_releases>
     <total_repositories t="I">8</total_repositories>
     <total_stars t="I">37</total_stars>
     <what t="S">dimensions-of-terrain</what>
-    <when t="T">2025-05-01T05:19:27Z</when>
+    <when t="T">2025-05-01T06:28:02Z</when>
   </f>
   <f>
     <_id t="I">2</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">802720676</repository>
+    <repository t="I">799113787</repository>
     <what t="S">min-issue-was-found</what>
     <where t="S">github</where>
   </f>
   <f>
     <_id t="I">3</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">4</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">820463873</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">5</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">840215648</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">6</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">849726475</repository>
@@ -74,8 +50,26 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">7</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
+    <_id t="I">4</_id>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">840215648</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">5</_id>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">820463873</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">6</_id>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">974194993</repository>
@@ -83,8 +77,17 @@
     <where t="S">github</where>
   </f>
   <f>
+    <_id t="I">7</_id>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799177290</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
     <_id t="I">8</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">798641472</repository>
@@ -93,599 +96,16 @@
   </f>
   <f>
     <_id t="I">9</_id>
-    <_time t="T">2025-05-01T05:19:42Z</_time>
+    <_time t="T">2025-05-01T06:28:20Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
+    <repository t="I">802720676</repository>
     <what t="S">min-issue-was-found</what>
     <where t="S">github</where>
   </f>
   <f>
     <_id t="I">10</_id>
-    <_time t="T">2025-05-01T05:19:43Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#73 has been closed by @rultor, with 2 HoC and 2 comments.</details>
-    <event_id t="I">49154439486</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">73</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-28T20:45:38Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">11</_id>
-    <_time t="T">2025-05-01T05:19:51Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#73 has been opened by @renovate[bot].</details>
-    <event_id t="I">49153087086</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">73</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-28T20:03:40Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">12</_id>
-    <_time t="T">2025-05-01T05:19:51Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#72 has been closed by @rultor, with 24 HoC and 2 comments.</details>
-    <event_id t="I">48961275271</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">24</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">72</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-23T07:51:36Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">13</_id>
-    <_time t="T">2025-05-01T05:19:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#72 has been opened by @renovate[bot].</details>
-    <event_id t="I">48960325313</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">72</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-23T07:27:14Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">14</_id>
-    <_time t="T">2025-05-01T05:19:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#71 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48928627551</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">71</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-22T13:05:50Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">15</_id>
-    <_time t="T">2025-05-01T05:20:06Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#71 has been opened by @renovate[bot].</details>
-    <event_id t="I">48927504359</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">71</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-22T12:40:34Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">16</_id>
-    <_time t="T">2025-05-01T05:20:06Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/judges-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#70 has been closed by @rultor, with 2 HoC and 2 comments.</details>
-    <event_id t="I">48854318621</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">70</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-19T19:44:22Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">17</_id>
-    <_time t="T">2025-05-01T05:20:14Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/judges-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#70 has been opened by @renovate[bot].</details>
-    <event_id t="I">48853608787</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">70</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-19T18:31:53Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">18</_id>
-    <_time t="T">2025-05-01T05:20:14Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#69 has been closed by @rultor, with 2 HoC and 2 comments.</details>
-    <event_id t="I">48833188747</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">69</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-18T15:58:17Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">19</_id>
-    <_time t="T">2025-05-01T05:20:22Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#69 has been opened by @renovate[bot].</details>
-    <event_id t="I">48831188002</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">69</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-18T14:39:10Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">20</_id>
-    <_time t="T">2025-05-01T05:20:22Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#68 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48825453659</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">68</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-18T10:36:28Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">21</_id>
-    <_time t="T">2025-05-01T05:20:33Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#68 has been opened by @renovate[bot].</details>
-    <event_id t="I">48824398577</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">68</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-18T09:52:40Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">22</_id>
-    <_time t="T">2025-05-01T05:20:33Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#66 has been closed by @rultor, with 26 HoC and 2 comments.</details>
-    <event_id t="I">48705714927</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">26</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">66</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-15T13:49:59Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">23</_id>
-    <_time t="T">2025-05-01T05:20:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#66 has been opened by @renovate[bot].</details>
-    <event_id t="I">48702379767</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">66</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-15T12:37:36Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">24</_id>
-    <_time t="T">2025-05-01T05:20:43Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#65 has been closed by @rultor, with 9 HoC and 2 comments.</details>
-    <event_id t="I">48656943546</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">9</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">65</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-14T13:00:07Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">25</_id>
-    <_time t="T">2025-05-01T05:20:51Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#65 has been opened by @renovate[bot].</details>
-    <event_id t="I">48655460521</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">65</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-14T12:25:37Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">26</_id>
-    <_time t="T">2025-05-01T05:20:51Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#64 has been closed by @rultor, with 2 HoC and 2 comments.</details>
-    <event_id t="I">48372186976</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">64</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-06T15:44:48Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">27</_id>
-    <_time t="T">2025-05-01T05:20:58Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#64 has been opened by @renovate[bot].</details>
-    <event_id t="I">48370959074</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">64</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-06T14:08:00Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">28</_id>
-    <_time t="T">2025-05-01T05:20:58Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#63 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48364139172</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">63</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-06T03:15:50Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">29</_id>
-    <_time t="T">2025-05-01T05:21:06Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#63 has been opened by @renovate[bot].</details>
-    <event_id t="I">48363793021</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">63</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-06T02:36:37Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">30</_id>
-    <_time t="T">2025-05-01T05:21:06Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/judges-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#62 has been closed by @rultor, with 30 HoC and 2 comments.</details>
-    <event_id t="I">48351551580</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">30</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">62</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-05T06:48:08Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">31</_id>
-    <_time t="T">2025-05-01T05:21:15Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/judges-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#62 has been opened by @renovate[bot].</details>
-    <event_id t="I">48350877881</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">62</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-05T05:43:33Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">32</_id>
-    <_time t="T">2025-05-01T05:21:15Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#61 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48292758180</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">61</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-03T15:42:53Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">33</_id>
-    <_time t="T">2025-05-01T05:21:22Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#61 has been opened by @renovate[bot].</details>
-    <event_id t="I">48291607532</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">61</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-03T15:15:31Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">34</_id>
-    <_time t="T">2025-05-01T05:21:22Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-minitest-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#59 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48182101423</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">59</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-01T07:57:57Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">35</_id>
-    <_time t="T">2025-05-01T05:21:27Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-performance-1.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/swarm-template#60 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48181632081</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">60</issue>
-    <repository t="I">849726475</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-01T07:45:25Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">36</_id>
-    <_time t="T">2025-05-01T05:21:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-performance-1.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#60 has been opened by @renovate[bot].</details>
-    <event_id t="I">48180989446</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">60</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-01T07:28:09Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">37</_id>
-    <_time t="T">2025-05-01T05:21:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-minitest-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/swarm-template#59 has been opened by @renovate[bot].</details>
-    <event_id t="I">48180984456</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">59</issue>
-    <repository t="I">849726475</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-01T07:28:01Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">38</_id>
-    <_time t="T">2025-05-01T05:21:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">49154459369</latest>
-    <repository t="I">849726475</repository>
-    <what t="S">events-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">39</_id>
-    <_time t="T">2025-05-01T05:21:37Z</_time>
+    <_time t="T">2025-05-01T06:28:21Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">544</branch>
     <details t="S">The pull request zerocracy/fbe#174 has been opened by @Yegorov.</details>
@@ -700,8 +120,8 @@
     <who t="I">2566462</who>
   </f>
   <f>
-    <_id t="I">40</_id>
-    <_time t="T">2025-05-01T05:21:37Z</_time>
+    <_id t="I">11</_id>
+    <_time t="T">2025-05-01T06:28:21Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -725,8 +145,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">41</_id>
-    <_time t="T">2025-05-01T05:21:44Z</_time>
+    <_id t="I">12</_id>
+    <_time t="T">2025-05-01T06:28:29Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <details t="S">The pull request zerocracy/fbe#172 has been opened by @renovate[bot].</details>
@@ -741,8 +161,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">42</_id>
-    <_time t="T">2025-05-01T05:21:44Z</_time>
+    <_id t="I">13</_id>
+    <_time t="T">2025-05-01T06:28:29Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#171 has been closed by @yegor256.</details>
     <event_id t="I">48956317499</event_id>
@@ -756,8 +176,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">43</_id>
-    <_time t="T">2025-05-01T05:21:44Z</_time>
+    <_id t="I">14</_id>
+    <_time t="T">2025-05-01T06:28:29Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">467</commits>
     <contributors>
@@ -782,8 +202,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">44</_id>
-    <_time t="T">2025-05-01T05:21:49Z</_time>
+    <_id t="I">15</_id>
+    <_time t="T">2025-05-01T06:28:34Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">A new tag '0.9.0' has been created in zerocracy/fbe by @rultor.</details>
     <event_id t="I">48955794990</event_id>
@@ -797,8 +217,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">45</_id>
-    <_time t="T">2025-05-01T05:21:49Z</_time>
+    <_id t="I">16</_id>
+    <_time t="T">2025-05-01T06:28:34Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">a7ff49ef519b4b3944ca52adaf3c4c4da767ed91</commit>
     <default_branch t="S">master</default_branch>
@@ -816,8 +236,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">46</_id>
-    <_time t="T">2025-05-01T05:21:49Z</_time>
+    <_id t="I">17</_id>
+    <_time t="T">2025-05-01T06:28:34Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">4f111c51dd2b94453cf470d4750b47d88cede14e</commit>
     <default_branch t="S">master</default_branch>
@@ -835,8 +255,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">47</_id>
-    <_time t="T">2025-05-01T05:21:50Z</_time>
+    <_id t="I">18</_id>
+    <_time t="T">2025-05-01T06:28:34Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#171 has been opened by @yegor256.</details>
     <event_id t="I">48955223481</event_id>
@@ -850,8 +270,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">48</_id>
-    <_time t="T">2025-05-01T05:21:50Z</_time>
+    <_id t="I">19</_id>
+    <_time t="T">2025-05-01T06:28:34Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -875,8 +295,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">49</_id>
-    <_time t="T">2025-05-01T05:21:57Z</_time>
+    <_id t="I">20</_id>
+    <_time t="T">2025-05-01T06:28:42Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <details t="S">The pull request zerocracy/fbe#170 has been opened by @renovate[bot].</details>
@@ -891,8 +311,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">50</_id>
-    <_time t="T">2025-05-01T05:21:57Z</_time>
+    <_id t="I">21</_id>
+    <_time t="T">2025-05-01T06:28:42Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#169 has been closed by @yegor256.</details>
     <event_id t="I">48830783506</event_id>
@@ -906,8 +326,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">51</_id>
-    <_time t="T">2025-05-01T05:21:57Z</_time>
+    <_id t="I">22</_id>
+    <_time t="T">2025-05-01T06:28:42Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">1</commits>
     <contributors t="I">8086956</contributors>
@@ -926,8 +346,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">52</_id>
-    <_time t="T">2025-05-01T05:21:57Z</_time>
+    <_id t="I">23</_id>
+    <_time t="T">2025-05-01T06:28:42Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">A new tag '0.8.1' has been created in zerocracy/fbe by @rultor.</details>
     <event_id t="I">48828826544</event_id>
@@ -941,8 +361,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">53</_id>
-    <_time t="T">2025-05-01T05:21:58Z</_time>
+    <_id t="I">24</_id>
+    <_time t="T">2025-05-01T06:28:42Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">0f14e20f7abc78b5b4b49d2e491e3bd36fd63c9a</commit>
     <default_branch t="S">master</default_branch>
@@ -960,8 +380,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">54</_id>
-    <_time t="T">2025-05-01T05:21:58Z</_time>
+    <_id t="I">25</_id>
+    <_time t="T">2025-05-01T06:28:42Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">29ba8ec58ff0b27c3f0da9700aaa97b6a11462e9</commit>
     <default_branch t="S">master</default_branch>
@@ -979,8 +399,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">55</_id>
-    <_time t="T">2025-05-01T05:21:58Z</_time>
+    <_id t="I">26</_id>
+    <_time t="T">2025-05-01T06:28:42Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">71cda37810da11f0457688c3e7b9bb6e634ac7f4</commit>
     <default_branch t="S">master</default_branch>
@@ -998,8 +418,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">56</_id>
-    <_time t="T">2025-05-01T05:21:58Z</_time>
+    <_id t="I">27</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#169 has been opened by @yegor256.</details>
     <event_id t="I">48828461530</event_id>
@@ -1013,8 +433,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">57</_id>
-    <_time t="T">2025-05-01T05:21:58Z</_time>
+    <_id t="I">28</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#168 has been closed by @yegor256.</details>
     <event_id t="I">48823276158</event_id>
@@ -1028,8 +448,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">58</_id>
-    <_time t="T">2025-05-01T05:21:58Z</_time>
+    <_id t="I">29</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">1</commits>
     <contributors t="I">8086956</contributors>
@@ -1048,8 +468,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">59</_id>
-    <_time t="T">2025-05-01T05:21:58Z</_time>
+    <_id t="I">30</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">A new tag '0.8.0' has been created in zerocracy/fbe by @rultor.</details>
     <event_id t="I">48823031384</event_id>
@@ -1063,8 +483,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">60</_id>
-    <_time t="T">2025-05-01T05:21:58Z</_time>
+    <_id t="I">31</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">46226c3f7904ee434cb391715ee7e9685637246e</commit>
     <default_branch t="S">master</default_branch>
@@ -1082,8 +502,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">61</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">32</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">e827fef4a16fb6cf4f9121100d04e9eda521f39e</commit>
     <default_branch t="S">master</default_branch>
@@ -1101,8 +521,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">62</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">33</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#168 has been opened by @yegor256.</details>
     <event_id t="I">48822330143</event_id>
@@ -1116,8 +536,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">63</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">34</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#167 has been opened by @yegor256.</details>
     <event_id t="I">48715456718</event_id>
@@ -1131,8 +551,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">64</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">35</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#166 has been closed by @yegor256.</details>
     <event_id t="I">48699042136</event_id>
@@ -1146,8 +566,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">65</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">36</_id>
+    <_time t="T">2025-05-01T06:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">1</commits>
     <contributors t="I">8086956</contributors>
@@ -1166,8 +586,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">66</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">37</_id>
+    <_time t="T">2025-05-01T06:28:44Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">A new tag '0.7.0' has been created in zerocracy/fbe by @rultor.</details>
     <event_id t="I">48698518133</event_id>
@@ -1181,8 +601,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">67</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">38</_id>
+    <_time t="T">2025-05-01T06:28:44Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">6bab64096535a89a32cbe853aa5ebb3d91f68c8a</commit>
     <default_branch t="S">master</default_branch>
@@ -1200,8 +620,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">68</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">39</_id>
+    <_time t="T">2025-05-01T06:28:44Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">64016ca33b6a754735d0c278a39542a2c2d4db24</commit>
     <default_branch t="S">master</default_branch>
@@ -1219,8 +639,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">69</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">40</_id>
+    <_time t="T">2025-05-01T06:28:44Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">63a11072e5bdfb6e782bbe013af242404f47ea82</commit>
     <default_branch t="S">master</default_branch>
@@ -1238,8 +658,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">70</_id>
-    <_time t="T">2025-05-01T05:21:59Z</_time>
+    <_id t="I">41</_id>
+    <_time t="T">2025-05-01T06:28:44Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">022e44327953ac171b5d830e6e05970cda4dd5b5</commit>
     <default_branch t="S">master</default_branch>
@@ -1257,8 +677,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">71</_id>
-    <_time t="T">2025-05-01T05:22:00Z</_time>
+    <_id t="I">42</_id>
+    <_time t="T">2025-05-01T06:28:44Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#166 has been opened by @yegor256.</details>
     <event_id t="I">48689987503</event_id>
@@ -1272,8 +692,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">72</_id>
-    <_time t="T">2025-05-01T05:22:00Z</_time>
+    <_id t="I">43</_id>
+    <_time t="T">2025-05-01T06:28:44Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#165 has been closed by @yegor256.</details>
     <event_id t="I">48651116518</event_id>
@@ -1287,8 +707,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">73</_id>
-    <_time t="T">2025-05-01T05:22:00Z</_time>
+    <_id t="I">44</_id>
+    <_time t="T">2025-05-01T06:28:44Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">1</commits>
     <contributors t="I">8086956</contributors>
@@ -1307,8 +727,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">74</_id>
-    <_time t="T">2025-05-01T05:22:00Z</_time>
+    <_id t="I">45</_id>
+    <_time t="T">2025-05-01T06:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">A new tag '0.6.0' has been created in zerocracy/fbe by @rultor.</details>
     <event_id t="I">48650292126</event_id>
@@ -1322,8 +742,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">75</_id>
-    <_time t="T">2025-05-01T05:22:00Z</_time>
+    <_id t="I">46</_id>
+    <_time t="T">2025-05-01T06:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">869a94be96e3fd41451d49ccc09df7e34a020e61</commit>
     <default_branch t="S">master</default_branch>
@@ -1341,8 +761,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">76</_id>
-    <_time t="T">2025-05-01T05:22:00Z</_time>
+    <_id t="I">47</_id>
+    <_time t="T">2025-05-01T06:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">193ba9197939e6f9928a886f4c25cb0250adf699</commit>
     <default_branch t="S">master</default_branch>
@@ -1360,8 +780,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">77</_id>
-    <_time t="T">2025-05-01T05:22:00Z</_time>
+    <_id t="I">48</_id>
+    <_time t="T">2025-05-01T06:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">5b8a174293ba092d337ff42f429d8b1fa71578f8</commit>
     <default_branch t="S">master</default_branch>
@@ -1379,8 +799,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">78</_id>
-    <_time t="T">2025-05-01T05:22:01Z</_time>
+    <_id t="I">49</_id>
+    <_time t="T">2025-05-01T06:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">ac436d21a5e770d1623f53a999fda549e6c17e65</commit>
     <default_branch t="S">master</default_branch>
@@ -1398,8 +818,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">79</_id>
-    <_time t="T">2025-05-01T05:22:01Z</_time>
+    <_id t="I">50</_id>
+    <_time t="T">2025-05-01T06:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#165 has been opened by @yegor256.</details>
     <event_id t="I">48648669925</event_id>
@@ -1413,8 +833,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">80</_id>
-    <_time t="T">2025-05-01T05:22:01Z</_time>
+    <_id t="I">51</_id>
+    <_time t="T">2025-05-01T06:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">88083b4dc563d932191641e9696dd07ae2b75f87</commit>
     <default_branch t="S">master</default_branch>
@@ -1432,8 +852,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">81</_id>
-    <_time t="T">2025-05-01T05:22:01Z</_time>
+    <_id t="I">52</_id>
+    <_time t="T">2025-05-01T06:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">1</commits>
     <contributors t="I">8086956</contributors>
@@ -1452,8 +872,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">82</_id>
-    <_time t="T">2025-05-01T05:22:01Z</_time>
+    <_id t="I">53</_id>
+    <_time t="T">2025-05-01T06:28:46Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">A new tag '0.5.1' has been created in zerocracy/fbe by @rultor.</details>
     <event_id t="I">48368971834</event_id>
@@ -1467,8 +887,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">83</_id>
-    <_time t="T">2025-05-01T05:22:01Z</_time>
+    <_id t="I">54</_id>
+    <_time t="T">2025-05-01T06:28:46Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">534-judges-action</branch>
     <comments t="I">1</comments>
@@ -1492,8 +912,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">84</_id>
-    <_time t="T">2025-05-01T05:22:05Z</_time>
+    <_id t="I">55</_id>
+    <_time t="T">2025-05-01T06:28:50Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">534-judges-action</branch>
     <details t="S">The pull request zerocracy/fbe#164 has been opened by @Suban05.</details>
@@ -1508,8 +928,8 @@
     <who t="I">88084038</who>
   </f>
   <f>
-    <_id t="I">85</_id>
-    <_time t="T">2025-05-01T05:22:05Z</_time>
+    <_id t="I">56</_id>
+    <_time t="T">2025-05-01T06:28:50Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#163 has been closed by @yegor256.</details>
     <event_id t="I">48363973133</event_id>
@@ -1523,8 +943,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">86</_id>
-    <_time t="T">2025-05-01T05:22:05Z</_time>
+    <_id t="I">57</_id>
+    <_time t="T">2025-05-01T06:28:50Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">73ccba1c941c270f82d054ed179d52574e7bf04d</commit>
     <default_branch t="S">master</default_branch>
@@ -1542,8 +962,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">87</_id>
-    <_time t="T">2025-05-01T05:22:05Z</_time>
+    <_id t="I">58</_id>
+    <_time t="T">2025-05-01T06:28:50Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#163 has been opened by @yegor256.</details>
     <event_id t="I">48363936869</event_id>
@@ -1557,8 +977,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">88</_id>
-    <_time t="T">2025-05-01T05:22:05Z</_time>
+    <_id t="I">59</_id>
+    <_time t="T">2025-05-01T06:28:50Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">9dcdafecda255acf972ce600160c0624b3740ef3</commit>
     <default_branch t="S">master</default_branch>
@@ -1576,8 +996,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">89</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">60</_id>
+    <_time t="T">2025-05-01T06:28:51Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#162 has been closed by @yegor256.</details>
     <event_id t="I">48363740434</event_id>
@@ -1591,8 +1011,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">90</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">61</_id>
+    <_time t="T">2025-05-01T06:28:51Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">1</commits>
     <contributors t="I">8086956</contributors>
@@ -1611,8 +1031,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">91</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">62</_id>
+    <_time t="T">2025-05-01T06:28:51Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">A new tag '0.5.0' has been created in zerocracy/fbe by @rultor.</details>
     <event_id t="I">48363691615</event_id>
@@ -1626,8 +1046,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">92</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">63</_id>
+    <_time t="T">2025-05-01T06:28:51Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">7d2b1e26d27726b2d7d3cb222b3c4a0b46f58aeb</commit>
     <default_branch t="S">master</default_branch>
@@ -1645,8 +1065,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">93</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">64</_id>
+    <_time t="T">2025-05-01T06:28:51Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#162 has been opened by @yegor256.</details>
     <event_id t="I">48363613316</event_id>
@@ -1660,8 +1080,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">94</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">65</_id>
+    <_time t="T">2025-05-01T06:28:51Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#161 has been closed by @yegor256.</details>
     <event_id t="I">48363000252</event_id>
@@ -1675,8 +1095,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">95</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">66</_id>
+    <_time t="T">2025-05-01T06:28:51Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">1</commits>
     <contributors t="I">8086956</contributors>
@@ -1695,8 +1115,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">96</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">67</_id>
+    <_time t="T">2025-05-01T06:28:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">A new tag '0.4.0' has been created in zerocracy/fbe by @rultor.</details>
     <event_id t="I">48362606990</event_id>
@@ -1710,8 +1130,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">97</_id>
-    <_time t="T">2025-05-01T05:22:06Z</_time>
+    <_id t="I">68</_id>
+    <_time t="T">2025-05-01T06:28:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">0bfa911e944141ce65ff842bb3c536afeb49a594</commit>
     <default_branch t="S">master</default_branch>
@@ -1729,8 +1149,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">98</_id>
-    <_time t="T">2025-05-01T05:22:07Z</_time>
+    <_id t="I">69</_id>
+    <_time t="T">2025-05-01T06:28:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">924dffccf4ffedb78a7240e0e53cfe2b15653b56</commit>
     <default_branch t="S">master</default_branch>
@@ -1748,8 +1168,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">99</_id>
-    <_time t="T">2025-05-01T05:22:07Z</_time>
+    <_id t="I">70</_id>
+    <_time t="T">2025-05-01T06:28:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">6a6196cf415513a13d1c946229429ab170497a53</commit>
     <default_branch t="S">master</default_branch>
@@ -1767,8 +1187,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">100</_id>
-    <_time t="T">2025-05-01T05:22:07Z</_time>
+    <_id t="I">71</_id>
+    <_time t="T">2025-05-01T06:28:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#161 has been opened by @yegor256.</details>
     <event_id t="I">48362425823</event_id>
@@ -1782,8 +1202,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">101</_id>
-    <_time t="T">2025-05-01T05:22:07Z</_time>
+    <_id t="I">72</_id>
+    <_time t="T">2025-05-01T06:28:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#160 has been opened by @yegor256.</details>
     <event_id t="I">48352986016</event_id>
@@ -1797,8 +1217,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">102</_id>
-    <_time t="T">2025-05-01T05:22:07Z</_time>
+    <_id t="I">73</_id>
+    <_time t="T">2025-05-01T06:28:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <comments t="I">2</comments>
@@ -1822,8 +1242,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">103</_id>
-    <_time t="T">2025-05-01T05:22:14Z</_time>
+    <_id t="I">74</_id>
+    <_time t="T">2025-05-01T06:29:00Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <details t="S">The pull request zerocracy/fbe#159 has been opened by @renovate[bot].</details>
@@ -1838,90 +1258,8 @@
     <who t="I">29139614</who>
   </f>
   <f>
-    <_id t="I">104</_id>
-    <_time t="T">2025-05-01T05:22:14Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-minitest-0.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/fbe#157 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48178215484</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">157</issue>
-    <repository t="I">820463873</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-01T06:01:16Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">105</_id>
-    <_time t="T">2025-05-01T05:22:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-performance-1.x-lockfile</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/fbe#158 has been closed by @rultor, with 6 HoC and 2 comments.</details>
-    <event_id t="I">48178027478</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">158</issue>
-    <repository t="I">820463873</repository>
-    <succeeded_builds t="I">9</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-04-01T05:53:49Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">106</_id>
-    <_time t="T">2025-05-01T05:22:27Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-performance-1.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/fbe#158 has been opened by @renovate[bot].</details>
-    <event_id t="I">48177797568</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">158</issue>
-    <repository t="I">820463873</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-01T05:44:05Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">107</_id>
-    <_time t="T">2025-05-01T05:22:27Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-minitest-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/fbe#157 has been opened by @renovate[bot].</details>
-    <event_id t="I">48177793975</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">157</issue>
-    <repository t="I">820463873</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-04-01T05:43:56Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">108</_id>
-    <_time t="T">2025-05-01T05:22:27Z</_time>
+    <_id t="I">75</_id>
+    <_time t="T">2025-05-01T06:29:00Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">49244191994</latest>
     <repository t="I">820463873</repository>
@@ -1929,44 +1267,1160 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">109</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_id t="I">76</_id>
+    <_time t="T">2025-05-01T06:29:01Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">802720676</repository>
-    <what t="S">labels-were-scanned</what>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request yegor256/judges#204 has been closed by @rultor, with 2 HoC and 2 comments.</details>
+    <event_id t="I">49144008169</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">204</issue>
+    <repository t="I">799113787</repository>
+    <succeeded_builds t="I">10</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-28T15:43:09Z</when>
     <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">77</_id>
+    <_time t="T">2025-05-01T06:29:08Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <details t="S">The pull request yegor256/judges#204 has been opened by @renovate[bot].</details>
+    <event_id t="I">49143498704</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">204</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-28T15:30:41Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">78</_id>
+    <_time t="T">2025-05-01T06:29:08Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request yegor256/judges#203 has been closed by @rultor, with 2 HoC and 2 comments.</details>
+    <event_id t="I">48923374014</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">203</issue>
+    <repository t="I">799113787</repository>
+    <succeeded_builds t="I">10</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-22T10:55:00Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">79</_id>
+    <_time t="T">2025-05-01T06:29:16Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <details t="S">The pull request yegor256/judges#203 has been opened by @renovate[bot].</details>
+    <event_id t="I">48921175690</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">203</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-22T09:58:37Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">80</_id>
+    <_time t="T">2025-05-01T06:29:16Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/eslint-monorepo</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request yegor256/judges#202 has been closed by @rultor, with 14 HoC and 2 comments.</details>
+    <event_id t="I">48901097513</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">14</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">202</issue>
+    <repository t="I">799113787</repository>
+    <succeeded_builds t="I">10</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-21T20:45:47Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">81</_id>
+    <_time t="T">2025-05-01T06:29:23Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/eslint-monorepo</branch>
+    <details t="S">The pull request yegor256/judges#202 has been opened by @renovate[bot].</details>
+    <event_id t="I">48900760982</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">202</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-21T20:33:11Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">82</_id>
+    <_time t="T">2025-05-01T06:29:23Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#201 has been closed by @yegor256.</details>
+    <event_id t="I">48853185693</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">201</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2025-04-19T17:51:58Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">83</_id>
+    <_time t="T">2025-05-01T06:29:23Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commits t="I">531</commits>
+    <contributors>
+      <v t="I">526301</v>
+      <v t="I">29139614</v>
+      <v t="I">29793349</v>
+      <v t="I">8086956</v>
+      <v t="I">1646020</v>
+      <v t="I">2566462</v>
+    </contributors>
+    <details t="S">A new release 'delete judges-summary on start' has been published in yegor256/judges by @rultor.</details>
+    <event_id t="I">48851721165</event_id>
+    <event_type t="S">ReleaseEvent</event_type>
+    <hoc t="I">5640</hoc>
+    <is_human t="I">0</is_human>
+    <last_commit t="S">aa966d222a24670826528e4d5256857b4c95875f</last_commit>
+    <release t="I">213499023</release>
+    <repository t="I">799113787</repository>
+    <tag t="S">0.41.0</tag>
+    <what t="S">release-published</what>
+    <when t="T">2025-04-19T15:35:09Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">84</_id>
+    <_time t="T">2025-05-01T06:29:30Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">A new tag '0.41.0' has been created in yegor256/judges by @rultor.</details>
+    <event_id t="I">48851707947</event_id>
+    <event_type t="S">CreateEvent</event_type>
+    <is_human t="I">0</is_human>
+    <repository t="I">799113787</repository>
+    <tag t="S">0.41.0</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2025-04-19T15:33:51Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">85</_id>
+    <_time t="T">2025-05-01T06:29:30Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#201 has been opened by @yegor256.</details>
+    <event_id t="I">48851570828</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">201</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2025-04-19T15:21:11Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">86</_id>
+    <_time t="T">2025-05-01T06:29:30Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#199 has been closed by @yegor256.</details>
+    <event_id t="I">48851202497</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">199</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2025-04-19T14:48:48Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">87</_id>
+    <_time t="T">2025-05-01T06:29:30Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commits t="I">1</commits>
+    <contributors t="I">8086956</contributors>
+    <details t="S">A new release '' has been published in yegor256/judges by @rultor.</details>
+    <event_id t="I">48851176637</event_id>
+    <event_type t="S">ReleaseEvent</event_type>
+    <hoc t="I">4</hoc>
+    <is_human t="I">0</is_human>
+    <last_commit t="S">3131ca69c7b4ab8681af0c1038de74e6bb13338c</last_commit>
+    <release t="I">213496368</release>
+    <repository t="I">799113787</repository>
+    <tag t="S">0.40.0</tag>
+    <what t="S">release-published</what>
+    <when t="T">2025-04-19T14:46:18Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">88</_id>
+    <_time t="T">2025-05-01T06:29:31Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">A new tag '0.40.0' has been created in yegor256/judges by @rultor.</details>
+    <event_id t="I">48851161626</event_id>
+    <event_type t="S">CreateEvent</event_type>
+    <is_human t="I">0</is_human>
+    <repository t="I">799113787</repository>
+    <tag t="S">0.40.0</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2025-04-19T14:44:59Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">89</_id>
+    <_time t="T">2025-05-01T06:29:31Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">20d9e7654bcde29dea62919047ed85ca3b5dfe74</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23842741499 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48851097659</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23842741499</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-19T14:38:45Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">90</_id>
+    <_time t="T">2025-05-01T06:29:31Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">9db9738860511a998891b6e806f5e8fe786f3b5b</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23838305622 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48844726685</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23838305622</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-19T04:00:10Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">91</_id>
+    <_time t="T">2025-05-01T06:29:31Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/eslint-monorepo</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request yegor256/judges#200 has been closed by @rultor, with 826 HoC and 2 comments.</details>
+    <event_id t="I">48840293034</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">826</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">200</issue>
+    <repository t="I">799113787</repository>
+    <succeeded_builds t="I">10</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-18T21:29:51Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">92</_id>
+    <_time t="T">2025-05-01T06:29:38Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/eslint-monorepo</branch>
+    <details t="S">The pull request yegor256/judges#200 has been opened by @renovate[bot].</details>
+    <event_id t="I">48839694971</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">200</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-18T20:57:50Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">93</_id>
+    <_time t="T">2025-05-01T06:29:38Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">eb65dfff1e608c98b64da9c61d48b7654e11fef6</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23833351437 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48836157880</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23833351437</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-18T18:05:54Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">94</_id>
+    <_time t="T">2025-05-01T06:29:39Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#199 has been opened by @yegor256.</details>
+    <event_id t="I">48829797975</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">199</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2025-04-18T13:45:21Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">95</_id>
+    <_time t="T">2025-05-01T06:29:39Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-rspec-3.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request yegor256/judges#198 has been closed by @rultor, with 8 HoC and 2 comments.</details>
+    <event_id t="I">48828654881</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">8</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">198</issue>
+    <repository t="I">799113787</repository>
+    <succeeded_builds t="I">10</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-18T13:00:00Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">96</_id>
+    <_time t="T">2025-05-01T06:29:46Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-rspec-3.x-lockfile</branch>
+    <details t="S">The pull request yegor256/judges#198 has been opened by @renovate[bot].</details>
+    <event_id t="I">48828342402</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">198</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-18T12:47:20Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">97</_id>
+    <_time t="T">2025-05-01T06:29:46Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">417593903517ea98e4cdb435d45aa09af6649639</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23622416735 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48427115570</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23622416735</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-08T02:47:30Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">98</_id>
+    <_time t="T">2025-05-01T06:29:46Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#196 has been opened by @yegor256.</details>
+    <event_id t="I">48427070701</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">196</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2025-04-08T02:45:05Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">99</_id>
+    <_time t="T">2025-05-01T06:29:46Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">a55c377275d5c1c6e3e3a917a78a99ef4a8ed57a</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23611899698 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48405998242</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23611899698</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-07T14:48:56Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">100</_id>
+    <_time t="T">2025-05-01T06:29:47Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">0cf8d6f9a0f18c9c3e8c8132d8d0563c9cda617a</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23608110106 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48398030309</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23608110106</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-07T11:58:02Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">101</_id>
+    <_time t="T">2025-05-01T06:29:47Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#195 has been closed by @yegor256.</details>
+    <event_id t="I">48350634775</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">195</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2025-04-05T05:19:53Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">102</_id>
+    <_time t="T">2025-05-01T06:29:47Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commits t="I">1</commits>
+    <contributors t="I">8086956</contributors>
+    <details t="S">A new release 'empty facts render weirdly in HTML' has been published in yegor256/judges by @rultor.</details>
+    <event_id t="I">48350584753</event_id>
+    <event_type t="S">ReleaseEvent</event_type>
+    <hoc t="I">4</hoc>
+    <is_human t="I">0</is_human>
+    <last_commit t="S">c79d8790523e490b32a697ee9ab74cf53ed5dd43</last_commit>
+    <release t="I">210526708</release>
+    <repository t="I">799113787</repository>
+    <tag t="S">0.39.2</tag>
+    <what t="S">release-published</what>
+    <when t="T">2025-04-05T05:14:35Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">103</_id>
+    <_time t="T">2025-05-01T06:29:47Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">A new tag '0.39.2' has been created in yegor256/judges by @rultor.</details>
+    <event_id t="I">48350575758</event_id>
+    <event_type t="S">CreateEvent</event_type>
+    <is_human t="I">0</is_human>
+    <repository t="I">799113787</repository>
+    <tag t="S">0.39.2</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2025-04-05T05:13:41Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">104</_id>
+    <_time t="T">2025-05-01T06:29:47Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">a265d7679219544aefe3a21934584c5deb611392</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23579719702 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48350509099</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23579719702</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-05T05:06:59Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">105</_id>
+    <_time t="T">2025-05-01T06:29:47Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#195 has been opened by @yegor256.</details>
+    <event_id t="I">48350298579</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">195</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2025-04-05T04:44:33Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">106</_id>
+    <_time t="T">2025-05-01T06:29:48Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <comments t="I">0</comments>
+    <comments_appreciated t="I">0</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">0</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request yegor256/judges#194 has been closed by @yegor256, with 6 HoC and 0 comments.</details>
+    <event_id t="I">48350117096</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">6</hoc>
+    <is_human t="I">1</is_human>
+    <issue t="I">194</issue>
+    <repository t="I">799113787</repository>
+    <succeeded_builds t="I">10</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-05T04:24:47Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">107</_id>
+    <_time t="T">2025-05-01T06:29:51Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#193 has been closed by @yegor256.</details>
+    <event_id t="I">48350108502</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">193</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2025-04-05T04:23:52Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">108</_id>
+    <_time t="T">2025-05-01T06:29:51Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commits t="I">1</commits>
+    <contributors t="I">8086956</contributors>
+    <details t="S">A new release 'host CSS and JS files in GitHub pages' has been published in yegor256/judges by @rultor.</details>
+    <event_id t="I">48350106699</event_id>
+    <event_type t="S">ReleaseEvent</event_type>
+    <hoc t="I">4</hoc>
+    <is_human t="I">0</is_human>
+    <last_commit t="S">95cb12bd73c47aaf0a6aa81e8a94b64739378d4f</last_commit>
+    <release t="I">210525237</release>
+    <repository t="I">799113787</repository>
+    <tag t="S">0.39.1</tag>
+    <what t="S">release-published</what>
+    <when t="T">2025-04-05T04:23:40Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">109</_id>
+    <_time t="T">2025-05-01T06:29:51Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">A new tag '0.39.1' has been created in yegor256/judges by @rultor.</details>
+    <event_id t="I">48350097668</event_id>
+    <event_type t="S">CreateEvent</event_type>
+    <is_human t="I">0</is_human>
+    <repository t="I">799113787</repository>
+    <tag t="S">0.39.1</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2025-04-05T04:22:40Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
   </f>
   <f>
     <_id t="I">110</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_time t="T">2025-05-01T06:29:51Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">849726475</repository>
-    <what t="S">labels-were-scanned</what>
+    <commit t="S">1fe34b9339e6a9f23d784acf1b806e33eec6c8a8</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23579410140 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48350038921</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23579410140</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-05T04:16:27Z</when>
     <where t="S">github</where>
+    <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">111</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_time t="T">2025-05-01T06:29:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <details t="S">The pull request yegor256/judges#194 has been opened by @renovate[bot].</details>
+    <event_id t="I">48349926507</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">194</issue>
     <repository t="I">799113787</repository>
-    <what t="S">labels-were-scanned</what>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-05T04:05:17Z</when>
     <where t="S">github</where>
+    <who t="I">29139614</who>
   </f>
   <f>
     <_id t="I">112</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_time t="T">2025-05-01T06:29:52Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">798641472</repository>
-    <what t="S">labels-were-scanned</what>
+    <commit t="S">8fbd28606ed9fa2596a95ac14567862dc62fc3e5</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23579330694 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48349918639</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23579330694</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-05T04:04:34Z</when>
     <where t="S">github</where>
+    <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">113</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_time t="T">2025-05-01T06:29:52Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#111 has been closed by @yegor256.</details>
+    <event_id t="I">48349532400</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">111</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2025-04-05T03:25:38Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">114</_id>
+    <_time t="T">2025-05-01T06:29:52Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The issue yegor256/judges#193 has been opened by @yegor256.</details>
+    <event_id t="I">48349530006</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">193</issue>
+    <repository t="I">799113787</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2025-04-05T03:25:23Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">115</_id>
+    <_time t="T">2025-05-01T06:29:52Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">48801515a8393bb2c923ab093293a3086fcc8a55</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #23518559190 has arrived to yegor256/judges, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">48229260528</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">23518559190</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">799113787</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-04-02T08:37:03Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">116</_id>
+    <_time t="T">2025-05-01T06:29:52Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">49144052793</latest>
+    <repository t="I">799113787</repository>
+    <what t="S">events-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">117</_id>
+    <_time t="T">2025-05-01T06:29:53Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#73 has been closed by @rultor, with 2 HoC and 2 comments.</details>
+    <event_id t="I">49154439486</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">73</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-28T20:45:38Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">118</_id>
+    <_time t="T">2025-05-01T06:30:01Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#73 has been opened by @renovate[bot].</details>
+    <event_id t="I">49153087086</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">73</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-28T20:03:40Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">119</_id>
+    <_time t="T">2025-05-01T06:30:01Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#72 has been closed by @rultor, with 24 HoC and 2 comments.</details>
+    <event_id t="I">48961275271</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">24</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">72</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-23T07:51:36Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">120</_id>
+    <_time t="T">2025-05-01T06:30:10Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#72 has been opened by @renovate[bot].</details>
+    <event_id t="I">48960325313</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">72</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-23T07:27:14Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">121</_id>
+    <_time t="T">2025-05-01T06:30:10Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#71 has been closed by @rultor, with 6 HoC and 2 comments.</details>
+    <event_id t="I">48928627551</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">6</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">71</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-22T13:05:50Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">122</_id>
+    <_time t="T">2025-05-01T06:30:19Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#71 has been opened by @renovate[bot].</details>
+    <event_id t="I">48927504359</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">71</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-22T12:40:34Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">123</_id>
+    <_time t="T">2025-05-01T06:30:19Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/judges-0.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#70 has been closed by @rultor, with 2 HoC and 2 comments.</details>
+    <event_id t="I">48854318621</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">70</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-19T19:44:22Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">124</_id>
+    <_time t="T">2025-05-01T06:30:28Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/judges-0.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#70 has been opened by @renovate[bot].</details>
+    <event_id t="I">48853608787</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">70</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-19T18:31:53Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">125</_id>
+    <_time t="T">2025-05-01T06:30:28Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#69 has been closed by @rultor, with 2 HoC and 2 comments.</details>
+    <event_id t="I">48833188747</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">69</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-18T15:58:17Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">126</_id>
+    <_time t="T">2025-05-01T06:30:36Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#69 has been opened by @renovate[bot].</details>
+    <event_id t="I">48831188002</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">69</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-18T14:39:10Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">127</_id>
+    <_time t="T">2025-05-01T06:30:36Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#68 has been closed by @rultor, with 6 HoC and 2 comments.</details>
+    <event_id t="I">48825453659</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">6</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">68</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-18T10:36:28Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">128</_id>
+    <_time t="T">2025-05-01T06:30:44Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#68 has been opened by @renovate[bot].</details>
+    <event_id t="I">48824398577</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">68</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-18T09:52:40Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">129</_id>
+    <_time t="T">2025-05-01T06:30:44Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#66 has been closed by @rultor, with 26 HoC and 2 comments.</details>
+    <event_id t="I">48705714927</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">26</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">66</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-15T13:49:59Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">130</_id>
+    <_time t="T">2025-05-01T06:30:53Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#66 has been opened by @renovate[bot].</details>
+    <event_id t="I">48702379767</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">66</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-15T12:37:36Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">131</_id>
+    <_time t="T">2025-05-01T06:30:53Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#65 has been closed by @rultor, with 9 HoC and 2 comments.</details>
+    <event_id t="I">48656943546</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">9</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">65</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-14T13:00:07Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">132</_id>
+    <_time t="T">2025-05-01T06:31:02Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#65 has been opened by @renovate[bot].</details>
+    <event_id t="I">48655460521</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">65</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-14T12:25:37Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">133</_id>
+    <_time t="T">2025-05-01T06:31:02Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#64 has been closed by @rultor, with 2 HoC and 2 comments.</details>
+    <event_id t="I">48372186976</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">64</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-06T15:44:48Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">134</_id>
+    <_time t="T">2025-05-01T06:31:10Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#64 has been opened by @renovate[bot].</details>
+    <event_id t="I">48370959074</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">64</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-06T14:08:00Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">135</_id>
+    <_time t="T">2025-05-01T06:31:10Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <comments t="I">2</comments>
+    <comments_appreciated t="I">1</comments_appreciated>
+    <comments_by_author t="I">0</comments_by_author>
+    <comments_by_reviewers t="I">3</comments_by_reviewers>
+    <comments_resolved t="I">0</comments_resolved>
+    <comments_to_code t="I">0</comments_to_code>
+    <details t="S">The pull request zerocracy/swarm-template#63 has been closed by @rultor, with 6 HoC and 2 comments.</details>
+    <event_id t="I">48364139172</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <failed_builds t="I">0</failed_builds>
+    <hoc t="I">6</hoc>
+    <is_human t="I">0</is_human>
+    <issue t="I">63</issue>
+    <repository t="I">849726475</repository>
+    <succeeded_builds t="I">9</succeeded_builds>
+    <what t="S">pull-was-merged</what>
+    <when t="T">2025-04-06T03:15:50Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">136</_id>
+    <_time t="T">2025-05-01T06:31:19Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <branch t="S">renovate/fbe-0.x-lockfile</branch>
+    <details t="S">The pull request zerocracy/swarm-template#63 has been opened by @renovate[bot].</details>
+    <event_id t="I">48363793021</event_id>
+    <event_type t="S">PullRequestEvent</event_type>
+    <is_human t="I">0</is_human>
+    <issue t="I">63</issue>
+    <repository t="I">849726475</repository>
+    <what t="S">pull-was-opened</what>
+    <when t="T">2025-04-06T02:36:37Z</when>
+    <where t="S">github</where>
+    <who t="I">29139614</who>
+  </f>
+  <f>
+    <_id t="I">137</_id>
+    <_time t="T">2025-05-01T06:31:21Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">840215648</repository>
@@ -1974,8 +2428,26 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">114</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_id t="I">138</_id>
+    <_time t="T">2025-05-01T06:31:21Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799177290</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">139</_id>
+    <_time t="T">2025-05-01T06:31:21Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">849726475</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">141</_id>
+    <_time t="T">2025-05-01T06:31:22Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#160.</details>
     <issue t="I">160</issue>
@@ -1987,17 +2459,17 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">116</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_id t="I">143</_id>
+    <_time t="T">2025-05-01T06:31:22Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
+    <repository t="I">798641472</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">117</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_id t="I">144</_id>
+    <_time t="T">2025-05-01T06:31:22Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">974194993</repository>
@@ -2005,8 +2477,30 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">118</_id>
-    <_time t="T">2025-05-01T05:22:28Z</_time>
+    <_id t="I">145</_id>
+    <_time t="T">2025-05-01T06:31:22Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">802720676</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">146</_id>
+    <_time t="T">2025-05-01T06:31:22Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The '#bug' label was attached by @yegor256 to the issue yegor256/judges#195.</details>
+    <issue t="I">195</issue>
+    <label t="S">bug</label>
+    <repository t="I">799113787</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2025-04-05T04:44:32Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">148</_id>
+    <_time t="T">2025-05-01T06:31:23Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#161.</details>
     <issue t="I">161</issue>
@@ -2018,8 +2512,21 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">119</_id>
-    <_time t="T">2025-05-01T05:22:29Z</_time>
+    <_id t="I">150</_id>
+    <_time t="T">2025-05-01T06:31:23Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The '#bug' label was attached by @yegor256 to the issue yegor256/judges#196.</details>
+    <issue t="I">196</issue>
+    <label t="S">bug</label>
+    <repository t="I">799113787</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2025-04-08T02:45:03Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">152</_id>
+    <_time t="T">2025-05-01T06:31:23Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#162.</details>
     <issue t="I">162</issue>
@@ -2031,8 +2538,21 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">120</_id>
-    <_time t="T">2025-05-01T05:22:29Z</_time>
+    <_id t="I">154</_id>
+    <_time t="T">2025-05-01T06:31:23Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The '#bug' label was attached by @yegor256 to the issue yegor256/judges#199.</details>
+    <issue t="I">199</issue>
+    <label t="S">bug</label>
+    <repository t="I">799113787</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2025-04-18T13:45:20Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">156</_id>
+    <_time t="T">2025-05-01T06:31:24Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#163.</details>
     <issue t="I">163</issue>
@@ -2044,8 +2564,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">121</_id>
-    <_time t="T">2025-05-01T05:22:29Z</_time>
+    <_id t="I">159</_id>
+    <_time t="T">2025-05-01T06:31:24Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#165.</details>
     <issue t="I">165</issue>
@@ -2057,8 +2577,17 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">122</_id>
-    <_time t="T">2025-05-01T05:22:29Z</_time>
+    <_id t="I">161</_id>
+    <_time t="T">2025-05-01T06:31:24Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799113787</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">162</_id>
+    <_time t="T">2025-05-01T06:31:24Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#166.</details>
     <issue t="I">166</issue>
@@ -2070,8 +2599,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">123</_id>
-    <_time t="T">2025-05-01T05:22:29Z</_time>
+    <_id t="I">163</_id>
+    <_time t="T">2025-05-01T06:31:24Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#167.</details>
     <issue t="I">167</issue>
@@ -2083,8 +2612,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">124</_id>
-    <_time t="T">2025-05-01T05:22:30Z</_time>
+    <_id t="I">164</_id>
+    <_time t="T">2025-05-01T06:31:25Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#168.</details>
     <issue t="I">168</issue>
@@ -2096,8 +2625,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">125</_id>
-    <_time t="T">2025-05-01T05:22:30Z</_time>
+    <_id t="I">165</_id>
+    <_time t="T">2025-05-01T06:31:25Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#169.</details>
     <issue t="I">169</issue>
@@ -2109,8 +2638,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">126</_id>
-    <_time t="T">2025-05-01T05:22:30Z</_time>
+    <_id t="I">166</_id>
+    <_time t="T">2025-05-01T06:31:25Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#171.</details>
     <issue t="I">171</issue>
@@ -2122,8 +2651,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">127</_id>
-    <_time t="T">2025-05-01T05:22:30Z</_time>
+    <_id t="I">167</_id>
+    <_time t="T">2025-05-01T06:31:25Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">820463873</repository>
@@ -2131,13 +2660,12 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">128</_id>
-    <_time t="T">2025-05-01T05:22:42Z</_time>
+    <_id t="I">168</_id>
+    <_time t="T">2025-05-01T06:31:29Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <average_release_commits_size t="F">6.724137931034483</average_release_commits_size>
-    <average_release_hoc_size t="F">340.2068965517241</average_release_hoc_size>
-    <since t="T">2025-04-03T05:22:30Z</since>
+    <average_pull_rejection_rate t="F">0.07446808510638298</average_pull_rejection_rate>
+    <since t="T">2025-04-03T06:31:25Z</since>
     <what t="S">quality-of-service</what>
-    <when t="T">2025-05-01T05:22:30Z</when>
+    <when t="T">2025-05-01T06:31:25Z</when>
   </f>
 </fb>
