@@ -2,16 +2,14 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error:
-  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
-  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  error: 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 388.211690517
+  seconds: 347.568000648
   version: 0.39.2
   what: judges-summary
-  when: 2025-05-14 04:29:47.361040086 Z
+  when: 2025-05-14 05:25:10.319044742 Z
 - _id: 1
-  _time: 2025-05-14 04:23:42.855518282 Z
+  _time: 2025-05-14 05:19:48.757133292 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 4
   total_commits: 4090
@@ -24,1349 +22,838 @@
   total_repositories: 8
   total_stars: 39
   what: dimensions-of-terrain
-  when: 2025-05-14 04:23:19.478915531 Z
+  when: 2025-05-14 05:19:23.071267903 Z
 - _id: 2
-  _time: 2025-05-14 04:23:42.892440911 Z
+  _time: 2025-05-14 05:19:48.782374086 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 3
+  _time: 2025-05-14 05:19:48.785216397 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 4
+  _time: 2025-05-14 05:19:48.788098051 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 3
-  _time: 2025-05-14 04:23:42.897276414 Z
+- _id: 5
+  _time: 2025-05-14 05:19:48.790756919 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
-- _id: 4
-  _time: 2025-05-14 04:23:42.902005328 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-05-14 04:23:42.905003203 Z
+- _id: 6
+  _time: 2025-05-14 05:19:48.793519612 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
-- _id: 6
-  _time: 2025-05-14 04:23:42.908354316 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
 - _id: 7
-  _time: 2025-05-14 04:23:42.911346459 Z
+  _time: 2025-05-14 05:19:48.796311639 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 8
-  _time: 2025-05-14 04:23:42.914576527 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2025-05-14 04:23:42.917874090 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2025-05-14 04:23:44.036976374 Z
-  _version: 0.9.10/0.39.2/
-  commit: b478c3bcd94b83f9b7ab965420dd2dfa2ce8e0ec
-  default_branch: master
-  details: 'A new Git push #24268689948 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49664097187
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24268689948
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-13 12:37:54.000000000 Z
-  where: github
-  who: 526301
-- _id: 11
-  _time: 2025-05-14 04:23:44.686537945 Z
-  _version: 0.9.10/0.39.2/
-  commit: d427f5ffc784a6ed53267c8846793279ea60af4c
-  default_branch: master
-  details: 'A new Git push #24247877857 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49621570231
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24247877857
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-12 14:25:34.000000000 Z
-  where: github
-  who: 526301
-- _id: 12
-  _time: 2025-05-14 04:23:44.980030326 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/modelcontextprotocol-sdk-1.x-lockfile
-  details: The pull request zerocracy/zerocracy-mcp-server#12 has been opened by @renovate[bot].
-  event_id: 49522588127
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 12
-  repository: 974194993
-  what: pull-was-opened
-  when: 2025-05-08 23:01:34.000000000 Z
-  where: github
-  who: 29139614
-- _id: 13
-  _time: 2025-05-14 04:23:45.167457926 Z
-  _version: 0.9.10/0.39.2/
-  commit: 741c5facf2766e213b8cba7dd88b135d396401ae
-  default_branch: master
-  details: 'A new Git push #24167428596 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49469295410
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24167428596
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-07 17:53:53.000000000 Z
-  where: github
-  who: 526301
-- _id: 14
-  _time: 2025-05-14 04:23:45.409030150 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/typescript-eslint-monorepo
-  details: The pull request zerocracy/zerocracy-mcp-server#11 has been opened by @renovate[bot].
-  event_id: 49380150896
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 11
-  repository: 974194993
-  what: pull-was-opened
-  when: 2025-05-05 19:29:04.000000000 Z
-  where: github
-  who: 29139614
-- _id: 15
-  _time: 2025-05-14 04:23:45.430553823 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/modelcontextprotocol-sdk-1.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/zerocracy-mcp-server#9 has been closed by @rultor,
-    with 6 HoC and 2 comments.
-  event_id: 49324085024
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
-  is_human: 0
-  issue: 9
-  repository: 974194993
-  succeeded_builds: 9
-  what: pull-was-merged
-  when: 2025-05-03 13:04:04.000000000 Z
-  where: github
-  who: 8086956
-- _id: 16
-  _time: 2025-05-14 04:23:59.404070519 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/eslint-monorepo
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/zerocracy-mcp-server#10 has been closed by @rultor,
-    with 5410 HoC and 2 comments.
-  event_id: 49324007577
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 5410
-  is_human: 0
-  issue: 10
-  repository: 974194993
-  succeeded_builds: 9
-  what: pull-was-merged
-  when: 2025-05-03 12:57:52.000000000 Z
-  where: github
-  who: 8086956
-- _id: 17
-  _time: 2025-05-14 04:24:12.856985345 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/eslint-monorepo
-  details: The pull request zerocracy/zerocracy-mcp-server#10 has been opened by @renovate[bot].
-  event_id: 49323180435
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 10
-  repository: 974194993
-  what: pull-was-opened
-  when: 2025-05-03 11:43:38.000000000 Z
-  where: github
-  who: 29139614
-- _id: 18
-  _time: 2025-05-14 04:24:12.867160248 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/modelcontextprotocol-sdk-1.x-lockfile
-  details: The pull request zerocracy/zerocracy-mcp-server#9 has been opened by @renovate[bot].
-  event_id: 49323179599
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 9
-  repository: 974194993
-  what: pull-was-opened
-  when: 2025-05-03 11:43:33.000000000 Z
-  where: github
-  who: 29139614
-- _id: 19
-  _time: 2025-05-14 04:24:12.886752651 Z
-  _version: 0.9.10/0.39.2/
-  commit: 694d953669b2926b814352451276f6c57fc5e8ba
-  default_branch: master
-  details: 'A new Git push #24057710548 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49262154153
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24057710548
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-01 11:51:46.000000000 Z
-  where: github
-  who: 526301
-- _id: 20
-  _time: 2025-05-14 04:24:13.165917471 Z
-  _version: 0.9.10/0.39.2/
-  commit: c741faecc5bc8aaee2bd8dc2ce35a387f8a55487
-  default_branch: master
-  details: 'A new Git push #24057698222 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49262131468
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24057698222
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-01 11:50:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 21
-  _time: 2025-05-14 04:24:13.411872343 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/zerocracy-mcp-server#8 has been closed by @yegor256.
-  event_id: 49255677456
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 8
-  repository: 974194993
-  what: issue-was-closed
-  when: 2025-05-01 06:40:30.000000000 Z
-  where: github
-  who: 526301
-- _id: 22
-  _time: 2025-05-14 04:24:13.429687935 Z
-  _version: 0.9.10/0.39.2/
-  commits: 59
-  contributors:
-  - 526301
-  - 29139614
-  details: A new release 'self dep' has been published in zerocracy/zerocracy-mcp-server
-    by @rultor.
-  event_id: 49254604245
-  event_type: ReleaseEvent
-  hoc: 7701
-  is_human: 0
-  last_commit: ab6314288c004fdf584a6bf6d44cd6d7a1e4c31a
-  release: 215941388
-  repository: 974194993
-  tag: 0.0.5
-  what: release-published
-  when: 2025-05-01 05:38:09.000000000 Z
-  where: github
-  who: 8086956
-- _id: 23
-  _time: 2025-05-14 04:24:14.869747445 Z
-  _version: 0.9.10/0.39.2/
-  details: A new tag '0.0.5' has been created in zerocracy/zerocracy-mcp-server by
-    @rultor.
-  event_id: 49254602778
-  event_type: CreateEvent
-  is_human: 0
-  repository: 974194993
-  tag: 0.0.5
-  what: tag-was-created
-  when: 2025-05-01 05:38:03.000000000 Z
-  where: github
-  who: 8086956
-- _id: 24
-  _time: 2025-05-14 04:24:14.889311641 Z
-  _version: 0.9.10/0.39.2/
-  commit: 291a801c0b98142a5494043e8960cde8bfb71844
-  default_branch: master
-  details: 'A new Git push #24053567687 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49254502242
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24053567687
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-01 05:31:51.000000000 Z
-  where: github
-  who: 526301
-- _id: 25
-  _time: 2025-05-14 04:24:15.135030217 Z
-  _version: 0.9.10/0.39.2/
-  commit: cfd25b1c8a0deba371620a9e5eb00fdce3eac4be
-  default_branch: master
-  details: 'A new Git push #24053561584 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49254491282
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24053561584
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-01 05:31:12.000000000 Z
-  where: github
-  who: 526301
-- _id: 26
-  _time: 2025-05-14 04:24:15.391712577 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/zerocracy-mcp-server-0.x
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/zerocracy-mcp-server#7 has been closed by @renovate[bot],
-    with 27 HoC and 0 comments.
-  event_id: 49254477024
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 27
-  is_human: 0
-  issue: 7
-  repository: 974194993
-  succeeded_builds: 9
-  what: pull-was-closed
-  when: 2025-05-01 05:30:30.000000000 Z
-  where: github
-  who: 29139614
-- _id: 27
-  _time: 2025-05-14 04:24:21.760338414 Z
-  _version: 0.9.10/0.39.2/
-  commit: decaa05813909331efeef9af305c869fd74a1afa
-  default_branch: master
-  details: 'A new Git push #24053549078 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49254471600
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24053549078
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-01 05:30:13.000000000 Z
-  where: github
-  who: 526301
-- _id: 28
-  _time: 2025-05-14 04:24:22.254828724 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/zerocracy-mcp-server#8 has been opened by @yegor256.
-  event_id: 49254456368
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 8
-  repository: 974194993
-  what: issue-was-opened
-  when: 2025-05-01 05:29:26.000000000 Z
-  where: github
-  who: 526301
-- _id: 29
-  _time: 2025-05-14 04:24:22.262783323 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/zerocracy-mcp-server#6 has been closed by @yegor256.
-  event_id: 49254282619
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 6
-  repository: 974194993
-  what: issue-was-closed
-  when: 2025-05-01 05:19:24.000000000 Z
-  where: github
-  who: 526301
-- _id: 30
-  _time: 2025-05-14 04:24:22.277669802 Z
-  _version: 0.9.10/0.39.2/
-  commits: 1
-  contributors: 8086956
-  details: A new release 'we have no prompts' has been published in zerocracy/zerocracy-mcp-server
-    by @rultor.
-  event_id: 49254240983
-  event_type: ReleaseEvent
-  hoc: 4
-  is_human: 0
-  last_commit: a3ea2c3422a293157599940a6d84eacb3312e578
-  release: 215940275
-  repository: 974194993
-  tag: 0.0.3
-  what: release-published
-  when: 2025-05-01 05:16:46.000000000 Z
-  where: github
-  who: 8086956
-- _id: 31
-  _time: 2025-05-14 04:24:22.678163441 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/zerocracy-mcp-server-0.x
-  details: The pull request zerocracy/zerocracy-mcp-server#7 has been opened by @renovate[bot].
-  event_id: 49254238825
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 7
-  repository: 974194993
-  what: pull-was-opened
-  when: 2025-05-01 05:16:38.000000000 Z
-  where: github
-  who: 29139614
-- _id: 32
-  _time: 2025-05-14 04:24:22.690503177 Z
-  _version: 0.9.10/0.39.2/
-  details: A new tag '0.0.3' has been created in zerocracy/zerocracy-mcp-server by
-    @rultor.
-  event_id: 49254228661
-  event_type: CreateEvent
-  is_human: 0
-  repository: 974194993
-  tag: 0.0.3
-  what: tag-was-created
-  when: 2025-05-01 05:16:00.000000000 Z
-  where: github
-  who: 8086956
-- _id: 33
-  _time: 2025-05-14 04:24:22.703453682 Z
-  _version: 0.9.10/0.39.2/
-  commit: 8ecfaaaedd4ea2201e67dc9d8eae763cbe36490f
-  default_branch: master
-  details: 'A new Git push #24053374657 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49254164477
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24053374657
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-01 05:11:55.000000000 Z
-  where: github
-  who: 526301
-- _id: 34
-  _time: 2025-05-14 04:24:22.946621815 Z
-  _version: 0.9.10/0.39.2/
-  commit: af5f51e8515cb14cc98f888f459446b46c100712
-  default_branch: master
-  details: 'A new Git push #24019592039 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49186370873
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24019592039
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 14:33:44.000000000 Z
-  where: github
-  who: 526301
-- _id: 35
-  _time: 2025-05-14 04:24:23.265289377 Z
-  _version: 0.9.10/0.39.2/
-  commit: 8c43d5c8e3ede046f7a2336047e5f93d0101ec88
-  default_branch: master
-  details: 'A new Git push #24019312714 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49185792787
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24019312714
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 14:22:06.000000000 Z
-  where: github
-  who: 526301
-- _id: 36
-  _time: 2025-05-14 04:24:23.502227231 Z
-  _version: 0.9.10/0.39.2/
-  commit: 32e41b97f9dcede6a9734e3875665818c6e25b9e
-  default_branch: master
-  details: 'A new Git push #24019232243 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49185623252
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24019232243
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 14:18:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 37
-  _time: 2025-05-14 04:24:23.801185209 Z
-  _version: 0.9.10/0.39.2/
-  commit: f423439aae2ed401e1c88cb36c71e94c0bcf93e3
-  default_branch: master
-  details: 'A new Git push #24017255247 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49181449942
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24017255247
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 12:51:29.000000000 Z
-  where: github
-  who: 526301
-- _id: 38
-  _time: 2025-05-14 04:24:24.070888246 Z
-  _version: 0.9.10/0.39.2/
-  commit: dd12e3b4be50cad94f5a004c43072258ef276bec
-  default_branch: master
-  details: 'A new Git push #24016396741 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49179679991
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24016396741
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 12:11:28.000000000 Z
-  where: github
-  who: 526301
-- _id: 39
-  _time: 2025-05-14 04:24:24.322130926 Z
-  _version: 0.9.10/0.39.2/
-  commit: e44e7d7d5084039078ba8b99cf69f32ad31db828
-  default_branch: master
-  details: 'A new Git push #24016163416 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49179210331
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24016163416
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 11:59:59.000000000 Z
-  where: github
-  who: 526301
-- _id: 40
-  _time: 2025-05-14 04:24:24.568837903 Z
-  _version: 0.9.10/0.39.2/
-  commit: 2d3cfa9736151798501a985d2a68fe9124ba8975
-  default_branch: master
-  details: 'A new Git push #24015677105 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49178208923
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24015677105
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 11:34:10.000000000 Z
-  where: github
-  who: 526301
-- _id: 41
-  _time: 2025-05-14 04:24:24.852158601 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/zerocracy-mcp-server#4 has been opened by @yegor256.
-  event_id: 49174271397
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 4
-  repository: 974194993
-  what: issue-was-opened
-  when: 2025-04-29 09:51:33.000000000 Z
-  where: github
-  who: 526301
-- _id: 42
-  _time: 2025-05-14 04:24:24.860828756 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/zerocracy-mcp-server#1 has been closed by @yegor256.
-  event_id: 49174261677
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 1
-  repository: 974194993
-  what: issue-was-closed
-  when: 2025-04-29 09:51:19.000000000 Z
-  where: github
-  who: 526301
-- _id: 43
-  _time: 2025-05-14 04:24:24.893326080 Z
-  _version: 0.9.10/0.39.2/
-  commit: 7402c6e418096c0963ffcd382e212a51718d7d79
-  default_branch: master
-  details: 'A new Git push #24013095705 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49172995506
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24013095705
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 09:20:23.000000000 Z
-  where: github
-  who: 526301
-- _id: 44
-  _time: 2025-05-14 04:24:25.245655898 Z
-  _version: 0.9.10/0.39.2/
-  commit: dc6c6127aa915aa9a6bd9c46de02d96f48374f61
-  default_branch: master
-  details: 'A new Git push #24013064443 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49172930513
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24013064443
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 09:18:49.000000000 Z
-  where: github
-  who: 526301
-- _id: 45
-  _time: 2025-05-14 04:24:25.493598536 Z
-  _version: 0.9.10/0.39.2/
-  commit: 3a8efff08d28e1d0bc9698cd05be23a257c62a81
-  default_branch: master
-  details: 'A new Git push #24013000864 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49172801793
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24013000864
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 09:15:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 46
-  _time: 2025-05-14 04:24:25.781319466 Z
-  _version: 0.9.10/0.39.2/
-  commit: 9387f7d88a37d11ff01d5cdab9c774ca5be3eb32
-  default_branch: master
-  details: 'A new Git push #24012855929 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49172509369
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24012855929
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 09:08:26.000000000 Z
-  where: github
-  who: 526301
-- _id: 47
-  _time: 2025-05-14 04:24:26.081582481 Z
-  _version: 0.9.10/0.39.2/
-  commit: 8d0632da9c227fbc0733f294e11d3f9b0abb54eb
-  default_branch: master
-  details: 'A new Git push #24012811133 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49172417405
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24012811133
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 09:06:08.000000000 Z
-  where: github
-  who: 526301
-- _id: 48
-  _time: 2025-05-14 04:24:26.337080701 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/zerocracy-mcp-server#3 has been opened by @renovate[bot].
-  event_id: 49172373043
-  event_type: IssuesEvent
-  is_human: 0
-  issue: 3
-  repository: 974194993
-  what: issue-was-opened
-  when: 2025-04-29 09:05:02.000000000 Z
-  where: github
-  who: 29139614
-- _id: 49
-  _time: 2025-05-14 04:24:26.739979732 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/configure
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/zerocracy-mcp-server#2 has been closed by @yegor256,
-    with 6 HoC and 0 comments.
-  event_id: 49172355771
-  event_type: PullRequestEvent
-  failed_builds: 2
-  hoc: 6
-  is_human: 1
-  issue: 2
-  repository: 974194993
-  succeeded_builds: 6
-  what: pull-was-merged
-  when: 2025-04-29 09:04:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 50
-  _time: 2025-05-14 04:24:32.557066497 Z
-  _version: 0.9.10/0.39.2/
-  commit: 33081aa6034ac1cbc2255607196fac9f72cfa9c9
-  default_branch: master
-  details: 'A new Git push #24012642266 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49172070381
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24012642266
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 08:57:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 51
-  _time: 2025-05-14 04:24:32.832793817 Z
-  _version: 0.9.10/0.39.2/
-  commit: eacc7e50260188f76185470550e1cfb9c521ad75
-  default_branch: master
-  details: 'A new Git push #24012187816 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49171118493
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24012187816
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 08:33:45.000000000 Z
-  where: github
-  who: 526301
-- _id: 52
-  _time: 2025-05-14 04:24:33.098533434 Z
-  _version: 0.9.10/0.39.2/
-  commit: 4e815362a24b2216e128da62f779629371ebb196
-  default_branch: master
-  details: 'A new Git push #24012131788 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49171000826
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24012131788
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 08:30:46.000000000 Z
-  where: github
-  who: 526301
-- _id: 53
-  _time: 2025-05-14 04:24:33.379850016 Z
-  _version: 0.9.10/0.39.2/
-  commit: d145ea8eca2c7eff32d45acb3e37a8ffb8fa4d01
-  default_branch: master
-  details: 'A new Git push #24009026099 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49164795523
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24009026099
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-29 05:08:29.000000000 Z
-  where: github
-  who: 526301
-- _id: 54
-  _time: 2025-05-14 04:24:33.650361922 Z
-  _version: 0.9.10/0.39.2/
-  commit: fa8b160d68e0475e6ca9d6c5435745bcf1248d4c
-  default_branch: master
-  details: 'A new Git push #24001642462 has arrived to zerocracy/zerocracy-mcp-server,
-    made by @yegor256 (default branch is ''master''), not associated with any pull
-    request.'
-  event_id: 49150283947
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24001642462
-  ref: refs/heads/master
-  repository: 974194993
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-04-28 18:38:31.000000000 Z
-  where: github
-  who: 526301
-- _id: 55
-  _time: 2025-05-14 04:24:33.896835889 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/configure
-  details: The pull request zerocracy/zerocracy-mcp-server#2 has been opened by @renovate[bot].
-  event_id: 49135332008
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 2
-  repository: 974194993
-  what: pull-was-opened
-  when: 2025-04-28 12:29:01.000000000 Z
-  where: github
-  who: 29139614
-- _id: 56
-  _time: 2025-05-14 04:24:33.915812119 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/zerocracy-mcp-server#1 has been opened by @yegor256.
-  event_id: 49135302585
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 1
-  repository: 974194993
-  what: issue-was-opened
-  when: 2025-04-28 12:28:17.000000000 Z
-  where: github
-  who: 526301
-- _id: 57
-  _time: 2025-05-14 04:24:33.927232883 Z
-  _version: 0.9.10/0.39.2/
-  latest: 49664097187
-  repository: 974194993
-  what: events-were-scanned
-  where: github
-- _id: 58
-  _time: 2025-05-14 04:24:35.280936870 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/qbash-0.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#264 has been closed by @renovate[bot],
-    with 2 HoC and 0 comments.
-  event_id: 49663768368
-  event_type: PullRequestEvent
-  failed_builds: 1
-  hoc: 2
-  is_human: 0
-  issue: 264
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-closed
-  when: 2025-05-13 12:30:44.000000000 Z
-  where: github
-  who: 29139614
-- _id: 59
-  _time: 2025-05-14 04:24:43.232906545 Z
-  _version: 0.9.10/0.39.2/
-  commit: 171ea2312f811c69cf1ee1856be71a15b633f124
-  default_branch: master
-  details: 'A new Git push #24268510380 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 49663735493
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24268510380
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-13 12:30:01.000000000 Z
-  where: github
-  who: 526301
-- _id: 60
-  _time: 2025-05-14 04:24:43.547040325 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/qbash-0.x-lockfile
-  details: The pull request zerocracy/pages-action#264 has been opened by @renovate[bot].
-  event_id: 49576238162
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 264
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-05-10 18:12:35.000000000 Z
-  where: github
-  who: 29139614
-- _id: 61
-  _time: 2025-05-14 04:24:43.556887616 Z
-  _version: 0.9.10/0.39.2/
-  commit: 3b5e10390136c37891ee2c5ee3cf5e2fbd51113e
-  default_branch: master
-  details: 'A new Git push #24168440321 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 49471366628
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24168440321
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-07 18:53:51.000000000 Z
-  where: github
-  who: 526301
-- _id: 62
-  _time: 2025-05-14 04:24:43.809265337 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#263 has been closed by @renovate[bot],
-    with 4 HoC and 3 comments.
-  event_id: 49398148399
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 0
-  issue: 263
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-closed
-  when: 2025-05-06 08:12:40.000000000 Z
-  where: github
-  who: 29139614
-- _id: 63
-  _time: 2025-05-14 04:24:52.811819713 Z
-  _version: 0.9.10/0.39.2/
-  commit: aa927c29e032f2a399d3d0e2241277d834ff3561
-  default_branch: master
-  details: 'A new Git push #24132639312 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 49398127665
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24132639312
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-06 08:12:07.000000000 Z
-  where: github
-  who: 526301
-- _id: 64
-  _time: 2025-05-14 04:24:53.494118373 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#263 has been opened by @renovate[bot].
-  event_id: 49361660541
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 263
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-05-05 11:27:07.000000000 Z
-  where: github
-  who: 29139614
-- _id: 65
-  _time: 2025-05-14 04:24:53.521212166 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#262 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 49351900095
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 262
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-05-05 06:35:27.000000000 Z
-  where: github
-  who: 8086956
-- _id: 66
-  _time: 2025-05-14 04:25:09.516912808 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/pages-action#262 has been opened by @renovate[bot].
-  event_id: 49350804028
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 262
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-05-05 05:48:40.000000000 Z
-  where: github
-  who: 29139614
-- _id: 67
-  _time: 2025-05-14 04:25:09.533502588 Z
-  _version: 0.9.10/0.39.2/
-  commit: 52ec1c941e46a42ce5899443fd682e59fd10f60e
-  default_branch: master
-  details: 'A new Git push #24107982499 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 49348874630
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24107982499
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-05 03:56:11.000000000 Z
-  where: github
-  who: 526301
-- _id: 68
-  _time: 2025-05-14 04:25:09.824721389 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#261 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 49267087704
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 261
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-05-01 14:53:45.000000000 Z
-  where: github
-  who: 8086956
-- _id: 69
-  _time: 2025-05-14 04:25:25.425103705 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/pages-action#261 has been opened by @renovate[bot].
-  event_id: 49266647031
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 261
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-05-01 14:39:14.000000000 Z
-  where: github
-  who: 29139614
-- _id: 70
-  _time: 2025-05-14 04:25:25.854203771 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#258 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 49148290113
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 258
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-28 17:40:50.000000000 Z
-  where: github
-  who: 8086956
-- _id: 71
-  _time: 2025-05-14 04:25:41.490160772 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/pages-action#258 has been opened by @renovate[bot].
-  event_id: 49146895331
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 258
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-28 17:00:46.000000000 Z
-  where: github
-  who: 29139614
-- _id: 72
-  _time: 2025-05-14 04:25:41.521965726 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#257 has been closed by @rultor,
-    with 24 HoC and 2 comments.
-  event_id: 48961297461
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 24
-  is_human: 0
-  issue: 257
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-23 07:52:10.000000000 Z
-  where: github
-  who: 8086956
-- _id: 73
-  _time: 2025-05-14 04:25:57.831261059 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#257 has been opened by @renovate[bot].
-  event_id: 48959628835
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 257
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-23 07:05:37.000000000 Z
-  where: github
-  who: 29139614
-- _id: 74
-  _time: 2025-05-14 04:25:58.028666613 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#256 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 48927736472
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 256
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-22 12:45:54.000000000 Z
-  where: github
-  who: 8086956
-- _id: 75
-  _time: 2025-05-14 04:26:13.831523969 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/pages-action#256 has been opened by @renovate[bot].
-  event_id: 48925479976
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 256
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-22 11:51:21.000000000 Z
-  where: github
-  who: 29139614
-- _id: 76
-  _time: 2025-05-14 04:26:13.861835826 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#255 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 48854315955
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 255
-  repository: 802720676
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-04-19 19:44:05.000000000 Z
-  where: github
-  who: 8086956
-- _id: 77
-  _time: 2025-05-14 04:26:29.308640247 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/pages-action#255 has been opened by @renovate[bot].
-  event_id: 48853896860
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 255
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-04-19 19:01:15.000000000 Z
-  where: github
-  who: 29139614
-- _id: 78
-  _time: 2025-05-14 04:26:45.051243941 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 79
-  _time: 2025-05-14 04:26:45.056058338 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 80
-  _time: 2025-05-14 04:26:45.060336073 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 81
-  _time: 2025-05-14 04:26:45.064999235 Z
+  _time: 2025-05-14 05:19:48.799258204 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 82
-  _time: 2025-05-14 04:26:45.069403276 Z
+- _id: 9
+  _time: 2025-05-14 05:19:48.802242660 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2025-05-14 05:19:49.955882803 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/qbash-0.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#208 has been closed by @renovate[bot],
+    with 2 HoC and 0 comments.
+  event_id: 49673665163
+  event_type: PullRequestEvent
+  failed_builds: 2
+  hoc: 2
+  is_human: 0
+  issue: 208
+  repository: 799113787
+  succeeded_builds: 9
+  what: pull-was-closed
+  when: 2025-05-13 15:54:54.000000000 Z
+  where: github
+  who: 29139614
+- _id: 11
+  _time: 2025-05-14 05:19:58.162600293 Z
+  _version: 0.9.10/0.39.2/
+  commit: 8ddcada3bcff51fdc08cd73dddaea46c1f683ffe
+  default_branch: master
+  details: 'A new Git push #24268419087 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 49663549482
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24268419087
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-13 12:25:57.000000000 Z
+  where: github
+  who: 526301
+- _id: 12
+  _time: 2025-05-14 05:19:58.703312416 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/qbash-0.x-lockfile
+  details: The pull request yegor256/judges#208 has been opened by @renovate[bot].
+  event_id: 49575405415
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 208
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-05-10 16:59:52.000000000 Z
+  where: github
+  who: 29139614
+- _id: 13
+  _time: 2025-05-14 05:19:58.714082711 Z
+  _version: 0.9.10/0.39.2/
+  commit: 1caf5ee5b574ef5ede2e07773b3072bf4a716003
+  default_branch: master
+  details: 'A new Git push #24168374567 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 49471231698
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24168374567
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-07 18:49:50.000000000 Z
+  where: github
+  who: 526301
+- _id: 14
+  _time: 2025-05-14 05:19:59.020562542 Z
+  _version: 0.9.10/0.39.2/
+  commit: b901e55c52ec0168ad2c4005fad492352141c8b7
+  default_branch: master
+  details: 'A new Git push #24131891209 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 49396584036
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24131891209
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-06 07:30:30.000000000 Z
+  where: github
+  who: 526301
+- _id: 15
+  _time: 2025-05-14 05:19:59.375022711 Z
+  _version: 0.9.10/0.39.2/
+  commit: 2946b65626757ac7b614a28a43da79b1cb1f4452
+  default_branch: master
+  details: 'A new Git push #24117578397 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 49368144958
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24117578397
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-05 14:07:39.000000000 Z
+  where: github
+  who: 526301
+- _id: 16
+  _time: 2025-05-14 05:19:59.733044552 Z
+  _version: 0.9.10/0.39.2/
+  commit: e76957cc30e3ba1737fddc30d49e52e7190f418d
+  default_branch: master
+  details: 'A new Git push #24117376855 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 49367722575
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24117376855
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-05 13:58:13.000000000 Z
+  where: github
+  who: 526301
+- _id: 17
+  _time: 2025-05-14 05:20:00.310575619 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#207 has been closed by @rultor, with 2
+    HoC and 2 comments.
+  event_id: 49358178002
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 207
+  repository: 799113787
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-05-05 09:46:24.000000000 Z
+  where: github
+  who: 8086956
+- _id: 18
+  _time: 2025-05-14 05:20:15.175274387 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request yegor256/judges#207 has been opened by @renovate[bot].
+  event_id: 49356899553
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 207
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-05-05 09:10:52.000000000 Z
+  where: github
+  who: 29139614
+- _id: 19
+  _time: 2025-05-14 05:20:15.192900041 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/eslint-monorepo
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#206 has been closed by @rultor, with 901
+    HoC and 2 comments.
+  event_id: 49316840825
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 901
+  is_human: 0
+  issue: 206
+  repository: 799113787
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-05-03 01:00:45.000000000 Z
+  where: github
+  who: 8086956
+- _id: 20
+  _time: 2025-05-14 05:20:30.601924265 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/eslint-monorepo
+  details: The pull request yegor256/judges#206 has been opened by @renovate[bot].
+  event_id: 49316673829
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 206
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-05-03 00:46:09.000000000 Z
+  where: github
+  who: 29139614
+- _id: 21
+  _time: 2025-05-14 05:20:30.620331145 Z
+  _version: 0.9.10/0.39.2/
+  branch: '139'
+  comments: 2
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 2
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#143 has been closed by @yegor256, with
+    117 HoC and 2 comments.
+  event_id: 49289659227
+  event_type: PullRequestEvent
+  failed_builds: 2
+  hoc: 117
+  is_human: 1
+  issue: 143
+  repository: 799113787
+  succeeded_builds: 6
+  what: pull-was-closed
+  when: 2025-05-02 07:54:45.000000000 Z
+  where: github
+  who: 526301
+- _id: 22
+  _time: 2025-05-14 05:20:36.568957309 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#205 has been closed by @yegor256.
+  event_id: 49266143718
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 205
+  repository: 799113787
+  what: issue-was-closed
+  when: 2025-05-01 14:23:27.000000000 Z
+  where: github
+  who: 526301
+- _id: 23
+  _time: 2025-05-14 05:20:36.606327093 Z
+  _version: 0.9.10/0.39.2/
+  commits: 536
+  contributors:
+  - 526301
+  - 29139614
+  - 29793349
+  - 8086956
+  - 1646020
+  - 2566462
+  details: A new release '`--boost` option to put some judges on top' has been published
+    in yegor256/judges by @rultor.
+  event_id: 49266122947
+  event_type: ReleaseEvent
+  hoc: 5663
+  is_human: 0
+  last_commit: aa966d222a24670826528e4d5256857b4c95875f
+  release: 215994678
+  repository: 799113787
+  tag: 0.42.0
+  what: release-published
+  when: 2025-05-01 14:22:48.000000000 Z
+  where: github
+  who: 8086956
+- _id: 24
+  _time: 2025-05-14 05:20:46.822266732 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.42.0' has been created in yegor256/judges by @rultor.
+  event_id: 49266104504
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799113787
+  tag: 0.42.0
+  what: tag-was-created
+  when: 2025-05-01 14:22:11.000000000 Z
+  where: github
+  who: 8086956
+- _id: 25
+  _time: 2025-05-14 05:20:46.841451771 Z
+  _version: 0.9.10/0.39.2/
+  commit: d719a3ea9456bfaf7cedb850752de0ddc9f9c848
+  default_branch: master
+  details: 'A new Git push #24059711819 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 49265919490
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24059711819
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-01 14:16:07.000000000 Z
+  where: github
+  who: 526301
+- _id: 26
+  _time: 2025-05-14 05:20:47.086799981 Z
+  _version: 0.9.10/0.39.2/
+  commit: 9e849ddd324311c73fa0bc33b4b3fc7ce1f919b0
+  default_branch: master
+  details: 'A new Git push #24059418479 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 49265348046
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24059418479
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-01 13:56:58.000000000 Z
+  where: github
+  who: 526301
+- _id: 27
+  _time: 2025-05-14 05:20:47.415307988 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#205 has been opened by @yegor256.
+  event_id: 49265164259
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 205
+  repository: 799113787
+  what: issue-was-opened
+  when: 2025-05-01 13:50:43.000000000 Z
+  where: github
+  who: 526301
+- _id: 28
+  _time: 2025-05-14 05:20:47.433956325 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#204 has been closed by @rultor, with 2
+    HoC and 2 comments.
+  event_id: 49144008169
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 204
+  repository: 799113787
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-04-28 15:43:09.000000000 Z
+  where: github
+  who: 8086956
+- _id: 29
+  _time: 2025-05-14 05:21:02.949655623 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request yegor256/judges#204 has been opened by @renovate[bot].
+  event_id: 49143498704
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 204
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-04-28 15:30:41.000000000 Z
+  where: github
+  who: 29139614
+- _id: 30
+  _time: 2025-05-14 05:21:03.222059256 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#203 has been closed by @rultor, with 2
+    HoC and 2 comments.
+  event_id: 48923374014
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 203
+  repository: 799113787
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-04-22 10:55:00.000000000 Z
+  where: github
+  who: 8086956
+- _id: 31
+  _time: 2025-05-14 05:21:18.470885453 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request yegor256/judges#203 has been opened by @renovate[bot].
+  event_id: 48921175690
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 203
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-04-22 09:58:37.000000000 Z
+  where: github
+  who: 29139614
+- _id: 32
+  _time: 2025-05-14 05:21:18.487970538 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/eslint-monorepo
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#202 has been closed by @rultor, with 14
+    HoC and 2 comments.
+  event_id: 48901097513
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 14
+  is_human: 0
+  issue: 202
+  repository: 799113787
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-04-21 20:45:47.000000000 Z
+  where: github
+  who: 8086956
+- _id: 33
+  _time: 2025-05-14 05:21:33.832189224 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/eslint-monorepo
+  details: The pull request yegor256/judges#202 has been opened by @renovate[bot].
+  event_id: 48900760982
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 202
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-04-21 20:33:11.000000000 Z
+  where: github
+  who: 29139614
+- _id: 34
+  _time: 2025-05-14 05:21:33.843399562 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#201 has been closed by @yegor256.
+  event_id: 48853185693
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 201
+  repository: 799113787
+  what: issue-was-closed
+  when: 2025-04-19 17:51:58.000000000 Z
+  where: github
+  who: 526301
+- _id: 35
+  _time: 2025-05-14 05:21:33.861431974 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release 'delete judges-summary on start' has been published in yegor256/judges
+    by @rultor.
+  event_id: 48851721165
+  event_type: ReleaseEvent
+  hoc: 4
+  is_human: 0
+  last_commit: 27a150ec5b130c83ae62cff6bcab28f357b50c7c
+  release: 213499023
+  repository: 799113787
+  tag: 0.41.0
+  what: release-published
+  when: 2025-04-19 15:35:09.000000000 Z
+  where: github
+  who: 8086956
+- _id: 36
+  _time: 2025-05-14 05:21:34.278174932 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.41.0' has been created in yegor256/judges by @rultor.
+  event_id: 48851707947
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799113787
+  tag: 0.41.0
+  what: tag-was-created
+  when: 2025-04-19 15:33:51.000000000 Z
+  where: github
+  who: 8086956
+- _id: 37
+  _time: 2025-05-14 05:21:34.294773650 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#201 has been opened by @yegor256.
+  event_id: 48851570828
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 201
+  repository: 799113787
+  what: issue-was-opened
+  when: 2025-04-19 15:21:11.000000000 Z
+  where: github
+  who: 526301
+- _id: 38
+  _time: 2025-05-14 05:21:34.303155684 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#199 has been closed by @yegor256.
+  event_id: 48851202497
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 199
+  repository: 799113787
+  what: issue-was-closed
+  when: 2025-04-19 14:48:48.000000000 Z
+  where: github
+  who: 526301
+- _id: 39
+  _time: 2025-05-14 05:21:34.317935409 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release '' has been published in yegor256/judges by @rultor.
+  event_id: 48851176637
+  event_type: ReleaseEvent
+  hoc: 4
+  is_human: 0
+  last_commit: 3131ca69c7b4ab8681af0c1038de74e6bb13338c
+  release: 213496368
+  repository: 799113787
+  tag: 0.40.0
+  what: release-published
+  when: 2025-04-19 14:46:18.000000000 Z
+  where: github
+  who: 8086956
+- _id: 40
+  _time: 2025-05-14 05:21:34.760557262 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.40.0' has been created in yegor256/judges by @rultor.
+  event_id: 48851161626
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799113787
+  tag: 0.40.0
+  what: tag-was-created
+  when: 2025-04-19 14:44:59.000000000 Z
+  where: github
+  who: 8086956
+- _id: 41
+  _time: 2025-05-14 05:21:34.777250246 Z
+  _version: 0.9.10/0.39.2/
+  commit: 20d9e7654bcde29dea62919047ed85ca3b5dfe74
+  default_branch: master
+  details: 'A new Git push #23842741499 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 48851097659
+  event_type: PushEvent
+  is_human: 1
+  push_id: 23842741499
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-04-19 14:38:45.000000000 Z
+  where: github
+  who: 526301
+- _id: 42
+  _time: 2025-05-14 05:21:35.054631744 Z
+  _version: 0.9.10/0.39.2/
+  commit: 9db9738860511a998891b6e806f5e8fe786f3b5b
+  default_branch: master
+  details: 'A new Git push #23838305622 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 48844726685
+  event_type: PushEvent
+  is_human: 1
+  push_id: 23838305622
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-04-19 04:00:10.000000000 Z
+  where: github
+  who: 526301
+- _id: 43
+  _time: 2025-05-14 05:21:35.394064496 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/eslint-monorepo
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#200 has been closed by @rultor, with 826
+    HoC and 2 comments.
+  event_id: 48840293034
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 826
+  is_human: 0
+  issue: 200
+  repository: 799113787
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-04-18 21:29:51.000000000 Z
+  where: github
+  who: 8086956
+- _id: 44
+  _time: 2025-05-14 05:21:50.377272739 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/eslint-monorepo
+  details: The pull request yegor256/judges#200 has been opened by @renovate[bot].
+  event_id: 48839694971
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 200
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-04-18 20:57:50.000000000 Z
+  where: github
+  who: 29139614
+- _id: 45
+  _time: 2025-05-14 05:21:50.402520586 Z
+  _version: 0.9.10/0.39.2/
+  commit: eb65dfff1e608c98b64da9c61d48b7654e11fef6
+  default_branch: master
+  details: 'A new Git push #23833351437 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 48836157880
+  event_type: PushEvent
+  is_human: 1
+  push_id: 23833351437
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-04-18 18:05:54.000000000 Z
+  where: github
+  who: 526301
+- _id: 46
+  _time: 2025-05-14 05:21:50.728091714 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#199 has been opened by @yegor256.
+  event_id: 48829797975
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 199
+  repository: 799113787
+  what: issue-was-opened
+  when: 2025-04-18 13:45:21.000000000 Z
+  where: github
+  who: 526301
+- _id: 47
+  _time: 2025-05-14 05:21:50.772768556 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-rspec-3.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#198 has been closed by @rultor, with 8
+    HoC and 2 comments.
+  event_id: 48828654881
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 8
+  is_human: 0
+  issue: 198
+  repository: 799113787
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-04-18 13:00:00.000000000 Z
+  where: github
+  who: 8086956
+- _id: 48
+  _time: 2025-05-14 05:22:06.314139404 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-rspec-3.x-lockfile
+  details: The pull request yegor256/judges#198 has been opened by @renovate[bot].
+  event_id: 48828342402
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 198
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-04-18 12:47:20.000000000 Z
+  where: github
+  who: 29139614
+- _id: 49
+  _time: 2025-05-14 05:22:06.558096768 Z
+  _version: 0.9.10/0.39.2/
+  latest: 49673665807
+  repository: 799113787
+  what: events-were-scanned
+  where: github
+- _id: 50
+  _time: 2025-05-14 05:22:09.200500682 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 83
-  _time: 2025-05-14 04:26:45.074166297 Z
+- _id: 51
+  _time: 2025-05-14 05:22:09.203635790 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 84
-  _time: 2025-05-14 04:26:45.078826666 Z
+- _id: 52
+  _time: 2025-05-14 05:22:09.206762723 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 53
+  _time: 2025-05-14 05:22:09.209775903 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 54
+  _time: 2025-05-14 05:22:09.213002001 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 55
+  _time: 2025-05-14 05:22:09.216279815 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 85
-  _time: 2025-05-14 04:26:47.104275831 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/zerocracy-mcp-server#8.
-  issue: 8
-  label: bug
-  repository: 974194993
-  what: label-was-attached
-  when: 2025-05-01 05:29:24.000000000 Z
-  where: github
-  who: 526301
-- _id: 86
-  _time: 2025-05-14 04:26:47.357266273 Z
+- _id: 56
+  _time: 2025-05-14 05:22:09.219470116 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 87
-  _time: 2025-05-14 04:26:47.360593283 Z
+- _id: 57
+  _time: 2025-05-14 05:22:09.602845482 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-04-16 04:26:47.360702637 Z
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/judges#199.
+  issue: 199
+  label: bug
+  repository: 799113787
+  what: label-was-attached
+  when: 2025-04-18 13:45:20.000000000 Z
+  where: github
+  who: 526301
+- _id: 58
+  _time: 2025-05-14 05:22:10.308785911 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#enhancement' label was attached by @yegor256 to the issue yegor256/judges#205.
+  issue: 205
+  label: enhancement
+  repository: 799113787
+  what: label-was-attached
+  when: 2025-05-01 13:50:41.000000000 Z
+  where: github
+  who: 526301
+- _id: 59
+  _time: 2025-05-14 05:22:10.315523949 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 60
+  _time: 2025-05-14 05:22:10.318192696 Z
+  _version: 0.9.10/0.39.2/
+  since: 2025-04-16 05:22:10.318295378 Z
   what: quality-of-service
-  when: 2025-05-14 04:26:47.360677760 Z
+  when: 2025-05-14 05:22:10.318271513 Z
