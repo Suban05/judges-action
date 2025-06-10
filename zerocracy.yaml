@@ -2,16 +2,14 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error:
-  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
-  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
+  error: 'Judge github-events stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 439.605549749
+  seconds: 433.359925471
   version: 0.39.2
   what: judges-summary
-  when: 2025-06-10 08:35:03.093945075 Z
+  when: 2025-06-10 09:28:47.892515129 Z
 - _id: 1
-  _time: 2025-06-10 08:28:03.679713994 Z
+  _time: 2025-06-10 09:22:02.638661312 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 5
   total_commits: 4534
@@ -24,65 +22,117 @@
   total_repositories: 8
   total_stars: 47
   what: dimensions-of-terrain
-  when: 2025-06-10 08:27:43.812718397 Z
+  when: 2025-06-10 09:21:34.872374841 Z
 - _id: 2
-  _time: 2025-06-10 08:28:03.747330189 Z
+  _time: 2025-06-10 09:22:02.672899578 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-06-10 08:28:03.752264853 Z
+  _time: 2025-06-10 09:22:02.679526856 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 4
+  _time: 2025-06-10 09:22:02.684282611 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
-- _id: 4
-  _time: 2025-06-10 08:28:03.758504731 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
 - _id: 5
-  _time: 2025-06-10 08:28:03.763369936 Z
+  _time: 2025-06-10 09:22:02.688324063 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-06-10 08:28:03.767768409 Z
+  _time: 2025-06-10 09:22:02.691394944 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 7
-  _time: 2025-06-10 08:28:03.773330684 Z
+  _time: 2025-06-10 09:22:02.694332026 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 8
-  _time: 2025-06-10 08:28:03.778495797 Z
+  _time: 2025-06-10 09:22:02.697496872 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-06-10 08:28:03.781791104 Z
+  _time: 2025-06-10 09:22:02.700748630 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-06-10 08:28:04.605649129 Z
+  _time: 2025-06-10 09:22:05.444714454 Z
+  _version: 0.9.10/0.39.2/
+  branch: '205'
+  details: The pull request zerocracy/fbe#208 has been opened by @Yegorov.
+  event_id: 50693870278
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 208
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-06-09 20:48:46.000000000 Z
+  where: github
+  who: 2566462
+- _id: 11
+  _time: 2025-06-10 09:22:05.674089240 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/fbe#207 has been closed by @rultor, with 4 HoC
+    and 3 comments.
+  event_id: 50680205335
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 4
+  is_human: 0
+  issue: 207
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-06-09 14:47:20.000000000 Z
+  where: github
+  who: 8086956
+- _id: 12
+  _time: 2025-06-10 09:22:21.459901500 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request zerocracy/fbe#207 has been opened by @renovate[bot].
+  event_id: 50676230749
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 207
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-06-09 13:17:39.000000000 Z
+  where: github
+  who: 29139614
+- _id: 13
+  _time: 2025-06-10 09:22:22.054204336 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   comments: 0
@@ -91,2086 +141,1454 @@
   comments_by_reviewers: 0
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#67 has been closed by @renovate[bot],
-    with 9 HoC and 0 comments.
-  event_id: 50691246861
+  details: The pull request zerocracy/fbe#194 has been closed by @yegor256, with 6
+    HoC and 0 comments.
+  event_id: 50676193992
   event_type: PullRequestEvent
   failed_builds: 2
-  hoc: 9
-  is_human: 0
-  issue: 67
-  repository: 840215648
-  succeeded_builds: 8
-  what: pull-was-closed
-  when: 2025-06-09 19:34:08.000000000 Z
-  where: github
-  who: 29139614
-- _id: 11
-  _time: 2025-06-10 08:28:08.876202333 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/baza.rb#78 has been closed by @yegor256.
-  event_id: 50686978712
-  event_type: IssuesEvent
+  hoc: 6
   is_human: 1
-  issue: 78
-  repository: 840215648
-  what: issue-was-closed
-  when: 2025-06-09 17:35:46.000000000 Z
+  issue: 194
+  repository: 820463873
+  succeeded_builds: 18
+  what: pull-was-merged
+  when: 2025-06-09 13:16:47.000000000 Z
   where: github
   who: 526301
-- _id: 12
-  _time: 2025-06-10 08:28:09.057671883 Z
-  _version: 0.9.10/0.39.2/
-  commits: 165
-  contributors:
-  - 526301
-  - 29139614
-  - 1646020
-  - 8086956
-  details: A new release 'ranged download for `/durables` and `/pull`' has been published
-    in zerocracy/baza.rb by @rultor.
-  event_id: 50686607158
-  event_type: ReleaseEvent
-  hoc: 3578
-  is_human: 0
-  last_commit: 247526af0bebceeebaf6e5511cf5d5c69b447429
-  release: 224098193
-  repository: 840215648
-  tag: 0.7.0
-  what: release-published
-  when: 2025-06-09 17:25:55.000000000 Z
-  where: github
-  who: 8086956
-- _id: 13
-  _time: 2025-06-10 08:28:11.578021582 Z
-  _version: 0.9.10/0.39.2/
-  details: A new tag '0.7.0' has been created in zerocracy/baza.rb by @rultor.
-  event_id: 50686561819
-  event_type: CreateEvent
-  is_human: 0
-  repository: 840215648
-  tag: 0.7.0
-  what: tag-was-created
-  when: 2025-06-09 17:24:45.000000000 Z
-  where: github
-  who: 8086956
 - _id: 14
-  _time: 2025-06-10 08:28:11.594824488 Z
+  _time: 2025-06-10 09:22:37.161476858 Z
   _version: 0.9.10/0.39.2/
-  commit: bff80fe121331cc23683f90820f27b45c404ad02
-  default_branch: master
-  details: 'A new Git push #24789912256 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50686319120
-  event_type: PushEvent
+  details: The issue zerocracy/fbe#206 has been opened by @yegor256.
+  event_id: 50676080302
+  event_type: IssuesEvent
   is_human: 1
-  push_id: 24789912256
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-09 17:18:13.000000000 Z
+  issue: 206
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-09 13:14:00.000000000 Z
   where: github
   who: 526301
 - _id: 15
-  _time: 2025-06-10 08:28:11.748450372 Z
+  _time: 2025-06-10 09:22:37.179634472 Z
   _version: 0.9.10/0.39.2/
-  commit: 8e303e9aee6cc40d5dbcdf4a8b209eb05461b4cd
-  default_branch: master
-  details: 'A new Git push #24789894962 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50686282712
-  event_type: PushEvent
+  details: The issue zerocracy/fbe#205 has been opened by @yegor256.
+  event_id: 50675716879
+  event_type: IssuesEvent
   is_human: 1
-  push_id: 24789894962
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-09 17:17:12.000000000 Z
+  issue: 205
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-09 13:05:04.000000000 Z
   where: github
   who: 526301
 - _id: 16
-  _time: 2025-06-10 08:28:11.989131016 Z
+  _time: 2025-06-10 09:22:37.685998075 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/baza.rb#78 has been opened by @yegor256.
-  event_id: 50686269331
+  details: The issue zerocracy/fbe#204 has been closed by @yegor256.
+  event_id: 50665681804
   event_type: IssuesEvent
   is_human: 1
-  issue: 78
-  repository: 840215648
-  what: issue-was-opened
-  when: 2025-06-09 17:16:49.000000000 Z
+  issue: 204
+  repository: 820463873
+  what: issue-was-closed
+  when: 2025-06-09 08:35:00.000000000 Z
   where: github
   who: 526301
 - _id: 17
-  _time: 2025-06-10 08:28:12.057061061 Z
+  _time: 2025-06-10 09:22:37.701091739 Z
   _version: 0.9.10/0.39.2/
-  commit: d1bda785e66ac11cecaa78b17e9a9ff9322e8b96
-  default_branch: master
-  details: 'A new Git push #24767528340 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50644021418
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24767528340
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-08 10:25:59.000000000 Z
-  where: github
-  who: 526301
-- _id: 18
-  _time: 2025-06-10 08:28:12.211836420 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/baza.rb#77 has been closed by @yegor256.
-  event_id: 50643906358
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 77
-  repository: 840215648
-  what: issue-was-closed
-  when: 2025-06-08 10:16:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 19
-  _time: 2025-06-10 08:28:12.232099811 Z
-  _version: 0.9.10/0.39.2/
-  commits: 1
-  contributors: 8086956
-  details: A new release '`durable_find()` is not implemented' has been published
-    in zerocracy/baza.rb by @rultor.
-  event_id: 50643844619
+  commits: 536
+  contributors:
+  - 526301
+  - 88084038
+  - 29139614
+  - 2566462
+  - 8086956
+  details: A new release 'no cache for parameterized queries' has been published in
+    zerocracy/fbe by @rultor.
+  event_id: 50665478365
   event_type: ReleaseEvent
-  hoc: 2
+  hoc: 8031
   is_human: 0
-  last_commit: 5f521e558190d152d26fdd49f0483a5ed3e719ae
-  release: 223848918
-  repository: 840215648
-  tag: 0.6.0
+  last_commit: 037c0cc4d70f6e4122bef042184621b170841b41
+  release: 223972746
+  repository: 820463873
+  tag: 0.19.3
   what: release-published
-  when: 2025-06-08 10:11:07.000000000 Z
+  when: 2025-06-09 08:29:17.000000000 Z
   where: github
   who: 8086956
-- _id: 20
-  _time: 2025-06-10 08:28:12.640864400 Z
+- _id: 18
+  _time: 2025-06-10 09:22:47.092342437 Z
   _version: 0.9.10/0.39.2/
-  details: A new tag '0.6.0' has been created in zerocracy/baza.rb by @rultor.
-  event_id: 50643836522
+  details: A new tag '0.19.3' has been created in zerocracy/fbe by @rultor.
+  event_id: 50665414581
   event_type: CreateEvent
   is_human: 0
-  repository: 840215648
-  tag: 0.6.0
+  repository: 820463873
+  tag: 0.19.3
   what: tag-was-created
-  when: 2025-06-08 10:10:25.000000000 Z
+  when: 2025-06-09 08:27:28.000000000 Z
   where: github
   who: 8086956
-- _id: 21
-  _time: 2025-06-10 08:28:12.657416458 Z
+- _id: 19
+  _time: 2025-06-10 09:22:47.171659813 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#67 has been closed by @renovate[bot],
-    with 9 HoC and 0 comments.
-  event_id: 50643773709
-  event_type: PullRequestEvent
-  failed_builds: 2
-  hoc: 9
-  is_human: 0
-  issue: 67
-  repository: 840215648
-  succeeded_builds: 8
-  what: pull-was-closed
-  when: 2025-06-08 10:05:05.000000000 Z
-  where: github
-  who: 29139614
-- _id: 22
-  _time: 2025-06-10 08:28:12.898329541 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/factbase-0.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#66 has been closed by @renovate[bot],
-    with 5 HoC and 0 comments.
-  event_id: 50643773450
-  event_type: PullRequestEvent
-  failed_builds: 2
-  hoc: 5
-  is_human: 0
-  issue: 66
-  repository: 840215648
-  succeeded_builds: 8
-  what: pull-was-closed
-  when: 2025-06-08 10:05:04.000000000 Z
-  where: github
-  who: 29139614
-- _id: 23
-  _time: 2025-06-10 08:28:17.105236014 Z
-  _version: 0.9.10/0.39.2/
-  commit: 66be04b4345fb8466183c446aa949c59478e7974
+  commit: 5db57e27183f0549727bc409dabe693ba0b187e4
   default_branch: master
-  details: 'A new Git push #24767368686 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50643768643
+  details: 'A new Git push #24779756356 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50665189921
   event_type: PushEvent
   is_human: 1
-  push_id: 24767368686
+  push_id: 24779756356
   ref: refs/heads/master
-  repository: 840215648
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-06-08 10:04:38.000000000 Z
+  when: 2025-06-09 08:21:05.000000000 Z
+  where: github
+  who: 526301
+- _id: 20
+  _time: 2025-06-10 09:22:47.420730567 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/fbe#204 has been opened by @yegor256.
+  event_id: 50665175900
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 204
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-09 08:20:41.000000000 Z
+  where: github
+  who: 526301
+- _id: 21
+  _time: 2025-06-10 09:22:47.444966830 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/fbe#199 has been closed by @yegor256.
+  event_id: 50660101393
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 199
+  repository: 820463873
+  what: issue-was-closed
+  when: 2025-06-09 05:34:17.000000000 Z
+  where: github
+  who: 526301
+- _id: 22
+  _time: 2025-06-10 09:22:47.853840598 Z
+  _version: 0.9.10/0.39.2/
+  branch: '199'
+  comments: 20
+  comments_appreciated: 9
+  comments_by_author: 10
+  comments_by_reviewers: 13
+  comments_resolved: 5
+  comments_to_code: 13
+  details: The pull request zerocracy/fbe#203 has been closed by @yegor256, with 123
+    HoC and 20 comments.
+  event_id: 50660101165
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 123
+  is_human: 1
+  issue: 203
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-06-09 05:34:16.000000000 Z
+  where: github
+  who: 526301
+- _id: 23
+  _time: 2025-06-10 09:23:01.183658551 Z
+  _version: 0.9.10/0.39.2/
+  comments: 23
+  commits: 4
+  details: The pull request zerocracy/fbe#203 has been reviewed by @yegor256 with
+    123 HoC and 23 comments.
+  event_id: 50660098901
+  event_type: PullRequestReviewEvent
+  files: 2
+  hoc: 123
+  is_human: 1
+  issue: 203
+  repository: 820463873
+  review_comments: 13
+  what: pull-was-reviewed
+  when: 2025-06-09 05:34:10.000000000 Z
   where: github
   who: 526301
 - _id: 24
-  _time: 2025-06-10 08:28:17.290687972 Z
+  _time: 2025-06-10 09:23:01.746682576 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/baza.rb#77 has been opened by @yegor256.
-  event_id: 50643602281
-  event_type: IssuesEvent
+  commit: 6ac75fc666195f123947514f171ef306cf352469
+  default_branch: master
+  details: 'A new Git push #24765176887 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50640356293
+  event_type: PushEvent
   is_human: 1
-  issue: 77
-  repository: 840215648
-  what: issue-was-opened
-  when: 2025-06-08 09:51:01.000000000 Z
+  push_id: 24765176887
+  ref: refs/heads/master
+  repository: 820463873
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-08 04:42:55.000000000 Z
   where: github
   who: 526301
 - _id: 25
-  _time: 2025-06-10 08:28:17.319007595 Z
+  _time: 2025-06-10 09:23:02.018078328 Z
   _version: 0.9.10/0.39.2/
-  commit: 58b4880e35e90dd88dcdfb2b4215519670acac2b
+  commit: 7bc5429d03af25acfd566e293049aca6b8144956
   default_branch: master
-  details: 'A new Git push #24702361520 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50517843484
+  details: 'A new Git push #24765171879 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50640348109
   event_type: PushEvent
   is_human: 1
-  push_id: 24702361520
+  push_id: 24765171879
   ref: refs/heads/master
-  repository: 840215648
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-06-04 16:49:14.000000000 Z
+  when: 2025-06-08 04:41:56.000000000 Z
   where: github
   who: 526301
 - _id: 26
-  _time: 2025-06-10 08:28:17.547730739 Z
+  _time: 2025-06-10 09:23:02.301914582 Z
   _version: 0.9.10/0.39.2/
-  commit: 55d83d4492e8e2629f927de66003a697d868a342
+  commit: cf5482085b4477d2efcd9631f1170e6901f375b3
   default_branch: master
-  details: 'A new Git push #24671988041 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50454895585
+  details: 'A new Git push #24765162760 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50640332710
   event_type: PushEvent
   is_human: 1
-  push_id: 24671988041
+  push_id: 24765162760
   ref: refs/heads/master
-  repository: 840215648
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-06-03 12:19:34.000000000 Z
+  when: 2025-06-08 04:40:14.000000000 Z
   where: github
   who: 526301
 - _id: 27
-  _time: 2025-06-10 08:28:17.728078667 Z
+  _time: 2025-06-10 09:23:02.563749892 Z
   _version: 0.9.10/0.39.2/
-  commit: 6c7a72077b3929f01790476992bac5fb9692b89f
+  commit: f9aff5ed60fe2fb0289d1c375b41c63cf4c166b8
   default_branch: master
-  details: 'A new Git push #24668362840 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50447384620
+  details: 'A new Git push #24765146521 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50640308397
   event_type: PushEvent
   is_human: 1
-  push_id: 24668362840
+  push_id: 24765146521
   ref: refs/heads/master
-  repository: 840215648
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-06-03 09:29:21.000000000 Z
+  when: 2025-06-08 04:37:14.000000000 Z
   where: github
   who: 526301
 - _id: 28
-  _time: 2025-06-10 08:28:17.906871887 Z
+  _time: 2025-06-10 09:23:02.849561684 Z
   _version: 0.9.10/0.39.2/
-  commit: 39f477ab74a3bfe89492b00de96d4543a7f3bbb9
+  commit: 39153ccd00a980a27ee8a06abb7a9cc8bef503a7
   default_branch: master
-  details: 'A new Git push #24668105738 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50446861148
+  details: 'A new Git push #24765089440 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50640224293
   event_type: PushEvent
   is_human: 1
-  push_id: 24668105738
+  push_id: 24765089440
   ref: refs/heads/master
-  repository: 840215648
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-06-03 09:17:01.000000000 Z
+  when: 2025-06-08 04:27:35.000000000 Z
   where: github
   who: 526301
 - _id: 29
-  _time: 2025-06-10 08:28:18.074830939 Z
+  _time: 2025-06-10 09:23:03.427720430 Z
   _version: 0.9.10/0.39.2/
-  commit: c5798e3a57ccca793924aa7346be51311f3a351d
-  default_branch: master
-  details: 'A new Git push #24668091858 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50446831434
-  event_type: PushEvent
+  details: The issue zerocracy/fbe#202 has been closed by @yegor256.
+  event_id: 50639924203
+  event_type: IssuesEvent
   is_human: 1
-  push_id: 24668091858
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-03 09:16:42.000000000 Z
+  issue: 202
+  repository: 820463873
+  what: issue-was-closed
+  when: 2025-06-08 03:55:36.000000000 Z
   where: github
   who: 526301
 - _id: 30
-  _time: 2025-06-10 08:28:18.314311311 Z
+  _time: 2025-06-10 09:23:03.481013051 Z
   _version: 0.9.10/0.39.2/
-  commit: 810b23aacf7a244131df89b74600e6bf9be1584d
-  default_branch: master
-  details: 'A new Git push #24663765910 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50437531672
-  event_type: PushEvent
+  branch: '199'
+  details: The pull request zerocracy/fbe#203 has been opened by @Yegorov.
+  event_id: 50634185155
+  event_type: PullRequestEvent
   is_human: 1
-  push_id: 24663765910
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-03 05:07:07.000000000 Z
+  issue: 203
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-06-07 18:27:14.000000000 Z
   where: github
-  who: 526301
+  who: 2566462
 - _id: 31
-  _time: 2025-06-10 08:28:18.858191110 Z
+  _time: 2025-06-10 09:23:03.515318436 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#76 has been closed by @yegor256, with
-    2 HoC and 0 comments.
-  event_id: 50437450091
-  event_type: PullRequestEvent
-  failed_builds: 2
+  commits: 1
+  contributors: 8086956
+  details: A new release 'HTTP request happens before cache intialization' has been
+    published in zerocracy/fbe by @rultor.
+  event_id: 50630707355
+  event_type: ReleaseEvent
   hoc: 2
-  is_human: 1
-  issue: 76
-  repository: 840215648
-  succeeded_builds: 8
-  what: pull-was-merged
-  when: 2025-06-03 05:03:28.000000000 Z
+  is_human: 0
+  last_commit: c25e3381743e83a83e9aafda49c47ba0f7a8dc8b
+  release: 223796548
+  repository: 820463873
+  tag: 0.19.2
+  what: release-published
+  when: 2025-06-07 13:55:10.000000000 Z
   where: github
-  who: 526301
+  who: 8086956
 - _id: 32
-  _time: 2025-06-10 08:28:22.749317342 Z
+  _time: 2025-06-10 09:23:03.965741779 Z
   _version: 0.9.10/0.39.2/
-  commit: ab48cb2f556e185a8d0c38fdb0cebfa0dc234a32
-  default_branch: master
-  details: 'A new Git push #24663714505 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50437426999
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24663714505
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-03 05:02:27.000000000 Z
+  details: A new tag '0.19.2' has been created in zerocracy/fbe by @rultor.
+  event_id: 50630686765
+  event_type: CreateEvent
+  is_human: 0
+  repository: 820463873
+  tag: 0.19.2
+  what: tag-was-created
+  when: 2025-06-07 13:53:25.000000000 Z
   where: github
-  who: 526301
+  who: 8086956
 - _id: 33
-  _time: 2025-06-10 08:28:22.899797643 Z
+  _time: 2025-06-10 09:23:03.976958650 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-minitest-0.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#74 has been closed by @renovate[bot],
-    with 4 HoC and 0 comments.
-  event_id: 50437421479
-  event_type: PullRequestEvent
-  failed_builds: 2
-  hoc: 4
-  is_human: 0
-  issue: 74
-  repository: 840215648
-  succeeded_builds: 8
-  what: pull-was-closed
-  when: 2025-06-03 05:02:13.000000000 Z
+  commit: 925569e278dd79cb38d09e2d0afb5a2ede01db96
+  default_branch: master
+  details: 'A new Git push #24758837649 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50630624092
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24758837649
+  ref: refs/heads/master
+  repository: 820463873
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-07 13:48:16.000000000 Z
   where: github
-  who: 29139614
+  who: 526301
 - _id: 34
-  _time: 2025-06-10 08:28:27.472406718 Z
+  _time: 2025-06-10 09:23:04.287723767 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#67 has been closed by @renovate[bot],
-    with 5 HoC and 0 comments.
-  event_id: 50437421132
-  event_type: PullRequestEvent
-  failed_builds: 4
-  hoc: 5
-  is_human: 0
-  issue: 67
-  repository: 840215648
-  succeeded_builds: 16
-  what: pull-was-closed
-  when: 2025-06-03 05:02:12.000000000 Z
+  details: The issue zerocracy/fbe#202 has been opened by @yegor256.
+  event_id: 50630612620
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 202
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-07 13:47:18.000000000 Z
   where: github
-  who: 29139614
+  who: 526301
 - _id: 35
-  _time: 2025-06-10 08:28:35.310011564 Z
+  _time: 2025-06-10 09:23:04.296095787 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rake-13.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#73 has been closed by @renovate[bot],
-    with 2 HoC and 0 comments.
-  event_id: 50437420671
-  event_type: PullRequestEvent
-  failed_builds: 2
-  hoc: 2
-  is_human: 0
-  issue: 73
-  repository: 840215648
-  succeeded_builds: 8
-  what: pull-was-closed
-  when: 2025-06-03 05:02:10.000000000 Z
+  commit: b507869fc5518bcd31923ed1d751e81157dd4c3f
+  default_branch: master
+  details: 'A new Git push #24758133063 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50629565424
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24758133063
+  ref: refs/heads/master
+  repository: 820463873
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-07 12:25:34.000000000 Z
   where: github
-  who: 29139614
+  who: 526301
 - _id: 36
-  _time: 2025-06-10 08:28:39.450158810 Z
+  _time: 2025-06-10 09:23:04.574138711 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/base64-0.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#72 has been closed by @renovate[bot],
-    with 2 HoC and 0 comments.
-  event_id: 50437420218
-  event_type: PullRequestEvent
-  failed_builds: 2
+  details: The issue zerocracy/fbe#201 has been closed by @yegor256.
+  event_id: 50629556860
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 201
+  repository: 820463873
+  what: issue-was-closed
+  when: 2025-06-07 12:24:55.000000000 Z
+  where: github
+  who: 526301
+- _id: 37
+  _time: 2025-06-10 09:23:04.596418646 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release 'extra logging necessary' has been published in zerocracy/fbe
+    by @rultor.
+  event_id: 50626249194
+  event_type: ReleaseEvent
   hoc: 2
   is_human: 0
-  issue: 72
-  repository: 840215648
-  succeeded_builds: 8
-  what: pull-was-closed
-  when: 2025-06-03 05:02:09.000000000 Z
+  last_commit: 1373bfdb058110a4335191dfdb7cf7388e1157e9
+  release: 223779894
+  repository: 820463873
+  tag: 0.19.1
+  what: release-published
+  when: 2025-06-07 07:35:51.000000000 Z
   where: github
-  who: 29139614
-- _id: 37
-  _time: 2025-06-10 08:28:43.699923279 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/yegor256-copyrights-action-0.x
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#71 has been closed by @yegor256, with
-    2 HoC and 0 comments.
-  event_id: 50437406372
-  event_type: PullRequestEvent
-  failed_builds: 2
-  hoc: 2
-  is_human: 1
-  issue: 71
-  repository: 840215648
-  succeeded_builds: 8
-  what: pull-was-merged
-  when: 2025-06-03 05:01:32.000000000 Z
-  where: github
-  who: 526301
+  who: 8086956
 - _id: 38
-  _time: 2025-06-10 08:28:47.755984513 Z
+  _time: 2025-06-10 09:23:05.292035005 Z
   _version: 0.9.10/0.39.2/
-  commit: 995fc80b3ee0f8998ab4e7fc4565fc604b5727ab
-  default_branch: master
-  details: 'A new Git push #24663698208 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50437396044
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24663698208
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-03 05:01:07.000000000 Z
+  details: A new tag '0.19.1' has been created in zerocracy/fbe by @rultor.
+  event_id: 50626232908
+  event_type: CreateEvent
+  is_human: 0
+  repository: 820463873
+  tag: 0.19.1
+  what: tag-was-created
+  when: 2025-06-07 07:34:21.000000000 Z
   where: github
-  who: 526301
+  who: 8086956
 - _id: 39
-  _time: 2025-06-10 08:28:48.064243742 Z
+  _time: 2025-06-10 09:23:05.310918077 Z
   _version: 0.9.10/0.39.2/
-  commit: afb302ea6016cd4e3d18b560ffd1e16f92bc0555
+  commit: 6bfda56353fcf315723c6bebbc910686103e9367
   default_branch: master
-  details: 'A new Git push #24663687650 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50437377133
+  details: 'A new Git push #24755959528 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50626170433
   event_type: PushEvent
   is_human: 1
-  push_id: 24663687650
+  push_id: 24755959528
   ref: refs/heads/master
-  repository: 840215648
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-06-03 05:00:23.000000000 Z
+  when: 2025-06-07 07:28:47.000000000 Z
   where: github
   who: 526301
 - _id: 40
-  _time: 2025-06-10 08:28:48.227811210 Z
+  _time: 2025-06-10 09:23:05.662522460 Z
   _version: 0.9.10/0.39.2/
-  commit: ea0e08f82590471340c6eff722ff004be5ce606b
-  default_branch: master
-  details: 'A new Git push #24663556066 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50437111563
-  event_type: PushEvent
+  details: The issue zerocracy/fbe#201 has been opened by @yegor256.
+  event_id: 50626158348
+  event_type: IssuesEvent
   is_human: 1
-  push_id: 24663556066
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-03 04:48:19.000000000 Z
+  issue: 201
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-07 07:27:39.000000000 Z
   where: github
   who: 526301
 - _id: 41
-  _time: 2025-06-10 08:28:48.362127247 Z
+  _time: 2025-06-10 09:23:05.678350040 Z
   _version: 0.9.10/0.39.2/
-  commit: 7f937ea9d93813795773c4c68d703e562cf9e162
-  default_branch: master
-  details: 'A new Git push #24663464216 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50436918337
-  event_type: PushEvent
+  details: The issue zerocracy/fbe#200 has been closed by @yegor256.
+  event_id: 50625882325
+  event_type: IssuesEvent
   is_human: 1
-  push_id: 24663464216
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-03 04:39:30.000000000 Z
+  issue: 200
+  repository: 820463873
+  what: issue-was-closed
+  when: 2025-06-07 07:03:38.000000000 Z
   where: github
   who: 526301
 - _id: 42
-  _time: 2025-06-10 08:28:48.507630949 Z
-  _version: 0.9.10/0.39.2/
-  commit: 47e3c1c3485c85fb231a6f5f1db6c0552315ef52
-  default_branch: master
-  details: 'A new Git push #24654806803 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50419296255
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24654806803
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-02 17:21:54.000000000 Z
-  where: github
-  who: 526301
-- _id: 43
-  _time: 2025-06-10 08:28:48.647501835 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request zerocracy/baza.rb#76 has been opened by @renovate[bot].
-  event_id: 50419224208
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 76
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-06-02 17:19:57.000000000 Z
-  where: github
-  who: 29139614
-- _id: 44
-  _time: 2025-06-10 08:28:48.657476154 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/baza.rb#75 has been opened by @yegor256.
-  event_id: 50418848615
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 75
-  repository: 840215648
-  what: issue-was-opened
-  when: 2025-06-02 17:09:53.000000000 Z
-  where: github
-  who: 526301
-- _id: 45
-  _time: 2025-06-10 08:28:48.671779215 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-minitest-0.x-lockfile
-  details: The pull request zerocracy/baza.rb#74 has been opened by @renovate[bot].
-  event_id: 50357741201
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 74
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-31 13:00:49.000000000 Z
-  where: github
-  who: 29139614
-- _id: 46
-  _time: 2025-06-10 08:28:48.690232445 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rake-13.x-lockfile
-  details: The pull request zerocracy/baza.rb#73 has been opened by @renovate[bot].
-  event_id: 50316799577
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 73
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-30 07:30:33.000000000 Z
-  where: github
-  who: 29139614
-- _id: 47
-  _time: 2025-06-10 08:28:48.703204775 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/base64-0.x-lockfile
-  details: The pull request zerocracy/baza.rb#72 has been opened by @renovate[bot].
-  event_id: 50316794587
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 72
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-30 07:30:25.000000000 Z
-  where: github
-  who: 29139614
-- _id: 48
-  _time: 2025-06-10 08:28:48.715683333 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/yegor256-copyrights-action-0.x
-  details: The pull request zerocracy/baza.rb#71 has been opened by @renovate[bot].
-  event_id: 50297131014
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 71
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-29 18:09:36.000000000 Z
-  where: github
-  who: 29139614
-- _id: 49
-  _time: 2025-06-10 08:28:48.849998221 Z
+  _time: 2025-06-10 09:23:05.701959939 Z
   _version: 0.9.10/0.39.2/
   commits: 1
   contributors: 8086956
-  details: A new release '`/pop` takes too long if content it big' has been published
-    in zerocracy/baza.rb by @rultor.
-  event_id: 50207717672
+  details: A new release 'off_quota renamed to off_quota?' has been published in zerocracy/fbe
+    by @rultor.
+  event_id: 50625861435
   event_type: ReleaseEvent
   hoc: 2
   is_human: 0
-  last_commit: f08e15458124589de780a1031d973769a6a016c6
-  release: 221372036
-  repository: 840215648
-  tag: 0.5.0
+  last_commit: 8695f565569dc9241cd1c6cd53d23743d9d3afe5
+  release: 223778665
+  repository: 820463873
+  tag: 0.19.0
   what: release-published
-  when: 2025-05-27 20:19:22.000000000 Z
+  when: 2025-06-07 07:01:53.000000000 Z
+  where: github
+  who: 8086956
+- _id: 43
+  _time: 2025-06-10 09:23:06.138929001 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.19.0' has been created in zerocracy/fbe by @rultor.
+  event_id: 50625837539
+  event_type: CreateEvent
+  is_human: 0
+  repository: 820463873
+  tag: 0.19.0
+  what: tag-was-created
+  when: 2025-06-07 07:00:16.000000000 Z
+  where: github
+  who: 8086956
+- _id: 44
+  _time: 2025-06-10 09:23:06.166474104 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/fbe#194 has been closed by @renovate[bot], with
+    6 HoC and 0 comments.
+  event_id: 50625768634
+  event_type: PullRequestEvent
+  failed_builds: 2
+  hoc: 6
+  is_human: 0
+  issue: 194
+  repository: 820463873
+  succeeded_builds: 18
+  what: pull-was-closed
+  when: 2025-06-07 06:54:21.000000000 Z
+  where: github
+  who: 29139614
+- _id: 45
+  _time: 2025-06-10 09:23:06.661014142 Z
+  _version: 0.9.10/0.39.2/
+  commit: 3885304599fbc545cca39ffb1953bedcb45f9e0a
+  default_branch: master
+  details: 'A new Git push #24755715555 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50625765308
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24755715555
+  ref: refs/heads/master
+  repository: 820463873
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-07 06:54:00.000000000 Z
+  where: github
+  who: 526301
+- _id: 46
+  _time: 2025-06-10 09:23:06.946214639 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/fbe#200 has been opened by @yegor256.
+  event_id: 50625719343
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 200
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-07 06:49:47.000000000 Z
+  where: github
+  who: 526301
+- _id: 47
+  _time: 2025-06-10 09:23:07.182579783 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/fbe#199 has been opened by @yegor256.
+  event_id: 50624797996
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 199
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-07 05:25:53.000000000 Z
+  where: github
+  who: 526301
+- _id: 48
+  _time: 2025-06-10 09:23:07.204033874 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release '`Fbe.octo` should cache in SQLite if `options.sqlite_cache`
+    is set' has been published in zerocracy/fbe by @rultor.
+  event_id: 50615176061
+  event_type: ReleaseEvent
+  hoc: 2
+  is_human: 0
+  last_commit: 997822d2acbb09101ff74ab18e69eff7aee5bd64
+  release: 223725656
+  repository: 820463873
+  tag: 0.18.0
+  what: release-published
+  when: 2025-06-06 19:34:52.000000000 Z
+  where: github
+  who: 8086956
+- _id: 49
+  _time: 2025-06-10 09:23:07.715870829 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.18.0' has been created in zerocracy/fbe by @rultor.
+  event_id: 50615129206
+  event_type: CreateEvent
+  is_human: 0
+  repository: 820463873
+  tag: 0.18.0
+  what: tag-was-created
+  when: 2025-06-06 19:33:13.000000000 Z
   where: github
   who: 8086956
 - _id: 50
-  _time: 2025-06-10 08:28:49.209193774 Z
+  _time: 2025-06-10 09:23:08.166359436 Z
   _version: 0.9.10/0.39.2/
-  details: A new tag '0.5.0' has been created in zerocracy/baza.rb by @rultor.
-  event_id: 50207694973
-  event_type: CreateEvent
-  is_human: 0
-  repository: 840215648
-  tag: 0.5.0
-  what: tag-was-created
-  when: 2025-05-27 20:18:41.000000000 Z
-  where: github
-  who: 8086956
-- _id: 51
-  _time: 2025-06-10 08:28:49.483583259 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/baza.rb#69 has been closed by @yegor256.
-  event_id: 50207498712
+  details: The issue zerocracy/fbe#197 has been closed by @yegor256.
+  event_id: 50614951315
   event_type: IssuesEvent
   is_human: 1
-  issue: 69
-  repository: 840215648
+  issue: 197
+  repository: 820463873
   what: issue-was-closed
-  when: 2025-05-27 20:12:50.000000000 Z
+  when: 2025-06-06 19:27:01.000000000 Z
+  where: github
+  who: 526301
+- _id: 51
+  _time: 2025-06-10 09:23:08.179285218 Z
+  _version: 0.9.10/0.39.2/
+  branch: '197'
+  comments: 15
+  comments_appreciated: 7
+  comments_by_author: 7
+  comments_by_reviewers: 10
+  comments_resolved: 4
+  comments_to_code: 12
+  details: The pull request zerocracy/fbe#198 has been closed by @yegor256, with 160
+    HoC and 15 comments.
+  event_id: 50614950935
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 160
+  is_human: 1
+  issue: 198
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-06-06 19:27:00.000000000 Z
   where: github
   who: 526301
 - _id: 52
-  _time: 2025-06-10 08:28:49.493344801 Z
+  _time: 2025-06-10 09:23:23.652032272 Z
   _version: 0.9.10/0.39.2/
-  branch: '69'
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#70 has been closed by @yegor256, with
-    633 HoC and 0 comments.
-  event_id: 50207498412
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 633
+  comments: 17
+  commits: 3
+  details: The pull request zerocracy/fbe#198 has been reviewed by @yegor256 with
+    160 HoC and 17 comments.
+  event_id: 50614944118
+  event_type: PullRequestReviewEvent
+  files: 6
+  hoc: 160
   is_human: 1
-  issue: 70
-  repository: 840215648
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-27 20:12:50.000000000 Z
+  issue: 198
+  repository: 820463873
+  review_comments: 12
+  what: pull-was-reviewed
+  when: 2025-06-06 19:26:45.000000000 Z
   where: github
   who: 526301
 - _id: 53
-  _time: 2025-06-10 08:28:53.748295743 Z
+  _time: 2025-06-10 09:23:24.407848154 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#67 has been closed by @renovate[bot],
-    with 2 HoC and 0 comments.
-  event_id: 50199309261
-  event_type: PullRequestEvent
-  failed_builds: 4
-  hoc: 2
-  is_human: 0
-  issue: 67
-  repository: 840215648
-  succeeded_builds: 16
-  what: pull-was-closed
-  when: 2025-05-27 16:25:53.000000000 Z
-  where: github
-  who: 29139614
-- _id: 54
-  _time: 2025-06-10 08:29:01.716473974 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/factbase-0.x-lockfile
-  comments: 0
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 0
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#66 has been closed by @renovate[bot],
-    with 2 HoC and 0 comments.
-  event_id: 50199308271
-  event_type: PullRequestEvent
-  failed_builds: 4
-  hoc: 2
-  is_human: 0
-  issue: 66
-  repository: 840215648
-  succeeded_builds: 16
-  what: pull-was-closed
-  when: 2025-05-27 16:25:51.000000000 Z
-  where: github
-  who: 29139614
-- _id: 55
-  _time: 2025-06-10 08:29:09.629244158 Z
-  _version: 0.9.10/0.39.2/
-  branch: '69'
-  details: The pull request zerocracy/baza.rb#70 has been opened by @yegor256.
-  event_id: 50199290993
+  branch: '197'
+  details: The pull request zerocracy/fbe#198 has been opened by @Yegorov.
+  event_id: 50604870895
   event_type: PullRequestEvent
   is_human: 1
-  issue: 70
-  repository: 840215648
+  issue: 198
+  repository: 820463873
   what: pull-was-opened
-  when: 2025-05-27 16:25:24.000000000 Z
+  when: 2025-06-06 14:31:51.000000000 Z
+  where: github
+  who: 2566462
+- _id: 54
+  _time: 2025-06-10 09:23:24.449452295 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/fbe#197 has been opened by @yegor256.
+  event_id: 50571145620
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 197
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-05 18:55:04.000000000 Z
+  where: github
+  who: 526301
+- _id: 55
+  _time: 2025-06-10 09:23:24.475171783 Z
+  _version: 0.9.10/0.39.2/
+  commit: babd95977f153a68e0c57ba5c074d68ce7fb4de9
+  default_branch: master
+  details: 'A new Git push #24725385718 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50565031887
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24725385718
+  ref: refs/heads/master
+  repository: 820463873
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-05 16:02:46.000000000 Z
   where: github
   who: 526301
 - _id: 56
-  _time: 2025-06-10 08:29:09.723230714 Z
+  _time: 2025-06-10 09:23:24.743063669 Z
   _version: 0.9.10/0.39.2/
-  commit: 41e2632ae92faf658d9cf5ee0ed4b984feb0ec3b
-  default_branch: master
-  details: 'A new Git push #24541988047 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50198410646
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24541988047
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-27 16:03:30.000000000 Z
-  where: github
-  who: 526301
-- _id: 57
-  _time: 2025-06-10 08:29:09.891115072 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/baza.rb#69 has been opened by @yegor256.
-  event_id: 50198250322
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 69
-  repository: 840215648
-  what: issue-was-opened
-  when: 2025-05-27 15:59:57.000000000 Z
-  where: github
-  who: 526301
-- _id: 58
-  _time: 2025-06-10 08:29:09.998335642 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/yegor256-copyrights-action-0.x
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#68 has been closed by @rultor, with
-    2 HoC and 2 comments.
-  event_id: 50150071946
-  event_type: PullRequestEvent
-  failed_builds: 0
+  commits: 1
+  contributors: 8086956
+  details: A new release '' has been published in zerocracy/fbe by @rultor.
+  event_id: 50549970994
+  event_type: ReleaseEvent
   hoc: 2
   is_human: 0
-  issue: 68
-  repository: 840215648
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-26 14:05:38.000000000 Z
+  last_commit: e7ad1f21e43823e7158e7d26911eb9a092f35f7a
+  release: 223330471
+  repository: 820463873
+  tag: 0.17.0
+  what: release-published
+  when: 2025-06-05 10:33:08.000000000 Z
   where: github
   who: 8086956
-- _id: 59
-  _time: 2025-06-10 08:29:18.815219140 Z
+- _id: 57
+  _time: 2025-06-10 09:23:25.290571209 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/yegor256-copyrights-action-0.x
-  details: The pull request zerocracy/baza.rb#68 has been opened by @renovate[bot].
-  event_id: 50147483382
-  event_type: PullRequestEvent
+  details: A new tag '0.17.0' has been created in zerocracy/fbe by @rultor.
+  event_id: 50549942878
+  event_type: CreateEvent
   is_human: 0
-  issue: 68
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-26 13:06:15.000000000 Z
+  repository: 820463873
+  tag: 0.17.0
+  what: tag-was-created
+  when: 2025-06-05 10:32:27.000000000 Z
   where: github
-  who: 29139614
-- _id: 60
-  _time: 2025-06-10 08:29:18.829352805 Z
+  who: 8086956
+- _id: 58
+  _time: 2025-06-10 09:23:25.314989589 Z
   _version: 0.9.10/0.39.2/
-  commit: 756c10bcb5c17c0cc003a114b2d8d35a6053783c
+  commit: 04cd845c3d7aa85f9222a2209c6f2f11c99fcea4
   default_branch: master
-  details: 'A new Git push #24375811066 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 49871492748
+  details: 'A new Git push #24718079477 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50549672131
   event_type: PushEvent
   is_human: 1
-  push_id: 24375811066
+  push_id: 24718079477
   ref: refs/heads/master
-  repository: 840215648
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-05-19 09:23:10.000000000 Z
+  when: 2025-06-05 10:25:53.000000000 Z
+  where: github
+  who: 526301
+- _id: 59
+  _time: 2025-06-10 09:23:25.591029559 Z
+  _version: 0.9.10/0.39.2/
+  commit: 2b2678a1f5773e46a219cc79727f034722206c77
+  default_branch: master
+  details: 'A new Git push #24718005035 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50549517541
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24718005035
+  ref: refs/heads/master
+  repository: 820463873
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-05 10:22:06.000000000 Z
+  where: github
+  who: 526301
+- _id: 60
+  _time: 2025-06-10 09:23:25.870743235 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/fbe#195 has been closed by @yegor256.
+  event_id: 50549370565
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 195
+  repository: 820463873
+  what: issue-was-closed
+  when: 2025-06-05 10:18:35.000000000 Z
   where: github
   who: 526301
 - _id: 61
-  _time: 2025-06-10 08:29:18.961610335 Z
+  _time: 2025-06-10 09:23:26.257118132 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/factbase-0.x-lockfile
-  details: The pull request zerocracy/baza.rb#66 has been opened by @renovate[bot].
-  event_id: 49778290184
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 66
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-15 20:24:37.000000000 Z
-  where: github
-  who: 29139614
-- _id: 62
-  _time: 2025-06-10 08:29:19.277350641 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 2
-  comments_appreciated: 1
+  branch: '195'
+  comments: 0
+  comments_appreciated: 0
   comments_by_author: 0
-  comments_by_reviewers: 3
+  comments_by_reviewers: 1
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#65 has been closed by @rultor, with
-    2 HoC and 2 comments.
-  event_id: 49762224370
+  details: The pull request zerocracy/fbe#196 has been closed by @yegor256, with 225
+    HoC and 0 comments.
+  event_id: 50549369878
   event_type: PullRequestEvent
   failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 65
-  repository: 840215648
+  hoc: 225
+  is_human: 1
+  issue: 196
+  repository: 820463873
   succeeded_builds: 10
   what: pull-was-merged
-  when: 2025-05-15 13:38:35.000000000 Z
-  where: github
-  who: 8086956
-- _id: 63
-  _time: 2025-06-10 08:29:27.638627862 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/baza.rb#65 has been opened by @renovate[bot].
-  event_id: 49759584361
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 65
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-15 12:42:36.000000000 Z
-  where: github
-  who: 29139614
-- _id: 64
-  _time: 2025-06-10 08:29:27.663607941 Z
-  _version: 0.9.10/0.39.2/
-  commit: 88a7f9ea6e7f0681e4be1afd878efd82de01b9c0
-  default_branch: master
-  details: 'A new Git push #24268227350 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 49663158299
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24268227350
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-05-13 12:17:19.000000000 Z
+  when: 2025-06-05 10:18:35.000000000 Z
   where: github
   who: 526301
-- _id: 65
-  _time: 2025-06-10 08:29:27.882865009 Z
+- _id: 62
+  _time: 2025-06-10 09:23:34.429169895 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/qbash-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#64 has been closed by @rultor, with
-    2 HoC and 2 comments.
-  event_id: 49616193068
+  branch: '195'
+  details: The pull request zerocracy/fbe#196 has been opened by @yegor256.
+  event_id: 50547884425
   event_type: PullRequestEvent
-  failed_builds: 0
+  is_human: 1
+  issue: 196
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-06-05 09:44:34.000000000 Z
+  where: github
+  who: 526301
+- _id: 63
+  _time: 2025-06-10 09:23:34.446459413 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/fbe#195 has been opened by @yegor256.
+  event_id: 50547366207
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 195
+  repository: 820463873
+  what: issue-was-opened
+  when: 2025-06-05 09:32:51.000000000 Z
+  where: github
+  who: 526301
+- _id: 64
+  _time: 2025-06-10 09:23:34.458044062 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request zerocracy/fbe#194 has been opened by @renovate[bot].
+  event_id: 50502971093
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 194
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-06-04 11:32:27.000000000 Z
+  where: github
+  who: 29139614
+- _id: 65
+  _time: 2025-06-10 09:23:34.674850288 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: 'A new release ''judges-action#660: fix Fbe::FakeOctokit#issue'' has been
+    published in zerocracy/fbe by @rultor.'
+  event_id: 50488169330
+  event_type: ReleaseEvent
   hoc: 2
   is_human: 0
-  issue: 64
-  repository: 840215648
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-12 12:34:30.000000000 Z
+  last_commit: ca576aef125b21d2fb9298b5f48416083d0c2c8f
+  release: 222950797
+  repository: 820463873
+  tag: 0.16.1
+  what: release-published
+  when: 2025-06-04 05:22:55.000000000 Z
   where: github
   who: 8086956
 - _id: 66
-  _time: 2025-06-10 08:29:36.594542284 Z
+  _time: 2025-06-10 09:23:35.216515621 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/qbash-0.x-lockfile
-  details: The pull request zerocracy/baza.rb#64 has been opened by @renovate[bot].
-  event_id: 49614956501
-  event_type: PullRequestEvent
+  details: A new tag '0.16.1' has been created in zerocracy/fbe by @rultor.
+  event_id: 50488128766
+  event_type: CreateEvent
   is_human: 0
-  issue: 64
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-12 12:06:27.000000000 Z
+  repository: 820463873
+  tag: 0.16.1
+  what: tag-was-created
+  when: 2025-06-04 05:21:17.000000000 Z
   where: github
-  who: 29139614
+  who: 8086956
 - _id: 67
-  _time: 2025-06-10 08:29:36.614865479 Z
+  _time: 2025-06-10 09:23:35.654708626 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/qbash-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
+  branch: '660'
+  comments: 1
+  comments_appreciated: 2
+  comments_by_author: 1
+  comments_by_reviewers: 5
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#63 has been closed by @rultor, with
-    2 HoC and 2 comments.
-  event_id: 49588738990
+  details: The pull request zerocracy/fbe#193 has been closed by @yegor256, with 74
+    HoC and 1 comments.
+  event_id: 50487994246
   event_type: PullRequestEvent
   failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 63
-  repository: 840215648
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-11 15:31:19.000000000 Z
-  where: github
-  who: 8086956
-- _id: 68
-  _time: 2025-06-10 08:29:45.172889006 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/qbash-0.x-lockfile
-  details: The pull request zerocracy/baza.rb#63 has been opened by @renovate[bot].
-  event_id: 49588150400
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 63
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-05-11 14:41:58.000000000 Z
-  where: github
-  who: 29139614
-- _id: 69
-  _time: 2025-06-10 08:29:45.191709547 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/qbash-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/baza.rb#62 has been closed by @rultor, with
-    2 HoC and 2 comments.
-  event_id: 49588141534
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 62
-  repository: 840215648
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-11 14:41:13.000000000 Z
-  where: github
-  who: 8086956
-- _id: 70
-  _time: 2025-06-10 08:29:54.343295769 Z
-  _version: 0.9.10/0.39.2/
-  latest: 50691247354
-  repository: 840215648
-  what: events-were-scanned
-  where: github
-- _id: 71
-  _time: 2025-06-10 08:29:56.572334075 Z
-  _version: 0.9.10/0.39.2/
-  commit: c8b879f1d26ad23cb9c5c5ff1efb72f1fe096518
-  default_branch: master
-  details: 'A new Git push #24787633816 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50681547476
-  event_type: PushEvent
+  hoc: 74
   is_human: 1
-  push_id: 24787633816
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-09 15:17:36.000000000 Z
+  issue: 193
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-06-04 05:15:54.000000000 Z
   where: github
   who: 526301
-- _id: 72
-  _time: 2025-06-10 08:29:56.753115646 Z
+- _id: 68
+  _time: 2025-06-10 09:23:43.890481756 Z
   _version: 0.9.10/0.39.2/
-  commit: 043053bb291f629e5bc39f088f37e377fc5017f8
+  branch: '660'
+  details: The pull request zerocracy/fbe#193 has been opened by @Yegorov.
+  event_id: 50474370346
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 193
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-06-03 19:49:02.000000000 Z
+  where: github
+  who: 2566462
+- _id: 69
+  _time: 2025-06-10 09:23:43.904473646 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/fbe#192 has been closed by @yegor256.
+  event_id: 50461528495
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 192
+  repository: 820463873
+  what: issue-was-closed
+  when: 2025-06-03 14:30:21.000000000 Z
+  where: github
+  who: 526301
+- _id: 70
+  _time: 2025-06-10 09:23:43.933292054 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release 'octokit 10' has been published in zerocracy/fbe by @rultor.
+  event_id: 50461505114
+  event_type: ReleaseEvent
+  hoc: 2
+  is_human: 0
+  last_commit: 01e460b01e2592161dce9764bc5b4d57ffbbd753
+  release: 222796419
+  repository: 820463873
+  tag: 0.16.0
+  what: release-published
+  when: 2025-06-03 14:29:55.000000000 Z
+  where: github
+  who: 8086956
+- _id: 71
+  _time: 2025-06-10 09:23:44.364837822 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.16.0' has been created in zerocracy/fbe by @rultor.
+  event_id: 50461460079
+  event_type: CreateEvent
+  is_human: 0
+  repository: 820463873
+  tag: 0.16.0
+  what: tag-was-created
+  when: 2025-06-03 14:29:04.000000000 Z
+  where: github
+  who: 8086956
+- _id: 72
+  _time: 2025-06-10 09:23:44.388227741 Z
+  _version: 0.9.10/0.39.2/
+  commit: e39639dfe60b4ad4f1bc7cb4de26ae7733c71348
   default_branch: master
-  details: 'A new Git push #24787603957 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50681484858
+  details: 'A new Git push #24674996622 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50461238669
   event_type: PushEvent
   is_human: 1
-  push_id: 24787603957
+  push_id: 24674996622
   ref: refs/heads/master
-  repository: 799177290
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-06-09 15:16:11.000000000 Z
+  when: 2025-06-03 14:24:54.000000000 Z
   where: github
   who: 526301
 - _id: 73
-  _time: 2025-06-10 08:29:56.923202671 Z
+  _time: 2025-06-10 09:23:45.033497328 Z
   _version: 0.9.10/0.39.2/
-  commit: d2e173f439da695c71a48d1c31ff0032e32e0868
+  commit: 44c8a3ddf5498ce9a477dddf84fa0681de4230b0
   default_branch: master
-  details: 'A new Git push #24787566068 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50681405460
+  details: 'A new Git push #24674899634 has arrived to zerocracy/fbe, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50461034240
   event_type: PushEvent
   is_human: 1
-  push_id: 24787566068
+  push_id: 24674899634
   ref: refs/heads/master
-  repository: 799177290
+  repository: 820463873
   to_master: 1
   what: git-was-pushed
-  when: 2025-06-09 15:14:22.000000000 Z
+  when: 2025-06-03 14:20:55.000000000 Z
   where: github
   who: 526301
 - _id: 74
-  _time: 2025-06-10 08:29:57.335891950 Z
+  _time: 2025-06-10 09:23:45.316233033 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#701 has been opened by @yegor256.
-  event_id: 50676451187
+  details: The issue zerocracy/fbe#192 has been opened by @yegor256.
+  event_id: 50460932855
   event_type: IssuesEvent
   is_human: 1
-  issue: 701
-  repository: 799177290
+  issue: 192
+  repository: 820463873
   what: issue-was-opened
-  when: 2025-06-09 13:22:45.000000000 Z
+  when: 2025-06-03 14:19:00.000000000 Z
   where: github
   who: 526301
 - _id: 75
-  _time: 2025-06-10 08:29:57.352960111 Z
+  _time: 2025-06-10 09:23:45.342446777 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#700 has been opened by @yegor256.
-  event_id: 50676317814
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 700
-  repository: 799177290
-  what: issue-was-opened
-  when: 2025-06-09 13:19:42.000000000 Z
+  branch: renovate/crate-ci-typos-1.x
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/fbe#191 has been closed by @rultor, with 2 HoC
+    and 2 comments.
+  event_id: 50426513133
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 191
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-06-02 20:42:42.000000000 Z
   where: github
-  who: 526301
+  who: 8086956
 - _id: 76
-  _time: 2025-06-10 08:29:57.380831956 Z
+  _time: 2025-06-10 09:24:00.499162495 Z
   _version: 0.9.10/0.39.2/
-  commit: 77dea12804886a1c8ce2006ea06259bb95322b9d
-  default_branch: master
-  details: 'A new Git push #24780520892 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50666802280
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24780520892
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-09 09:04:49.000000000 Z
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request zerocracy/fbe#191 has been opened by @renovate[bot].
+  event_id: 50421977282
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 191
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-06-02 18:33:15.000000000 Z
   where: github
-  who: 526301
+  who: 29139614
 - _id: 77
-  _time: 2025-06-10 08:29:57.846718017 Z
+  _time: 2025-06-10 09:24:00.720788376 Z
   _version: 0.9.10/0.39.2/
-  branch: version-up
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#699 has been closed by @yegor256,
-    with 2 HoC and 1 comments.
-  event_id: 50666764406
-  event_type: PullRequestEvent
-  failed_builds: 0
+  commits: 1
+  contributors: 8086956
+  details: A new release '' has been published in zerocracy/fbe by @rultor.
+  event_id: 50367914125
+  event_type: ReleaseEvent
   hoc: 2
-  is_human: 1
-  issue: 699
-  repository: 799177290
-  succeeded_builds: 0
-  what: pull-was-merged
-  when: 2025-06-09 09:03:49.000000000 Z
+  is_human: 0
+  last_commit: 6c377d6956279baa21236a1099401e3ad0031cdd
+  release: 222256760
+  repository: 820463873
+  tag: 0.15.0
+  what: release-published
+  when: 2025-06-01 04:02:11.000000000 Z
   where: github
-  who: 526301
+  who: 8086956
 - _id: 78
-  _time: 2025-06-10 08:29:58.594170327 Z
+  _time: 2025-06-10 09:24:01.129998050 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#698 has been closed by @yegor256.
-  event_id: 50666759579
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 698
-  repository: 799177290
-  what: issue-was-closed
-  when: 2025-06-09 09:03:41.000000000 Z
+  details: A new tag '0.15.0' has been created in zerocracy/fbe by @rultor.
+  event_id: 50367899535
+  event_type: CreateEvent
+  is_human: 0
+  repository: 820463873
+  tag: 0.15.0
+  what: tag-was-created
+  when: 2025-06-01 04:01:05.000000000 Z
   where: github
-  who: 526301
+  who: 8086956
 - _id: 79
-  _time: 2025-06-10 08:29:58.691497380 Z
+  _time: 2025-06-10 09:24:01.148562764 Z
   _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/judges-action#699 has been opened by @github-actions[bot].
-  event_id: 50666699461
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 699
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-06-09 09:02:11.000000000 Z
+  details: The issue zerocracy/fbe#182 has been closed by @yegor256.
+  event_id: 50367814601
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 182
+  repository: 820463873
+  what: issue-was-closed
+  when: 2025-06-01 03:53:45.000000000 Z
   where: github
-  who: 41898282
+  who: 526301
 - _id: 80
-  _time: 2025-06-10 08:29:58.788468492 Z
+  _time: 2025-06-10 09:24:01.550434296 Z
   _version: 0.9.10/0.39.2/
-  commits: 1543
-  contributors:
-  - 526301
-  - 29139614
-  - 8086956
-  - 88084038
-  - 2566462
-  - 41898282
-  - 1646020
-  - 46713109
-  details: A new release 'Excessive caching of HTTP requests causing performance issues'
-    has been published in zerocracy/judges-action by @rultor.
-  event_id: 50666667060
-  event_type: ReleaseEvent
-  hoc: 10240
-  is_human: 0
-  last_commit: 8a0e2ddfc4eca2946fc778e746bca7c552149a49
-  release: 223978648
-  repository: 799177290
-  tag: 0.13.1
-  what: release-published
-  when: 2025-06-09 09:01:24.000000000 Z
+  branch: '659'
+  comments: 1
+  comments_appreciated: 1
+  comments_by_author: 1
+  comments_by_reviewers: 5
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/fbe#190 has been closed by @yegor256, with 58
+    HoC and 1 comments.
+  event_id: 50367809318
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 58
+  is_human: 1
+  issue: 190
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-06-01 03:53:18.000000000 Z
   where: github
-  who: 8086956
+  who: 526301
 - _id: 81
-  _time: 2025-06-10 08:30:20.086076143 Z
+  _time: 2025-06-10 09:24:10.169525926 Z
   _version: 0.9.10/0.39.2/
-  details: A new tag '0.13.1' has been created in zerocracy/judges-action by @rultor.
-  event_id: 50666589815
-  event_type: CreateEvent
-  is_human: 0
-  repository: 799177290
-  tag: 0.13.1
-  what: tag-was-created
-  when: 2025-06-09 08:59:32.000000000 Z
+  comments: 6
+  commits: 1
+  details: The pull request zerocracy/fbe#190 has been reviewed by @yegor256 with
+    58 HoC and 6 comments.
+  event_id: 50367808509
+  event_type: PullRequestReviewEvent
+  files: 2
+  hoc: 58
+  is_human: 1
+  issue: 190
+  repository: 820463873
+  review_comments: 0
+  what: pull-was-reviewed
+  when: 2025-06-01 03:53:12.000000000 Z
   where: github
-  who: 8086956
+  who: 526301
 - _id: 82
-  _time: 2025-06-10 08:30:20.188506924 Z
+  _time: 2025-06-10 09:24:10.827367914 Z
   _version: 0.9.10/0.39.2/
-  commit: 2af75011a0c1bf9a30f369438981c8e377c144a1
-  default_branch: master
-  details: 'A new Git push #24780018519 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50665741816
-  event_type: PushEvent
+  branch: '659'
+  details: The pull request zerocracy/fbe#190 has been opened by @Yegorov.
+  event_id: 50362266370
+  event_type: PullRequestEvent
   is_human: 1
-  push_id: 24780018519
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-09 08:36:40.000000000 Z
+  issue: 190
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-05-31 19:00:08.000000000 Z
   where: github
-  who: 526301
+  who: 2566462
 - _id: 83
-  _time: 2025-06-10 08:30:20.470971671 Z
+  _time: 2025-06-10 09:24:11.009983478 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#698 has been opened by @yegor256.
-  event_id: 50665694929
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 698
-  repository: 799177290
-  what: issue-was-opened
-  when: 2025-06-09 08:35:21.000000000 Z
+  branch: renovate/rubocop-minitest-0.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/fbe#189 has been closed by @rultor, with 2 HoC
+    and 2 comments.
+  event_id: 50358408370
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 189
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-05-31 13:54:37.000000000 Z
   where: github
-  who: 526301
+  who: 8086956
 - _id: 84
-  _time: 2025-06-10 08:30:20.521492643 Z
+  _time: 2025-06-10 09:24:26.441180783 Z
   _version: 0.9.10/0.39.2/
-  branch: version-up
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#697 has been closed by @github-actions[bot],
-    with 2 HoC and 1 comments.
-  event_id: 50644627756
+  branch: renovate/rubocop-minitest-0.x-lockfile
+  details: The pull request zerocracy/fbe#189 has been opened by @renovate[bot].
+  event_id: 50358150882
   event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
   is_human: 0
-  issue: 697
-  repository: 799177290
-  succeeded_builds: 0
-  what: pull-was-closed
-  when: 2025-06-08 11:16:13.000000000 Z
+  issue: 189
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-05-31 13:32:41.000000000 Z
   where: github
-  who: 41898282
+  who: 29139614
 - _id: 85
-  _time: 2025-06-10 08:30:21.344084921 Z
+  _time: 2025-06-10 09:24:26.461139516 Z
   _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/judges-action#697 has been opened by @github-actions[bot].
-  event_id: 50644624542
+  branch: renovate/rake-13.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/fbe#188 has been closed by @rultor, with 2 HoC
+    and 2 comments.
+  event_id: 50317181853
   event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
   is_human: 0
-  issue: 697
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-06-08 11:15:57.000000000 Z
+  issue: 188
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-05-30 07:41:54.000000000 Z
   where: github
-  who: 41898282
+  who: 8086956
 - _id: 86
-  _time: 2025-06-10 08:30:21.616811750 Z
+  _time: 2025-06-10 09:24:41.250419180 Z
   _version: 0.9.10/0.39.2/
-  branch: version-up
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#696 has been closed by @yegor256,
-    with 2 HoC and 1 comments.
-  event_id: 50644597220
+  branch: renovate/rake-13.x-lockfile
+  details: The pull request zerocracy/fbe#188 has been opened by @renovate[bot].
+  event_id: 50316740604
   event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 1
-  issue: 696
-  repository: 799177290
-  succeeded_builds: 0
-  what: pull-was-merged
-  when: 2025-06-08 11:13:39.000000000 Z
+  is_human: 0
+  issue: 188
+  repository: 820463873
+  what: pull-was-opened
+  when: 2025-05-30 07:28:54.000000000 Z
   where: github
-  who: 526301
+  who: 29139614
 - _id: 87
-  _time: 2025-06-10 08:30:22.383863361 Z
+  _time: 2025-06-10 09:24:41.455860067 Z
   _version: 0.9.10/0.39.2/
-  commit: e40f1cac88418231ee576b0342ea15e36d611108
-  default_branch: master
-  details: 'A new Git push #24767899233 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50644592953
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24767899233
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-08 11:13:18.000000000 Z
+  branch: renovate/yegor256-copyrights-action-0.x
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/fbe#187 has been closed by @rultor, with 2 HoC
+    and 2 comments.
+  event_id: 50298790194
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 187
+  repository: 820463873
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-05-29 18:57:00.000000000 Z
   where: github
-  who: 526301
+  who: 8086956
 - _id: 88
-  _time: 2025-06-10 08:30:22.582767587 Z
+  _time: 2025-06-10 09:24:56.494546220 Z
   _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/judges-action#696 has been opened by @github-actions[bot].
-  event_id: 50644579226
+  branch: renovate/yegor256-copyrights-action-0.x
+  details: The pull request zerocracy/fbe#187 has been opened by @renovate[bot].
+  event_id: 50296367120
   event_type: PullRequestEvent
   is_human: 0
-  issue: 696
-  repository: 799177290
+  issue: 187
+  repository: 820463873
   what: pull-was-opened
-  when: 2025-06-08 11:12:16.000000000 Z
+  when: 2025-05-29 17:49:00.000000000 Z
   where: github
-  who: 41898282
+  who: 29139614
 - _id: 89
-  _time: 2025-06-10 08:30:22.596182584 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#695 has been closed by @yegor256.
-  event_id: 50644578086
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 695
-  repository: 799177290
-  what: issue-was-closed
-  when: 2025-06-08 11:12:10.000000000 Z
-  where: github
-  who: 526301
-- _id: 90
-  _time: 2025-06-10 08:30:22.624233416 Z
-  _version: 0.9.10/0.39.2/
-  commits: 1
-  contributors: 8086956
-  details: A new release 'HTTP cache not retaining durable objects' has been published
-    in zerocracy/judges-action by @rultor.
-  event_id: 50644564734
-  event_type: ReleaseEvent
-  hoc: 6
-  is_human: 0
-  last_commit: d80572405be446d7490c5843d8dc0a178daff5b3
-  release: 223851165
-  repository: 799177290
-  tag: 0.13.0
-  what: release-published
-  when: 2025-06-08 11:11:02.000000000 Z
-  where: github
-  who: 8086956
-- _id: 91
-  _time: 2025-06-10 08:30:22.936820481 Z
-  _version: 0.9.10/0.39.2/
-  details: A new tag '0.13.0' has been created in zerocracy/judges-action by @rultor.
-  event_id: 50644546880
-  event_type: CreateEvent
-  is_human: 0
-  repository: 799177290
-  tag: 0.13.0
-  what: tag-was-created
-  when: 2025-06-08 11:09:33.000000000 Z
-  where: github
-  who: 8086956
-- _id: 92
-  _time: 2025-06-10 08:30:22.961806735 Z
-  _version: 0.9.10/0.39.2/
-  commit: b1af9282be12be9f0c2d5b8341b9c41dbc8b5025
-  default_branch: master
-  details: 'A new Git push #24767746468 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50644353059
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24767746468
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-08 10:53:08.000000000 Z
-  where: github
-  who: 526301
-- _id: 93
-  _time: 2025-06-10 08:30:23.116017221 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#695 has been opened by @yegor256.
-  event_id: 50644344437
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 695
-  repository: 799177290
-  what: issue-was-opened
-  when: 2025-06-08 10:52:20.000000000 Z
-  where: github
-  who: 526301
-- _id: 94
-  _time: 2025-06-10 08:30:23.433997682 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/zerocracy-judges-action-0.x
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#693 has been closed by @yegor256,
-    with 2 HoC and 1 comments.
-  event_id: 50643555955
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 1
-  issue: 693
-  repository: 799177290
-  succeeded_builds: 13
-  what: pull-was-merged
-  when: 2025-06-08 09:47:15.000000000 Z
-  where: github
-  who: 526301
-- _id: 95
-  _time: 2025-06-10 08:30:29.602250942 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#694 has been closed by @yegor256,
-    with 2 HoC and 1 comments.
-  event_id: 50643553459
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 1
-  issue: 694
-  repository: 799177290
-  succeeded_builds: 0
-  what: pull-was-merged
-  when: 2025-06-08 09:47:04.000000000 Z
-  where: github
-  who: 526301
-- _id: 96
-  _time: 2025-06-10 08:30:30.485338836 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#692 has been closed by @yegor256.
-  event_id: 50643550890
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 692
-  repository: 799177290
-  what: issue-was-closed
-  when: 2025-06-08 09:46:53.000000000 Z
-  where: github
-  who: 526301
-- _id: 97
-  _time: 2025-06-10 08:30:30.527172478 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/judges-action#694 has been opened by @github-actions[bot].
-  event_id: 50643295448
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 694
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-06-08 09:25:06.000000000 Z
-  where: github
-  who: 41898282
-- _id: 98
-  _time: 2025-06-10 08:30:30.557371539 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/zerocracy-judges-action-0.x
-  details: The pull request zerocracy/judges-action#693 has been opened by @renovate[bot].
-  event_id: 50643285144
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 693
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-06-08 09:24:12.000000000 Z
-  where: github
-  who: 29139614
-- _id: 99
-  _time: 2025-06-10 08:30:30.668081406 Z
-  _version: 0.9.10/0.39.2/
-  commits: 1
-  contributors: 8086956
-  details: A new release ''fail-fast' condition isn't correctly validated' has been
-    published in zerocracy/judges-action by @rultor.
-  event_id: 50643278454
-  event_type: ReleaseEvent
-  hoc: 6
-  is_human: 0
-  last_commit: ed13321628e0b20827ced9b871df7b4c69a4d3a3
-  release: 223847190
-  repository: 799177290
-  tag: 0.12.1
-  what: release-published
-  when: 2025-06-08 09:23:37.000000000 Z
-  where: github
-  who: 8086956
-- _id: 100
-  _time: 2025-06-10 08:30:31.087400444 Z
-  _version: 0.9.10/0.39.2/
-  details: A new tag '0.12.1' has been created in zerocracy/judges-action by @rultor.
-  event_id: 50643265639
-  event_type: CreateEvent
-  is_human: 0
-  repository: 799177290
-  tag: 0.12.1
-  what: tag-was-created
-  when: 2025-06-08 09:22:30.000000000 Z
-  where: github
-  who: 8086956
-- _id: 101
-  _time: 2025-06-10 08:30:31.119018202 Z
-  _version: 0.9.10/0.39.2/
-  commit: b269cc861e53abfcd55ac9c8fbc1babefc551011
-  default_branch: master
-  details: 'A new Git push #24766906978 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50643053907
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24766906978
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-08 09:04:29.000000000 Z
-  where: github
-  who: 526301
-- _id: 102
-  _time: 2025-06-10 08:30:31.285311321 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#692 has been opened by @yegor256.
-  event_id: 50643024821
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 692
-  repository: 799177290
-  what: issue-was-opened
-  when: 2025-06-08 09:01:57.000000000 Z
-  where: github
-  who: 526301
-- _id: 103
-  _time: 2025-06-10 08:30:31.569286460 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/zerocracy-judges-action-0.x
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#690 has been closed by @yegor256,
-    with 2 HoC and 1 comments.
-  event_id: 50641023506
-  event_type: PullRequestEvent
-  failed_builds: 1
-  hoc: 2
-  is_human: 1
-  issue: 690
-  repository: 799177290
-  succeeded_builds: 12
-  what: pull-was-merged
-  when: 2025-06-08 05:55:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 104
-  _time: 2025-06-10 08:30:38.166620386 Z
-  _version: 0.9.10/0.39.2/
-  commit: 59be09c8a4c83debb90a464180fbd62ce2f973dc
-  default_branch: master
-  details: 'A new Git push #24765618000 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50641019423
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24765618000
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-08 05:55:08.000000000 Z
-  where: github
-  who: 526301
-- _id: 105
-  _time: 2025-06-10 08:30:38.615692119 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/zerocracy-pages-action-0.x
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#691 has been closed by @yegor256,
-    with 2 HoC and 1 comments.
-  event_id: 50640829653
-  event_type: PullRequestEvent
-  failed_builds: 2
-  hoc: 2
-  is_human: 1
-  issue: 691
-  repository: 799177290
-  succeeded_builds: 11
-  what: pull-was-merged
-  when: 2025-06-08 05:34:05.000000000 Z
-  where: github
-  who: 526301
-- _id: 106
-  _time: 2025-06-10 08:30:44.890716008 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/zerocracy-pages-action-0.x
-  details: The pull request zerocracy/judges-action#691 has been opened by @renovate[bot].
-  event_id: 50640798351
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 691
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-06-08 05:31:00.000000000 Z
-  where: github
-  who: 29139614
-- _id: 107
-  _time: 2025-06-10 08:30:44.907273043 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/zerocracy-judges-action-0.x
-  details: The pull request zerocracy/judges-action#690 has been opened by @renovate[bot].
-  event_id: 50640797206
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 690
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-06-08 05:30:57.000000000 Z
-  where: github
-  who: 29139614
-- _id: 108
-  _time: 2025-06-10 08:30:44.924448711 Z
-  _version: 0.9.10/0.39.2/
-  commit: af266961fb32c6bbdbe9e7fa225cfda340c2428c
-  default_branch: master
-  details: 'A new Git push #24765465651 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50640788619
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24765465651
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-08 05:30:13.000000000 Z
-  where: github
-  who: 526301
-- _id: 109
-  _time: 2025-06-10 08:30:45.491744992 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#687 has been closed by @yegor256,
-    with 4 HoC and 1 comments.
-  event_id: 50640741940
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 1
-  issue: 687
-  repository: 799177290
-  succeeded_builds: 0
-  what: pull-was-merged
-  when: 2025-06-08 05:25:58.000000000 Z
-  where: github
-  who: 526301
-- _id: 110
-  _time: 2025-06-10 08:30:46.241565807 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#688 has been closed by @yegor256.
-  event_id: 50640740345
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 688
-  repository: 799177290
-  what: issue-was-closed
-  when: 2025-06-08 05:25:48.000000000 Z
-  where: github
-  who: 526301
-- _id: 111
-  _time: 2025-06-10 08:30:46.276266155 Z
-  _version: 0.9.10/0.39.2/
-  commits: 1
-  contributors: 8086956
-  details: A new release 'sqlite_cache not working properly with new Fbe implementation'
-    has been published in zerocracy/judges-action by @rultor.
-  event_id: 50640670214
-  event_type: ReleaseEvent
-  hoc: 6
-  is_human: 0
-  last_commit: 6803e8ce55951cc40eaeb0a510b07b8788e68574
-  release: 223838648
-  repository: 799177290
-  tag: 0.12.0
-  what: release-published
-  when: 2025-06-08 05:18:28.000000000 Z
-  where: github
-  who: 8086956
-- _id: 112
-  _time: 2025-06-10 08:30:46.609007404 Z
-  _version: 0.9.10/0.39.2/
-  details: A new tag '0.12.0' has been created in zerocracy/judges-action by @rultor.
-  event_id: 50640655620
-  event_type: CreateEvent
-  is_human: 0
-  repository: 799177290
-  tag: 0.12.0
-  what: tag-was-created
-  when: 2025-06-08 05:16:53.000000000 Z
-  where: github
-  who: 8086956
-- _id: 113
-  _time: 2025-06-10 08:30:46.657800510 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#689 has been closed by @renovate[bot],
-    with 30 HoC and 1 comments.
-  event_id: 50640489845
-  event_type: PullRequestEvent
-  failed_builds: 2
-  hoc: 30
-  is_human: 0
-  issue: 689
-  repository: 799177290
-  succeeded_builds: 11
-  what: pull-was-closed
-  when: 2025-06-08 04:59:11.000000000 Z
-  where: github
-  who: 29139614
-- _id: 114
-  _time: 2025-06-10 08:30:52.839260611 Z
-  _version: 0.9.10/0.39.2/
-  commit: a14f95120187332bf59c76178ad57d220e2227b9
-  default_branch: master
-  details: 'A new Git push #24765262578 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 50640484815
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24765262578
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-08 04:58:33.000000000 Z
-  where: github
-  who: 526301
-- _id: 115
-  _time: 2025-06-10 08:30:53.314054457 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/judges-action#689 has been opened by @renovate[bot].
-  event_id: 50626013089
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 689
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-06-07 07:14:53.000000000 Z
-  where: github
-  who: 29139614
-- _id: 116
-  _time: 2025-06-10 08:30:53.349575578 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/judges-action#688 has been opened by @yegor256.
-  event_id: 50624616580
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 688
-  repository: 799177290
-  what: issue-was-opened
-  when: 2025-06-07 05:08:53.000000000 Z
-  where: github
-  who: 526301
-- _id: 117
-  _time: 2025-06-10 08:30:53.490002902 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/judges-action#687 has been opened by @github-actions[bot].
-  event_id: 50617128522
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 687
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-06-06 20:44:01.000000000 Z
-  where: github
-  who: 41898282
-- _id: 118
-  _time: 2025-06-10 08:31:05.637067706 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 119
-  _time: 2025-06-10 08:31:05.917482861 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#688.
-  issue: 688
-  label: bug
-  repository: 799177290
-  what: label-was-attached
-  when: 2025-06-07 05:08:52.000000000 Z
-  where: github
-  who: 526301
-- _id: 121
-  _time: 2025-06-10 08:31:06.134773245 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 122
-  _time: 2025-06-10 08:31:06.501261344 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/baza.rb#69.
-  issue: 69
-  label: bug
-  repository: 840215648
-  what: label-was-attached
-  when: 2025-05-27 15:59:56.000000000 Z
-  where: github
-  who: 526301
-- _id: 124
-  _time: 2025-06-10 08:31:06.658846301 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 125
-  _time: 2025-06-10 08:31:06.662776843 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 126
-  _time: 2025-06-10 08:31:06.666944447 Z
+  _time: 2025-06-10 09:25:05.048888021 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 127
-  _time: 2025-06-10 08:31:06.671048572 Z
+- _id: 90
+  _time: 2025-06-10 09:25:05.053289816 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 91
+  _time: 2025-06-10 09:25:05.057572079 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 92
+  _time: 2025-06-10 09:25:05.061629041 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 93
+  _time: 2025-06-10 09:25:05.066051505 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 94
+  _time: 2025-06-10 09:25:05.070318759 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 95
+  _time: 2025-06-10 09:25:05.074657447 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 96
+  _time: 2025-06-10 09:25:05.436418374 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#192.
+  issue: 192
+  label: enhancement
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-03 14:18:59.000000000 Z
+  where: github
+  who: 526301
+- _id: 97
+  _time: 2025-06-10 09:25:05.880361609 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#195.
+  issue: 195
+  label: bug
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-05 09:32:51.000000000 Z
+  where: github
+  who: 526301
+- _id: 98
+  _time: 2025-06-10 09:25:06.413957730 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#197.
+  issue: 197
+  label: enhancement
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-05 18:56:04.000000000 Z
+  where: github
+  who: 526301
+- _id: 99
+  _time: 2025-06-10 09:25:06.809828383 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#199.
+  issue: 199
+  label: bug
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-07 05:25:53.000000000 Z
+  where: github
+  who: 526301
+- _id: 100
+  _time: 2025-06-10 09:25:07.160009760 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#200.
+  issue: 200
+  label: bug
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-07 06:49:46.000000000 Z
+  where: github
+  who: 526301
+- _id: 101
+  _time: 2025-06-10 09:25:07.487903034 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#201.
+  issue: 201
+  label: bug
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-07 07:27:39.000000000 Z
+  where: github
+  who: 526301
+- _id: 102
+  _time: 2025-06-10 09:25:07.902578479 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#202.
+  issue: 202
+  label: bug
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-07 13:47:17.000000000 Z
+  where: github
+  who: 526301
+- _id: 103
+  _time: 2025-06-10 09:25:08.232956075 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#204.
+  issue: 204
+  label: enhancement
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-09 08:20:41.000000000 Z
+  where: github
+  who: 526301
+- _id: 104
+  _time: 2025-06-10 09:25:08.728634694 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#205.
+  issue: 205
+  label: bug
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-09 13:05:03.000000000 Z
+  where: github
+  who: 526301
+- _id: 105
+  _time: 2025-06-10 09:25:09.044509438 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#206.
+  issue: 206
+  label: bug
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-09 13:13:59.000000000 Z
+  where: github
+  who: 526301
+- _id: 106
+  _time: 2025-06-10 09:25:09.049855556 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/fbe#206.
+  issue: 206
+  label: enhancement
+  repository: 820463873
+  what: label-was-attached
+  when: 2025-06-09 13:13:59.000000000 Z
+  where: github
+  who: 526301
+- _id: 107
+  _time: 2025-06-10 09:25:09.062939666 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 128
-  _time: 2025-06-10 08:31:06.903058775 Z
+- _id: 108
+  _time: 2025-06-10 09:26:17.863228502 Z
   _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#692.
-  issue: 692
-  label: bug
-  repository: 799177290
-  what: label-was-attached
-  when: 2025-06-08 09:01:57.000000000 Z
-  where: github
-  who: 526301
-- _id: 130
-  _time: 2025-06-10 08:31:07.264547550 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/baza.rb#75.
-  issue: 75
-  label: bug
-  repository: 840215648
-  what: label-was-attached
-  when: 2025-06-02 17:09:52.000000000 Z
-  where: github
-  who: 526301
-- _id: 132
-  _time: 2025-06-10 08:31:07.528552594 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/judges-action#695.
-  issue: 695
-  label: enhancement
-  repository: 799177290
-  what: label-was-attached
-  when: 2025-06-08 10:52:20.000000000 Z
-  where: github
-  who: 526301
-- _id: 134
-  _time: 2025-06-10 08:31:07.801603274 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/baza.rb#77.
-  issue: 77
-  label: bug
-  repository: 840215648
-  what: label-was-attached
-  when: 2025-06-08 09:51:01.000000000 Z
-  where: github
-  who: 526301
-- _id: 136
-  _time: 2025-06-10 08:31:08.085234810 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#698.
-  issue: 698
-  label: bug
-  repository: 799177290
-  what: label-was-attached
-  when: 2025-06-09 08:35:21.000000000 Z
-  where: github
-  who: 526301
-- _id: 138
-  _time: 2025-06-10 08:31:08.407598913 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/baza.rb#78.
-  issue: 78
-  label: enhancement
-  repository: 840215648
-  what: label-was-attached
-  when: 2025-06-09 17:16:49.000000000 Z
-  where: github
-  who: 526301
-- _id: 140
-  _time: 2025-06-10 08:31:08.633355268 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#700.
-  issue: 700
-  label: bug
-  repository: 799177290
-  what: label-was-attached
-  when: 2025-06-09 13:19:41.000000000 Z
-  where: github
-  who: 526301
-- _id: 142
-  _time: 2025-06-10 08:31:08.650811138 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 143
-  _time: 2025-06-10 08:31:08.830997634 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#701.
-  issue: 701
-  label: bug
-  repository: 799177290
-  what: label-was-attached
-  when: 2025-06-09 13:22:45.000000000 Z
-  where: github
-  who: 526301
-- _id: 144
-  _time: 2025-06-10 08:31:08.843297958 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 145
-  _time: 2025-06-10 08:32:03.089242019 Z
-  _version: 0.9.10/0.39.2/
-  average_review_size: 0.40789473684210525
-  average_review_time: 30420.5
-  average_reviewers_per_pull: 0.125
-  average_reviews_per_pull: 0.39473684210526316
-  average_triage_time: 1.3
-  since: 2025-05-13 08:31:08.846235248 Z
+  average_pull_files_size: 1.881578947368421
+  average_pull_hoc_size: 42.7171052631579
+  since: 2025-05-13 09:25:09.065797540 Z
   what: quality-of-service
-  when: 2025-06-10 08:31:08.846209790 Z
-- _id: 146
-  _time: 2025-06-10 08:32:04.853999247 Z
+  when: 2025-06-10 09:25:09.065768987 Z
+- _id: 109
+  _time: 2025-06-10 09:28:47.889857259 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-05-13 08:32:03.092728912 Z
-  total_issues_created: 33
-  total_pulls_submitted: 11
+  since: 2025-05-13 09:26:17.866375536 Z
+  total_commits_pushed: 452
+  total_hoc_committed: 22186
   what: quantity-of-deliverables
-  when: 2025-06-10 08:32:03.092702663 Z
+  when: 2025-06-10 09:26:17.866350088 Z
