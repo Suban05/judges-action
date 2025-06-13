@@ -2,14 +2,16 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  error:
+  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 396.563359518
+  seconds: 439.23359313
   version: 0.39.2
   what: judges-summary
-  when: 2025-06-13 07:25:47.626944171 Z
+  when: 2025-06-13 08:34:16.996232429 Z
 - _id: 1
-  _time: 2025-06-13 07:19:30.632384391 Z
+  _time: 2025-06-13 08:27:18.041233748 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 6
   total_commits: 4557
@@ -22,65 +24,841 @@
   total_repositories: 8
   total_stars: 47
   what: dimensions-of-terrain
-  when: 2025-06-13 07:19:11.391673812 Z
+  when: 2025-06-13 08:26:58.102491917 Z
 - _id: 2
-  _time: 2025-06-13 07:19:30.662069771 Z
+  _time: 2025-06-13 08:27:18.074457122 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-06-13 07:19:30.664944813 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-06-13 07:19:30.667778197 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-06-13 07:19:30.670803771 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-06-13 07:19:30.673983804 Z
+  _time: 2025-06-13 08:27:18.076988173 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
-- _id: 7
-  _time: 2025-06-13 07:19:30.676643022 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-06-13 07:19:30.679762411 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2025-06-13 07:19:30.682406381 Z
+- _id: 4
+  _time: 2025-06-13 08:27:18.079351274 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
+- _id: 5
+  _time: 2025-06-13 08:27:18.081928490 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2025-06-13 08:27:18.084463046 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2025-06-13 08:27:18.087032468 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-06-13 08:27:18.089451422 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2025-06-13 08:27:18.092098946 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
 - _id: 10
-  _time: 2025-06-13 07:19:32.034127100 Z
+  _time: 2025-06-13 08:27:18.513363311 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#12 has been closed by @yegor256.
+  event_id: 50739386667
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 12
+  repository: 798641472
+  what: issue-was-closed
+  when: 2025-06-10 18:39:11.000000000 Z
+  where: github
+  who: 526301
+- _id: 11
+  _time: 2025-06-13 08:27:18.640768387 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#105 has been closed by @yegor256.
+  event_id: 50739382380
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 105
+  repository: 798641472
+  what: issue-was-closed
+  when: 2025-06-10 18:39:03.000000000 Z
+  where: github
+  who: 526301
+- _id: 12
+  _time: 2025-06-13 08:27:18.648036920 Z
+  _version: 0.9.10/0.39.2/
+  branch: copilot/fix-117
+  details: The pull request yegor256/factbase#237 has been opened by @Copilot.
+  event_id: 50739367377
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 237
+  repository: 798641472
+  what: pull-was-opened
+  when: 2025-06-10 18:38:37.000000000 Z
+  where: github
+  who: 198982749
+- _id: 13
+  _time: 2025-06-13 08:27:18.762800630 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#235 has been closed by @yegor256.
+  event_id: 50449710259
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 235
+  repository: 798641472
+  what: issue-was-closed
+  when: 2025-06-03 10:17:33.000000000 Z
+  where: github
+  who: 526301
+- _id: 14
+  _time: 2025-06-13 08:27:18.890421589 Z
+  _version: 0.9.10/0.39.2/
+  commits: 851
+  contributors:
+  - 526301
+  - 29139614
+  - 88084038
+  - 8086956
+  - 69600066
+  - 2566462
+  - 118360545
+  - 41898282
+  details: A new release '`FactAsYaml` is missing' has been published in yegor256/factbase
+    by @rultor.
+  event_id: 50449548091
+  event_type: ReleaseEvent
+  hoc: 8222
+  is_human: 0
+  last_commit: 95003e8c7d6de6306f2ab96ddae4483b4d9c7b33
+  release: 222691681
+  repository: 798641472
+  tag: 0.11.0
+  what: release-published
+  when: 2025-06-03 10:13:52.000000000 Z
+  where: github
+  who: 8086956
+- _id: 15
+  _time: 2025-06-13 08:27:29.741278412 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.11.0' has been created in yegor256/factbase by @rultor.
+  event_id: 50449498612
+  event_type: CreateEvent
+  is_human: 0
+  repository: 798641472
+  tag: 0.11.0
+  what: tag-was-created
+  when: 2025-06-03 10:12:45.000000000 Z
+  where: github
+  who: 8086956
+- _id: 16
+  _time: 2025-06-13 08:27:29.760360475 Z
+  _version: 0.9.10/0.39.2/
+  commit: 7080a7e840a7edc2bde28b3c6d6f029f362f55f8
+  default_branch: master
+  details: 'A new Git push #24669129448 has arrived to yegor256/factbase, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 50449032331
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24669129448
+  ref: refs/heads/master
+  repository: 798641472
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-03 10:02:14.000000000 Z
+  where: github
+  who: 526301
+- _id: 17
+  _time: 2025-06-13 08:27:29.917801826 Z
+  _version: 0.9.10/0.39.2/
+  branch: benchmark-results
+  details: The pull request yegor256/factbase#236 has been opened by @github-actions[bot].
+  event_id: 50448723398
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 236
+  repository: 798641472
+  what: pull-was-opened
+  when: 2025-06-03 09:55:43.000000000 Z
+  where: github
+  who: 41898282
+- _id: 18
+  _time: 2025-06-13 08:27:30.242176867 Z
+  _version: 0.9.10/0.39.2/
+  branch: benchmark-results
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/factbase#222 has been closed by @yegor256, with
+    50 HoC and 0 comments.
+  event_id: 50448704405
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 50
+  is_human: 1
+  issue: 222
+  repository: 798641472
+  succeeded_builds: 0
+  what: pull-was-merged
+  when: 2025-06-03 09:55:20.000000000 Z
+  where: github
+  who: 526301
+- _id: 19
+  _time: 2025-06-13 08:27:31.046577952 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/yegor256-copyrights-action-0.x
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/factbase#231 has been closed by @yegor256, with
+    2 HoC and 0 comments.
+  event_id: 50448692959
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 2
+  is_human: 1
+  issue: 231
+  repository: 798641472
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-06-03 09:55:04.000000000 Z
+  where: github
+  who: 526301
+- _id: 20
+  _time: 2025-06-13 08:27:35.775313866 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/factbase#234 has been closed by @yegor256, with
+    2 HoC and 0 comments.
+  event_id: 50448687781
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 2
+  is_human: 1
+  issue: 234
+  repository: 798641472
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-06-03 09:54:57.000000000 Z
+  where: github
+  who: 526301
+- _id: 21
+  _time: 2025-06-13 08:27:40.091716895 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-minitest-0.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/factbase#233 has been closed by @renovate[bot],
+    with 6 HoC and 0 comments.
+  event_id: 50448667395
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 6
+  is_human: 0
+  issue: 233
+  repository: 798641472
+  succeeded_builds: 10
+  what: pull-was-closed
+  when: 2025-06-03 09:54:31.000000000 Z
+  where: github
+  who: 29139614
+- _id: 22
+  _time: 2025-06-13 08:27:44.885367057 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/factbase#228 has been closed by @renovate[bot],
+    with 4 HoC and 0 comments.
+  event_id: 50448666546
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 4
+  is_human: 0
+  issue: 228
+  repository: 798641472
+  succeeded_builds: 10
+  what: pull-was-closed
+  when: 2025-06-03 09:54:30.000000000 Z
+  where: github
+  who: 29139614
+- _id: 23
+  _time: 2025-06-13 08:27:50.077358050 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rdoc-6.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/factbase#230 has been closed by @renovate[bot],
+    with 4 HoC and 0 comments.
+  event_id: 50448665633
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 4
+  is_human: 0
+  issue: 230
+  repository: 798641472
+  succeeded_builds: 10
+  what: pull-was-closed
+  when: 2025-06-03 09:54:28.000000000 Z
+  where: github
+  who: 29139614
+- _id: 24
+  _time: 2025-06-13 08:27:55.441712240 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rake-13.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/factbase#232 has been closed by @renovate[bot],
+    with 2 HoC and 0 comments.
+  event_id: 50448664562
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 2
+  is_human: 0
+  issue: 232
+  repository: 798641472
+  succeeded_builds: 10
+  what: pull-was-closed
+  when: 2025-06-03 09:54:27.000000000 Z
+  where: github
+  who: 29139614
+- _id: 25
+  _time: 2025-06-13 08:27:59.736686019 Z
+  _version: 0.9.10/0.39.2/
+  commit: 278bfda5bb51bd4197ce7199f18a75688f44d22f
+  default_branch: master
+  details: 'A new Git push #24668934107 has arrived to yegor256/factbase, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 50448632931
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24668934107
+  ref: refs/heads/master
+  repository: 798641472
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-03 09:53:47.000000000 Z
+  where: github
+  who: 526301
+- _id: 26
+  _time: 2025-06-13 08:27:59.864728096 Z
+  _version: 0.9.10/0.39.2/
+  commit: bcd872bac21eaa8f27b62cbdef2993a24ec1e3cc
+  default_branch: master
+  details: 'A new Git push #24668820233 has arrived to yegor256/factbase, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 50448388970
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24668820233
+  ref: refs/heads/master
+  repository: 798641472
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-03 09:48:34.000000000 Z
+  where: github
+  who: 526301
+- _id: 27
+  _time: 2025-06-13 08:27:59.992148105 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#235 has been opened by @yegor256.
+  event_id: 50447951153
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 235
+  repository: 798641472
+  what: issue-was-opened
+  when: 2025-06-03 09:39:47.000000000 Z
+  where: github
+  who: 526301
+- _id: 28
+  _time: 2025-06-13 08:28:00.067963883 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#217 has been closed by @yegor256.
+  event_id: 50447907585
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 217
+  repository: 798641472
+  what: issue-was-closed
+  when: 2025-06-03 09:39:11.000000000 Z
+  where: github
+  who: 526301
+- _id: 29
+  _time: 2025-06-13 08:28:00.091583158 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request yegor256/factbase#234 has been opened by @renovate[bot].
+  event_id: 50431229408
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 234
+  repository: 798641472
+  what: pull-was-opened
+  when: 2025-06-02 23:48:06.000000000 Z
+  where: github
+  who: 29139614
+- _id: 30
+  _time: 2025-06-13 08:28:00.112241173 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-minitest-0.x-lockfile
+  details: The pull request yegor256/factbase#233 has been opened by @renovate[bot].
+  event_id: 50359648910
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 233
+  repository: 798641472
+  what: pull-was-opened
+  when: 2025-05-31 15:30:41.000000000 Z
+  where: github
+  who: 29139614
+- _id: 31
+  _time: 2025-06-13 08:28:00.131807294 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rake-13.x-lockfile
+  details: The pull request yegor256/factbase#232 has been opened by @renovate[bot].
+  event_id: 50328119021
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 232
+  repository: 798641472
+  what: pull-was-opened
+  when: 2025-05-30 12:45:39.000000000 Z
+  where: github
+  who: 29139614
+- _id: 32
+  _time: 2025-06-13 08:28:00.178258352 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/yegor256-copyrights-action-0.x
+  details: The pull request yegor256/factbase#231 has been opened by @renovate[bot].
+  event_id: 50142857530
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 231
+  repository: 798641472
+  what: pull-was-opened
+  when: 2025-05-26 11:16:23.000000000 Z
+  where: github
+  who: 29139614
+- _id: 33
+  _time: 2025-06-13 08:28:00.209137775 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rdoc-6.x-lockfile
+  details: The pull request yegor256/factbase#230 has been opened by @renovate[bot].
+  event_id: 49901523906
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 230
+  repository: 798641472
+  what: pull-was-opened
+  when: 2025-05-19 22:08:13.000000000 Z
+  where: github
+  who: 29139614
+- _id: 34
+  _time: 2025-06-13 08:28:00.228265127 Z
+  _version: 0.9.10/0.39.2/
+  commit: c406fdbd24bbea55a8396c81589f874347d1debb
+  default_branch: master
+  details: 'A new Git push #24376048055 has arrived to yegor256/factbase, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 49872007580
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24376048055
+  ref: refs/heads/master
+  repository: 798641472
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-19 09:34:37.000000000 Z
+  where: github
+  who: 526301
+- _id: 35
+  _time: 2025-06-13 08:28:00.362629693 Z
+  _version: 0.9.10/0.39.2/
+  commit: b618be6b9059088381e5be8153af9a5dace95bdd
+  default_branch: master
+  details: 'A new Git push #24336053155 has arrived to yegor256/factbase, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 49801184506
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24336053155
+  ref: refs/heads/master
+  repository: 798641472
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-16 11:00:12.000000000 Z
+  where: github
+  who: 526301
+- _id: 36
+  _time: 2025-06-13 08:28:00.520949904 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#229 has been closed by @yegor256.
+  event_id: 49773023014
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 229
+  repository: 798641472
+  what: issue-was-closed
+  when: 2025-05-15 17:46:34.000000000 Z
+  where: github
+  who: 526301
+- _id: 37
+  _time: 2025-06-13 08:28:00.535035548 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/factbase#228 has been closed by @renovate[bot],
+    with 2 HoC and 0 comments.
+  event_id: 49773010196
+  event_type: PullRequestEvent
+  failed_builds: 8
+  hoc: 2
+  is_human: 0
+  issue: 228
+  repository: 798641472
+  succeeded_builds: 14
+  what: pull-was-closed
+  when: 2025-05-15 17:46:12.000000000 Z
+  where: github
+  who: 29139614
+- _id: 38
+  _time: 2025-06-13 08:28:08.639431286 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release '`Fact` doesn't print itself nicely' has been published in
+    yegor256/factbase by @rultor.
+  event_id: 49772965624
+  event_type: ReleaseEvent
+  hoc: 2
+  is_human: 0
+  last_commit: 35a30a8f1b7e23c947bd4c5e7bc0c5751e05f01e
+  release: 218917644
+  repository: 798641472
+  tag: 0.10.2
+  what: release-published
+  when: 2025-05-15 17:44:56.000000000 Z
+  where: github
+  who: 8086956
+- _id: 39
+  _time: 2025-06-13 08:28:09.159241736 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.10.2' has been created in yegor256/factbase by @rultor.
+  event_id: 49772923414
+  event_type: CreateEvent
+  is_human: 0
+  repository: 798641472
+  tag: 0.10.2
+  what: tag-was-created
+  when: 2025-05-15 17:43:42.000000000 Z
+  where: github
+  who: 8086956
+- _id: 40
+  _time: 2025-06-13 08:28:09.188661729 Z
+  _version: 0.9.10/0.39.2/
+  commit: 4382bedc6aa5a26a1fb62df20c6dd2a2f610867a
+  default_branch: master
+  details: 'A new Git push #24321746689 has arrived to yegor256/factbase, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 49772646604
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24321746689
+  ref: refs/heads/master
+  repository: 798641472
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-15 17:35:59.000000000 Z
+  where: github
+  who: 526301
+- _id: 41
+  _time: 2025-06-13 08:28:09.390561896 Z
+  _version: 0.9.10/0.39.2/
+  commit: 939e489c416d76521b63072deb7e09abffbfc9fa
+  default_branch: master
+  details: 'A new Git push #24321705848 has arrived to yegor256/factbase, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 49772564704
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24321705848
+  ref: refs/heads/master
+  repository: 798641472
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-15 17:33:51.000000000 Z
+  where: github
+  who: 526301
+- _id: 42
+  _time: 2025-06-13 08:28:09.582531800 Z
+  _version: 0.9.10/0.39.2/
+  commit: e8530247b0528c39dd8d91fc678cd893d801b3fd
+  default_branch: master
+  details: 'A new Git push #24321611776 has arrived to yegor256/factbase, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 49772373586
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24321611776
+  ref: refs/heads/master
+  repository: 798641472
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-15 17:29:09.000000000 Z
+  where: github
+  who: 526301
+- _id: 43
+  _time: 2025-06-13 08:28:09.765562152 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#229 has been opened by @yegor256.
+  event_id: 49772322530
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 229
+  repository: 798641472
+  what: issue-was-opened
+  when: 2025-05-15 17:27:56.000000000 Z
+  where: github
+  who: 526301
+- _id: 44
+  _time: 2025-06-13 08:28:09.781664426 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request yegor256/factbase#228 has been opened by @renovate[bot].
+  event_id: 49753034725
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 228
+  repository: 798641472
+  what: pull-was-opened
+  when: 2025-05-15 10:02:55.000000000 Z
+  where: github
+  who: 29139614
+- _id: 45
+  _time: 2025-06-13 08:28:09.792989560 Z
+  _version: 0.9.10/0.39.2/
+  latest: 50739386667
+  repository: 798641472
+  what: events-were-scanned
+  where: github
+- _id: 46
+  _time: 2025-06-13 08:28:10.415091006 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request zerocracy/zerocracy-mcp-server#17 has been opened by @renovate[bot].
+  event_id: 50580125428
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 17
+  repository: 974194993
+  what: pull-was-opened
+  when: 2025-06-06 00:26:11.000000000 Z
+  where: github
+  who: 29139614
+- _id: 47
+  _time: 2025-06-13 08:28:10.489295139 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/yegor256-copyrights-action-0.x
+  details: The pull request zerocracy/zerocracy-mcp-server#16 has been opened by @renovate[bot].
+  event_id: 50139561931
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 16
+  repository: 974194993
+  what: pull-was-opened
+  when: 2025-05-26 09:54:45.000000000 Z
+  where: github
+  who: 29139614
+- _id: 48
+  _time: 2025-06-13 08:28:10.522658598 Z
+  _version: 0.9.10/0.39.2/
+  commit: 01ee096b8f60f735f43eced47d71939149c945e9
+  default_branch: master
+  details: 'A new Git push #24384268261 has arrived to zerocracy/zerocracy-mcp-server,
+    made by @yegor256 (default branch is ''master''), not associated with any pull
+    request.'
+  event_id: 49889394690
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24384268261
+  ref: refs/heads/master
+  repository: 974194993
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-19 16:00:10.000000000 Z
+  where: github
+  who: 526301
+- _id: 49
+  _time: 2025-06-13 08:28:10.682558401 Z
+  _version: 0.9.10/0.39.2/
+  commit: 8307e55a8a41e375f2201699351c6caaf41b7e81
+  default_branch: master
+  details: 'A new Git push #24381402992 has arrived to zerocracy/zerocracy-mcp-server,
+    made by @yegor256 (default branch is ''master''), not associated with any pull
+    request.'
+  event_id: 49883296270
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24381402992
+  ref: refs/heads/master
+  repository: 974194993
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-19 13:50:09.000000000 Z
+  where: github
+  who: 526301
+- _id: 50
+  _time: 2025-06-13 08:28:10.821977576 Z
+  _version: 0.9.10/0.39.2/
+  commit: e425fac38daa18ee74d941c732cb4292b5cd7ae0
+  default_branch: master
+  details: 'A new Git push #24376797689 has arrived to zerocracy/zerocracy-mcp-server,
+    made by @yegor256 (default branch is ''master''), not associated with any pull
+    request.'
+  event_id: 49873614696
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24376797689
+  ref: refs/heads/master
+  repository: 974194993
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-05-19 10:10:20.000000000 Z
+  where: github
+  who: 526301
+- _id: 51
+  _time: 2025-06-13 08:28:11.012898089 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/eslint-monorepo
+  details: The pull request zerocracy/zerocracy-mcp-server#15 has been opened by @renovate[bot].
+  event_id: 49824075264
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 15
+  repository: 974194993
+  what: pull-was-opened
+  when: 2025-05-16 23:09:20.000000000 Z
+  where: github
+  who: 29139614
+- _id: 52
+  _time: 2025-06-13 08:28:11.035586326 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/ts-jest-29.x-lockfile
+  details: The pull request zerocracy/zerocracy-mcp-server#14 has been opened by @renovate[bot].
+  event_id: 49719582223
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 14
+  repository: 974194993
+  what: pull-was-opened
+  when: 2025-05-14 15:16:19.000000000 Z
+  where: github
+  who: 29139614
+- _id: 53
+  _time: 2025-06-13 08:28:11.052593887 Z
+  _version: 0.9.10/0.39.2/
+  branch: add-mseep-badge
+  comments: 2
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 2
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/zerocracy-mcp-server#13 has been closed by @yegor256,
+    with 2 HoC and 2 comments.
+  event_id: 49719544136
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 2
+  is_human: 1
+  issue: 13
+  repository: 974194993
+  succeeded_builds: 9
+  what: pull-was-closed
+  when: 2025-05-14 15:15:31.000000000 Z
+  where: github
+  who: 526301
+- _id: 54
+  _time: 2025-06-13 08:28:15.599444201 Z
+  _version: 0.9.10/0.39.2/
+  branch: add-mseep-badge
+  details: The pull request zerocracy/zerocracy-mcp-server#13 has been opened by @lwsinclair.
+  event_id: 49706887550
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 13
+  repository: 974194993
+  what: pull-was-opened
+  when: 2025-05-14 10:39:48.000000000 Z
+  where: github
+  who: 2829939
+- _id: 55
+  _time: 2025-06-13 08:28:15.684224734 Z
+  _version: 0.9.10/0.39.2/
+  latest: 50692021530
+  repository: 974194993
+  what: events-were-scanned
+  where: github
+- _id: 56
+  _time: 2025-06-13 08:28:16.973578976 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -103,8 +881,8 @@
   when: 2025-06-09 11:36:50.000000000 Z
   where: github
   who: 8086956
-- _id: 11
-  _time: 2025-06-13 07:19:42.243339822 Z
+- _id: 57
+  _time: 2025-06-13 08:28:27.815217105 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/swarm-template#104 has been opened by @renovate[bot].
@@ -117,8 +895,8 @@
   when: 2025-06-09 11:00:40.000000000 Z
   where: github
   who: 29139614
-- _id: 12
-  _time: 2025-06-13 07:19:42.613935245 Z
+- _id: 58
+  _time: 2025-06-13 08:28:28.147730459 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   comments: 3
@@ -141,8 +919,8 @@
   when: 2025-06-08 13:51:40.000000000 Z
   where: github
   who: 8086956
-- _id: 13
-  _time: 2025-06-13 07:19:52.515782041 Z
+- _id: 59
+  _time: 2025-06-13 08:28:37.712457290 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   details: The pull request zerocracy/swarm-template#103 has been opened by @renovate[bot].
@@ -155,8 +933,8 @@
   when: 2025-06-08 12:30:24.000000000 Z
   where: github
   who: 29139614
-- _id: 14
-  _time: 2025-06-13 07:19:52.534424155 Z
+- _id: 60
+  _time: 2025-06-13 08:28:37.736274873 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -179,8 +957,8 @@
   when: 2025-06-07 18:39:47.000000000 Z
   where: github
   who: 8086956
-- _id: 15
-  _time: 2025-06-13 07:20:02.469702118 Z
+- _id: 61
+  _time: 2025-06-13 08:28:47.625608001 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/swarm-template#102 has been opened by @renovate[bot].
@@ -193,8 +971,8 @@
   when: 2025-06-07 18:04:27.000000000 Z
   where: github
   who: 29139614
-- _id: 16
-  _time: 2025-06-13 07:20:02.497009880 Z
+- _id: 62
+  _time: 2025-06-13 08:28:47.732436411 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -217,8 +995,8 @@
   when: 2025-06-07 10:42:42.000000000 Z
   where: github
   who: 8086956
-- _id: 17
-  _time: 2025-06-13 07:20:12.366924528 Z
+- _id: 63
+  _time: 2025-06-13 08:28:57.675796524 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/swarm-template#101 has been opened by @renovate[bot].
@@ -231,8 +1009,8 @@
   when: 2025-06-07 10:07:56.000000000 Z
   where: github
   who: 29139614
-- _id: 18
-  _time: 2025-06-13 07:20:12.673240949 Z
+- _id: 64
+  _time: 2025-06-13 08:28:57.964204864 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -255,8 +1033,8 @@
   when: 2025-06-06 22:42:35.000000000 Z
   where: github
   who: 8086956
-- _id: 19
-  _time: 2025-06-13 07:20:22.821456044 Z
+- _id: 65
+  _time: 2025-06-13 08:29:07.893623051 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/swarm-template#100 has been opened by @renovate[bot].
@@ -269,8 +1047,8 @@
   when: 2025-06-06 22:03:05.000000000 Z
   where: github
   who: 29139614
-- _id: 20
-  _time: 2025-06-13 07:20:22.851752662 Z
+- _id: 66
+  _time: 2025-06-13 08:29:07.920461097 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   comments: 2
@@ -293,8 +1071,8 @@
   when: 2025-06-04 19:15:51.000000000 Z
   where: github
   who: 8086956
-- _id: 21
-  _time: 2025-06-13 07:20:33.208648627 Z
+- _id: 67
+  _time: 2025-06-13 08:29:18.185190894 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   details: The pull request zerocracy/swarm-template#98 has been opened by @renovate[bot].
@@ -307,8 +1085,8 @@
   when: 2025-06-04 18:40:19.000000000 Z
   where: github
   who: 29139614
-- _id: 22
-  _time: 2025-06-13 07:20:33.223431024 Z
+- _id: 68
+  _time: 2025-06-13 08:29:18.197600430 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   details: The pull request zerocracy/swarm-template#97 has been opened by @renovate[bot].
@@ -321,8 +1099,8 @@
   when: 2025-06-04 07:10:44.000000000 Z
   where: github
   who: 29139614
-- _id: 23
-  _time: 2025-06-13 07:20:33.243060788 Z
+- _id: 69
+  _time: 2025-06-13 08:29:18.235549352 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 2
@@ -345,8 +1123,8 @@
   when: 2025-06-04 07:10:05.000000000 Z
   where: github
   who: 8086956
-- _id: 24
-  _time: 2025-06-13 07:20:43.067653845 Z
+- _id: 70
+  _time: 2025-06-13 08:29:28.461620536 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/swarm-template#96 has been opened by @renovate[bot].
@@ -359,8 +1137,8 @@
   when: 2025-06-04 06:16:34.000000000 Z
   where: github
   who: 29139614
-- _id: 25
-  _time: 2025-06-13 07:20:43.163191982 Z
+- _id: 71
+  _time: 2025-06-13 08:29:28.488454600 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 2
@@ -383,8 +1161,8 @@
   when: 2025-06-03 16:42:43.000000000 Z
   where: github
   who: 8086956
-- _id: 26
-  _time: 2025-06-13 07:20:52.746731823 Z
+- _id: 72
+  _time: 2025-06-13 08:29:38.315665971 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/swarm-template#95 has been opened by @renovate[bot].
@@ -397,8 +1175,8 @@
   when: 2025-06-03 15:56:27.000000000 Z
   where: github
   who: 29139614
-- _id: 27
-  _time: 2025-06-13 07:20:52.770285827 Z
+- _id: 73
+  _time: 2025-06-13 08:29:38.347692002 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 2
@@ -421,8 +1199,8 @@
   when: 2025-06-02 18:43:37.000000000 Z
   where: github
   who: 8086956
-- _id: 28
-  _time: 2025-06-13 07:21:02.348100169 Z
+- _id: 74
+  _time: 2025-06-13 08:29:48.457215249 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/swarm-template#94 has been opened by @renovate[bot].
@@ -435,8 +1213,8 @@
   when: 2025-06-02 18:12:53.000000000 Z
   where: github
   who: 29139614
-- _id: 29
-  _time: 2025-06-13 07:21:02.367158903 Z
+- _id: 75
+  _time: 2025-06-13 08:29:48.599562688 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 2
@@ -459,8 +1237,8 @@
   when: 2025-06-01 06:38:21.000000000 Z
   where: github
   who: 8086956
-- _id: 30
-  _time: 2025-06-13 07:21:12.106455097 Z
+- _id: 76
+  _time: 2025-06-13 08:29:59.018152367 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/swarm-template#93 has been opened by @renovate[bot].
@@ -473,8 +1251,8 @@
   when: 2025-06-01 05:50:59.000000000 Z
   where: github
   who: 29139614
-- _id: 31
-  _time: 2025-06-13 07:21:12.150591154 Z
+- _id: 77
+  _time: 2025-06-13 08:29:59.047701181 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-minitest-0.x-lockfile
   comments: 2
@@ -497,8 +1275,8 @@
   when: 2025-05-31 13:49:52.000000000 Z
   where: github
   who: 8086956
-- _id: 32
-  _time: 2025-06-13 07:21:22.082915036 Z
+- _id: 78
+  _time: 2025-06-13 08:30:09.528945379 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-minitest-0.x-lockfile
   details: The pull request zerocracy/swarm-template#92 has been opened by @renovate[bot].
@@ -511,344 +1289,96 @@
   when: 2025-05-31 13:12:29.000000000 Z
   where: github
   who: 29139614
-- _id: 33
-  _time: 2025-06-13 07:21:22.107582998 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rake-13.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#91 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 50328038333
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 91
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-30 12:43:28.000000000 Z
-  where: github
-  who: 8086956
-- _id: 34
-  _time: 2025-06-13 07:21:32.853815884 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rake-13.x-lockfile
-  details: The pull request zerocracy/swarm-template#91 has been opened by @renovate[bot].
-  event_id: 50325693185
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 91
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-05-30 11:38:39.000000000 Z
-  where: github
-  who: 29139614
-- _id: 35
-  _time: 2025-06-13 07:21:32.872114039 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/yegor256-copyrights-action-0.x
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#90 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 50298704439
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 90
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-29 18:54:26.000000000 Z
-  where: github
-  who: 8086956
-- _id: 36
-  _time: 2025-06-13 07:21:42.488293443 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/yegor256-copyrights-action-0.x
-  details: The pull request zerocracy/swarm-template#90 has been opened by @renovate[bot].
-  event_id: 50297154578
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 90
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-05-29 18:10:16.000000000 Z
-  where: github
-  who: 29139614
-- _id: 37
-  _time: 2025-06-13 07:21:42.529421459 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#89 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 50255927242
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 89
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-28 19:54:46.000000000 Z
-  where: github
-  who: 8086956
-- _id: 38
-  _time: 2025-06-13 07:21:52.859616569 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/swarm-template#89 has been opened by @renovate[bot].
-  event_id: 50253863709
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 89
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-05-28 18:53:51.000000000 Z
-  where: github
-  who: 29139614
-- _id: 39
-  _time: 2025-06-13 07:21:53.239821403 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#88 has been closed by @rultor,
-    with 4 HoC and 2 comments.
-  event_id: 50241450214
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 0
-  issue: 88
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-28 13:58:22.000000000 Z
-  where: github
-  who: 8086956
-- _id: 40
-  _time: 2025-06-13 07:22:02.872449008 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#88 has been opened by @renovate[bot].
-  event_id: 50239177603
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 88
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-05-28 13:12:39.000000000 Z
-  where: github
-  who: 29139614
-- _id: 41
-  _time: 2025-06-13 07:22:02.893102311 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#87 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 50185881492
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 87
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-27 11:42:39.000000000 Z
-  where: github
-  who: 8086956
-- _id: 42
-  _time: 2025-06-13 07:22:13.140695752 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#87 has been opened by @renovate[bot].
-  event_id: 50185114566
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 87
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-05-27 11:23:55.000000000 Z
-  where: github
-  who: 29139614
-- _id: 43
-  _time: 2025-06-13 07:22:13.177221009 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/yegor256-copyrights-action-0.x
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#85 has been closed by @rultor,
-    with 2 HoC and 2 comments.
-  event_id: 50150334392
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 85
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-26 14:11:51.000000000 Z
-  where: github
-  who: 8086956
-- _id: 44
-  _time: 2025-06-13 07:22:19.370456016 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 3
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#86 has been closed by @rultor,
-    with 4 HoC and 2 comments.
-  event_id: 50149765959
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 0
-  issue: 86
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-05-26 13:58:29.000000000 Z
-  where: github
-  who: 8086956
-- _id: 45
-  _time: 2025-06-13 07:22:29.656802566 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#86 has been opened by @renovate[bot].
-  event_id: 50147604163
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 86
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-05-26 13:09:00.000000000 Z
-  where: github
-  who: 29139614
-- _id: 46
-  _time: 2025-06-13 07:22:29.680404334 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/yegor256-copyrights-action-0.x
-  details: The pull request zerocracy/swarm-template#85 has been opened by @renovate[bot].
-  event_id: 50147591289
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 85
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-05-26 13:08:42.000000000 Z
-  where: github
-  who: 29139614
-- _id: 47
-  _time: 2025-06-13 07:22:31.974385050 Z
+- _id: 79
+  _time: 2025-06-13 08:30:20.097602772 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 48
-  _time: 2025-06-13 07:22:31.977518303 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 49
-  _time: 2025-06-13 07:22:31.980651826 Z
+- _id: 80
+  _time: 2025-06-13 08:30:20.102705162 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 50
-  _time: 2025-06-13 07:22:31.983796601 Z
+- _id: 81
+  _time: 2025-06-13 08:30:20.329442020 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/factbase#229.
+  issue: 229
+  label: bug
+  repository: 798641472
+  what: label-was-attached
+  when: 2025-05-15 17:27:55.000000000 Z
   where: github
-- _id: 51
-  _time: 2025-06-13 07:22:31.986913193 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 52
-  _time: 2025-06-13 07:22:31.989932552 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 53
-  _time: 2025-06-13 07:22:31.993032833 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 54
-  _time: 2025-06-13 07:22:31.996177408 Z
+  who: 526301
+- _id: 83
+  _time: 2025-06-13 08:30:20.514873149 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 55
-  _time: 2025-06-13 07:23:27.877792139 Z
+- _id: 84
+  _time: 2025-06-13 08:30:20.519973045 Z
   _version: 0.9.10/0.39.2/
-  average_review_size: 0.45569620253164556
-  average_review_time: 30346.076923076922
-  average_reviewers_per_pull: 0.1518987341772152
-  average_reviews_per_pull: 0.44936708860759494
-  average_triage_time: 0
-  since: 2025-05-16 07:22:31.999028217 Z
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 85
+  _time: 2025-06-13 08:30:20.524763307 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 86
+  _time: 2025-06-13 08:30:20.529596689 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 87
+  _time: 2025-06-13 08:30:20.535032958 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 88
+  _time: 2025-06-13 08:30:20.814727401 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/factbase#235.
+  issue: 235
+  label: bug
+  repository: 798641472
+  what: label-was-attached
+  when: 2025-06-03 09:39:47.000000000 Z
+  where: github
+  who: 526301
+- _id: 89
+  _time: 2025-06-13 08:30:20.822807977 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 90
+  _time: 2025-06-13 08:31:16.992316141 Z
+  _version: 0.9.10/0.39.2/
+  average_pull_files_size: 1.8987341772151898
+  average_pull_hoc_size: 42.348101265822784
+  average_release_interval: 41427.68518518518
+  since: 2025-05-16 08:30:20.825655020 Z
   what: quality-of-service
-  when: 2025-06-13 07:22:31.999004302 Z
-- _id: 56
-  _time: 2025-06-13 07:25:47.624450871 Z
+  when: 2025-06-13 08:30:20.825629443 Z
+- _id: 91
+  _time: 2025-06-13 08:31:16.994436493 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-05-16 07:23:27.881662106 Z
-  total_builds_ran: 11321
-  total_releases_published: 55
+  since: 2025-05-16 08:31:16.994568338 Z
   what: quantity-of-deliverables
-  when: 2025-06-13 07:23:27.881635146 Z
+  when: 2025-06-13 08:31:16.994529395 Z
