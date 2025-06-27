@@ -4,99 +4,1000 @@
   deleted: 8
   error:
   - 'Judge github-events stopped by timeout after 3m0s: execution expired'
-  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 387.272187053
+  seconds: 440.828431834
   version: 0.39.2
   what: judges-summary
-  when: 2025-06-27 09:27:52.656638259 Z
+  when: 2025-06-27 10:29:06.777608013 Z
 - _id: 1
-  _time: 2025-06-27 09:21:50.579187364 Z
+  _time: 2025-06-27 10:22:05.068485812 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 6
   total_commits: 4816
   total_contributors: 14
   total_files: 641
   total_forks: 21
-  total_issues: 687
+  total_issues: 688
   total_pulls: 1351
   total_releases: 551
   total_repositories: 8
   total_stars: 49
   what: dimensions-of-terrain
-  when: 2025-06-27 09:21:25.713053520 Z
+  when: 2025-06-27 10:21:46.272541758 Z
 - _id: 2
-  _time: 2025-06-27 09:21:50.608165194 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2025-06-27 09:21:50.611379722 Z
+  _time: 2025-06-27 10:22:05.100412450 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
-- _id: 4
-  _time: 2025-06-27 09:21:50.614644285 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-06-27 09:21:50.617766521 Z
+- _id: 3
+  _time: 2025-06-27 10:22:05.104913342 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
+- _id: 4
+  _time: 2025-06-27 10:22:05.107710051 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2025-06-27 10:22:05.110463018 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
 - _id: 6
-  _time: 2025-06-27 09:21:50.620999865 Z
+  _time: 2025-06-27 10:22:05.113167204 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 7
-  _time: 2025-06-27 09:21:50.624145354 Z
+  _time: 2025-06-27 10:22:05.116189612 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 8
-  _time: 2025-06-27 09:21:50.627042459 Z
+  _time: 2025-06-27 10:22:05.120176237 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-06-27 09:21:50.630128367 Z
+  _time: 2025-06-27 10:22:05.122779825 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-06-27 09:21:52.745782733 Z
+  _time: 2025-06-27 10:22:06.552019029 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#119 has been opened by @renovate[bot].
-  event_id: 51281219162
+  commit: 5cccba207c45608313c85e7aa71f058af61300c8
+  default_branch: master
+  details: 'A new Git push #25143061309 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51390858107
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25143061309
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-26 17:42:21.000000000 Z
+  where: github
+  who: 526301
+- _id: 11
+  _time: 2025-06-27 10:22:06.704577643 Z
+  _version: 0.9.10/0.39.2/
+  commit: 341eabcd6fc7fd4e8b571e6db3ecd6213a876bc7
+  default_branch: master
+  details: 'A new Git push #25142994491 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51390714610
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25142994491
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-26 17:38:36.000000000 Z
+  where: github
+  who: 526301
+- _id: 12
+  _time: 2025-06-27 10:22:06.880650912 Z
+  _version: 0.9.10/0.39.2/
+  commit: 2baa5a1235689ddaa7b96a548dc82516e64e17b3
+  default_branch: master
+  details: 'A new Git push #25142958290 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51390638330
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25142958290
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-26 17:36:37.000000000 Z
+  where: github
+  who: 526301
+- _id: 13
+  _time: 2025-06-27 10:22:07.024445245 Z
+  _version: 0.9.10/0.39.2/
+  commit: 9f622caac79d3cf47c9d5be34cca2c249b0666b1
+  default_branch: master
+  details: 'A new Git push #25142892376 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51390502694
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25142892376
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-26 17:32:58.000000000 Z
+  where: github
+  who: 526301
+- _id: 14
+  _time: 2025-06-27 10:22:07.203755576 Z
+  _version: 0.9.10/0.39.2/
+  commit: 9ee6c8a62bbd9343885599e25b9687f0a087b252
+  default_branch: master
+  details: 'A new Git push #25142850841 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51390418714
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25142850841
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-26 17:30:46.000000000 Z
+  where: github
+  who: 526301
+- _id: 15
+  _time: 2025-06-27 10:22:07.380486829 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#770 has been opened by @yegor256.
+  event_id: 51390390055
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 770
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-06-26 17:30:05.000000000 Z
+  where: github
+  who: 526301
+- _id: 16
+  _time: 2025-06-27 10:22:08.001246142 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/zerocracy-judges-action-0.x
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#768 has been closed by @yegor256,
+    with 2 HoC and 1 comments.
+  event_id: 51315587314
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 1
+  issue: 768
+  repository: 799177290
+  succeeded_builds: 13
+  what: pull-was-merged
+  when: 2025-06-25 08:37:13.000000000 Z
+  where: github
+  who: 526301
+- _id: 17
+  _time: 2025-06-27 10:22:14.099997971 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/zerocracy-judges-action-0.x
+  details: The pull request zerocracy/judges-action#768 has been opened by @renovate[bot].
+  event_id: 51313254343
   event_type: PullRequestEvent
   is_human: 0
-  issue: 119
-  repository: 849726475
+  issue: 768
+  repository: 799177290
   what: pull-was-opened
-  when: 2025-06-24 14:29:12.000000000 Z
+  when: 2025-06-25 07:44:59.000000000 Z
   where: github
   who: 29139614
-- _id: 11
-  _time: 2025-06-27 09:21:53.070807819 Z
+- _id: 18
+  _time: 2025-06-27 10:22:14.484244793 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#767 has been closed by @yegor256,
+    with 2 HoC and 1 comments.
+  event_id: 51312140722
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 1
+  issue: 767
+  repository: 799177290
+  succeeded_builds: 0
+  what: pull-was-merged
+  when: 2025-06-25 07:18:01.000000000 Z
+  where: github
+  who: 526301
+- _id: 19
+  _time: 2025-06-27 10:22:15.265660194 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#700 has been closed by @yegor256.
+  event_id: 51312134708
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 700
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-06-25 07:17:52.000000000 Z
+  where: github
+  who: 526301
+- _id: 20
+  _time: 2025-06-27 10:22:15.284246187 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  details: The pull request zerocracy/judges-action#767 has been opened by @github-actions[bot].
+  event_id: 51311802374
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 767
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-06-25 07:09:35.000000000 Z
+  where: github
+  who: 41898282
+- _id: 21
+  _time: 2025-06-27 10:22:15.483509301 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1670
+  contributors:
+  - 526301
+  - 29139614
+  - 8086956
+  - 88084038
+  - 2566462
+  - 41898282
+  - 1646020
+  - 46713109
+  details: A new release 'erase-repository.rb makes excessive API requests resulting
+    in slow performance' has been published in zerocracy/judges-action by @rultor.
+  event_id: 51311735599
+  event_type: ReleaseEvent
+  hoc: 10825
+  is_human: 0
+  last_commit: 8a0e2ddfc4eca2946fc778e746bca7c552149a49
+  release: 227567429
+  repository: 799177290
+  tag: 0.14.16
+  what: release-published
+  when: 2025-06-25 07:07:51.000000000 Z
+  where: github
+  who: 8086956
+- _id: 22
+  _time: 2025-06-27 10:22:35.511029395 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.14.16' has been created in zerocracy/judges-action by @rultor.
+  event_id: 51311689849
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799177290
+  tag: 0.14.16
+  what: tag-was-created
+  when: 2025-06-25 07:06:42.000000000 Z
+  where: github
+  who: 8086956
+- _id: 23
+  _time: 2025-06-27 10:22:35.531930020 Z
+  _version: 0.9.10/0.39.2/
+  commit: d02975da970bceaa94e92397242bb903b63a11ad
+  default_branch: master
+  details: 'A new Git push #25104383191 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51311023653
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25104383191
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-25 06:49:12.000000000 Z
+  where: github
+  who: 526301
+- _id: 24
+  _time: 2025-06-27 10:22:35.673796062 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#647 has been closed by @yegor256.
+  event_id: 51296207990
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 647
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-06-24 20:40:40.000000000 Z
+  where: github
+  who: 526301
+- _id: 25
+  _time: 2025-06-27 10:22:36.118792279 Z
+  _version: 0.9.10/0.39.2/
+  branch: '647'
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 1
+  comments_by_reviewers: 2
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#766 has been closed by @yegor256,
+    with 32 HoC and 2 comments.
+  event_id: 51296207597
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 32
+  is_human: 1
+  issue: 766
+  repository: 799177290
+  succeeded_builds: 13
+  what: pull-was-merged
+  when: 2025-06-24 20:40:40.000000000 Z
+  where: github
+  who: 526301
+- _id: 26
+  _time: 2025-06-27 10:22:41.879885536 Z
+  _version: 0.9.10/0.39.2/
+  branch: '647'
+  details: The pull request zerocracy/judges-action#766 has been opened by @Yegorov.
+  event_id: 51295018044
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 766
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-06-24 20:06:31.000000000 Z
+  where: github
+  who: 2566462
+- _id: 27
+  _time: 2025-06-27 10:22:41.932740986 Z
+  _version: 0.9.10/0.39.2/
+  commit: a5fa9e6ed0f04d7027f44201bbd4213221d2453d
+  default_branch: master
+  details: 'A new Git push #25090780219 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51283433638
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25090780219
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-24 15:11:15.000000000 Z
+  where: github
+  who: 526301
+- _id: 28
+  _time: 2025-06-27 10:22:42.113619178 Z
+  _version: 0.9.10/0.39.2/
+  commit: 9f8b685b371acc40e8e937f666efaec37014eff4
+  default_branch: master
+  details: 'A new Git push #25090582074 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51283001713
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25090582074
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-24 15:02:43.000000000 Z
+  where: github
+  who: 526301
+- _id: 29
+  _time: 2025-06-27 10:22:42.270049643 Z
+  _version: 0.9.10/0.39.2/
+  commit: b96d9e9c3d465672d1306fd1279f77e172987ed9
+  default_branch: master
+  details: 'A new Git push #25090283089 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51282356239
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25090283089
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-24 14:50:18.000000000 Z
+  where: github
+  who: 526301
+- _id: 30
+  _time: 2025-06-27 10:22:42.482529669 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#765 has been closed by @github-actions[bot],
+    with 2 HoC and 0 comments.
+  event_id: 51279272011
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 765
+  repository: 799177290
+  succeeded_builds: 0
+  what: pull-was-closed
+  when: 2025-06-24 13:51:48.000000000 Z
+  where: github
+  who: 41898282
+- _id: 31
+  _time: 2025-06-27 10:22:43.234056039 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  details: The pull request zerocracy/judges-action#765 has been opened by @github-actions[bot].
+  event_id: 51279262651
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 765
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-06-24 13:51:37.000000000 Z
+  where: github
+  who: 41898282
+- _id: 32
+  _time: 2025-06-27 10:22:43.536048790 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#763 has been closed by @yegor256,
+    with 2 HoC and 1 comments.
+  event_id: 51279122242
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 1
+  issue: 763
+  repository: 799177290
+  succeeded_builds: 0
+  what: pull-was-merged
+  when: 2025-06-24 13:48:59.000000000 Z
+  where: github
+  who: 526301
+- _id: 33
+  _time: 2025-06-27 10:22:44.461045562 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/zerocracy-judges-action-0.x
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#764 has been closed by @yegor256,
+    with 2 HoC and 1 comments.
+  event_id: 51279111839
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 1
+  issue: 764
+  repository: 799177290
+  succeeded_builds: 13
+  what: pull-was-merged
+  when: 2025-06-24 13:48:47.000000000 Z
+  where: github
+  who: 526301
+- _id: 34
+  _time: 2025-06-27 10:22:50.320252822 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#762 has been closed by @yegor256.
+  event_id: 51279101946
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 762
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-06-24 13:48:36.000000000 Z
+  where: github
+  who: 526301
+- _id: 35
+  _time: 2025-06-27 10:22:50.369201645 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/zerocracy-judges-action-0.x
+  details: The pull request zerocracy/judges-action#764 has been opened by @renovate[bot].
+  event_id: 51277981227
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 764
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-06-24 13:27:14.000000000 Z
+  where: github
+  who: 29139614
+- _id: 36
+  _time: 2025-06-27 10:22:50.570669143 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  details: The pull request zerocracy/judges-action#763 has been opened by @github-actions[bot].
+  event_id: 51276636432
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 763
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-06-24 13:00:55.000000000 Z
+  where: github
+  who: 41898282
+- _id: 37
+  _time: 2025-06-27 10:22:50.610994608 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release '`issue-was-opened.rb` results in creation of duplicate entries'
+    has been published in zerocracy/judges-action by @rultor.
+  event_id: 51276543504
+  event_type: ReleaseEvent
+  hoc: 6
+  is_human: 0
+  last_commit: 3e627680222640aceb2369867b9a7557cdfd44ae
+  release: 227359592
+  repository: 799177290
+  tag: 0.14.15
+  what: release-published
+  when: 2025-06-24 12:59:03.000000000 Z
+  where: github
+  who: 8086956
+- _id: 38
+  _time: 2025-06-27 10:22:50.922010840 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.14.15' has been created in zerocracy/judges-action by @rultor.
+  event_id: 51276495166
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799177290
+  tag: 0.14.15
+  what: tag-was-created
+  when: 2025-06-24 12:58:02.000000000 Z
+  where: github
+  who: 8086956
+- _id: 39
+  _time: 2025-06-27 10:22:50.970083577 Z
+  _version: 0.9.10/0.39.2/
+  commit: 8afbbba068116cd1213acd56b6078cecf0d4a30f
+  default_branch: master
+  details: 'A new Git push #25087069166 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51275480730
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25087069166
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-24 12:37:16.000000000 Z
+  where: github
+  who: 526301
+- _id: 40
+  _time: 2025-06-27 10:22:51.140943848 Z
+  _version: 0.9.10/0.39.2/
+  commit: 63fc95d74b77b98b5eeaf663763f34cbbab80c05
+  default_branch: master
+  details: 'A new Git push #25086802268 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51274940355
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25086802268
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-24 12:26:07.000000000 Z
+  where: github
+  who: 526301
+- _id: 41
+  _time: 2025-06-27 10:22:51.395724145 Z
+  _version: 0.9.10/0.39.2/
+  commit: d6a5257fdb8dddbaf391110d84a32aea3d12354d
+  default_branch: master
+  details: 'A new Git push #25080514401 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51261304762
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25080514401
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-24 07:35:44.000000000 Z
+  where: github
+  who: 526301
+- _id: 42
+  _time: 2025-06-27 10:22:51.629601114 Z
+  _version: 0.9.10/0.39.2/
+  commit: e0a0b6d631c65c0b6f3a4e5a542f28744d15a673
+  default_branch: master
+  details: 'A new Git push #25080354943 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51260944128
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25080354943
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-24 07:28:18.000000000 Z
+  where: github
+  who: 526301
+- _id: 43
+  _time: 2025-06-27 10:22:51.771804603 Z
+  _version: 0.9.10/0.39.2/
+  commit: e226bab9d709ac0b59f3b6f900764f6394ad825a
+  default_branch: master
+  details: 'A new Git push #25079449248 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51258915471
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25079449248
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-24 06:41:56.000000000 Z
+  where: github
+  who: 526301
+- _id: 44
+  _time: 2025-06-27 10:22:51.920987861 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#762 has been opened by @yegor256.
+  event_id: 51258898592
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 762
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-06-24 06:41:30.000000000 Z
+  where: github
+  who: 526301
+- _id: 45
+  _time: 2025-06-27 10:22:51.951221050 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#646 has been closed by @yegor256.
+  event_id: 51256248965
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 646
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-06-24 05:28:55.000000000 Z
+  where: github
+  who: 526301
+- _id: 46
+  _time: 2025-06-27 10:22:52.199822997 Z
+  _version: 0.9.10/0.39.2/
+  branch: '646'
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 1
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#761 has been closed by @yegor256,
+    with 40 HoC and 2 comments.
+  event_id: 51256248583
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 40
+  is_human: 1
+  issue: 761
+  repository: 799177290
+  succeeded_builds: 13
+  what: pull-was-merged
+  when: 2025-06-24 05:28:55.000000000 Z
+  where: github
+  who: 526301
+- _id: 47
+  _time: 2025-06-27 10:22:57.861550689 Z
+  _version: 0.9.10/0.39.2/
+  branch: '646'
+  details: The pull request zerocracy/judges-action#761 has been opened by @Yegorov.
+  event_id: 51242307278
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 761
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-06-23 20:07:32.000000000 Z
+  where: github
+  who: 2566462
+- _id: 48
+  _time: 2025-06-27 10:22:57.916266697 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#760 has been opened by @yegor256.
+  event_id: 51230706594
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 760
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-06-23 15:10:13.000000000 Z
+  where: github
+  who: 526301
+- _id: 49
+  _time: 2025-06-27 10:22:57.944592574 Z
+  _version: 0.9.10/0.39.2/
+  commit: 3b50de289e298cf79f9f438a078316d48dba9e95
+  default_branch: master
+  details: 'A new Git push #25063899691 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51226461244
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25063899691
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-23 13:47:26.000000000 Z
+  where: github
+  who: 526301
+- _id: 50
+  _time: 2025-06-27 10:22:58.352093458 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#754 has been closed by @yegor256,
+    with 2 HoC and 1 comments.
+  event_id: 51226272879
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 1
+  issue: 754
+  repository: 799177290
+  succeeded_builds: 0
+  what: pull-was-merged
+  when: 2025-06-23 13:43:42.000000000 Z
+  where: github
+  who: 526301
+- _id: 51
+  _time: 2025-06-27 10:22:59.119946689 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#759 has been closed by @yegor256.
+  event_id: 51226261426
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 759
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-06-23 13:43:28.000000000 Z
+  where: github
+  who: 526301
+- _id: 52
+  _time: 2025-06-27 10:22:59.140276564 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release '' has been published in zerocracy/judges-action by @rultor.
+  event_id: 51226042506
+  event_type: ReleaseEvent
+  hoc: 6
+  is_human: 0
+  last_commit: 3c973f4c57a2ae0c1624cffc4178cbb7e7f31fc4
+  release: 227087124
+  repository: 799177290
+  tag: 0.14.14
+  what: release-published
+  when: 2025-06-23 13:39:10.000000000 Z
+  where: github
+  who: 8086956
+- _id: 53
+  _time: 2025-06-27 10:22:59.559058833 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.14.14' has been created in zerocracy/judges-action by @rultor.
+  event_id: 51225988367
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799177290
+  tag: 0.14.14
+  what: tag-was-created
+  when: 2025-06-23 13:38:06.000000000 Z
+  where: github
+  who: 8086956
+- _id: 54
+  _time: 2025-06-27 10:22:59.592373135 Z
+  _version: 0.9.10/0.39.2/
+  commit: '099d4cea08a29ab8da126aa5480a373d10dec82d'
+  default_branch: master
+  details: 'A new Git push #25063247031 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51225061213
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25063247031
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-23 13:20:11.000000000 Z
+  where: github
+  who: 526301
+- _id: 55
+  _time: 2025-06-27 10:22:59.744938014 Z
+  _version: 0.9.10/0.39.2/
+  commit: 5ec3f83051d7f51b59bbb48e1ddd7aef7d3e46e0
+  default_branch: master
+  details: 'A new Git push #25063152052 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51224856950
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25063152052
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-23 13:16:11.000000000 Z
+  where: github
+  who: 526301
+- _id: 56
+  _time: 2025-06-27 10:22:59.932049281 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#759 has been opened by @yegor256.
+  event_id: 51224810864
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 759
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-06-23 13:15:17.000000000 Z
+  where: github
+  who: 526301
+- _id: 57
+  _time: 2025-06-27 10:22:59.962647689 Z
+  _version: 0.9.10/0.39.2/
+  commit: 328b87c233d1bdeec0ec8e333fc065ca695aee1b
+  default_branch: master
+  details: 'A new Git push #25060334247 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51218920756
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25060334247
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-23 11:05:35.000000000 Z
+  where: github
+  who: 526301
+- _id: 58
+  _time: 2025-06-27 10:23:00.173530567 Z
+  _version: 0.9.10/0.39.2/
+  commit: 956e4e7813a6a8b2d07cda006285924ef6a360a8
+  default_branch: master
+  details: 'A new Git push #25060301607 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51218850786
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25060301607
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-23 11:03:55.000000000 Z
+  where: github
+  who: 526301
+- _id: 59
+  _time: 2025-06-27 10:23:00.390175973 Z
+  _version: 0.9.10/0.39.2/
+  commit: 0d2361916a09cdb1626367c57e6ce1f5b547d388
+  default_branch: master
+  details: 'A new Git push #25055483639 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51208486888
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25055483639
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-23 07:09:25.000000000 Z
+  where: github
+  who: 526301
+- _id: 60
+  _time: 2025-06-27 10:23:00.532592438 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#758 has been closed by @yegor256.
+  event_id: 51208387769
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 758
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-06-23 07:06:48.000000000 Z
+  where: github
+  who: 526301
+- _id: 61
+  _time: 2025-06-27 10:23:00.568497055 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release 'Pull requests not being detected within branch list' has
+    been published in zerocracy/judges-action by @rultor.
+  event_id: 51208292321
+  event_type: ReleaseEvent
+  hoc: 6
+  is_human: 0
+  last_commit: d331da6880c1456d3aaf02175673d95528c6ff18
+  release: 226971670
+  repository: 799177290
+  tag: 0.14.13
+  what: release-published
+  when: 2025-06-23 07:04:16.000000000 Z
+  where: github
+  who: 8086956
+- _id: 62
+  _time: 2025-06-27 10:23:00.841475560 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.14.13' has been created in zerocracy/judges-action by @rultor.
+  event_id: 51208221352
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799177290
+  tag: 0.14.13
+  what: tag-was-created
+  when: 2025-06-23 07:02:28.000000000 Z
+  where: github
+  who: 8086956
+- _id: 63
+  _time: 2025-06-27 10:23:00.879800917 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -105,112 +1006,246 @@
   comments_by_reviewers: 4
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#118 has been closed by @rultor,
+  details: The pull request zerocracy/judges-action#757 has been closed by @rultor,
+    with 2 HoC and 3 comments.
+  event_id: 51207560402
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 757
+  repository: 799177290
+  succeeded_builds: 13
+  what: pull-was-merged
+  when: 2025-06-23 06:44:40.000000000 Z
+  where: github
+  who: 8086956
+- _id: 64
+  _time: 2025-06-27 10:23:07.546463766 Z
+  _version: 0.9.10/0.39.2/
+  commit: 1b17003ee7199cbe6bd81b48d74267228ada465f
+  default_branch: master
+  details: 'A new Git push #25054778957 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51207015093
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25054778957
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-23 06:29:22.000000000 Z
+  where: github
+  who: 526301
+- _id: 65
+  _time: 2025-06-27 10:23:07.798956310 Z
+  _version: 0.9.10/0.39.2/
+  commit: 7b3131c05481890cf1244042d347da01dd3a0d85
+  default_branch: master
+  details: 'A new Git push #25054767263 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 51206990504
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25054767263
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-23 06:28:39.000000000 Z
+  where: github
+  who: 526301
+- _id: 66
+  _time: 2025-06-27 10:23:07.964814034 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#758 has been opened by @yegor256.
+  event_id: 51206977708
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 758
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-06-23 06:28:15.000000000 Z
+  where: github
+  who: 526301
+- _id: 67
+  _time: 2025-06-27 10:23:07.990451039 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/judges-action#757 has been opened by @renovate[bot].
+  event_id: 51205699805
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 757
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-06-23 05:46:47.000000000 Z
+  where: github
+  who: 29139614
+- _id: 68
+  _time: 2025-06-27 10:23:08.008034388 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#756 has been closed by @yegor256.
+  event_id: 51205521994
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 756
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-06-23 05:40:10.000000000 Z
+  where: github
+  who: 526301
+- _id: 69
+  _time: 2025-06-27 10:23:08.022245230 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#756 has been opened by @yegor256.
+  event_id: 51205288707
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 756
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-06-23 05:31:32.000000000 Z
+  where: github
+  who: 526301
+- _id: 70
+  _time: 2025-06-27 10:23:08.095984605 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/judges-action#755 has been closed by @rultor,
+    with 4 HoC and 3 comments.
+  event_id: 51204308367
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 4
+  is_human: 0
+  issue: 755
+  repository: 799177290
+  succeeded_builds: 13
+  what: pull-was-merged
+  when: 2025-06-23 04:51:59.000000000 Z
+  where: github
+  who: 8086956
+- _id: 71
+  _time: 2025-06-27 10:23:23.010204212 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/judges-action#755 has been opened by @renovate[bot].
+  event_id: 51203703812
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 755
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-06-23 04:24:41.000000000 Z
+  where: github
+  who: 29139614
+- _id: 72
+  _time: 2025-06-27 10:23:23.195475937 Z
+  _version: 0.9.10/0.39.2/
+  latest: 51404429375
+  repository: 799177290
+  what: events-were-scanned
+  where: github
+- _id: 73
+  _time: 2025-06-27 10:23:24.748668472 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/pages-action#317 has been opened by @renovate[bot].
+  event_id: 51286799013
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 317
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-06-24 16:26:24.000000000 Z
+  where: github
+  who: 29139614
+- _id: 74
+  _time: 2025-06-27 10:23:24.760162382 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/pages-action#316 has been opened by @renovate[bot].
+  event_id: 51286792601
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 316
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-06-24 16:26:14.000000000 Z
+  where: github
+  who: 29139614
+- _id: 75
+  _time: 2025-06-27 10:23:24.782191623 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/pages-action#315 has been closed by @rultor,
     with 3 HoC and 3 comments.
-  event_id: 51237233538
+  event_id: 51239511035
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 3
   is_human: 0
-  issue: 118
-  repository: 849726475
-  succeeded_builds: 10
+  issue: 315
+  repository: 802720676
+  succeeded_builds: 14
   what: pull-was-merged
-  when: 2025-06-23 17:46:50.000000000 Z
+  when: 2025-06-23 18:47:49.000000000 Z
   where: github
   who: 8086956
-- _id: 12
-  _time: 2025-06-27 09:22:08.785642339 Z
+- _id: 76
+  _time: 2025-06-27 10:24:06.996091284 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#118 has been opened by @renovate[bot].
-  event_id: 51235077600
+  details: The pull request zerocracy/pages-action#315 has been opened by @renovate[bot].
+  event_id: 51235969174
   event_type: PullRequestEvent
   is_human: 0
-  issue: 118
-  repository: 849726475
+  issue: 315
+  repository: 802720676
   what: pull-was-opened
-  when: 2025-06-23 16:50:36.000000000 Z
+  when: 2025-06-23 17:13:34.000000000 Z
   where: github
   who: 29139614
-- _id: 13
-  _time: 2025-06-27 09:22:08.811429527 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#117 has been closed by @rultor,
-    with 6 HoC and 3 comments.
-  event_id: 51212376393
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
-  is_human: 0
-  issue: 117
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-23 08:41:26.000000000 Z
-  where: github
-  who: 8086956
-- _id: 14
-  _time: 2025-06-27 09:22:23.932220026 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#117 has been opened by @renovate[bot].
-  event_id: 51206141071
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 117
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-23 06:02:12.000000000 Z
-  where: github
-  who: 29139614
-- _id: 15
-  _time: 2025-06-27 09:22:23.954461957 Z
+- _id: 77
+  _time: 2025-06-27 10:24:07.020645686 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
-  comments: 3
+  comments: 4
   comments_appreciated: 1
   comments_by_author: 0
   comments_by_reviewers: 4
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#116 has been closed by @rultor,
-    with 6 HoC and 3 comments.
-  event_id: 51175782082
+  details: The pull request zerocracy/pages-action#311 has been closed by @renovate[bot],
+    with 2 HoC and 4 comments.
+  event_id: 51213286085
   event_type: PullRequestEvent
   failed_builds: 0
-  hoc: 6
+  hoc: 2
   is_human: 0
-  issue: 116
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-21 14:44:25.000000000 Z
-  where: github
-  who: 8086956
-- _id: 16
-  _time: 2025-06-27 09:22:39.555358989 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#116 has been opened by @renovate[bot].
-  event_id: 51175165950
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 116
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-21 13:56:07.000000000 Z
+  issue: 311
+  repository: 802720676
+  succeeded_builds: 14
+  what: pull-was-closed
+  when: 2025-06-23 09:01:10.000000000 Z
   where: github
   who: 29139614
-- _id: 17
-  _time: 2025-06-27 09:22:39.573242862 Z
+- _id: 78
+  _time: 2025-06-27 10:24:13.319246851 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -219,360 +1254,232 @@
   comments_by_reviewers: 4
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#115 has been closed by @rultor,
+  details: The pull request zerocracy/pages-action#314 has been closed by @rultor,
+    with 8 HoC and 3 comments.
+  event_id: 51213252255
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 8
+  is_human: 0
+  issue: 314
+  repository: 802720676
+  succeeded_builds: 14
+  what: pull-was-merged
+  when: 2025-06-23 09:00:30.000000000 Z
+  where: github
+  who: 8086956
+- _id: 79
+  _time: 2025-06-27 10:24:29.240117302 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/pages-action#314 has been opened by @renovate[bot].
+  event_id: 51207453346
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 314
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-06-23 06:41:41.000000000 Z
+  where: github
+  who: 29139614
+- _id: 80
+  _time: 2025-06-27 10:24:29.350678609 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/pages-action#313 has been closed by @rultor,
     with 4 HoC and 3 comments.
-  event_id: 51153305412
+  event_id: 51172442776
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 4
   is_human: 0
-  issue: 115
-  repository: 849726475
-  succeeded_builds: 10
+  issue: 313
+  repository: 802720676
+  succeeded_builds: 14
   what: pull-was-merged
-  when: 2025-06-20 15:45:25.000000000 Z
+  when: 2025-06-21 10:08:21.000000000 Z
   where: github
   who: 8086956
-- _id: 18
-  _time: 2025-06-27 09:22:55.472265064 Z
+- _id: 81
+  _time: 2025-06-27 10:24:57.292784398 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#115 has been opened by @renovate[bot].
-  event_id: 51151234782
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/pages-action#313 has been opened by @renovate[bot].
+  event_id: 51171764062
   event_type: PullRequestEvent
   is_human: 0
-  issue: 115
-  repository: 849726475
+  issue: 313
+  repository: 802720676
   what: pull-was-opened
-  when: 2025-06-20 14:51:14.000000000 Z
+  when: 2025-06-21 09:08:56.000000000 Z
   where: github
   who: 29139614
-- _id: 19
-  _time: 2025-06-27 09:22:55.682446701 Z
+- _id: 82
+  _time: 2025-06-27 10:24:57.326095780 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
-  comments: 3
+  comments: 2
   comments_appreciated: 1
   comments_by_author: 0
   comments_by_reviewers: 4
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#114 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 51151185558
+  details: The pull request zerocracy/pages-action#311 has been closed by @renovate[bot],
+    with 2 HoC and 2 comments.
+  event_id: 51155343296
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 2
   is_human: 0
-  issue: 114
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-20 14:49:59.000000000 Z
-  where: github
-  who: 8086956
-- _id: 20
-  _time: 2025-06-27 09:23:10.918759404 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#114 has been opened by @renovate[bot].
-  event_id: 51149279444
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 114
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-20 14:03:24.000000000 Z
+  issue: 311
+  repository: 802720676
+  succeeded_builds: 14
+  what: pull-was-closed
+  when: 2025-06-20 16:46:38.000000000 Z
   where: github
   who: 29139614
-- _id: 21
-  _time: 2025-06-27 09:23:10.939163395 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#113 has been closed by @rultor,
-    with 10 HoC and 3 comments.
-  event_id: 51149180996
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 10
-  is_human: 0
-  issue: 113
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-20 14:01:12.000000000 Z
-  where: github
-  who: 8086956
-- _id: 22
-  _time: 2025-06-27 09:23:27.040690347 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#113 has been opened by @renovate[bot].
-  event_id: 51145931514
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 113
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-20 12:40:22.000000000 Z
-  where: github
-  who: 29139614
-- _id: 23
-  _time: 2025-06-27 09:23:27.067192210 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#112 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 51039094553
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 112
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-18 06:38:36.000000000 Z
-  where: github
-  who: 8086956
-- _id: 24
-  _time: 2025-06-27 09:23:42.505766970 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#112 has been opened by @renovate[bot].
-  event_id: 51036103000
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 112
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-18 04:54:50.000000000 Z
-  where: github
-  who: 29139614
-- _id: 25
-  _time: 2025-06-27 09:23:42.530616149 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#111 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 51015987461
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 111
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-17 16:40:40.000000000 Z
-  where: github
-  who: 8086956
-- _id: 26
-  _time: 2025-06-27 09:23:58.302962769 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#111 has been opened by @renovate[bot].
-  event_id: 51010892239
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 111
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-17 14:51:10.000000000 Z
-  where: github
-  who: 29139614
-- _id: 27
-  _time: 2025-06-27 09:23:58.508780857 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#110 has been closed by @rultor,
-    with 26 HoC and 3 comments.
-  event_id: 50975284748
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 26
-  is_human: 0
-  issue: 110
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-16 21:55:22.000000000 Z
-  where: github
-  who: 8086956
-- _id: 28
-  _time: 2025-06-27 09:24:13.750501676 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#110 has been opened by @renovate[bot].
-  event_id: 50973484011
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 110
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-16 20:57:26.000000000 Z
-  where: github
-  who: 29139614
-- _id: 29
-  _time: 2025-06-27 09:24:13.778383332 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#109 has been closed by @rultor,
-    with 6 HoC and 3 comments.
-  event_id: 50959385572
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
-  is_human: 0
-  issue: 109
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-16 15:01:06.000000000 Z
-  where: github
-  who: 8086956
-- _id: 30
-  _time: 2025-06-27 09:24:29.519322233 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#109 has been opened by @renovate[bot].
-  event_id: 50953485069
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 109
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-16 13:07:42.000000000 Z
-  where: github
-  who: 29139614
-- _id: 31
-  _time: 2025-06-27 09:24:29.537903458 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#108 has been closed by @rultor,
-    with 4 HoC and 3 comments.
-  event_id: 50925501819
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 0
-  issue: 108
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-06-15 20:52:15.000000000 Z
-  where: github
-  who: 8086956
-- _id: 32
-  _time: 2025-06-27 09:24:44.828753150 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#108 has been opened by @renovate[bot].
-  event_id: 50923853442
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 108
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-06-15 18:46:06.000000000 Z
-  where: github
-  who: 29139614
-- _id: 33
-  _time: 2025-06-27 09:24:52.627290726 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 34
-  _time: 2025-06-27 09:24:52.630258274 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 35
-  _time: 2025-06-27 09:24:52.633341610 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 36
-  _time: 2025-06-27 09:24:52.636208139 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 37
-  _time: 2025-06-27 09:24:52.640116740 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 38
-  _time: 2025-06-27 09:24:52.643134042 Z
+- _id: 83
+  _time: 2025-06-27 10:25:06.652243390 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 39
-  _time: 2025-06-27 09:24:52.646257092 Z
+- _id: 84
+  _time: 2025-06-27 10:25:06.655715343 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 40
-  _time: 2025-06-27 09:24:52.652969635 Z
+- _id: 85
+  _time: 2025-06-27 10:25:06.659351021 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 41
-  _time: 2025-06-27 09:24:58.966522824 Z
+- _id: 86
+  _time: 2025-06-27 10:25:06.663028679 Z
   _version: 0.9.10/0.39.2/
-  average_pull_rejection_rate: 0.1358695652173913
-  since: 2025-05-30 09:24:52.656638448 Z
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 87
+  _time: 2025-06-27 10:25:06.666751530 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 88
+  _time: 2025-06-27 10:25:06.839899847 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#756.
+  issue: 756
+  label: bug
+  repository: 799177290
+  what: label-was-attached
+  when: 2025-06-23 05:31:32.000000000 Z
+  where: github
+  who: 526301
+- _id: 90
+  _time: 2025-06-27 10:25:07.046106162 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 91
+  _time: 2025-06-27 10:25:07.050852004 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 92
+  _time: 2025-06-27 10:25:07.320985924 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#758.
+  issue: 758
+  label: bug
+  repository: 799177290
+  what: label-was-attached
+  when: 2025-06-23 06:28:15.000000000 Z
+  where: github
+  who: 526301
+- _id: 93
+  _time: 2025-06-27 10:25:07.572779242 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#759.
+  issue: 759
+  label: bug
+  repository: 799177290
+  what: label-was-attached
+  when: 2025-06-23 13:15:17.000000000 Z
+  where: github
+  who: 526301
+- _id: 94
+  _time: 2025-06-27 10:25:07.757276395 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#760.
+  issue: 760
+  label: bug
+  repository: 799177290
+  what: label-was-attached
+  when: 2025-06-23 15:10:18.000000000 Z
+  where: github
+  who: 526301
+- _id: 95
+  _time: 2025-06-27 10:25:07.973642978 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#762.
+  issue: 762
+  label: bug
+  repository: 799177290
+  what: label-was-attached
+  when: 2025-06-24 06:41:29.000000000 Z
+  where: github
+  who: 526301
+- _id: 96
+  _time: 2025-06-27 10:25:08.191614654 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#770.
+  issue: 770
+  label: bug
+  repository: 799177290
+  what: label-was-attached
+  when: 2025-06-26 17:30:05.000000000 Z
+  where: github
+  who: 526301
+- _id: 97
+  _time: 2025-06-27 10:25:08.199978051 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 98
+  _time: 2025-06-27 10:26:06.772892352 Z
+  _version: 0.9.10/0.39.2/
+  average_release_interval: 30944.87671232877
+  average_review_size: 0.4968553459119497
+  average_review_time: 73997.85714285714
+  average_reviewers_per_pull: 0.16352201257861634
+  average_reviews_per_pull: 0.49056603773584906
+  since: 2025-05-30 10:25:08.202712577 Z
   what: quality-of-service
-  when: 2025-06-27 09:24:52.656614202 Z
+  when: 2025-06-27 10:25:08.202687601 Z
+- _id: 99
+  _time: 2025-06-27 10:26:06.775082682 Z
+  _version: 0.9.10/0.39.2/
+  since: 2025-05-30 10:26:06.775234215 Z
+  what: quantity-of-deliverables
+  when: 2025-06-27 10:26:06.775196735 Z
