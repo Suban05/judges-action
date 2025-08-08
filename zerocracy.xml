@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.9.6" size="8144">
+<fb version="0.9.6" size="4999">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <deleted t="I">8</deleted>
-    <error t="S">Judge github-events stopped by timeout after 3m0s: execution expired</error>
+    <error>
+      <v t="S">GET https://api.github.com/repos/zerocracy/pages-action/actions/jobs/47267366374: 502 - Server Error</v>
+      <v t="S">Judge quality-of-service stopped by timeout after 3m0s: execution expired</v>
+    </error>
     <inserted t="I">8</inserted>
-    <seconds t="F">277.064091125</seconds>
+    <seconds t="F">363.674642868</seconds>
     <version t="S">0.39.2</version>
     <what t="S">judges-summary</what>
-    <when t="T">2025-08-08T03:48:54Z</when>
+    <when t="T">2025-08-08T04:51:24Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <total_active_contributors t="I">5</total_active_contributors>
-    <total_commits t="I">5159</total_commits>
+    <total_commits t="I">5165</total_commits>
     <total_contributors t="I">14</total_contributors>
     <total_files t="I">649</total_files>
     <total_forks t="I">21</total_forks>
@@ -26,11 +29,11 @@
     <total_repositories t="I">8</total_repositories>
     <total_stars t="I">49</total_stars>
     <what t="S">dimensions-of-terrain</what>
-    <when t="T">2025-08-08T03:44:18Z</when>
+    <when t="T">2025-08-08T04:45:20Z</when>
   </f>
   <f>
     <_id t="I">2</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">799177290</repository>
@@ -39,7 +42,7 @@
   </f>
   <f>
     <_id t="I">3</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">849726475</repository>
@@ -48,16 +51,16 @@
   </f>
   <f>
     <_id t="I">4</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">798641472</repository>
+    <repository t="I">799113787</repository>
     <what t="S">min-issue-was-found</what>
     <where t="S">github</where>
   </f>
   <f>
     <_id t="I">5</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">820463873</repository>
@@ -66,16 +69,7 @@
   </f>
   <f>
     <_id t="I">6</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">802720676</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">7</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">840215648</repository>
@@ -83,17 +77,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">8</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">9</_id>
-    <_time t="T">2025-08-08T03:44:36Z</_time>
+    <_id t="I">7</_id>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">974194993</repository>
@@ -101,8 +86,26 @@
     <where t="S">github</where>
   </f>
   <f>
+    <_id t="I">8</_id>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">798641472</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">9</_id>
+    <_time t="T">2025-08-08T04:45:38Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">802720676</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
     <_id t="I">10</_id>
-    <_time t="T">2025-08-08T03:44:37Z</_time>
+    <_time t="T">2025-08-08T04:45:39Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/rubocop-1.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#336 has been opened by @renovate[bot].</details>
@@ -118,7 +121,7 @@
   </f>
   <f>
     <_id t="I">11</_id>
-    <_time t="T">2025-08-08T03:44:37Z</_time>
+    <_time t="T">2025-08-08T04:45:39Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/crate-ci-typos-1.x</branch>
     <comments t="I">3</comments>
@@ -143,7 +146,7 @@
   </f>
   <f>
     <_id t="I">12</_id>
-    <_time t="T">2025-08-08T03:44:55Z</_time>
+    <_time t="T">2025-08-08T04:45:55Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/crate-ci-typos-1.x</branch>
     <details t="S">The pull request zerocracy/pages-action#335 has been opened by @renovate[bot].</details>
@@ -159,7 +162,7 @@
   </f>
   <f>
     <_id t="I">13</_id>
-    <_time t="T">2025-08-08T03:44:55Z</_time>
+    <_time t="T">2025-08-08T04:45:55Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/fbe-0.x-lockfile</branch>
     <comments t="I">3</comments>
@@ -184,7 +187,7 @@
   </f>
   <f>
     <_id t="I">14</_id>
-    <_time t="T">2025-08-08T03:45:17Z</_time>
+    <_time t="T">2025-08-08T04:46:15Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <branch t="S">renovate/fbe-0.x-lockfile</branch>
     <details t="S">The pull request zerocracy/pages-action#334 has been opened by @renovate[bot].</details>
@@ -200,191 +203,7 @@
   </f>
   <f>
     <_id t="I">15</_id>
-    <_time t="T">2025-08-08T03:45:17Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <comments t="I">3</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">4</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#333 has been closed by @rultor, with 6 HoC and 3 comments.</details>
-    <event_id t="I">52796062905</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">333</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">14</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-07-31T17:04:38Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">16</_id>
-    <_time t="T">2025-08-08T03:46:00Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/pages-action#333 has been opened by @renovate[bot].</details>
-    <event_id t="I">52776215453</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">333</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-07-31T09:57:34Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">17</_id>
-    <_time t="T">2025-08-08T03:46:01Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">3</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">4</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#326 has been closed by @rultor, with 2 HoC and 3 comments.</details>
-    <event_id t="I">52617152871</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">326</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">14</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-07-28T08:55:45Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">18</_id>
-    <_time t="T">2025-08-08T03:46:21Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/judges-0.x-lockfile</branch>
-    <comments t="I">3</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">4</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#329 has been closed by @rultor, with 6 HoC and 3 comments.</details>
-    <event_id t="I">52606529772</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">6</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">329</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">14</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-07-28T03:38:25Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">19</_id>
-    <_time t="T">2025-08-08T03:46:35Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/judges-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/pages-action#329 has been opened by @renovate[bot].</details>
-    <event_id t="I">52600111079</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">329</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-07-27T20:57:43Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">20</_id>
-    <_time t="T">2025-08-08T03:46:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <comments t="I">3</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">4</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/pages-action#328 has been closed by @rultor, with 10 HoC and 3 comments.</details>
-    <event_id t="I">52508866336</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">10</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">328</issue>
-    <repository t="I">802720676</repository>
-    <succeeded_builds t="I">14</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-07-24T17:09:36Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
-  </f>
-  <f>
-    <_id t="I">21</_id>
-    <_time t="T">2025-08-08T03:47:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/rubocop-1.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/pages-action#328 has been opened by @renovate[bot].</details>
-    <event_id t="I">52496905402</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">328</issue>
-    <repository t="I">802720676</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-07-24T12:58:38Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">22</_id>
-    <_time t="T">2025-08-08T03:47:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">820463873</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">23</_id>
-    <_time t="T">2025-08-08T03:47:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">840215648</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">24</_id>
-    <_time t="T">2025-08-08T03:47:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">974194993</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">25</_id>
-    <_time t="T">2025-08-08T03:47:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">26</_id>
-    <_time t="T">2025-08-08T03:47:37Z</_time>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">798641472</repository>
@@ -392,8 +211,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">27</_id>
-    <_time t="T">2025-08-08T03:47:37Z</_time>
+    <_id t="I">16</_id>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">802720676</repository>
@@ -401,17 +220,17 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">28</_id>
-    <_time t="T">2025-08-08T03:47:37Z</_time>
+    <_id t="I">17</_id>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
+    <repository t="I">840215648</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">29</_id>
-    <_time t="T">2025-08-08T03:47:37Z</_time>
+    <_id t="I">18</_id>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">849726475</repository>
@@ -419,48 +238,56 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">30</_id>
-    <_time t="T">2025-08-08T03:48:10Z</_time>
+    <_id t="I">19</_id>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <average_review_size t="F">0.2</average_review_size>
-    <average_review_time t="F">45778.75</average_review_time>
-    <average_reviewers_per_pull t="F">0.07777777777777778</average_reviewers_per_pull>
-    <average_reviews_per_pull t="F">0.17777777777777778</average_reviews_per_pull>
-    <since t="T">2025-07-11T03:47:37Z</since>
+    <latest t="I">0</latest>
+    <repository t="I">799177290</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">20</_id>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">974194993</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">21</_id>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">820463873</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">22</_id>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799113787</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">23</_id>
+    <_time t="T">2025-08-08T04:46:38Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <since t="T">2025-07-11T04:46:38Z</since>
     <what t="S">quality-of-service</what>
-    <when t="T">2025-08-08T03:47:37Z</when>
+    <when t="T">2025-08-08T04:46:38Z</when>
   </f>
   <f>
-    <_id t="I">31</_id>
-    <_time t="T">2025-08-08T03:48:54Z</_time>
+    <_id t="I">24</_id>
+    <_time t="T">2025-08-08T04:51:24Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <since t="T">2025-07-11T03:48:10Z</since>
-    <total_commits_pushed t="I">167</total_commits_pushed>
-    <total_hoc_committed t="I">2969</total_hoc_committed>
-    <total_issues_created t="I">31</total_issues_created>
-    <total_pulls_submitted t="I">15</total_pulls_submitted>
-    <total_releases_published t="I">24</total_releases_published>
+    <since t="T">2025-07-11T04:49:38Z</since>
+    <total_builds_ran t="I">7261</total_builds_ran>
     <what t="S">quantity-of-deliverables</what>
-    <when t="T">2025-08-08T03:48:10Z</when>
-  </f>
-  <f>
-    <_id t="I">32</_id>
-    <_time t="T">2025-08-08T03:48:54Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <name t="S">renovate[bot]</name>
-    <what t="S">who-has-name</what>
-    <when t="T">2025-08-08T03:48:54Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">33</_id>
-    <_time t="T">2025-08-08T03:48:54Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <name t="S">rultor</name>
-    <what t="S">who-has-name</what>
-    <when t="T">2025-08-08T03:48:54Z</when>
-    <where t="S">github</where>
-    <who t="I">8086956</who>
+    <when t="T">2025-08-08T04:49:38Z</when>
   </f>
 </fb>
