@@ -2,17 +2,19 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  error:
+  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 305.754497252
+  seconds: 381.890324227
   version: 0.39.2
   what: judges-summary
-  when: 2025-08-09 03:25:04.428335536 Z
+  when: 2025-08-09 04:35:35.703292957 Z
 - _id: 1
-  _time: 2025-08-09 03:20:20.412040115 Z
+  _time: 2025-08-09 04:29:33.977907510 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 5
-  total_commits: 5211
+  total_commits: 5213
   total_contributors: 14
   total_files: 650
   total_forks: 21
@@ -22,65 +24,65 @@
   total_repositories: 8
   total_stars: 49
   what: dimensions-of-terrain
-  when: 2025-08-09 03:19:59.014185054 Z
+  when: 2025-08-09 04:29:14.148475495 Z
 - _id: 2
-  _time: 2025-08-09 03:20:20.463267832 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2025-08-09 03:20:20.466452437 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-08-09 03:20:20.469893002 Z
+  _time: 2025-08-09 04:29:34.027880469 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
-- _id: 5
-  _time: 2025-08-09 03:20:20.473023385 Z
+- _id: 3
+  _time: 2025-08-09 04:29:34.031009888 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 802720676
   what: min-issue-was-found
   where: github
-- _id: 6
-  _time: 2025-08-09 03:20:20.476008345 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-08-09 03:20:20.479390210 Z
+- _id: 4
+  _time: 2025-08-09 04:29:34.034233692 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
+- _id: 5
+  _time: 2025-08-09 04:29:34.037294563 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2025-08-09 04:29:34.040049503 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2025-08-09 04:29:34.042511426 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
 - _id: 8
-  _time: 2025-08-09 03:20:20.482431114 Z
+  _time: 2025-08-09 04:29:34.045091309 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-08-09 03:20:20.485884053 Z
+  _time: 2025-08-09 04:29:34.047975420 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-08-09 03:20:21.658244998 Z
+  _time: 2025-08-09 04:29:35.585735789 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/pages-action#342 has been opened by @renovate[bot].
@@ -94,7 +96,7 @@
   where: github
   who: 29139614
 - _id: 11
-  _time: 2025-08-09 03:20:22.012802036 Z
+  _time: 2025-08-09 04:29:35.921105268 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -118,7 +120,7 @@
   where: github
   who: 8086956
 - _id: 12
-  _time: 2025-08-09 03:20:29.672510096 Z
+  _time: 2025-08-09 04:29:44.070817177 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 2
@@ -142,7 +144,7 @@
   where: github
   who: 29139614
 - _id: 13
-  _time: 2025-08-09 03:20:36.824689069 Z
+  _time: 2025-08-09 04:29:51.742228269 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   comments: 3
@@ -166,7 +168,7 @@
   where: github
   who: 8086956
 - _id: 14
-  _time: 2025-08-09 03:20:51.576446173 Z
+  _time: 2025-08-09 04:30:06.270123448 Z
   _version: 0.9.10/0.39.2/
   comments: 4
   commits: 1
@@ -185,7 +187,7 @@
   where: github
   who: 526301
 - _id: 15
-  _time: 2025-08-09 03:20:51.896374697 Z
+  _time: 2025-08-09 04:30:06.614191981 Z
   _version: 0.9.10/0.39.2/
   comments: 4
   commits: 1
@@ -204,7 +206,7 @@
   where: github
   who: 526301
 - _id: 16
-  _time: 2025-08-09 03:20:52.263692571 Z
+  _time: 2025-08-09 04:30:06.967074539 Z
   _version: 0.9.10/0.39.2/
   comments: 4
   commits: 1
@@ -223,7 +225,7 @@
   where: github
   who: 526301
 - _id: 17
-  _time: 2025-08-09 03:20:52.540269849 Z
+  _time: 2025-08-09 04:30:07.275141655 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   details: The pull request zerocracy/pages-action#341 has been opened by @renovate[bot].
@@ -237,7 +239,7 @@
   where: github
   who: 29139614
 - _id: 18
-  _time: 2025-08-09 03:20:52.559490276 Z
+  _time: 2025-08-09 04:30:07.296323165 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/pages-action#340 has been opened by @renovate[bot].
@@ -251,7 +253,7 @@
   where: github
   who: 29139614
 - _id: 19
-  _time: 2025-08-09 03:20:52.575279303 Z
+  _time: 2025-08-09 04:30:07.314678221 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   details: The pull request zerocracy/pages-action#336 has been opened by @renovate[bot].
@@ -265,7 +267,7 @@
   where: github
   who: 29139614
 - _id: 20
-  _time: 2025-08-09 03:20:52.593671313 Z
+  _time: 2025-08-09 04:30:07.334607916 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 3
@@ -289,7 +291,7 @@
   where: github
   who: 8086956
 - _id: 21
-  _time: 2025-08-09 03:21:12.585502964 Z
+  _time: 2025-08-09 04:30:28.079498414 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/pages-action#335 has been opened by @renovate[bot].
@@ -303,7 +305,7 @@
   where: github
   who: 29139614
 - _id: 22
-  _time: 2025-08-09 03:21:12.609720135 Z
+  _time: 2025-08-09 04:30:28.105661483 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -327,7 +329,7 @@
   where: github
   who: 8086956
 - _id: 23
-  _time: 2025-08-09 03:21:37.214698193 Z
+  _time: 2025-08-09 04:30:53.734763121 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/pages-action#334 has been opened by @renovate[bot].
@@ -341,7 +343,7 @@
   where: github
   who: 29139614
 - _id: 24
-  _time: 2025-08-09 03:21:37.361844517 Z
+  _time: 2025-08-09 04:30:53.918419710 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   comments: 3
@@ -365,7 +367,7 @@
   where: github
   who: 8086956
 - _id: 25
-  _time: 2025-08-09 03:22:26.265543656 Z
+  _time: 2025-08-09 04:31:44.212909695 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   details: The pull request zerocracy/pages-action#333 has been opened by @renovate[bot].
@@ -379,7 +381,7 @@
   where: github
   who: 29139614
 - _id: 26
-  _time: 2025-08-09 03:22:26.641081761 Z
+  _time: 2025-08-09 04:31:44.512706557 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 3
@@ -403,7 +405,7 @@
   where: github
   who: 8086956
 - _id: 27
-  _time: 2025-08-09 03:22:48.445208045 Z
+  _time: 2025-08-09 04:32:06.690439504 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   comments: 3
@@ -427,7 +429,7 @@
   where: github
   who: 8086956
 - _id: 28
-  _time: 2025-08-09 03:23:04.860464217 Z
+  _time: 2025-08-09 04:32:23.203589047 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   details: The pull request zerocracy/pages-action#329 has been opened by @renovate[bot].
@@ -441,78 +443,65 @@
   where: github
   who: 29139614
 - _id: 29
-  _time: 2025-08-09 03:23:22.112054927 Z
+  _time: 2025-08-09 04:32:35.631889053 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 974194993
   what: labels-were-scanned
   where: github
 - _id: 30
-  _time: 2025-08-09 03:23:22.114957932 Z
+  _time: 2025-08-09 04:32:35.635764235 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
 - _id: 31
-  _time: 2025-08-09 03:23:22.118077003 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 32
-  _time: 2025-08-09 03:23:22.121002601 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 33
-  _time: 2025-08-09 03:23:22.124138744 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 34
-  _time: 2025-08-09 03:23:22.127097153 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 35
-  _time: 2025-08-09 03:23:22.130159196 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 36
-  _time: 2025-08-09 03:23:22.150754756 Z
+  _time: 2025-08-09 04:32:35.639552586 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
+- _id: 32
+  _time: 2025-08-09 04:32:35.643347378 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 33
+  _time: 2025-08-09 04:32:35.652066061 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 34
+  _time: 2025-08-09 04:32:35.669333520 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 35
+  _time: 2025-08-09 04:32:35.685159979 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 36
+  _time: 2025-08-09 04:32:35.700419631 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
 - _id: 37
-  _time: 2025-08-09 03:24:11.628127510 Z
+  _time: 2025-08-09 04:32:37.706196472 Z
   _version: 0.9.10/0.39.2/
-  average_issue_lifetime: 176199.27777777778
-  average_pull_lifetime: 77181.58620689655
-  average_review_size: 0.22429906542056074
-  average_review_time: 16676.85714285714
-  average_reviewers_per_pull: 0.18691588785046728
-  average_reviews_per_pull: 0.2897196261682243
-  since: 2025-07-12 03:23:22.154698116 Z
+  average_triage_time: 0
+  since: 2025-07-12 04:32:35.704842155 Z
   what: quality-of-service
-  when: 2025-08-09 03:23:22.154672588 Z
-- _id: 38
-  _time: 2025-08-09 03:25:04.426358150 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-07-12 03:24:11.630719542 Z
-  total_commits_pushed: 216
-  total_hoc_committed: 3638
-  what: quantity-of-deliverables
-  when: 2025-08-09 03:24:11.630695797 Z
+  when: 2025-08-09 04:32:35.704816437 Z
