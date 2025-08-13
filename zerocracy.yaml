@@ -2,14 +2,16 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  error:
+  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 425.971285693
+  seconds: 391.321748386
   version: 0.39.2
   what: judges-summary
-  when: 2025-08-13 14:27:55.703089949 Z
+  when: 2025-08-13 15:25:12.884375436 Z
 - _id: 1
-  _time: 2025-08-13 14:21:17.509376747 Z
+  _time: 2025-08-13 15:19:09.222179482 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 5
   total_commits: 5269
@@ -17,70 +19,70 @@
   total_files: 650
   total_forks: 21
   total_issues: 770
-  total_pulls: 1554
+  total_pulls: 1555
   total_releases: 618
   total_repositories: 8
   total_stars: 50
   what: dimensions-of-terrain
-  when: 2025-08-13 14:20:50.053691533 Z
+  when: 2025-08-13 15:18:41.905051355 Z
 - _id: 2
-  _time: 2025-08-13 14:21:17.534025509 Z
+  _time: 2025-08-13 15:19:09.252352729 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-08-13 14:21:17.536539886 Z
+  _time: 2025-08-13 15:19:09.255493055 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-08-13 14:21:17.539066145 Z
+  _time: 2025-08-13 15:19:09.259148327 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2025-08-13 14:21:17.541594328 Z
+  _time: 2025-08-13 15:19:09.261587348 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-08-13 14:21:17.544044555 Z
+  _time: 2025-08-13 15:19:09.264128511 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 7
-  _time: 2025-08-13 14:21:17.546590981 Z
+  _time: 2025-08-13 15:19:09.267019921 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-08-13 15:19:09.269836450 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2025-08-13 14:21:17.549177403 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
 - _id: 9
-  _time: 2025-08-13 14:21:17.551656383 Z
+  _time: 2025-08-13 15:19:09.272619537 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-08-13 14:21:19.765131589 Z
+  _time: 2025-08-13 15:19:11.585824320 Z
   _version: 0.9.10/0.39.2/
   comments: 2
   commits: 1
@@ -99,7 +101,7 @@
   where: github
   who: 526301
 - _id: 11
-  _time: 2025-08-13 14:21:21.259173811 Z
+  _time: 2025-08-13 15:19:13.088817021 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/baza.rb-0.x-lockfile
   details: The pull request zerocracy/judges-action#876 has been opened by @renovate[bot].
@@ -113,7 +115,7 @@
   where: github
   who: 29139614
 - _id: 12
-  _time: 2025-08-13 14:21:21.735387397 Z
+  _time: 2025-08-13 15:19:13.544395745 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/actions-checkout-5.x
   comments: 3
@@ -137,7 +139,7 @@
   where: github
   who: 8086956
 - _id: 13
-  _time: 2025-08-13 14:22:12.104651307 Z
+  _time: 2025-08-13 15:20:03.601426160 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -156,7 +158,7 @@
   where: github
   who: 526301
 - _id: 14
-  _time: 2025-08-13 14:22:12.593966938 Z
+  _time: 2025-08-13 15:20:04.105050000 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/actions-checkout-5.x
   details: The pull request zerocracy/judges-action#875 has been opened by @renovate[bot].
@@ -170,7 +172,7 @@
   where: github
   who: 29139614
 - _id: 15
-  _time: 2025-08-13 14:22:12.762297440 Z
+  _time: 2025-08-13 15:20:04.220220927 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/zerocracy-judges-action-0.x
   comments: 3
@@ -194,7 +196,7 @@
   where: github
   who: 8086956
 - _id: 16
-  _time: 2025-08-13 14:23:04.775374540 Z
+  _time: 2025-08-13 15:20:57.121396969 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -213,7 +215,7 @@
   where: github
   who: 526301
 - _id: 17
-  _time: 2025-08-13 14:23:05.785700395 Z
+  _time: 2025-08-13 15:20:58.140307518 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/zerocracy-judges-action-0.x
   details: The pull request zerocracy/judges-action#874 has been opened by @renovate[bot].
@@ -227,7 +229,7 @@
   where: github
   who: 29139614
 - _id: 18
-  _time: 2025-08-13 14:23:07.113136769 Z
+  _time: 2025-08-13 15:20:58.838485454 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -251,7 +253,7 @@
   where: github
   who: 526301
 - _id: 19
-  _time: 2025-08-13 14:23:08.666068935 Z
+  _time: 2025-08-13 15:21:00.248118183 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#872 has been closed by @yegor256.
   event_id: 53176405014
@@ -264,7 +266,7 @@
   where: github
   who: 526301
 - _id: 20
-  _time: 2025-08-13 14:23:08.685038347 Z
+  _time: 2025-08-13 15:21:00.282554320 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#873 has been opened by @github-actions[bot].
@@ -278,7 +280,7 @@
   where: github
   who: 41898282
 - _id: 21
-  _time: 2025-08-13 14:23:08.933560104 Z
+  _time: 2025-08-13 15:21:00.536594157 Z
   _version: 0.9.10/0.39.2/
   commits: 1869
   contributors:
@@ -304,7 +306,7 @@
   where: github
   who: 8086956
 - _id: 22
-  _time: 2025-08-13 14:23:41.135540938 Z
+  _time: 2025-08-13 15:21:32.560749217 Z
   _version: 0.9.10/0.39.2/
   details: A new tag '0.15.10' has been created in zerocracy/judges-action by @rultor.
   event_id: 53176288061
@@ -317,7 +319,7 @@
   where: github
   who: 8086956
 - _id: 23
-  _time: 2025-08-13 14:23:41.153520752 Z
+  _time: 2025-08-13 15:21:32.578465836 Z
   _version: 0.9.10/0.39.2/
   commit: 55db043c6739953b04cac3e889acd233b0185a58
   default_branch: master
@@ -335,7 +337,7 @@
   where: github
   who: 526301
 - _id: 24
-  _time: 2025-08-13 14:23:42.085482236 Z
+  _time: 2025-08-13 15:21:33.270963807 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#872 has been opened by @yegor256.
   event_id: 53175771305
@@ -348,7 +350,7 @@
   where: github
   who: 526301
 - _id: 25
-  _time: 2025-08-13 14:23:42.102073987 Z
+  _time: 2025-08-13 15:21:33.287903960 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 1
@@ -372,7 +374,7 @@
   where: github
   who: 29139614
 - _id: 26
-  _time: 2025-08-13 14:23:52.623495896 Z
+  _time: 2025-08-13 15:21:43.672051817 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/python-3.x
   comments: 3
@@ -396,7 +398,7 @@
   where: github
   who: 8086956
 - _id: 27
-  _time: 2025-08-13 14:24:06.140500349 Z
+  _time: 2025-08-13 15:21:56.369560964 Z
   _version: 0.9.10/0.39.2/
   commit: 47380fe550cc14961c03fc6b9b6d436fbf933f9b
   default_branch: master
@@ -414,7 +416,7 @@
   where: github
   who: 526301
 - _id: 28
-  _time: 2025-08-13 14:24:06.983282921 Z
+  _time: 2025-08-13 15:21:57.436867191 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -433,7 +435,7 @@
   where: github
   who: 526301
 - _id: 29
-  _time: 2025-08-13 14:24:07.717376366 Z
+  _time: 2025-08-13 15:21:57.887187209 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   details: The pull request zerocracy/judges-action#871 has been opened by @renovate[bot].
@@ -447,7 +449,7 @@
   where: github
   who: 29139614
 - _id: 30
-  _time: 2025-08-13 14:24:07.978854200 Z
+  _time: 2025-08-13 15:21:57.995469660 Z
   _version: 0.9.10/0.39.2/
   commit: 7078015f4abcc1bfda39778ed6045f9c5e8c500a
   default_branch: master
@@ -465,7 +467,7 @@
   where: github
   who: 526301
 - _id: 31
-  _time: 2025-08-13 14:24:08.643622287 Z
+  _time: 2025-08-13 15:21:58.653849620 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/python-3.x
   details: The pull request zerocracy/judges-action#870 has been opened by @renovate[bot].
@@ -479,7 +481,7 @@
   where: github
   who: 29139614
 - _id: 32
-  _time: 2025-08-13 14:24:09.219368052 Z
+  _time: 2025-08-13 15:21:59.468481628 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -503,7 +505,7 @@
   where: github
   who: 41898282
 - _id: 33
-  _time: 2025-08-13 14:24:11.257323339 Z
+  _time: 2025-08-13 15:22:01.254464222 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#869 has been opened by @github-actions[bot].
@@ -517,25 +519,7 @@
   where: github
   who: 41898282
 - _id: 34
-  _time: 2025-08-13 14:24:11.269252451 Z
-  _version: 0.9.10/0.39.2/
-  commit: 2429cf0f58c8e008a66f4ecde8f0478e5e135424
-  default_branch: master
-  details: 'A new Git push #26028736019 has arrived to zerocracy/judges-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 53150078061
-  event_type: PushEvent
-  is_human: 1
-  push_id: 26028736019
-  ref: refs/heads/master
-  repository: 799177290
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-08-09 07:27:52.000000000 Z
-  where: github
-  who: 526301
-- _id: 35
-  _time: 2025-08-13 14:24:11.978601063 Z
+  _time: 2025-08-13 15:22:01.869178280 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -558,43 +542,15 @@
   when: 2025-08-09 07:27:52.000000000 Z
   where: github
   who: 526301
+- _id: 35
+  _time: 2025-08-13 15:22:12.371431886 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
 - _id: 36
-  _time: 2025-08-13 14:24:19.932396122 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 37
-  _time: 2025-08-13 14:24:19.935295354 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 38
-  _time: 2025-08-13 14:24:19.938209494 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 39
-  _time: 2025-08-13 14:24:20.137721838 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 40
-  _time: 2025-08-13 14:24:20.145100808 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 41
-  _time: 2025-08-13 14:24:20.533413057 Z
+  _time: 2025-08-13 15:22:12.856875156 Z
   _version: 0.9.10/0.39.2/
   details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#872.
   issue: 872
@@ -604,39 +560,58 @@
   when: 2025-08-10 17:14:52.000000000 Z
   where: github
   who: 526301
+- _id: 38
+  _time: 2025-08-13 15:22:12.862083789 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 39
+  _time: 2025-08-13 15:22:12.864900779 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 40
+  _time: 2025-08-13 15:22:12.867872139 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 41
+  _time: 2025-08-13 15:22:12.870898421 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 42
+  _time: 2025-08-13 15:22:12.873926597 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
 - _id: 43
-  _time: 2025-08-13 14:24:20.543784610 Z
+  _time: 2025-08-13 15:22:12.876803279 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
 - _id: 44
-  _time: 2025-08-13 14:24:20.550593776 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 45
-  _time: 2025-08-13 14:24:20.559695737 Z
+  _time: 2025-08-13 15:22:12.881058896 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 46
-  _time: 2025-08-13 14:25:26.690062221 Z
+- _id: 45
+  _time: 2025-08-13 15:22:12.883692772 Z
   _version: 0.9.10/0.39.2/
-  average_pull_files_size: 1.7642276422764227
-  average_pull_hoc_size: 12.203252032520325
-  since: 2025-07-16 14:24:20.562701644 Z
+  since: 2025-07-16 15:22:12.883823448 Z
   what: quality-of-service
-  when: 2025-08-13 14:24:20.562677570 Z
-- _id: 47
-  _time: 2025-08-13 14:27:55.701082206 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-07-16 14:25:26.692798375 Z
-  total_builds_ran: 8447
-  what: quantity-of-deliverables
-  when: 2025-08-13 14:25:26.692775292 Z
+  when: 2025-08-13 15:22:12.883792840 Z
