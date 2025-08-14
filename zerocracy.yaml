@@ -6,12 +6,12 @@
   - 'Judge github-events stopped by timeout after 3m0s: execution expired'
   - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 380.958932085
+  seconds: 390.447098734
   version: 0.39.2
   what: judges-summary
-  when: 2025-08-14 01:48:58.879545927 Z
+  when: 2025-08-14 03:26:58.923168816 Z
 - _id: 1
-  _time: 2025-08-14 01:42:57.481301574 Z
+  _time: 2025-08-14 03:20:55.593366390 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 5
   total_commits: 5271
@@ -24,645 +24,553 @@
   total_repositories: 8
   total_stars: 50
   what: dimensions-of-terrain
-  when: 2025-08-14 01:42:38.244512203 Z
+  when: 2025-08-14 03:20:28.807640877 Z
 - _id: 2
-  _time: 2025-08-14 01:42:57.504436727 Z
+  _time: 2025-08-14 03:20:55.621107183 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-08-14 01:42:57.506861739 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-08-14 01:42:57.509281822 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-08-14 01:42:57.511909552 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-08-14 01:42:57.523347957 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-08-14 01:42:57.527704489 Z
+  _time: 2025-08-14 03:20:55.623618739 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2025-08-14 01:42:57.533338237 Z
+- _id: 4
+  _time: 2025-08-14 03:20:55.626145173 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2025-08-14 03:20:55.628524954 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2025-08-14 03:20:55.631120106 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
-- _id: 9
-  _time: 2025-08-14 01:42:57.538238784 Z
+- _id: 7
+  _time: 2025-08-14 03:20:55.633702625 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-08-14 03:20:55.636367798 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2025-08-14 01:42:58.692608690 Z
+- _id: 9
+  _time: 2025-08-14 03:20:55.638997104 Z
   _version: 0.9.10/0.39.2/
-  comments: 2
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2025-08-14 03:20:57.683694334 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 5
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/baza.rb#121 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 53292541432
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 121
+  repository: 840215648
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-08-13 03:05:53.000000000 Z
+  where: github
+  who: 8086956
+- _id: 11
+  _time: 2025-08-14 03:21:12.246358266 Z
+  _version: 0.9.10/0.39.2/
+  comments: 5
   commits: 1
-  details: The pull request zerocracy/pages-action#348 has been reviewed by @yegor256
-    with 2 HoC and 2 comments.
-  event_id: 53292884884
+  details: The pull request zerocracy/baza.rb#121 has been reviewed by @yegor256 with
+    2 HoC and 5 comments.
+  event_id: 53292329713
   event_type: PullRequestReviewEvent
   files: 1
   hoc: 2
   is_human: 1
-  issue: 348
-  repository: 802720676
+  issue: 121
+  repository: 840215648
   review_comments: 0
   what: pull-was-reviewed
-  when: 2025-08-13 03:21:38.000000000 Z
+  when: 2025-08-13 02:57:20.000000000 Z
   where: github
   who: 526301
-- _id: 11
-  _time: 2025-08-14 01:42:59.354371234 Z
+- _id: 12
+  _time: 2025-08-14 03:21:12.870314368 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/actions-checkout-5.x
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#347 has been closed by @rultor,
-    with 30 HoC and 3 comments.
-  event_id: 53217403725
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request zerocracy/baza.rb#121 has been opened by @renovate[bot].
+  event_id: 53275881211
   event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 30
   is_human: 0
-  issue: 347
-  repository: 802720676
-  succeeded_builds: 14
-  what: pull-was-merged
-  when: 2025-08-11 16:44:20.000000000 Z
+  issue: 121
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-08-12 17:57:08.000000000 Z
+  where: github
+  who: 29139614
+- _id: 13
+  _time: 2025-08-14 03:21:13.237904283 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/baza.rb#120 has been closed by @yegor256.
+  event_id: 53220902249
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 120
+  repository: 840215648
+  what: issue-was-closed
+  when: 2025-08-11 18:06:29.000000000 Z
+  where: github
+  who: 526301
+- _id: 14
+  _time: 2025-08-14 03:21:13.251660831 Z
+  _version: 0.9.10/0.39.2/
+  commits: 235
+  contributors:
+  - 526301
+  - 29139614
+  - 1646020
+  - 8086956
+  details: A new release '' has been published in zerocracy/baza.rb by @rultor.
+  event_id: 53220797440
+  event_type: ReleaseEvent
+  hoc: 3834
+  is_human: 0
+  last_commit: 247526af0bebceeebaf6e5511cf5d5c69b447429
+  release: 239127470
+  repository: 840215648
+  tag: 0.10.1
+  what: release-published
+  when: 2025-08-11 18:03:59.000000000 Z
   where: github
   who: 8086956
-- _id: 12
-  _time: 2025-08-14 01:43:32.198711409 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/pages-action#347 has been reviewed by @yegor256
-    with 30 HoC and 5 comments.
-  event_id: 53216627308
-  event_type: PullRequestReviewEvent
-  files: 15
-  hoc: 30
-  is_human: 1
-  issue: 347
-  repository: 802720676
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-11 16:26:18.000000000 Z
-  where: github
-  who: 526301
-- _id: 13
-  _time: 2025-08-14 01:43:32.632704451 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/actions-checkout-5.x
-  details: The pull request zerocracy/pages-action#347 has been opened by @renovate[bot].
-  event_id: 53213676349
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 347
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-08-11 15:24:38.000000000 Z
-  where: github
-  who: 29139614
-- _id: 14
-  _time: 2025-08-14 01:43:32.768405633 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/factbase-0.x-lockfile
-  comments: 4
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#339 has been closed by @renovate[bot],
-    with 2 HoC and 4 comments.
-  event_id: 53184454987
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 339
-  repository: 802720676
-  succeeded_builds: 14
-  what: pull-was-closed
-  when: 2025-08-11 03:16:01.000000000 Z
-  where: github
-  who: 29139614
 - _id: 15
-  _time: 2025-08-14 01:43:38.893993384 Z
+  _time: 2025-08-14 03:21:17.971840628 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#346 has been closed by @rultor,
-    with 4 HoC and 3 comments.
-  event_id: 53184424968
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
+  details: A new tag '0.10.1' has been created in zerocracy/baza.rb by @rultor.
+  event_id: 53220749643
+  event_type: CreateEvent
   is_human: 0
-  issue: 346
-  repository: 802720676
-  succeeded_builds: 14
-  what: pull-was-merged
-  when: 2025-08-11 03:14:28.000000000 Z
+  repository: 840215648
+  tag: 0.10.1
+  what: tag-was-created
+  when: 2025-08-11 18:02:52.000000000 Z
   where: github
   who: 8086956
 - _id: 16
-  _time: 2025-08-14 01:43:56.235266372 Z
+  _time: 2025-08-14 03:21:17.983310911 Z
   _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/pages-action#346 has been reviewed by @yegor256
-    with 4 HoC and 5 comments.
-  event_id: 53184198895
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 4
+  commit: 3da5f9f3283a4d47df367783778372a9c5ea3ba1
+  default_branch: master
+  details: 'A new Git push #26067459184 has arrived to zerocracy/baza.rb, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 53220379342
+  event_type: PushEvent
   is_human: 1
-  issue: 346
-  repository: 802720676
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-11 03:03:47.000000000 Z
+  push_id: 26067459184
+  ref: refs/heads/master
+  repository: 840215648
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-11 17:54:15.000000000 Z
   where: github
   who: 526301
 - _id: 17
-  _time: 2025-08-14 01:43:56.598662145 Z
+  _time: 2025-08-14 03:21:18.291710661 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#346 has been opened by @renovate[bot].
-  event_id: 53179387364
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 346
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-08-10 21:40:28.000000000 Z
+  commit: ce0ba2a0e8bab1d76bb37f085463590843dc7e07
+  default_branch: master
+  details: 'A new Git push #26067425648 has arrived to zerocracy/baza.rb, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 53220305272
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26067425648
+  ref: refs/heads/master
+  repository: 840215648
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-11 17:52:31.000000000 Z
   where: github
-  who: 29139614
+  who: 526301
 - _id: 18
-  _time: 2025-08-14 01:43:56.643696021 Z
+  _time: 2025-08-14 03:21:18.634320450 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/python-3.x
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#344 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53175820988
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 344
-  repository: 802720676
-  succeeded_builds: 14
-  what: pull-was-merged
-  when: 2025-08-10 17:18:01.000000000 Z
+  details: The issue zerocracy/baza.rb#120 has been opened by @yegor256.
+  event_id: 53220273216
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 120
+  repository: 840215648
+  what: issue-was-opened
+  when: 2025-08-11 17:51:46.000000000 Z
   where: github
-  who: 8086956
+  who: 526301
 - _id: 19
-  _time: 2025-08-14 01:44:04.513546495 Z
+  _time: 2025-08-14 03:21:18.657609947 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/node-22.x
+  branch: renovate/actions-checkout-5.x
   comments: 3
   comments_appreciated: 1
   comments_by_author: 0
   comments_by_reviewers: 5
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#345 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53175325615
+  details: The pull request zerocracy/baza.rb#119 has been closed by @rultor, with
+    20 HoC and 3 comments.
+  event_id: 53217707511
   event_type: PullRequestEvent
   failed_builds: 0
-  hoc: 2
+  hoc: 20
   is_human: 0
-  issue: 345
-  repository: 802720676
-  succeeded_builds: 14
+  issue: 119
+  repository: 840215648
+  succeeded_builds: 10
   what: pull-was-merged
-  when: 2025-08-10 16:45:14.000000000 Z
+  when: 2025-08-11 16:51:35.000000000 Z
   where: github
   who: 8086956
 - _id: 20
-  _time: 2025-08-14 01:44:17.352177380 Z
+  _time: 2025-08-14 03:21:32.821841961 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
-  details: The pull request zerocracy/pages-action#344 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53175136059
+  details: The pull request zerocracy/baza.rb#119 has been reviewed by @yegor256 with
+    20 HoC and 5 comments.
+  event_id: 53216950651
   event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
+  files: 10
+  hoc: 20
   is_human: 1
-  issue: 344
-  repository: 802720676
+  issue: 119
+  repository: 840215648
   review_comments: 0
   what: pull-was-reviewed
-  when: 2025-08-10 16:31:59.000000000 Z
+  when: 2025-08-11 16:33:36.000000000 Z
   where: github
   who: 526301
 - _id: 21
-  _time: 2025-08-14 01:44:17.710565635 Z
+  _time: 2025-08-14 03:21:33.205034052 Z
   _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/pages-action#345 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53175135466
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 345
-  repository: 802720676
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-10 16:31:56.000000000 Z
+  branch: renovate/actions-checkout-5.x
+  details: The pull request zerocracy/baza.rb#119 has been opened by @renovate[bot].
+  event_id: 53211029868
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 119
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-08-11 14:34:32.000000000 Z
   where: github
-  who: 526301
+  who: 29139614
 - _id: 22
-  _time: 2025-08-14 01:44:18.022693496 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/node-22.x
-  details: The pull request zerocracy/pages-action#345 has been opened by @renovate[bot].
-  event_id: 53172737576
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 345
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-08-10 14:07:22.000000000 Z
-  where: github
-  who: 29139614
-- _id: 23
-  _time: 2025-08-14 01:44:18.044845093 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/python-3.x
-  details: The pull request zerocracy/pages-action#344 has been opened by @renovate[bot].
-  event_id: 53172736412
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 344
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-08-10 14:07:17.000000000 Z
-  where: github
-  who: 29139614
-- _id: 24
-  _time: 2025-08-14 01:44:18.217135910 Z
+  _time: 2025-08-14 03:21:33.323698028 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
-  comments: 4
+  comments: 3
   comments_appreciated: 1
   comments_by_author: 0
-  comments_by_reviewers: 4
+  comments_by_reviewers: 5
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#339 has been closed by @renovate[bot],
-    with 2 HoC and 4 comments.
-  event_id: 53157344832
+  details: The pull request zerocracy/baza.rb#118 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 53184428949
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 2
   is_human: 0
-  issue: 339
-  repository: 802720676
-  succeeded_builds: 28
-  what: pull-was-closed
-  when: 2025-08-09 16:48:56.000000000 Z
+  issue: 118
+  repository: 840215648
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-08-11 03:14:41.000000000 Z
+  where: github
+  who: 8086956
+- _id: 23
+  _time: 2025-08-14 03:21:47.466198620 Z
+  _version: 0.9.10/0.39.2/
+  comments: 5
+  commits: 1
+  details: The pull request zerocracy/baza.rb#118 has been reviewed by @yegor256 with
+    2 HoC and 5 comments.
+  event_id: 53184253906
+  event_type: PullRequestReviewEvent
+  files: 1
+  hoc: 2
+  is_human: 1
+  issue: 118
+  repository: 840215648
+  review_comments: 0
+  what: pull-was-reviewed
+  when: 2025-08-11 03:06:13.000000000 Z
+  where: github
+  who: 526301
+- _id: 24
+  _time: 2025-08-14 03:21:47.928467424 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/baza.rb#118 has been opened by @renovate[bot].
+  event_id: 53175170653
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 118
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-08-10 16:34:18.000000000 Z
   where: github
   who: 29139614
 - _id: 25
-  _time: 2025-08-14 01:44:28.764691294 Z
+  _time: 2025-08-14 03:21:47.962549631 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
+  branch: renovate/crate-ci-typos-1.x
   comments: 3
   comments_appreciated: 1
   comments_by_author: 0
   comments_by_reviewers: 5
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#343 has been closed by @rultor,
-    with 4 HoC and 3 comments.
-  event_id: 53157338895
+  details: The pull request zerocracy/baza.rb#116 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 53171839708
   event_type: PullRequestEvent
   failed_builds: 0
-  hoc: 4
+  hoc: 2
   is_human: 0
-  issue: 343
-  repository: 802720676
-  succeeded_builds: 14
+  issue: 116
+  repository: 840215648
+  succeeded_builds: 10
   what: pull-was-merged
-  when: 2025-08-09 16:48:26.000000000 Z
+  when: 2025-08-10 13:13:56.000000000 Z
   where: github
   who: 8086956
 - _id: 26
-  _time: 2025-08-14 01:44:48.129960566 Z
+  _time: 2025-08-14 03:22:03.183380151 Z
   _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/pages-action#343 has been reviewed by @yegor256
-    with 4 HoC and 5 comments.
-  event_id: 53157200249
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 4
-  is_human: 1
-  issue: 343
-  repository: 802720676
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-09 16:37:30.000000000 Z
-  where: github
-  who: 526301
-- _id: 27
-  _time: 2025-08-14 01:44:48.489593915 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#343 has been opened by @renovate[bot].
-  event_id: 53150911469
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 343
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-08-09 08:37:26.000000000 Z
-  where: github
-  who: 29139614
-- _id: 28
-  _time: 2025-08-14 01:44:48.635481984 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
+  branch: renovate/factbase-0.x-lockfile
   comments: 3
   comments_appreciated: 1
   comments_by_author: 0
   comments_by_reviewers: 5
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#342 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53146973607
+  details: The pull request zerocracy/baza.rb#117 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 53157254017
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 2
   is_human: 0
-  issue: 342
-  repository: 802720676
-  succeeded_builds: 14
+  issue: 117
+  repository: 840215648
+  succeeded_builds: 10
   what: pull-was-merged
-  when: 2025-08-09 03:12:29.000000000 Z
+  when: 2025-08-09 16:41:45.000000000 Z
   where: github
   who: 8086956
-- _id: 29
-  _time: 2025-08-14 01:45:06.489197249 Z
+- _id: 27
+  _time: 2025-08-14 03:22:17.784462158 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
-  details: The pull request zerocracy/pages-action#342 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53146787803
+  details: The pull request zerocracy/baza.rb#117 has been reviewed by @yegor256 with
+    2 HoC and 5 comments.
+  event_id: 53157168951
   event_type: PullRequestReviewEvent
   files: 1
   hoc: 2
   is_human: 1
-  issue: 342
-  repository: 802720676
+  issue: 117
+  repository: 840215648
   review_comments: 0
   what: pull-was-reviewed
-  when: 2025-08-09 02:58:24.000000000 Z
+  when: 2025-08-09 16:35:10.000000000 Z
+  where: github
+  who: 526301
+- _id: 28
+  _time: 2025-08-14 03:22:18.404664929 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/baza.rb#117 has been opened by @renovate[bot].
+  event_id: 53151014368
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 117
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-08-09 08:46:18.000000000 Z
+  where: github
+  who: 29139614
+- _id: 29
+  _time: 2025-08-14 03:22:18.731789251 Z
+  _version: 0.9.10/0.39.2/
+  comments: 5
+  commits: 1
+  details: The pull request zerocracy/baza.rb#116 has been reviewed by @yegor256 with
+    2 HoC and 5 comments.
+  event_id: 53147053667
+  event_type: PullRequestReviewEvent
+  files: 1
+  hoc: 2
+  is_human: 1
+  issue: 116
+  repository: 840215648
+  review_comments: 0
+  what: pull-was-reviewed
+  when: 2025-08-09 03:18:54.000000000 Z
   where: github
   who: 526301
 - _id: 30
-  _time: 2025-08-14 01:45:06.844523328 Z
+  _time: 2025-08-14 03:22:19.117039372 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
-  details: The pull request zerocracy/pages-action#342 has been opened by @renovate[bot].
-  event_id: 53140401756
+  details: The pull request zerocracy/baza.rb#116 has been opened by @renovate[bot].
+  event_id: 53140747609
   event_type: PullRequestEvent
   is_human: 0
-  issue: 342
-  repository: 802720676
+  issue: 116
+  repository: 840215648
   what: pull-was-opened
-  when: 2025-08-08 20:52:53.000000000 Z
+  when: 2025-08-08 21:04:20.000000000 Z
   where: github
   who: 29139614
 - _id: 31
-  _time: 2025-08-14 01:45:06.896731358 Z
+  _time: 2025-08-14 03:22:19.144568897 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
+  branch: renovate/factbase-0.x-lockfile
   comments: 3
   comments_appreciated: 1
   comments_by_author: 0
   comments_by_reviewers: 5
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#340 has been closed by @rultor,
-    with 6 HoC and 3 comments.
-  event_id: 53132516330
+  details: The pull request zerocracy/baza.rb#115 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 53132087031
   event_type: PullRequestEvent
   failed_builds: 0
-  hoc: 6
+  hoc: 2
   is_human: 0
-  issue: 340
-  repository: 802720676
-  succeeded_builds: 14
+  issue: 115
+  repository: 840215648
+  succeeded_builds: 10
   what: pull-was-merged
-  when: 2025-08-08 16:52:36.000000000 Z
+  when: 2025-08-08 16:40:34.000000000 Z
   where: github
   who: 8086956
 - _id: 32
-  _time: 2025-08-14 01:45:14.084537123 Z
+  _time: 2025-08-14 03:22:34.072933119 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/factbase-0.x-lockfile
-  comments: 2
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 4
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#339 has been closed by @renovate[bot],
-    with 2 HoC and 2 comments.
-  event_id: 53132043992
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 339
-  repository: 802720676
-  succeeded_builds: 28
-  what: pull-was-closed
-  when: 2025-08-08 16:39:21.000000000 Z
-  where: github
-  who: 29139614
-- _id: 33
-  _time: 2025-08-14 01:45:25.754085351 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#341 has been closed by @rultor,
-    with 4 HoC and 3 comments.
-  event_id: 53132024939
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 0
-  issue: 341
-  repository: 802720676
-  succeeded_builds: 14
-  what: pull-was-merged
-  when: 2025-08-08 16:38:49.000000000 Z
-  where: github
-  who: 8086956
-- _id: 34
-  _time: 2025-08-14 01:45:38.581263746 Z
-  _version: 0.9.10/0.39.2/
-  comments: 4
+  comments: 5
   commits: 1
-  details: The pull request zerocracy/pages-action#339 has been reviewed by @yegor256
-    with 2 HoC and 4 comments.
-  event_id: 53131624002
+  details: The pull request zerocracy/baza.rb#115 has been reviewed by @yegor256 with
+    2 HoC and 5 comments.
+  event_id: 53131767681
   event_type: PullRequestReviewEvent
   files: 1
   hoc: 2
   is_human: 1
-  issue: 339
-  repository: 802720676
+  issue: 115
+  repository: 840215648
   review_comments: 0
   what: pull-was-reviewed
-  when: 2025-08-08 16:27:57.000000000 Z
+  when: 2025-08-08 16:31:49.000000000 Z
+  where: github
+  who: 526301
+- _id: 33
+  _time: 2025-08-14 03:22:34.449653338 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/baza.rb#115 has been opened by @renovate[bot].
+  event_id: 53113527398
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 115
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-08-08 09:12:21.000000000 Z
+  where: github
+  who: 29139614
+- _id: 34
+  _time: 2025-08-14 03:22:34.519016484 Z
+  _version: 0.9.10/0.39.2/
+  commit: babbae3c4255c83763789c17d72acb1217edc64b
+  default_branch: master
+  details: 'A new Git push #25991261042 has arrived to zerocracy/baza.rb, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 53074809838
+  event_type: PushEvent
+  is_human: 1
+  push_id: 25991261042
+  ref: refs/heads/master
+  repository: 840215648
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-07 13:25:17.000000000 Z
   where: github
   who: 526301
 - _id: 35
-  _time: 2025-08-14 01:45:38.893665975 Z
+  _time: 2025-08-14 03:22:34.799606290 Z
   _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/pages-action#340 has been reviewed by @yegor256
-    with 6 HoC and 5 comments.
-  event_id: 53131622092
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 6
+  commit: ed34440cf0c6a40f889063a22d9934659a48720a
+  default_branch: master
+  details: 'A new Git push #25991241095 has arrived to zerocracy/baza.rb, made by
+    @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 53074767381
+  event_type: PushEvent
   is_human: 1
-  issue: 340
-  repository: 802720676
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-08 16:27:54.000000000 Z
+  push_id: 25991241095
+  ref: refs/heads/master
+  repository: 840215648
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-07 13:24:28.000000000 Z
   where: github
   who: 526301
 - _id: 36
-  _time: 2025-08-14 01:45:39.226356171 Z
+  _time: 2025-08-14 03:22:35.043227234 Z
   _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/pages-action#341 has been reviewed by @yegor256
-    with 4 HoC and 5 comments.
-  event_id: 53131620106
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 4
+  details: The issue zerocracy/baza.rb#113 has been opened by @yegor256.
+  event_id: 53074686799
+  event_type: IssuesEvent
   is_human: 1
-  issue: 341
-  repository: 802720676
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-08 16:27:51.000000000 Z
+  issue: 113
+  repository: 840215648
+  what: issue-was-opened
+  when: 2025-08-07 13:22:56.000000000 Z
   where: github
   who: 526301
 - _id: 37
-  _time: 2025-08-14 01:45:39.529051114 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/pages-action#341 has been opened by @renovate[bot].
-  event_id: 53124495338
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 341
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-08-08 13:40:21.000000000 Z
-  where: github
-  who: 29139614
-- _id: 38
-  _time: 2025-08-14 01:45:39.544963271 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/pages-action#340 has been opened by @renovate[bot].
-  event_id: 53124489250
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 340
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-08-08 13:40:13.000000000 Z
-  where: github
-  who: 29139614
-- _id: 39
-  _time: 2025-08-14 01:45:39.561617456 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/pages-action#336 has been opened by @renovate[bot].
-  event_id: 52967401422
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 336
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-08-05 12:31:23.000000000 Z
-  where: github
-  who: 29139614
-- _id: 40
-  _time: 2025-08-14 01:45:39.607717882 Z
+  _time: 2025-08-14 03:22:35.066472249 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 3
@@ -671,93 +579,305 @@
   comments_by_reviewers: 4
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/pages-action#335 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 52945680293
+  details: The pull request zerocracy/baza.rb#110 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 52946267164
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 2
   is_human: 0
-  issue: 335
-  repository: 802720676
-  succeeded_builds: 14
+  issue: 110
+  repository: 840215648
+  succeeded_builds: 10
   what: pull-was-merged
-  when: 2025-08-05 03:12:35.000000000 Z
+  when: 2025-08-05 03:38:05.000000000 Z
+  where: github
+  who: 8086956
+- _id: 38
+  _time: 2025-08-14 03:22:49.073297918 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request zerocracy/baza.rb#110 has been opened by @renovate[bot].
+  event_id: 52927481661
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 110
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-08-04 16:47:09.000000000 Z
+  where: github
+  who: 29139614
+- _id: 39
+  _time: 2025-08-14 03:22:49.086236894 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/baza.rb#109 has been opened by @yegor256.
+  event_id: 52895830717
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 109
+  repository: 840215648
+  what: issue-was-opened
+  when: 2025-08-04 04:08:41.000000000 Z
+  where: github
+  who: 526301
+- _id: 40
+  _time: 2025-08-14 03:22:49.107157117 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/puma-6.x-lockfile
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/baza.rb#108 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 52813753725
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 108
+  repository: 840215648
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-08-01 03:11:23.000000000 Z
   where: github
   who: 8086956
 - _id: 41
-  _time: 2025-08-14 01:45:56.410627022 Z
+  _time: 2025-08-14 03:23:03.867151936 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request zerocracy/pages-action#335 has been opened by @renovate[bot].
-  event_id: 52929853715
+  branch: renovate/puma-6.x-lockfile
+  details: The pull request zerocracy/baza.rb#108 has been opened by @renovate[bot].
+  event_id: 52809689250
   event_type: PullRequestEvent
   is_human: 0
-  issue: 335
-  repository: 802720676
+  issue: 108
+  repository: 840215648
   what: pull-was-opened
-  when: 2025-08-04 17:48:21.000000000 Z
+  when: 2025-08-01 00:14:45.000000000 Z
   where: github
   who: 29139614
 - _id: 42
-  _time: 2025-08-14 01:45:58.846662930 Z
+  _time: 2025-08-14 03:23:03.895580226 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/baza.rb#107 has been closed by @rultor, with
+    6 HoC and 3 comments.
+  event_id: 52795009174
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 6
+  is_human: 0
+  issue: 107
+  repository: 840215648
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-07-31 16:38:01.000000000 Z
+  where: github
+  who: 8086956
+- _id: 43
+  _time: 2025-08-14 03:23:18.648682081 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request zerocracy/baza.rb#107 has been opened by @renovate[bot].
+  event_id: 52781513303
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 107
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-07-31 12:00:44.000000000 Z
+  where: github
+  who: 29139614
+- _id: 44
+  _time: 2025-08-14 03:23:18.891387143 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rack-3.x-lockfile
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/baza.rb#106 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 52762415715
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 106
+  repository: 840215648
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-07-31 03:09:21.000000000 Z
+  where: github
+  who: 8086956
+- _id: 45
+  _time: 2025-08-14 03:23:33.101214861 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rack-3.x-lockfile
+  details: The pull request zerocracy/baza.rb#106 has been opened by @renovate[bot].
+  event_id: 52762023237
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 106
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-07-31 02:52:20.000000000 Z
+  where: github
+  who: 29139614
+- _id: 46
+  _time: 2025-08-14 03:23:33.117252793 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/baza.rb#105 has been opened by @renovate[bot].
+  event_id: 52721710433
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 105
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-07-30 08:52:40.000000000 Z
+  where: github
+  who: 29139614
+- _id: 47
+  _time: 2025-08-14 03:23:33.143601262 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/baza.rb#104 has been closed by @rultor, with
+    2 HoC and 3 comments.
+  event_id: 52721666743
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 104
+  repository: 840215648
+  succeeded_builds: 10
+  what: pull-was-merged
+  when: 2025-07-30 08:51:42.000000000 Z
+  where: github
+  who: 8086956
+- _id: 48
+  _time: 2025-08-14 03:23:47.832438944 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/baza.rb#104 has been opened by @renovate[bot].
+  event_id: 52713982949
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 104
+  repository: 840215648
+  what: pull-was-opened
+  when: 2025-07-30 05:31:42.000000000 Z
+  where: github
+  who: 29139614
+- _id: 49
+  _time: 2025-08-14 03:23:57.802437788 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 50
+  _time: 2025-08-14 03:23:57.805899667 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 51
+  _time: 2025-08-14 03:23:58.120304457 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/baza.rb#109.
+  issue: 109
+  label: bug
+  repository: 840215648
+  what: label-was-attached
+  when: 2025-08-04 04:08:41.000000000 Z
+  where: github
+  who: 526301
+- _id: 53
+  _time: 2025-08-14 03:23:58.125469584 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 54
+  _time: 2025-08-14 03:23:58.128662831 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 55
+  _time: 2025-08-14 03:23:58.131843585 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 56
+  _time: 2025-08-14 03:23:58.135288843 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 43
-  _time: 2025-08-14 01:45:58.850555876 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 44
-  _time: 2025-08-14 01:45:58.854712043 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 45
-  _time: 2025-08-14 01:45:58.858971494 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 46
-  _time: 2025-08-14 01:45:58.862984805 Z
+- _id: 57
+  _time: 2025-08-14 03:23:58.138579973 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 47
-  _time: 2025-08-14 01:45:58.867330647 Z
+- _id: 58
+  _time: 2025-08-14 03:23:58.563367367 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/baza.rb#113.
+  issue: 113
+  label: bug
+  repository: 840215648
+  what: label-was-attached
+  when: 2025-08-07 13:22:55.000000000 Z
+  where: github
+  who: 526301
+- _id: 59
+  _time: 2025-08-14 03:23:58.910878340 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/baza.rb#120.
+  issue: 120
+  label: bug
+  repository: 840215648
+  what: label-was-attached
+  when: 2025-08-11 17:51:45.000000000 Z
+  where: github
+  who: 526301
+- _id: 60
+  _time: 2025-08-14 03:23:58.917836351 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 48
-  _time: 2025-08-14 01:45:58.871478990 Z
+- _id: 61
+  _time: 2025-08-14 03:23:58.920412998 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 49
-  _time: 2025-08-14 01:45:58.875805487 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 50
-  _time: 2025-08-14 01:45:58.878347728 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-07-17 01:45:58.878457223 Z
+  since: 2025-07-17 03:23:58.920517022 Z
   what: quality-of-service
-  when: 2025-08-14 01:45:58.878433889 Z
+  when: 2025-08-14 03:23:58.920492146 Z
