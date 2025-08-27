@@ -2,85 +2,804 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  error:
+  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 453.345857321
+  seconds: 386.697710587
   version: 0.39.2
   what: judges-summary
-  when: 2025-08-27 15:27:39.278516043 Z
+  when: 2025-08-27 16:30:26.814868885 Z
 - _id: 1
-  _time: 2025-08-27 15:20:31.501934649 Z
+  _time: 2025-08-27 16:24:22.615355686 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 5
   total_commits: 5444
   total_contributors: 14
   total_files: 662
   total_forks: 26
-  total_issues: 805
+  total_issues: 806
   total_pulls: 1627
   total_releases: 645
   total_repositories: 8
   total_stars: 53
   what: dimensions-of-terrain
-  when: 2025-08-27 15:20:06.260540368 Z
+  when: 2025-08-27 16:24:00.493139465 Z
 - _id: 2
-  _time: 2025-08-27 15:20:31.529059525 Z
+  _time: 2025-08-27 16:24:22.639547945 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-08-27 15:20:31.531662464 Z
+  _time: 2025-08-27 16:24:22.642203133 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-08-27 15:20:31.537515245 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-08-27 15:20:31.542255931 Z
+  _time: 2025-08-27 16:24:22.644840939 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
+- _id: 5
+  _time: 2025-08-27 16:24:22.647315379 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
 - _id: 6
-  _time: 2025-08-27 15:20:31.547104580 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-08-27 15:20:31.550506908 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-08-27 15:20:31.553627848 Z
+  _time: 2025-08-27 16:24:22.649979405 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
+- _id: 7
+  _time: 2025-08-27 16:24:22.652493719 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-08-27 16:24:22.655172101 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
 - _id: 9
-  _time: 2025-08-27 15:20:31.556725936 Z
+  _time: 2025-08-27 16:24:22.657857486 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-08-27 15:20:33.664829789 Z
+  _time: 2025-08-27 16:24:23.304176872 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/actions-checkout-5.x
+  details: The pull request zerocracy/zerocracy-mcp-server#20 has been opened by @renovate[bot].
+  event_id: 53222893302
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 20
+  repository: 974194993
+  what: pull-was-opened
+  when: 2025-08-11 18:55:09.000000000 Z
+  where: github
+  who: 29139614
+- _id: 11
+  _time: 2025-08-27 16:24:23.492651323 Z
+  _version: 0.9.10/0.39.2/
+  latest: 53814749595
+  repository: 974194993
+  what: events-were-scanned
+  where: github
+- _id: 12
+  _time: 2025-08-27 16:24:24.208401833 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/simplecov-cobertura-3.x-lockfile
+  details: The pull request yegor256/judges#278 has been opened by @renovate[bot].
+  event_id: 53881132298
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 278
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-08-27 04:32:50.000000000 Z
+  where: github
+  who: 29139614
+- _id: 13
+  _time: 2025-08-27 16:24:24.333783193 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#277 has been closed by @yegor256.
+  event_id: 53753437142
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 277
+  repository: 799113787
+  what: issue-was-closed
+  when: 2025-08-24 06:01:30.000000000 Z
+  where: github
+  who: 526301
+- _id: 14
+  _time: 2025-08-27 16:24:24.602106473 Z
+  _version: 0.9.10/0.39.2/
+  commits: 660
+  contributors:
+  - 526301
+  - 29139614
+  - 29793349
+  - 8086956
+  - 198982749
+  - 1646020
+  - 2566462
+  details: A new release 'we don't see changes made by slow judge' has been published
+    in yegor256/judges by @rultor.
+  event_id: 53753294921
+  event_type: ReleaseEvent
+  hoc: 6941
+  is_human: 0
+  last_commit: aa966d222a24670826528e4d5256857b4c95875f
+  release: 242082508
+  repository: 799113787
+  tag: 0.53.3
+  what: release-published
+  when: 2025-08-24 05:48:54.000000000 Z
+  where: github
+  who: 8086956
+- _id: 15
+  _time: 2025-08-27 16:24:34.732286767 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.53.3' has been created in yegor256/judges by @rultor.
+  event_id: 53753278362
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799113787
+  tag: 0.53.3
+  what: tag-was-created
+  when: 2025-08-24 05:47:16.000000000 Z
+  where: github
+  who: 8086956
+- _id: 16
+  _time: 2025-08-27 16:24:34.760326845 Z
+  _version: 0.9.10/0.39.2/
+  commit: 50c28e2c938cd545e2483765c0c4950ee5aeb93c
+  default_branch: master
+  details: 'A new Git push #26334622756 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 53753185270
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26334622756
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-24 05:38:38.000000000 Z
+  where: github
+  who: 526301
+- _id: 17
+  _time: 2025-08-27 16:24:34.965417800 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#277 has been opened by @yegor256.
+  event_id: 53753068506
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 277
+  repository: 799113787
+  what: issue-was-opened
+  when: 2025-08-24 05:28:19.000000000 Z
+  where: github
+  who: 526301
+- _id: 18
+  _time: 2025-08-27 16:24:34.981035567 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#275 has been closed by @renovate[bot],
+    with 2 HoC and 0 comments.
+  event_id: 53743944734
+  event_type: PullRequestEvent
+  failed_builds: 3
+  hoc: 2
+  is_human: 0
+  issue: 275
+  repository: 799113787
+  succeeded_builds: 9
+  what: pull-was-closed
+  when: 2025-08-23 16:47:06.000000000 Z
+  where: github
+  who: 29139614
+- _id: 19
+  _time: 2025-08-27 16:24:40.910772554 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/cucumber-10.x-lockfile
+  comments: 0
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 0
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#274 has been closed by @renovate[bot],
+    with 2 HoC and 0 comments.
+  event_id: 53743944465
+  event_type: PullRequestEvent
+  failed_builds: 3
+  hoc: 2
+  is_human: 0
+  issue: 274
+  repository: 799113787
+  succeeded_builds: 9
+  what: pull-was-closed
+  when: 2025-08-23 16:47:05.000000000 Z
+  where: github
+  who: 29139614
+- _id: 20
+  _time: 2025-08-27 16:24:46.661744820 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#276 has been closed by @yegor256.
+  event_id: 53742756908
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 276
+  repository: 799113787
+  what: issue-was-closed
+  when: 2025-08-23 15:26:05.000000000 Z
+  where: github
+  who: 526301
+- _id: 21
+  _time: 2025-08-27 16:24:46.687999130 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release 'we don't check timeout and lifetime values before using
+    them' has been published in yegor256/judges by @rultor.
+  event_id: 53742127358
+  event_type: ReleaseEvent
+  hoc: 4
+  is_human: 0
+  last_commit: ff9259be768e527ee9c1e1f533a22c348e98a007
+  release: 242035496
+  repository: 799113787
+  tag: 0.53.2
+  what: release-published
+  when: 2025-08-23 14:44:59.000000000 Z
+  where: github
+  who: 8086956
+- _id: 22
+  _time: 2025-08-27 16:24:47.082651988 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.53.2' has been created in yegor256/judges by @rultor.
+  event_id: 53742101130
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799113787
+  tag: 0.53.2
+  what: tag-was-created
+  when: 2025-08-23 14:43:17.000000000 Z
+  where: github
+  who: 8086956
+- _id: 23
+  _time: 2025-08-27 16:24:47.104115308 Z
+  _version: 0.9.10/0.39.2/
+  commit: 311ba85b2e8a4415d58e816973a6b57f0842f7b0
+  default_branch: master
+  details: 'A new Git push #26327156460 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 53741987445
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26327156460
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-23 14:35:43.000000000 Z
+  where: github
+  who: 526301
+- _id: 24
+  _time: 2025-08-27 16:24:47.323677320 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#276 has been opened by @yegor256.
+  event_id: 53741743699
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 276
+  repository: 799113787
+  what: issue-was-opened
+  when: 2025-08-23 14:20:16.000000000 Z
+  where: github
+  who: 526301
+- _id: 25
+  _time: 2025-08-27 16:24:47.331982607 Z
+  _version: 0.9.10/0.39.2/
+  commit: a7e4c8fad139d12c06d81a4e1a8e001a9270b04a
+  default_branch: master
+  details: 'A new Git push #26326928989 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 53741649516
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26326928989
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-23 14:14:03.000000000 Z
+  where: github
+  who: 526301
+- _id: 26
+  _time: 2025-08-27 16:24:47.517969933 Z
+  _version: 0.9.10/0.39.2/
+  commit: 7c455931d1045aae1f4beb22657e3d4b0cb76c26
+  default_branch: master
+  details: 'A new Git push #26326857299 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 53741542470
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26326857299
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-23 14:06:44.000000000 Z
+  where: github
+  who: 526301
+- _id: 27
+  _time: 2025-08-27 16:24:47.762074680 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request yegor256/judges#275 has been opened by @renovate[bot].
+  event_id: 53704767350
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 275
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-08-22 11:55:54.000000000 Z
+  where: github
+  who: 29139614
+- _id: 28
+  _time: 2025-08-27 16:24:47.771208701 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/cucumber-10.x-lockfile
+  details: The pull request yegor256/judges#274 has been opened by @renovate[bot].
+  event_id: 53615273616
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 274
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-08-20 17:55:22.000000000 Z
+  where: github
+  who: 29139614
+- _id: 29
+  _time: 2025-08-27 16:24:47.789478224 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request yegor256/judges#271 has been opened by @renovate[bot].
+  event_id: 53515407991
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 271
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-08-18 21:51:05.000000000 Z
+  where: github
+  who: 29139614
+- _id: 30
+  _time: 2025-08-27 16:24:47.816912515 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#270 has been closed by @yegor256.
+  event_id: 53473155019
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 270
+  repository: 799113787
+  what: issue-was-closed
+  when: 2025-08-18 05:06:33.000000000 Z
+  where: github
+  who: 526301
+- _id: 31
+  _time: 2025-08-27 16:24:47.831114764 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release '`update` should pass `lifetime` and `timeout` as `$options`
+    to all judges' has been published in yegor256/judges by @rultor.
+  event_id: 53473018935
+  event_type: ReleaseEvent
+  hoc: 4
+  is_human: 0
+  last_commit: 686031a01d8a30d30aa92ddb79c5fc5533b3fe5f
+  release: 240499973
+  repository: 799113787
+  tag: 0.53.0
+  what: release-published
+  when: 2025-08-18 05:01:06.000000000 Z
+  where: github
+  who: 8086956
+- _id: 32
+  _time: 2025-08-27 16:24:48.299057693 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.53.0' has been created in yegor256/judges by @rultor.
+  event_id: 53472961495
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799113787
+  tag: 0.53.0
+  what: tag-was-created
+  when: 2025-08-18 04:58:57.000000000 Z
+  where: github
+  who: 8086956
+- _id: 33
+  _time: 2025-08-27 16:24:48.331176915 Z
+  _version: 0.9.10/0.39.2/
+  commit: cecd42c260dc150fd5e0d45954a942068d21e453
+  default_branch: master
+  details: 'A new Git push #26196032478 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 53472726369
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26196032478
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-18 04:48:56.000000000 Z
+  where: github
+  who: 526301
+- _id: 34
+  _time: 2025-08-27 16:24:48.560941900 Z
+  _version: 0.9.10/0.39.2/
+  commit: 6f6e906225dfd4fa7635decfb06f125dad3a0f00
+  default_branch: master
+  details: 'A new Git push #26196020221 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 53472701809
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26196020221
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-18 04:47:52.000000000 Z
+  where: github
+  who: 526301
+- _id: 35
+  _time: 2025-08-27 16:24:49.114866251 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  comments: 3
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#268 has been closed by @yegor256, with
+    2 HoC and 3 comments.
+  event_id: 53472683701
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 1
+  issue: 268
+  repository: 799113787
+  succeeded_builds: 11
+  what: pull-was-merged
+  when: 2025-08-18 04:47:04.000000000 Z
+  where: github
+  who: 526301
+- _id: 36
+  _time: 2025-08-27 16:24:55.386835137 Z
+  _version: 0.9.10/0.39.2/
+  commit: c3f703777b4093715168458ebb3de7dc4d289b5b
+  default_branch: master
+  details: 'A new Git push #26195956336 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 53472571585
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26195956336
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-18 04:42:13.000000000 Z
+  where: github
+  who: 526301
+- _id: 37
+  _time: 2025-08-27 16:24:55.611569669 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#270 has been opened by @yegor256.
+  event_id: 53472282180
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 270
+  repository: 799113787
+  what: issue-was-opened
+  when: 2025-08-18 04:29:31.000000000 Z
+  where: github
+  who: 526301
+- _id: 38
+  _time: 2025-08-27 16:24:55.655488409 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/actions-checkout-5.x
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#269 has been closed by @rultor, with 22
+    HoC and 2 comments.
+  event_id: 53218633436
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 22
+  is_human: 0
+  issue: 269
+  repository: 799113787
+  succeeded_builds: 11
+  what: pull-was-merged
+  when: 2025-08-11 17:13:13.000000000 Z
+  where: github
+  who: 8086956
+- _id: 39
+  _time: 2025-08-27 16:25:07.236200480 Z
+  _version: 0.9.10/0.39.2/
+  comments: 4
+  commits: 1
+  details: The pull request yegor256/judges#269 has been reviewed by @yegor256 with
+    22 HoC and 4 comments.
+  event_id: 53217300008
+  event_type: PullRequestReviewEvent
+  files: 11
+  hoc: 22
+  is_human: 1
+  issue: 269
+  repository: 799113787
+  review_comments: 0
+  what: pull-was-reviewed
+  when: 2025-08-11 16:41:51.000000000 Z
+  where: github
+  who: 526301
+- _id: 40
+  _time: 2025-08-27 16:25:07.624955768 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/actions-checkout-5.x
+  details: The pull request yegor256/judges#269 has been opened by @renovate[bot].
+  event_id: 53210317826
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 269
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-08-11 14:21:57.000000000 Z
+  where: github
+  who: 29139614
+- _id: 41
+  _time: 2025-08-27 16:25:07.763945476 Z
+  _version: 0.9.10/0.39.2/
+  comments: 4
+  commits: 1
+  details: The pull request yegor256/judges#268 has been reviewed by @yegor256 with
+    2 HoC and 4 comments.
+  event_id: 53146795437
+  event_type: PullRequestReviewEvent
+  files: 1
+  hoc: 2
+  is_human: 1
+  issue: 268
+  repository: 799113787
+  review_comments: 0
+  what: pull-was-reviewed
+  when: 2025-08-09 02:59:01.000000000 Z
+  where: github
+  who: 526301
+- _id: 42
+  _time: 2025-08-27 16:25:08.160128454 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request yegor256/judges#268 has been opened by @renovate[bot].
+  event_id: 53139502228
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 268
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-08-08 20:22:40.000000000 Z
+  where: github
+  who: 29139614
+- _id: 43
+  _time: 2025-08-27 16:25:08.186942205 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#267 has been closed by @yegor256.
+  event_id: 53116681697
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 267
+  repository: 799113787
+  what: issue-was-closed
+  when: 2025-08-08 10:28:21.000000000 Z
+  where: github
+  who: 526301
+- _id: 44
+  _time: 2025-08-27 16:25:08.207197382 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release 'new baza.rb' has been published in yegor256/judges by @rultor.
+  event_id: 53115647180
+  event_type: ReleaseEvent
+  hoc: 4
+  is_human: 0
+  last_commit: 4859f582e6c5b2eb38e18674c010a0fe04e6f3e9
+  release: 238546325
+  repository: 799113787
+  tag: 0.52.2
+  what: release-published
+  when: 2025-08-08 10:02:35.000000000 Z
+  where: github
+  who: 8086956
+- _id: 45
+  _time: 2025-08-27 16:25:08.666543827 Z
+  _version: 0.9.10/0.39.2/
+  details: A new tag '0.52.2' has been created in yegor256/judges by @rultor.
+  event_id: 53115566582
+  event_type: CreateEvent
+  is_human: 0
+  repository: 799113787
+  tag: 0.52.2
+  what: tag-was-created
+  when: 2025-08-08 10:00:48.000000000 Z
+  where: github
+  who: 8086956
+- _id: 46
+  _time: 2025-08-27 16:25:08.689753282 Z
+  _version: 0.9.10/0.39.2/
+  commit: ba9dd5d4ac74649e44c1c6972a3371cecb95b5dd
+  default_branch: master
+  details: 'A new Git push #26010952949 has arrived to yegor256/judges, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 53115281492
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26010952949
+  ref: refs/heads/master
+  repository: 799113787
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-08 09:53:58.000000000 Z
+  where: github
+  who: 526301
+- _id: 47
+  _time: 2025-08-27 16:25:08.851499278 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#267 has been opened by @yegor256.
+  event_id: 53115196004
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 267
+  repository: 799113787
+  what: issue-was-opened
+  when: 2025-08-08 09:51:53.000000000 Z
+  where: github
+  who: 526301
+- _id: 48
+  _time: 2025-08-27 16:25:08.863547341 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/judges#265 has been opened by @yegor256.
+  event_id: 53069667870
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 265
+  repository: 799113787
+  what: issue-was-opened
+  when: 2025-08-07 11:37:21.000000000 Z
+  where: github
+  who: 526301
+- _id: 49
+  _time: 2025-08-27 16:25:08.886408672 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#263 has been closed by @rultor, with 2
+    HoC and 2 comments.
+  event_id: 52947341004
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 2
+  is_human: 0
+  issue: 263
+  repository: 799113787
+  succeeded_builds: 11
+  what: pull-was-merged
+  when: 2025-08-05 04:23:27.000000000 Z
+  where: github
+  who: 8086956
+- _id: 50
+  _time: 2025-08-27 16:25:21.014241128 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request yegor256/judges#263 has been opened by @renovate[bot].
+  event_id: 52925793250
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 263
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-08-04 16:05:34.000000000 Z
+  where: github
+  who: 29139614
+- _id: 51
+  _time: 2025-08-27 16:25:21.065896978 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 2
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 3
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request yegor256/judges#262 has been closed by @rultor, with 8
+    HoC and 2 comments.
+  event_id: 52795076960
+  event_type: PullRequestEvent
+  failed_builds: 0
+  hoc: 8
+  is_human: 0
+  issue: 262
+  repository: 799113787
+  succeeded_builds: 11
+  what: pull-was-merged
+  when: 2025-07-31 16:39:41.000000000 Z
+  where: github
+  who: 8086956
+- _id: 52
+  _time: 2025-08-27 16:25:32.770054177 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request yegor256/judges#262 has been opened by @renovate[bot].
+  event_id: 52786227112
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 262
+  repository: 799113787
+  what: pull-was-opened
+  when: 2025-07-31 13:37:27.000000000 Z
+  where: github
+  who: 29139614
+- _id: 53
+  _time: 2025-08-27 16:25:33.010359069 Z
+  _version: 0.9.10/0.39.2/
+  latest: 53881132298
+  repository: 799113787
+  what: events-were-scanned
+  where: github
+- _id: 54
+  _time: 2025-08-27 16:25:34.725891236 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -103,8 +822,8 @@
   when: 2025-08-27 02:09:22.000000000 Z
   where: github
   who: 41898282
-- _id: 11
-  _time: 2025-08-27 15:20:35.451311846 Z
+- _id: 55
+  _time: 2025-08-27 16:25:35.845844025 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#932 has been opened by @github-actions[bot].
@@ -117,8 +836,8 @@
   when: 2025-08-27 02:08:16.000000000 Z
   where: github
   who: 41898282
-- _id: 12
-  _time: 2025-08-27 15:20:35.953671873 Z
+- _id: 56
+  _time: 2025-08-27 16:25:36.212756174 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -141,8 +860,8 @@
   when: 2025-08-27 02:05:36.000000000 Z
   where: github
   who: 526301
-- _id: 13
-  _time: 2025-08-27 15:20:37.881743833 Z
+- _id: 57
+  _time: 2025-08-27 16:25:37.424608580 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/simplecov-cobertura-3.x-lockfile
   comments: 1
@@ -165,8 +884,8 @@
   when: 2025-08-27 02:05:26.000000000 Z
   where: github
   who: 526301
-- _id: 14
-  _time: 2025-08-27 15:20:46.753759079 Z
+- _id: 58
+  _time: 2025-08-27 16:25:44.176704092 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#931 has been opened by @github-actions[bot].
@@ -179,8 +898,8 @@
   when: 2025-08-27 02:05:23.000000000 Z
   where: github
   who: 41898282
-- _id: 15
-  _time: 2025-08-27 15:20:47.246676723 Z
+- _id: 59
+  _time: 2025-08-27 16:25:44.494376181 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/zerocracy-judges-action-0.x
   comments: 1
@@ -203,8 +922,8 @@
   when: 2025-08-27 02:04:28.000000000 Z
   where: github
   who: 526301
-- _id: 16
-  _time: 2025-08-27 15:20:56.060231007 Z
+- _id: 60
+  _time: 2025-08-27 16:25:51.467655816 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#928 has been closed by @yegor256.
   event_id: 53877816793
@@ -216,8 +935,8 @@
   when: 2025-08-27 02:04:19.000000000 Z
   where: github
   who: 526301
-- _id: 17
-  _time: 2025-08-27 15:20:56.224756692 Z
+- _id: 61
+  _time: 2025-08-27 16:25:51.491061750 Z
   _version: 0.9.10/0.39.2/
   commits: 1966
   contributors:
@@ -243,8 +962,8 @@
   when: 2025-08-27 02:03:31.000000000 Z
   where: github
   who: 8086956
-- _id: 18
-  _time: 2025-08-27 15:21:29.102780126 Z
+- _id: 62
+  _time: 2025-08-27 16:26:18.956382168 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/simplecov-cobertura-3.x-lockfile
   details: The pull request zerocracy/judges-action#930 has been opened by @renovate[bot].
@@ -257,8 +976,8 @@
   when: 2025-08-27 02:02:24.000000000 Z
   where: github
   who: 29139614
-- _id: 19
-  _time: 2025-08-27 15:21:29.325467653 Z
+- _id: 63
+  _time: 2025-08-27 16:26:18.976415991 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/zerocracy-judges-action-0.x
   details: The pull request zerocracy/judges-action#929 has been opened by @renovate[bot].
@@ -271,8 +990,8 @@
   when: 2025-08-27 02:02:10.000000000 Z
   where: github
   who: 29139614
-- _id: 20
-  _time: 2025-08-27 15:21:29.337869755 Z
+- _id: 64
+  _time: 2025-08-27 16:26:18.987551533 Z
   _version: 0.9.10/0.39.2/
   details: A new tag '0.15.24' has been created in zerocracy/judges-action by @rultor.
   event_id: 53877755041
@@ -284,8 +1003,8 @@
   when: 2025-08-27 02:01:36.000000000 Z
   where: github
   who: 8086956
-- _id: 21
-  _time: 2025-08-27 15:21:29.362268928 Z
+- _id: 65
+  _time: 2025-08-27 16:26:19.008662634 Z
   _version: 0.9.10/0.39.2/
   commit: e0ec8281c1d9b7c4d9be07f3d9426b195c09bf82
   default_branch: master
@@ -302,8 +1021,8 @@
   when: 2025-08-27 01:40:28.000000000 Z
   where: github
   who: 526301
-- _id: 22
-  _time: 2025-08-27 15:21:29.920191311 Z
+- _id: 66
+  _time: 2025-08-27 16:26:19.177005905 Z
   _version: 0.9.10/0.39.2/
   commit: 92b7fcf4c979014643667655f9ae3973c1aecc82
   default_branch: master
@@ -320,8 +1039,8 @@
   when: 2025-08-27 01:37:55.000000000 Z
   where: github
   who: 526301
-- _id: 23
-  _time: 2025-08-27 15:21:30.183377708 Z
+- _id: 67
+  _time: 2025-08-27 16:26:19.413036911 Z
   _version: 0.9.10/0.39.2/
   commit: 6fdafcbfef05a002c91329f3b89e667910dc75e4
   default_branch: master
@@ -338,8 +1057,8 @@
   when: 2025-08-27 01:36:25.000000000 Z
   where: github
   who: 526301
-- _id: 24
-  _time: 2025-08-27 15:21:30.492803201 Z
+- _id: 68
+  _time: 2025-08-27 16:26:19.593414657 Z
   _version: 0.9.10/0.39.2/
   commit: db9dd92d155805d4e211f393225319d97cd63ad3
   default_branch: master
@@ -356,8 +1075,8 @@
   when: 2025-08-27 01:35:10.000000000 Z
   where: github
   who: 526301
-- _id: 25
-  _time: 2025-08-27 15:21:30.755451355 Z
+- _id: 69
+  _time: 2025-08-27 16:26:19.834416917 Z
   _version: 0.9.10/0.39.2/
   commit: b19674b1f2b375da122e719e6876a1caaa609752
   default_branch: master
@@ -374,8 +1093,8 @@
   when: 2025-08-27 01:23:58.000000000 Z
   where: github
   who: 526301
-- _id: 26
-  _time: 2025-08-27 15:21:31.336537228 Z
+- _id: 70
+  _time: 2025-08-27 16:26:19.994018327 Z
   _version: 0.9.10/0.39.2/
   commit: 41bc3a19603c9f1c8555cdd3e611dd18eb14e276
   default_branch: master
@@ -392,8 +1111,8 @@
   when: 2025-08-27 01:05:02.000000000 Z
   where: github
   who: 526301
-- _id: 27
-  _time: 2025-08-27 15:21:31.607401308 Z
+- _id: 71
+  _time: 2025-08-27 16:26:20.143885861 Z
   _version: 0.9.10/0.39.2/
   commit: e6874c86a09a23170c7185f623d7764768b07dcc
   default_branch: master
@@ -410,8 +1129,8 @@
   when: 2025-08-27 00:54:05.000000000 Z
   where: github
   who: 526301
-- _id: 28
-  _time: 2025-08-27 15:21:31.896302781 Z
+- _id: 72
+  _time: 2025-08-27 16:26:20.365533755 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#928 has been opened by @yegor256.
   event_id: 53876162304
@@ -423,8 +1142,8 @@
   when: 2025-08-27 00:53:43.000000000 Z
   where: github
   who: 526301
-- _id: 29
-  _time: 2025-08-27 15:21:32.187298032 Z
+- _id: 73
+  _time: 2025-08-27 16:26:20.755949242 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -447,8 +1166,8 @@
   when: 2025-08-25 16:50:20.000000000 Z
   where: github
   who: 41898282
-- _id: 30
-  _time: 2025-08-27 15:22:17.895612924 Z
+- _id: 74
+  _time: 2025-08-27 16:26:55.551097738 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#927 has been opened by @github-actions[bot].
@@ -461,8 +1180,8 @@
   when: 2025-08-25 16:50:11.000000000 Z
   where: github
   who: 41898282
-- _id: 31
-  _time: 2025-08-27 15:22:17.912696963 Z
+- _id: 75
+  _time: 2025-08-27 16:26:55.562125895 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#924 has been closed by @yegor256.
   event_id: 53804744197
@@ -474,8 +1193,8 @@
   when: 2025-08-25 16:46:56.000000000 Z
   where: github
   who: 526301
-- _id: 32
-  _time: 2025-08-27 15:22:18.643746740 Z
+- _id: 76
+  _time: 2025-08-27 16:26:55.980484568 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -498,8 +1217,8 @@
   when: 2025-08-25 16:46:37.000000000 Z
   where: github
   who: 526301
-- _id: 33
-  _time: 2025-08-27 15:22:20.271876685 Z
+- _id: 77
+  _time: 2025-08-27 16:26:57.179363524 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/zerocracy-judges-action-0.x
   comments: 3
@@ -522,8 +1241,8 @@
   when: 2025-08-25 16:46:27.000000000 Z
   where: github
   who: 526301
-- _id: 34
-  _time: 2025-08-27 15:22:30.637108068 Z
+- _id: 78
+  _time: 2025-08-27 16:27:04.979049513 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -541,8 +1260,8 @@
   when: 2025-08-25 16:39:55.000000000 Z
   where: github
   who: 526301
-- _id: 35
-  _time: 2025-08-27 15:22:31.339772019 Z
+- _id: 79
+  _time: 2025-08-27 16:27:05.359164550 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#926 has been opened by @github-actions[bot].
@@ -555,8 +1274,8 @@
   when: 2025-08-25 15:41:54.000000000 Z
   where: github
   who: 41898282
-- _id: 36
-  _time: 2025-08-27 15:22:31.360727011 Z
+- _id: 80
+  _time: 2025-08-27 16:27:05.384254880 Z
   _version: 0.9.10/0.39.2/
   commits: 1
   contributors: 8086956
@@ -574,8 +1293,8 @@
   when: 2025-08-25 15:39:33.000000000 Z
   where: github
   who: 8086956
-- _id: 37
-  _time: 2025-08-27 15:22:31.782993955 Z
+- _id: 81
+  _time: 2025-08-27 16:27:05.794744505 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/zerocracy-judges-action-0.x
   details: The pull request zerocracy/judges-action#925 has been opened by @renovate[bot].
@@ -588,8 +1307,8 @@
   when: 2025-08-25 15:38:41.000000000 Z
   where: github
   who: 29139614
-- _id: 38
-  _time: 2025-08-27 15:22:31.971054926 Z
+- _id: 82
+  _time: 2025-08-27 16:27:05.961911866 Z
   _version: 0.9.10/0.39.2/
   details: A new tag '0.15.23' has been created in zerocracy/judges-action by @rultor.
   event_id: 53801798312
@@ -601,8 +1320,8 @@
   when: 2025-08-25 15:38:06.000000000 Z
   where: github
   who: 8086956
-- _id: 39
-  _time: 2025-08-27 15:22:31.993308224 Z
+- _id: 83
+  _time: 2025-08-27 16:27:05.993972694 Z
   _version: 0.9.10/0.39.2/
   commit: 68d7db4d3bf6f47f96a14dbcf7a2ad1418046238
   default_branch: master
@@ -619,8 +1338,8 @@
   when: 2025-08-25 15:18:03.000000000 Z
   where: github
   who: 526301
-- _id: 40
-  _time: 2025-08-27 15:22:32.333558228 Z
+- _id: 84
+  _time: 2025-08-27 16:27:06.167903209 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#924 has been opened by @yegor256.
   event_id: 53800825183
@@ -632,8 +1351,8 @@
   when: 2025-08-25 15:17:08.000000000 Z
   where: github
   who: 526301
-- _id: 41
-  _time: 2025-08-27 15:22:32.561391914 Z
+- _id: 85
+  _time: 2025-08-27 16:27:06.365469927 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -656,8 +1375,8 @@
   when: 2025-08-25 05:23:08.000000000 Z
   where: github
   who: 41898282
-- _id: 42
-  _time: 2025-08-27 15:22:33.767711757 Z
+- _id: 86
+  _time: 2025-08-27 16:27:07.318477721 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#923 has been opened by @github-actions[bot].
@@ -670,8 +1389,8 @@
   when: 2025-08-25 05:23:03.000000000 Z
   where: github
   who: 41898282
-- _id: 43
-  _time: 2025-08-27 15:22:34.259727474 Z
+- _id: 87
+  _time: 2025-08-27 16:27:07.755395159 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   comments: 1
@@ -694,8 +1413,8 @@
   when: 2025-08-25 05:19:21.000000000 Z
   where: github
   who: 526301
-- _id: 44
-  _time: 2025-08-27 15:22:35.744706950 Z
+- _id: 88
+  _time: 2025-08-27 16:27:10.199158065 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/zerocracy-judges-action-0.x
   comments: 1
@@ -718,8 +1437,8 @@
   when: 2025-08-25 05:19:16.000000000 Z
   where: github
   who: 526301
-- _id: 45
-  _time: 2025-08-27 15:22:44.693183672 Z
+- _id: 89
+  _time: 2025-08-27 16:27:17.270899356 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#920 has been closed by @yegor256.
   event_id: 53774955111
@@ -731,8 +1450,8 @@
   when: 2025-08-25 05:19:06.000000000 Z
   where: github
   who: 526301
-- _id: 46
-  _time: 2025-08-27 15:22:44.718435327 Z
+- _id: 90
+  _time: 2025-08-27 16:27:17.349090679 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#922 has been opened by @github-actions[bot].
@@ -745,8 +1464,8 @@
   when: 2025-08-25 05:11:23.000000000 Z
   where: github
   who: 41898282
-- _id: 47
-  _time: 2025-08-27 15:22:44.743316062 Z
+- _id: 91
+  _time: 2025-08-27 16:27:17.403437192 Z
   _version: 0.9.10/0.39.2/
   commits: 1
   contributors: 8086956
@@ -764,8 +1483,8 @@
   when: 2025-08-25 05:09:11.000000000 Z
   where: github
   who: 8086956
-- _id: 48
-  _time: 2025-08-27 15:22:45.184993784 Z
+- _id: 92
+  _time: 2025-08-27 16:27:17.746856830 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/zerocracy-judges-action-0.x
   details: The pull request zerocracy/judges-action#921 has been opened by @renovate[bot].
@@ -778,8 +1497,8 @@
   when: 2025-08-25 05:08:08.000000000 Z
   where: github
   who: 29139614
-- _id: 49
-  _time: 2025-08-27 15:22:45.199774861 Z
+- _id: 93
+  _time: 2025-08-27 16:27:17.781393003 Z
   _version: 0.9.10/0.39.2/
   details: A new tag '0.15.22' has been created in zerocracy/judges-action by @rultor.
   event_id: 53774660664
@@ -791,8 +1510,8 @@
   when: 2025-08-25 05:07:38.000000000 Z
   where: github
   who: 8086956
-- _id: 50
-  _time: 2025-08-27 15:22:45.225713599 Z
+- _id: 94
+  _time: 2025-08-27 16:27:17.844062958 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#920 has been opened by @yegor256.
   event_id: 53774182656
@@ -804,138 +1523,36 @@
   when: 2025-08-25 04:48:11.000000000 Z
   where: github
   who: 526301
-- _id: 51
-  _time: 2025-08-27 15:22:45.676731825 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#919 has been closed by @yegor256,
-    with 2 HoC and 3 comments.
-  event_id: 53762972676
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 1
-  issue: 919
-  repository: 799177290
-  succeeded_builds: 13
-  what: pull-was-merged
-  when: 2025-08-24 17:04:12.000000000 Z
-  where: github
-  who: 526301
-- _id: 52
-  _time: 2025-08-27 15:22:55.807826588 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/judges-action#919 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53762773284
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 919
-  repository: 799177290
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-24 16:50:35.000000000 Z
-  where: github
-  who: 526301
-- _id: 53
-  _time: 2025-08-27 15:22:56.248197816 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/judges-action#919 has been opened by @renovate[bot].
-  event_id: 53755563823
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 919
-  repository: 799177290
-  what: pull-was-opened
-  when: 2025-08-24 08:48:31.000000000 Z
-  where: github
-  who: 29139614
-- _id: 54
-  _time: 2025-08-27 15:22:56.311115934 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  comments: 1
-  comments_appreciated: 0
-  comments_by_author: 0
-  comments_by_reviewers: 1
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/judges-action#918 has been closed by @github-actions[bot],
-    with 0 HoC and 1 comments.
-  event_id: 53744252370
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 0
-  is_human: 0
-  issue: 918
-  repository: 799177290
-  succeeded_builds: 0
-  what: pull-was-closed
-  when: 2025-08-23 17:08:28.000000000 Z
-  where: github
-  who: 41898282
-- _id: 55
-  _time: 2025-08-27 15:23:34.864476692 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 56
-  _time: 2025-08-27 15:23:34.869243716 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 57
-  _time: 2025-08-27 15:23:34.874081234 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 58
-  _time: 2025-08-27 15:23:34.879827466 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 59
-  _time: 2025-08-27 15:23:34.884940610 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 60
-  _time: 2025-08-27 15:23:34.889408123 Z
+- _id: 95
+  _time: 2025-08-27 16:27:24.365962608 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 61
-  _time: 2025-08-27 15:23:34.893902947 Z
+- _id: 96
+  _time: 2025-08-27 16:27:24.372137994 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 62
-  _time: 2025-08-27 15:23:35.283856829 Z
+- _id: 97
+  _time: 2025-08-27 16:27:24.378126089 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 98
+  _time: 2025-08-27 16:27:24.384566020 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 99
+  _time: 2025-08-27 16:27:24.736205253 Z
   _version: 0.9.10/0.39.2/
   details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#920.
   issue: 920
@@ -945,8 +1562,44 @@
   when: 2025-08-25 04:48:11.000000000 Z
   where: github
   who: 526301
-- _id: 63
-  _time: 2025-08-27 15:23:36.311544865 Z
+- _id: 101
+  _time: 2025-08-27 16:27:24.746520874 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 102
+  _time: 2025-08-27 16:27:24.753342390 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 103
+  _time: 2025-08-27 16:27:24.956631895 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/judges#265.
+  issue: 265
+  label: bug
+  repository: 799113787
+  what: label-was-attached
+  when: 2025-08-07 11:37:21.000000000 Z
+  where: github
+  who: 526301
+- _id: 106
+  _time: 2025-08-27 16:27:25.619552032 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/judges#267.
+  issue: 267
+  label: bug
+  repository: 799113787
+  what: label-was-attached
+  when: 2025-08-08 09:51:53.000000000 Z
+  where: github
+  who: 526301
+- _id: 108
+  _time: 2025-08-27 16:27:25.995612111 Z
   _version: 0.9.10/0.39.2/
   details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#928.
   issue: 928
@@ -956,27 +1609,56 @@
   when: 2025-08-27 00:53:42.000000000 Z
   where: github
   who: 526301
-- _id: 64
-  _time: 2025-08-27 15:23:36.321199739 Z
+- _id: 110
+  _time: 2025-08-27 16:27:26.296437455 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/judges#270.
+  issue: 270
+  label: bug
+  repository: 799113787
+  what: label-was-attached
+  when: 2025-08-18 04:29:31.000000000 Z
+  where: github
+  who: 526301
+- _id: 112
+  _time: 2025-08-27 16:27:26.309554343 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 65
-  _time: 2025-08-27 15:24:54.089012887 Z
+- _id: 113
+  _time: 2025-08-27 16:27:26.558100248 Z
   _version: 0.9.10/0.39.2/
-  average_review_size: 0.06206896551724138
-  average_review_time: 38272.432835820895
-  average_reviewers_per_pull: 0.4896551724137931
-  average_reviews_per_pull: 0.5103448275862069
-  since: 2025-07-30 15:23:36.324012716 Z
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/judges#276.
+  issue: 276
+  label: bug
+  repository: 799113787
+  what: label-was-attached
+  when: 2025-08-23 14:20:16.000000000 Z
+  where: github
+  who: 526301
+- _id: 114
+  _time: 2025-08-27 16:27:26.795250964 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/judges#277.
+  issue: 277
+  label: bug
+  repository: 799113787
+  what: label-was-attached
+  when: 2025-08-24 05:28:18.000000000 Z
+  where: github
+  who: 526301
+- _id: 115
+  _time: 2025-08-27 16:27:26.807795348 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 116
+  _time: 2025-08-27 16:27:26.810740323 Z
+  _version: 0.9.10/0.39.2/
+  since: 2025-07-30 16:27:26.810855398 Z
   what: quality-of-service
-  when: 2025-08-27 15:23:36.323986146 Z
-- _id: 66
-  _time: 2025-08-27 15:27:39.275887444 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-07-30 15:24:54.091757118 Z
-  total_builds_ran: 9807
-  what: quantity-of-deliverables
-  when: 2025-08-27 15:24:54.091732561 Z
+  when: 2025-08-27 16:27:26.810828548 Z
