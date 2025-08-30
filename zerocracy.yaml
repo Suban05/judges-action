@@ -2,14 +2,16 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  error:
+  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 396.819734764
+  seconds: 460.664684839
   version: 0.39.2
   what: judges-summary
-  when: 2025-08-30 11:20:27.611060029 Z
+  when: 2025-08-30 12:42:33.396758034 Z
 - _id: 1
-  _time: 2025-08-30 11:14:15.843386265 Z
+  _time: 2025-08-30 12:35:13.911920606 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 5
   total_commits: 5496
@@ -22,998 +24,457 @@
   total_repositories: 8
   total_stars: 53
   what: dimensions-of-terrain
-  when: 2025-08-30 11:13:51.118577427 Z
+  when: 2025-08-30 12:34:53.050805457 Z
 - _id: 2
-  _time: 2025-08-30 11:14:15.876035510 Z
+  _time: 2025-08-30 12:35:13.960022420 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-08-30 11:14:15.878615362 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-08-30 11:14:15.881132026 Z
+  _time: 2025-08-30 12:35:13.963080992 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
+- _id: 4
+  _time: 2025-08-30 12:35:13.966081835 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
 - _id: 5
-  _time: 2025-08-30 11:14:15.883553121 Z
+  _time: 2025-08-30 12:35:13.968679232 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-08-30 11:14:15.886393530 Z
+  _time: 2025-08-30 12:35:13.971713618 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 7
-  _time: 2025-08-30 11:14:15.888995103 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-08-30 11:14:15.891646248 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2025-08-30 11:14:15.894172670 Z
+  _time: 2025-08-30 12:35:13.974679686 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2025-08-30 11:14:17.185011296 Z
+- _id: 8
+  _time: 2025-08-30 12:35:13.977691379 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/simplecov-cobertura-3.x-lockfile
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2025-08-30 12:35:13.980819020 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2025-08-30 12:35:15.029934833 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#355 has been opened by @yegor256.
+  event_id: 53900251807
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 355
+  repository: 802720676
+  what: issue-was-opened
+  when: 2025-08-27 12:57:59.000000000 Z
+  where: github
+  who: 526301
+- _id: 11
+  _time: 2025-08-30 12:35:15.393613516 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
   comments: 3
   comments_appreciated: 1
   comments_by_author: 0
-  comments_by_reviewers: 5
+  comments_by_reviewers: 3
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#149 has been closed by @rultor,
-    with 6 HoC and 3 comments.
-  event_id: 53879476303
+  details: The pull request zerocracy/pages-action#348 has been closed by @yegor256,
+    with 2 HoC and 3 comments.
+  event_id: 53885948392
   event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
-  is_human: 0
-  issue: 149
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-27 03:17:19.000000000 Z
-  where: github
-  who: 8086956
-- _id: 11
-  _time: 2025-08-30 11:14:27.304281913 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#149 has been reviewed by @yegor256
-    with 6 HoC and 5 comments.
-  event_id: 53879254409
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 6
+  failed_builds: 1
+  hoc: 2
   is_human: 1
-  issue: 149
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-27 03:07:03.000000000 Z
+  issue: 348
+  repository: 802720676
+  succeeded_builds: 13
+  what: pull-was-merged
+  when: 2025-08-27 07:22:32.000000000 Z
   where: github
   who: 526301
 - _id: 12
-  _time: 2025-08-30 11:14:27.683112768 Z
+  _time: 2025-08-30 12:35:27.078512472 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/simplecov-cobertura-3.x-lockfile
-  details: The pull request zerocracy/swarm-template#149 has been opened by @renovate[bot].
-  event_id: 53877815263
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 149
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-27 02:04:15.000000000 Z
-  where: github
-  who: 29139614
-- _id: 13
-  _time: 2025-08-30 11:14:27.804046067 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
+  branch: renovate/actions-setup-java-5.x
+  comments: 1
+  comments_appreciated: 0
   comments_by_author: 0
-  comments_by_reviewers: 5
+  comments_by_reviewers: 1
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#148 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53824243603
+  details: The pull request zerocracy/pages-action#350 has been closed by @yegor256,
+    with 2 HoC and 1 comments.
+  event_id: 53885942842
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 2
+  is_human: 1
+  issue: 350
+  repository: 802720676
+  succeeded_builds: 13
+  what: pull-was-merged
+  when: 2025-08-27 07:22:23.000000000 Z
+  where: github
+  who: 526301
+- _id: 13
+  _time: 2025-08-30 12:35:33.587820880 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/simplecov-cobertura-3.x-lockfile
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/pages-action#353 has been closed by @yegor256,
+    with 2 HoC and 1 comments.
+  event_id: 53885938666
   event_type: PullRequestEvent
   failed_builds: 0
   hoc: 2
-  is_human: 0
-  issue: 148
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-26 03:14:58.000000000 Z
-  where: github
-  who: 8086956
-- _id: 14
-  _time: 2025-08-30 11:14:38.287662321 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#148 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53824019740
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
   is_human: 1
-  issue: 148
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-26 03:05:23.000000000 Z
+  issue: 353
+  repository: 802720676
+  succeeded_builds: 14
+  what: pull-was-merged
+  when: 2025-08-27 07:22:17.000000000 Z
+  where: github
+  who: 526301
+- _id: 14
+  _time: 2025-08-30 12:35:39.639950190 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#354 has been opened by @yegor256.
+  event_id: 53885902626
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 354
+  repository: 802720676
+  what: issue-was-opened
+  when: 2025-08-27 07:21:20.000000000 Z
   where: github
   who: 526301
 - _id: 15
-  _time: 2025-08-30 11:14:38.611215084 Z
+  _time: 2025-08-30 12:35:39.769280380 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#148 has been opened by @renovate[bot].
-  event_id: 53810397381
+  branch: renovate/simplecov-cobertura-3.x-lockfile
+  details: The pull request zerocracy/pages-action#353 has been opened by @renovate[bot].
+  event_id: 53881927455
   event_type: PullRequestEvent
   is_human: 0
-  issue: 148
-  repository: 849726475
+  issue: 353
+  repository: 802720676
   what: pull-was-opened
-  when: 2025-08-25 19:07:34.000000000 Z
+  when: 2025-08-27 05:08:41.000000000 Z
   where: github
   who: 29139614
 - _id: 16
-  _time: 2025-08-30 11:14:38.662199291 Z
+  _time: 2025-08-30 12:35:39.884419409 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#147 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53755445646
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 147
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-24 08:39:54.000000000 Z
-  where: github
-  who: 8086956
-- _id: 17
-  _time: 2025-08-30 11:14:48.991384696 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#147 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53755321391
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 147
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-24 08:30:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 18
-  _time: 2025-08-30 11:14:49.270844941 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#147 has been opened by @renovate[bot].
-  event_id: 53753299036
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 147
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-24 05:49:18.000000000 Z
-  where: github
-  who: 29139614
-- _id: 19
-  _time: 2025-08-30 11:14:49.292800152 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#146 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53751675816
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 146
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-24 03:18:17.000000000 Z
-  where: github
-  who: 8086956
-- _id: 20
-  _time: 2025-08-30 11:15:00.464254843 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#146 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53751541402
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 146
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-24 03:06:22.000000000 Z
-  where: github
-  who: 526301
-- _id: 21
-  _time: 2025-08-30 11:15:00.733650881 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#146 has been opened by @renovate[bot].
-  event_id: 53743895533
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 146
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-23 16:43:46.000000000 Z
-  where: github
-  who: 29139614
-- _id: 22
-  _time: 2025-08-30 11:15:00.742683127 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#145 has been closed by @rultor,
-    with 16 HoC and 3 comments.
-  event_id: 53743889284
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 16
-  is_human: 0
-  issue: 145
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-23 16:43:17.000000000 Z
-  where: github
-  who: 8086956
-- _id: 23
-  _time: 2025-08-30 11:15:11.761237284 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#145 has been reviewed by @yegor256
-    with 16 HoC and 5 comments.
-  event_id: 53743715594
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 16
-  is_human: 1
-  issue: 145
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-23 16:31:19.000000000 Z
-  where: github
-  who: 526301
-- _id: 24
-  _time: 2025-08-30 11:15:12.035992233 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#145 has been opened by @renovate[bot].
-  event_id: 53737771989
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 145
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-23 09:49:44.000000000 Z
-  where: github
-  who: 29139614
-- _id: 25
-  _time: 2025-08-30 11:15:12.064565798 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#144 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53558408598
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 144
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-19 16:57:43.000000000 Z
-  where: github
-  who: 8086956
-- _id: 26
-  _time: 2025-08-30 11:15:23.310216419 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#144 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53557975853
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 144
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-19 16:47:10.000000000 Z
-  where: github
-  who: 526301
-- _id: 27
-  _time: 2025-08-30 11:15:23.719228766 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#142 has been closed by @rultor,
-    with 6 HoC and 3 comments.
-  event_id: 53482045834
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
-  is_human: 0
-  issue: 142
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-18 09:02:00.000000000 Z
-  where: github
-  who: 8086956
-- _id: 28
-  _time: 2025-08-30 11:15:34.374873910 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#142 has been reviewed by @yegor256
-    with 6 HoC and 5 comments.
-  event_id: 53481506284
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 6
-  is_human: 1
-  issue: 142
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-18 08:50:37.000000000 Z
-  where: github
-  who: 526301
-- _id: 29
-  _time: 2025-08-30 11:15:34.726829046 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#142 has been opened by @renovate[bot].
-  event_id: 53475673320
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 142
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-18 06:31:56.000000000 Z
-  where: github
-  who: 29139614
-- _id: 30
-  _time: 2025-08-30 11:15:34.873206456 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#141 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53294319598
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 141
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-13 04:24:22.000000000 Z
-  where: github
-  who: 8086956
-- _id: 31
-  _time: 2025-08-30 11:15:45.289233202 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#141 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53293000086
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 141
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-13 03:26:56.000000000 Z
-  where: github
-  who: 526301
-- _id: 32
-  _time: 2025-08-30 11:15:45.649097396 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/actions-checkout-5.x
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#140 has been closed by @rultor,
-    with 22 HoC and 3 comments.
-  event_id: 53218949068
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 22
-  is_human: 0
-  issue: 140
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-11 17:20:44.000000000 Z
-  where: github
-  who: 8086956
-- _id: 33
-  _time: 2025-08-30 11:15:55.862534364 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#140 has been reviewed by @yegor256
-    with 22 HoC and 5 comments.
-  event_id: 53217476193
-  event_type: PullRequestReviewEvent
-  files: 11
-  hoc: 22
-  is_human: 1
-  issue: 140
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-11 16:46:02.000000000 Z
-  where: github
-  who: 526301
-- _id: 34
-  _time: 2025-08-30 11:15:56.132428287 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/actions-checkout-5.x
-  details: The pull request zerocracy/swarm-template#140 has been opened by @renovate[bot].
-  event_id: 53210700348
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 140
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-11 14:28:49.000000000 Z
-  where: github
-  who: 29139614
-- _id: 35
-  _time: 2025-08-30 11:15:56.218739360 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#139 has been closed by @rultor,
-    with 4 HoC and 3 comments.
-  event_id: 53184524167
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 0
-  issue: 139
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-11 03:19:45.000000000 Z
-  where: github
-  who: 8086956
-- _id: 36
-  _time: 2025-08-30 11:16:06.772412050 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#139 has been reviewed by @yegor256
-    with 4 HoC and 5 comments.
-  event_id: 53184308308
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 4
-  is_human: 1
-  issue: 139
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-11 03:08:33.000000000 Z
-  where: github
-  who: 526301
-- _id: 37
-  _time: 2025-08-30 11:16:07.051929912 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#139 has been opened by @renovate[bot].
-  event_id: 53178796677
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 139
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-10 20:53:58.000000000 Z
-  where: github
-  who: 29139614
-- _id: 38
-  _time: 2025-08-30 11:16:07.084431126 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/python-3.x
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#138 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53175468702
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 138
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-10 16:55:13.000000000 Z
-  where: github
-  who: 8086956
-- _id: 39
-  _time: 2025-08-30 11:16:20.507819990 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#138 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53175189768
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 138
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-10 16:35:37.000000000 Z
-  where: github
-  who: 526301
-- _id: 40
-  _time: 2025-08-30 11:16:20.811355767 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/python-3.x
-  details: The pull request zerocracy/swarm-template#138 has been opened by @renovate[bot].
-  event_id: 53172558667
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 138
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-10 13:57:14.000000000 Z
-  where: github
-  who: 29139614
-- _id: 41
-  _time: 2025-08-30 11:16:20.845245818 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#137 has been closed by @rultor,
-    with 4 HoC and 3 comments.
-  event_id: 53157485937
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 0
-  issue: 137
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-09 17:00:03.000000000 Z
-  where: github
-  who: 8086956
-- _id: 42
-  _time: 2025-08-30 11:16:31.704996683 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#137 has been reviewed by @yegor256
-    with 4 HoC and 5 comments.
-  event_id: 53157347564
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 4
-  is_human: 1
-  issue: 137
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-09 16:49:09.000000000 Z
-  where: github
-  who: 526301
-- _id: 43
-  _time: 2025-08-30 11:16:32.078336696 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#137 has been opened by @renovate[bot].
-  event_id: 53150790951
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 137
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-09 08:27:36.000000000 Z
-  where: github
-  who: 29139614
-- _id: 44
-  _time: 2025-08-30 11:16:32.127183594 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#136 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 53147055835
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 136
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-09 03:19:03.000000000 Z
-  where: github
-  who: 8086956
-- _id: 45
-  _time: 2025-08-30 11:16:42.199231768 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#136 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 53146874991
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 136
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-09 03:04:09.000000000 Z
-  where: github
-  who: 526301
-- _id: 46
-  _time: 2025-08-30 11:16:42.621857300 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request zerocracy/swarm-template#136 has been opened by @renovate[bot].
-  event_id: 53140763345
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 136
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-08 21:04:51.000000000 Z
-  where: github
-  who: 29139614
-- _id: 47
-  _time: 2025-08-30 11:16:42.741909816 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#134 has been closed by @rultor,
-    with 6 HoC and 3 comments.
-  event_id: 53133297283
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 6
-  is_human: 0
-  issue: 134
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-08 17:14:11.000000000 Z
-  where: github
-  who: 8086956
-- _id: 48
-  _time: 2025-08-30 11:16:49.602115468 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#135 has been closed by @rultor,
-    with 4 HoC and 3 comments.
-  event_id: 53132739886
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 4
-  is_human: 0
-  issue: 135
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-08 16:58:55.000000000 Z
-  where: github
-  who: 8086956
-- _id: 49
-  _time: 2025-08-30 11:17:00.131447103 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#134 has been reviewed by @yegor256
-    with 6 HoC and 5 comments.
-  event_id: 53132231056
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 6
-  is_human: 1
-  issue: 134
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-08 16:44:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 50
-  _time: 2025-08-30 11:17:00.479078137 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/swarm-template#135 has been reviewed by @yegor256
-    with 4 HoC and 5 comments.
-  event_id: 53132229048
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 4
-  is_human: 1
-  issue: 135
-  repository: 849726475
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-08-08 16:44:35.000000000 Z
-  where: github
-  who: 526301
-- _id: 51
-  _time: 2025-08-30 11:17:00.704552749 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/judges-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#135 has been opened by @renovate[bot].
-  event_id: 53124268256
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 135
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-08 13:35:18.000000000 Z
-  where: github
-  who: 29139614
-- _id: 52
-  _time: 2025-08-30 11:17:00.726947383 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fbe-0.x-lockfile
-  details: The pull request zerocracy/swarm-template#134 has been opened by @renovate[bot].
-  event_id: 53124261758
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 134
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-08 13:35:09.000000000 Z
-  where: github
-  who: 29139614
-- _id: 53
-  _time: 2025-08-30 11:17:00.751096139 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  comments: 3
+  branch: renovate/rubocop-1.x-lockfile
+  comments: 1
   comments_appreciated: 1
   comments_by_author: 0
   comments_by_reviewers: 4
   comments_resolved: 0
   comments_to_code: 0
-  details: The pull request zerocracy/swarm-template#131 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 52946305583
+  details: The pull request zerocracy/pages-action#351 has been closed by @renovate[bot],
+    with 6 HoC and 1 comments.
+  event_id: 53876932689
   event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
+  failed_builds: 1
+  hoc: 6
   is_human: 0
-  issue: 131
-  repository: 849726475
-  succeeded_builds: 10
-  what: pull-was-merged
-  when: 2025-08-05 03:39:49.000000000 Z
-  where: github
-  who: 8086956
-- _id: 54
-  _time: 2025-08-30 11:17:12.170132816 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request zerocracy/swarm-template#131 has been opened by @renovate[bot].
-  event_id: 52929986289
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 131
-  repository: 849726475
-  what: pull-was-opened
-  when: 2025-08-04 17:51:57.000000000 Z
+  issue: 351
+  repository: 802720676
+  succeeded_builds: 13
+  what: pull-was-closed
+  when: 2025-08-27 01:26:26.000000000 Z
   where: github
   who: 29139614
-- _id: 55
-  _time: 2025-08-30 11:17:17.351616175 Z
+- _id: 17
+  _time: 2025-08-30 12:35:46.516756665 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 56
-  _time: 2025-08-30 11:17:17.354731340 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
+  branch: renovate/judges-0.x-lockfile
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/pages-action#349 has been closed by @renovate[bot],
+    with 14 HoC and 1 comments.
+  event_id: 53876932200
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 14
+  is_human: 0
+  issue: 349
   repository: 802720676
-  what: labels-were-scanned
+  succeeded_builds: 13
+  what: pull-was-closed
+  when: 2025-08-27 01:26:25.000000000 Z
   where: github
-- _id: 57
-  _time: 2025-08-30 11:17:17.357790761 Z
+  who: 29139614
+- _id: 18
+  _time: 2025-08-30 12:35:52.780359183 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  comments: 1
+  comments_appreciated: 0
+  comments_by_author: 0
+  comments_by_reviewers: 1
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/pages-action#352 has been closed by @renovate[bot],
+    with 20 HoC and 1 comments.
+  event_id: 53876931692
+  event_type: PullRequestEvent
+  failed_builds: 2
+  hoc: 20
+  is_human: 0
+  issue: 352
+  repository: 802720676
+  succeeded_builds: 26
+  what: pull-was-closed
+  when: 2025-08-27 01:26:23.000000000 Z
+  where: github
+  who: 29139614
+- _id: 19
+  _time: 2025-08-30 12:36:04.706589730 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  comments: 4
+  comments_appreciated: 1
+  comments_by_author: 0
+  comments_by_reviewers: 4
+  comments_resolved: 0
+  comments_to_code: 0
+  details: The pull request zerocracy/pages-action#339 has been closed by @renovate[bot],
+    with 8 HoC and 4 comments.
+  event_id: 53876931206
+  event_type: PullRequestEvent
+  failed_builds: 1
+  hoc: 8
+  is_human: 0
+  issue: 339
+  repository: 802720676
+  succeeded_builds: 13
+  what: pull-was-closed
+  when: 2025-08-27 01:26:22.000000000 Z
+  where: github
+  who: 29139614
+- _id: 20
+  _time: 2025-08-30 12:36:11.260859882 Z
+  _version: 0.9.10/0.39.2/
+  commit: f041e1f333841d0a02a85ee46697c2480215d8d9
+  default_branch: master
+  details: 'A new Git push #26397080368 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 53876907364
+  event_type: PushEvent
+  is_human: 1
+  push_id: 26397080368
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-08-27 01:25:22.000000000 Z
+  where: github
+  who: 526301
+- _id: 21
+  _time: 2025-08-30 12:36:11.618947859 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/fbe-0.x-lockfile
+  details: The pull request zerocracy/pages-action#352 has been opened by @renovate[bot].
+  event_id: 53734726599
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 352
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-08-23 06:03:19.000000000 Z
+  where: github
+  who: 29139614
+- _id: 22
+  _time: 2025-08-30 12:36:11.657645433 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request zerocracy/pages-action#351 has been opened by @renovate[bot].
+  event_id: 53700678389
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 351
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-08-22 10:13:54.000000000 Z
+  where: github
+  who: 29139614
+- _id: 23
+  _time: 2025-08-30 12:36:11.689909411 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/actions-setup-java-5.x
+  details: The pull request zerocracy/pages-action#350 has been opened by @renovate[bot].
+  event_id: 53633973044
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 350
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-08-21 04:56:28.000000000 Z
+  where: github
+  who: 29139614
+- _id: 24
+  _time: 2025-08-30 12:36:11.714113155 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/judges-0.x-lockfile
+  details: The pull request zerocracy/pages-action#349 has been opened by @renovate[bot].
+  event_id: 53483413961
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 349
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-08-18 09:30:54.000000000 Z
+  where: github
+  who: 29139614
+- _id: 25
+  _time: 2025-08-30 12:36:11.747647694 Z
+  _version: 0.9.10/0.39.2/
+  comments: 3
+  commits: 1
+  details: The pull request zerocracy/pages-action#348 has been reviewed by @yegor256
+    with 2 HoC and 3 comments.
+  event_id: 53292884884
+  event_type: PullRequestReviewEvent
+  files: 1
+  hoc: 2
+  is_human: 1
+  issue: 348
+  repository: 802720676
+  review_comments: 0
+  what: pull-was-reviewed
+  when: 2025-08-13 03:21:38.000000000 Z
+  where: github
+  who: 526301
+- _id: 26
+  _time: 2025-08-30 12:38:15.945257100 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 58
-  _time: 2025-08-30 11:17:17.360747750 Z
+- _id: 27
+  _time: 2025-08-30 12:38:15.948011443 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 28
+  _time: 2025-08-30 12:38:16.157863724 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#354.
+  issue: 354
+  label: bug
+  repository: 802720676
+  what: label-was-attached
+  when: 2025-08-27 07:21:20.000000000 Z
+  where: github
+  who: 526301
+- _id: 30
+  _time: 2025-08-30 12:38:16.341453158 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 59
-  _time: 2025-08-30 11:17:17.363838329 Z
+- _id: 31
+  _time: 2025-08-30 12:38:16.344271702 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 60
-  _time: 2025-08-30 11:17:17.366936071 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 61
-  _time: 2025-08-30 11:17:17.369938825 Z
+- _id: 32
+  _time: 2025-08-30 12:38:16.347011779 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 62
-  _time: 2025-08-30 11:17:17.373648863 Z
+- _id: 33
+  _time: 2025-08-30 12:38:16.349920953 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 63
-  _time: 2025-08-30 11:18:13.719338917 Z
+- _id: 34
+  _time: 2025-08-30 12:38:16.352899216 Z
   _version: 0.9.10/0.39.2/
-  average_review_size: 0.11842105263157894
-  average_review_time: 32257.567901234568
-  average_reviewers_per_pull: 0.5723684210526315
-  average_reviews_per_pull: 0.6381578947368421
-  since: 2025-08-02 11:17:17.376371517 Z
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 35
+  _time: 2025-08-30 12:38:16.580421929 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/pages-action#355.
+  issue: 355
+  label: enhancement
+  repository: 802720676
+  what: label-was-attached
+  when: 2025-08-27 12:57:58.000000000 Z
+  where: github
+  who: 526301
+- _id: 36
+  _time: 2025-08-30 12:38:16.601131623 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 37
+  _time: 2025-08-30 12:39:33.393201563 Z
+  _version: 0.9.10/0.39.2/
+  average_issue_lifetime: 622371.4776119404
+  average_pull_files_size: 1.5394736842105263
+  average_pull_hoc_size: 6.3355263157894735
+  average_pull_lifetime: 75187.73099415205
+  average_release_commits_size: 6.2727272727272725
+  average_release_hoc_size: 63.92727272727273
+  since: 2025-08-02 12:38:16.605145744 Z
   what: quality-of-service
-  when: 2025-08-30 11:17:17.376340659 Z
-- _id: 64
-  _time: 2025-08-30 11:20:27.608928583 Z
+  when: 2025-08-30 12:38:16.605120758 Z
+- _id: 38
+  _time: 2025-08-30 12:39:33.396007314 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-08-02 11:18:13.721574557 Z
-  total_builds_ran: 10336
+  since: 2025-08-02 12:39:33.396229931 Z
   what: quantity-of-deliverables
-  when: 2025-08-30 11:18:13.721549520 Z
+  when: 2025-08-30 12:39:33.396086362 Z
