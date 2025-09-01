@@ -2,14 +2,16 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  error:
+  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 353.158499106
+  seconds: 391.97509546
   version: 0.39.2
   what: judges-summary
-  when: 2025-09-01 03:26:53.348133619 Z
+  when: 2025-09-01 04:34:51.239730263 Z
 - _id: 1
-  _time: 2025-09-01 03:21:20.341324287 Z
+  _time: 2025-09-01 04:28:48.149701300 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 5
   total_commits: 5516
@@ -22,65 +24,65 @@
   total_repositories: 8
   total_stars: 54
   what: dimensions-of-terrain
-  when: 2025-09-01 03:21:00.514553101 Z
+  when: 2025-09-01 04:28:19.595568862 Z
 - _id: 2
-  _time: 2025-09-01 03:21:20.389751838 Z
+  _time: 2025-09-01 04:28:48.180930360 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-09-01 03:21:20.392503654 Z
+  _time: 2025-09-01 04:28:48.183663375 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-09-01 03:21:20.395179108 Z
+  _time: 2025-09-01 04:28:48.186292706 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2025-09-01 03:21:20.398326955 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-09-01 03:21:20.401442892 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-09-01 03:21:20.404346633 Z
+  _time: 2025-09-01 04:28:48.189043765 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2025-09-01 03:21:20.407694965 Z
+- _id: 6
+  _time: 2025-09-01 04:28:48.196989435 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2025-09-01 04:28:48.201371138 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-09-01 04:28:48.205633067 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-09-01 03:21:20.411182176 Z
+  _time: 2025-09-01 04:28:48.210166685 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-09-01 03:21:21.990790780 Z
+  _time: 2025-09-01 04:28:50.388574215 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   comments: 1
@@ -104,7 +106,7 @@
   where: github
   who: 526301
 - _id: 11
-  _time: 2025-09-01 03:21:28.613259777 Z
+  _time: 2025-09-01 04:29:00.397860782 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 1
@@ -128,7 +130,7 @@
   where: github
   who: 526301
 - _id: 12
-  _time: 2025-09-01 03:21:35.387697966 Z
+  _time: 2025-09-01 04:29:10.338641344 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 1
@@ -152,7 +154,7 @@
   where: github
   who: 526301
 - _id: 13
-  _time: 2025-09-01 03:21:41.727694201 Z
+  _time: 2025-09-01 04:29:20.083059565 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-minitest-0.x-lockfile
   comments: 1
@@ -176,7 +178,7 @@
   where: github
   who: 526301
 - _id: 14
-  _time: 2025-09-01 03:21:47.913511920 Z
+  _time: 2025-09-01 04:29:30.122184552 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 4
@@ -200,7 +202,7 @@
   where: github
   who: 526301
 - _id: 15
-  _time: 2025-09-01 03:21:54.711682312 Z
+  _time: 2025-09-01 04:29:40.615274875 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-minitest-0.x-lockfile
   details: The pull request zerocracy/pages-action#357 has been opened by @renovate[bot].
@@ -214,7 +216,7 @@
   where: github
   who: 29139614
 - _id: 16
-  _time: 2025-09-01 03:21:54.861887036 Z
+  _time: 2025-09-01 04:29:40.857075082 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/pages-action#356 has been opened by @renovate[bot].
@@ -228,7 +230,7 @@
   where: github
   who: 29139614
 - _id: 17
-  _time: 2025-09-01 03:21:54.874190981 Z
+  _time: 2025-09-01 04:29:40.868400084 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/pages-action#355 has been opened by @yegor256.
   event_id: 53900251807
@@ -241,7 +243,7 @@
   where: github
   who: 526301
 - _id: 18
-  _time: 2025-09-01 03:21:55.202830764 Z
+  _time: 2025-09-01 04:29:41.237401235 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 3
@@ -265,7 +267,7 @@
   where: github
   who: 526301
 - _id: 19
-  _time: 2025-09-01 03:22:03.845088732 Z
+  _time: 2025-09-01 04:29:52.015340672 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/actions-setup-java-5.x
   comments: 1
@@ -289,7 +291,7 @@
   where: github
   who: 526301
 - _id: 20
-  _time: 2025-09-01 03:22:10.495820897 Z
+  _time: 2025-09-01 04:30:02.373540363 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/simplecov-cobertura-3.x-lockfile
   comments: 1
@@ -313,7 +315,7 @@
   where: github
   who: 526301
 - _id: 21
-  _time: 2025-09-01 03:22:16.717398391 Z
+  _time: 2025-09-01 04:30:12.010066582 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/pages-action#354 has been opened by @yegor256.
   event_id: 53885902626
@@ -326,7 +328,7 @@
   where: github
   who: 526301
 - _id: 22
-  _time: 2025-09-01 03:22:16.734387591 Z
+  _time: 2025-09-01 04:30:12.027832791 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/simplecov-cobertura-3.x-lockfile
   details: The pull request zerocracy/pages-action#353 has been opened by @renovate[bot].
@@ -340,7 +342,7 @@
   where: github
   who: 29139614
 - _id: 23
-  _time: 2025-09-01 03:22:16.754670749 Z
+  _time: 2025-09-01 04:30:12.040919049 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   comments: 1
@@ -364,7 +366,7 @@
   where: github
   who: 29139614
 - _id: 24
-  _time: 2025-09-01 03:22:23.938398059 Z
+  _time: 2025-09-01 04:30:22.262899569 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   comments: 1
@@ -388,7 +390,7 @@
   where: github
   who: 29139614
 - _id: 25
-  _time: 2025-09-01 03:22:35.216593468 Z
+  _time: 2025-09-01 04:30:39.748635764 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 1
@@ -412,7 +414,7 @@
   where: github
   who: 29139614
 - _id: 26
-  _time: 2025-09-01 03:22:46.503115138 Z
+  _time: 2025-09-01 04:30:57.896555200 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 4
@@ -436,7 +438,7 @@
   where: github
   who: 29139614
 - _id: 27
-  _time: 2025-09-01 03:22:57.634135178 Z
+  _time: 2025-09-01 04:31:16.538079914 Z
   _version: 0.9.10/0.39.2/
   commit: f041e1f333841d0a02a85ee46697c2480215d8d9
   default_branch: master
@@ -454,7 +456,7 @@
   where: github
   who: 526301
 - _id: 28
-  _time: 2025-09-01 03:22:58.069083879 Z
+  _time: 2025-09-01 04:31:17.572185609 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   details: The pull request zerocracy/pages-action#352 has been opened by @renovate[bot].
@@ -468,7 +470,7 @@
   where: github
   who: 29139614
 - _id: 29
-  _time: 2025-09-01 03:22:58.121718699 Z
+  _time: 2025-09-01 04:31:17.592443362 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   details: The pull request zerocracy/pages-action#351 has been opened by @renovate[bot].
@@ -482,7 +484,7 @@
   where: github
   who: 29139614
 - _id: 30
-  _time: 2025-09-01 03:22:58.198680437 Z
+  _time: 2025-09-01 04:31:17.647224948 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/actions-setup-java-5.x
   details: The pull request zerocracy/pages-action#350 has been opened by @renovate[bot].
@@ -496,7 +498,7 @@
   where: github
   who: 29139614
 - _id: 31
-  _time: 2025-09-01 03:22:58.229990560 Z
+  _time: 2025-09-01 04:31:17.673912084 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/judges-0.x-lockfile
   details: The pull request zerocracy/pages-action#349 has been opened by @renovate[bot].
@@ -510,7 +512,7 @@
   where: github
   who: 29139614
 - _id: 32
-  _time: 2025-09-01 03:22:58.265244517 Z
+  _time: 2025-09-01 04:31:17.711156026 Z
   _version: 0.9.10/0.39.2/
   comments: 3
   commits: 1
@@ -529,21 +531,21 @@
   where: github
   who: 526301
 - _id: 33
-  _time: 2025-09-01 03:24:22.386737480 Z
+  _time: 2025-09-01 04:31:50.609211447 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 798641472
   what: labels-were-scanned
   where: github
 - _id: 34
-  _time: 2025-09-01 03:24:22.398609645 Z
+  _time: 2025-09-01 04:31:50.612837380 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 840215648
   what: labels-were-scanned
   where: github
 - _id: 35
-  _time: 2025-09-01 03:24:22.612002666 Z
+  _time: 2025-09-01 04:31:50.921571340 Z
   _version: 0.9.10/0.39.2/
   details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#354.
   issue: 354
@@ -554,42 +556,42 @@
   where: github
   who: 526301
 - _id: 37
-  _time: 2025-09-01 03:24:22.799459557 Z
+  _time: 2025-09-01 04:31:50.927406755 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 38
+  _time: 2025-09-01 04:31:50.930759726 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 38
-  _time: 2025-09-01 03:24:22.806759102 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
 - _id: 39
-  _time: 2025-09-01 03:24:22.813321427 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 40
-  _time: 2025-09-01 03:24:22.822041171 Z
+  _time: 2025-09-01 04:31:50.934222933 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
+- _id: 40
+  _time: 2025-09-01 04:31:50.937744912 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
 - _id: 41
-  _time: 2025-09-01 03:24:22.829616754 Z
+  _time: 2025-09-01 04:31:50.941651402 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
 - _id: 42
-  _time: 2025-09-01 03:24:23.071417218 Z
+  _time: 2025-09-01 04:31:51.229194884 Z
   _version: 0.9.10/0.39.2/
   details: The '#enhancement' label was attached by @yegor256 to the issue zerocracy/pages-action#355.
   issue: 355
@@ -600,29 +602,16 @@
   where: github
   who: 526301
 - _id: 43
-  _time: 2025-09-01 03:24:23.081937392 Z
+  _time: 2025-09-01 04:31:51.236754248 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
 - _id: 44
-  _time: 2025-09-01 03:25:27.423109126 Z
+  _time: 2025-09-01 04:31:54.717327385 Z
   _version: 0.9.10/0.39.2/
-  average_review_size: 0.11320754716981132
-  average_review_time: 51883.348314606745
-  average_reviewers_per_pull: 0.5974842767295597
-  average_reviews_per_pull: 0.660377358490566
-  since: 2025-08-04 03:24:23.085465810 Z
+  average_triage_time: 1.0
+  since: 2025-08-04 04:31:51.240077543 Z
   what: quality-of-service
-  when: 2025-09-01 03:24:23.085435533 Z
-- _id: 45
-  _time: 2025-09-01 03:26:53.345917682 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-08-04 03:25:27.426192680 Z
-  total_commits_pushed: 383
-  total_hoc_committed: 4453
-  total_issues_created: 45
-  total_pulls_submitted: 21
-  what: quantity-of-deliverables
-  when: 2025-09-01 03:25:27.426168885 Z
+  when: 2025-09-01 04:31:51.240053217 Z
