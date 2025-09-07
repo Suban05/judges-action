@@ -2,14 +2,16 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  error:
+  - 'Judge github-events stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 448.038998343
+  seconds: 390.348245881
   version: 0.39.2
   what: judges-summary
-  when: 2025-09-07 22:23:55.872554760 Z
+  when: 2025-09-07 23:22:54.362613373 Z
 - _id: 1
-  _time: 2025-09-07 22:16:54.367303716 Z
+  _time: 2025-09-07 23:16:52.152979923 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 6
   total_commits: 5701
@@ -22,65 +24,65 @@
   total_repositories: 8
   total_stars: 55
   what: dimensions-of-terrain
-  when: 2025-09-07 22:16:28.179177763 Z
+  when: 2025-09-07 23:16:24.335424233 Z
 - _id: 2
-  _time: 2025-09-07 22:16:54.421481674 Z
+  _time: 2025-09-07 23:16:52.184055892 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-09-07 22:16:54.425193688 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-09-07 22:16:54.429115245 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-09-07 22:16:54.432457762 Z
+  _time: 2025-09-07 23:16:52.186521127 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
-- _id: 6
-  _time: 2025-09-07 22:16:54.436052124 Z
+- _id: 4
+  _time: 2025-09-07 23:16:52.188982695 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 974194993
   what: min-issue-was-found
   where: github
-- _id: 7
-  _time: 2025-09-07 22:16:54.439771350 Z
+- _id: 5
+  _time: 2025-09-07 23:16:52.191334146 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2025-09-07 23:16:52.193834407 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
+- _id: 7
+  _time: 2025-09-07 23:16:52.196333115 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
 - _id: 8
-  _time: 2025-09-07 22:16:54.443284879 Z
+  _time: 2025-09-07 23:16:52.198729861 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-09-07 22:16:54.446974981 Z
+  _time: 2025-09-07 23:16:52.201305573 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-09-07 22:16:56.833047771 Z
+  _time: 2025-09-07 23:16:54.327211773 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 3
@@ -104,7 +106,7 @@
   where: github
   who: 8086956
 - _id: 11
-  _time: 2025-09-07 22:17:03.849377726 Z
+  _time: 2025-09-07 23:17:01.536486293 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/puma-7.x
   comments: 3
@@ -128,7 +130,7 @@
   where: github
   who: 8086956
 - _id: 12
-  _time: 2025-09-07 22:17:10.870557374 Z
+  _time: 2025-09-07 23:17:08.481334635 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-performance-1.x-lockfile
   comments: 3
@@ -152,7 +154,7 @@
   where: github
   who: 8086956
 - _id: 13
-  _time: 2025-09-07 22:17:17.826952066 Z
+  _time: 2025-09-07 23:17:15.414081864 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 3
@@ -176,7 +178,7 @@
   where: github
   who: 8086956
 - _id: 14
-  _time: 2025-09-07 22:17:24.699371624 Z
+  _time: 2025-09-07 23:17:22.366250608 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -195,7 +197,7 @@
   where: github
   who: 526301
 - _id: 15
-  _time: 2025-09-07 22:17:25.048764441 Z
+  _time: 2025-09-07 23:17:22.732259286 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -214,7 +216,7 @@
   where: github
   who: 526301
 - _id: 16
-  _time: 2025-09-07 22:17:25.400857469 Z
+  _time: 2025-09-07 23:17:23.115992438 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -233,7 +235,7 @@
   where: github
   who: 526301
 - _id: 17
-  _time: 2025-09-07 22:17:25.836366717 Z
+  _time: 2025-09-07 23:17:23.442275006 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -252,7 +254,7 @@
   where: github
   who: 526301
 - _id: 18
-  _time: 2025-09-07 22:17:26.372444243 Z
+  _time: 2025-09-07 23:17:23.920655629 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/puma-7.x
   details: The pull request zerocracy/baza.rb#140 has been opened by @renovate[bot].
@@ -266,7 +268,7 @@
   where: github
   who: 29139614
 - _id: 19
-  _time: 2025-09-07 22:17:26.529170332 Z
+  _time: 2025-09-07 23:17:24.084175864 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-performance-1.x-lockfile
   details: The pull request zerocracy/baza.rb#139 has been opened by @renovate[bot].
@@ -280,7 +282,7 @@
   where: github
   who: 29139614
 - _id: 20
-  _time: 2025-09-07 22:17:26.551334098 Z
+  _time: 2025-09-07 23:17:24.102387951 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rack-3.x-lockfile
   comments: 3
@@ -304,7 +306,7 @@
   where: github
   who: 8086956
 - _id: 21
-  _time: 2025-09-07 22:17:33.731980867 Z
+  _time: 2025-09-07 23:17:31.250919650 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   details: The pull request zerocracy/baza.rb#138 has been opened by @renovate[bot].
@@ -318,7 +320,7 @@
   where: github
   who: 29139614
 - _id: 22
-  _time: 2025-09-07 22:17:33.748345820 Z
+  _time: 2025-09-07 23:17:31.271845712 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/baza.rb#137 has been opened by @renovate[bot].
@@ -332,7 +334,7 @@
   where: github
   who: 29139614
 - _id: 23
-  _time: 2025-09-07 22:17:33.797541361 Z
+  _time: 2025-09-07 23:17:31.293357272 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   comments: 3
@@ -356,7 +358,7 @@
   where: github
   who: 8086956
 - _id: 24
-  _time: 2025-09-07 22:17:45.642506002 Z
+  _time: 2025-09-07 23:17:42.720309576 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -375,7 +377,7 @@
   where: github
   who: 526301
 - _id: 25
-  _time: 2025-09-07 22:17:46.026241058 Z
+  _time: 2025-09-07 23:17:43.101290393 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -394,7 +396,7 @@
   where: github
   who: 526301
 - _id: 26
-  _time: 2025-09-07 22:17:46.427828592 Z
+  _time: 2025-09-07 23:17:43.489768353 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   details: The pull request zerocracy/baza.rb#136 has been opened by @renovate[bot].
@@ -408,7 +410,7 @@
   where: github
   who: 29139614
 - _id: 27
-  _time: 2025-09-07 22:17:46.446468122 Z
+  _time: 2025-09-07 23:17:43.501116460 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rack-3.x-lockfile
   details: The pull request zerocracy/baza.rb#135 has been opened by @renovate[bot].
@@ -422,7 +424,7 @@
   where: github
   who: 29139614
 - _id: 28
-  _time: 2025-09-07 22:17:46.496114259 Z
+  _time: 2025-09-07 23:17:43.545952724 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 3
@@ -446,7 +448,7 @@
   where: github
   who: 8086956
 - _id: 29
-  _time: 2025-09-07 22:17:53.453474600 Z
+  _time: 2025-09-07 23:17:50.525248475 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 3
@@ -470,7 +472,7 @@
   where: github
   who: 8086956
 - _id: 30
-  _time: 2025-09-07 22:18:00.803861488 Z
+  _time: 2025-09-07 23:17:58.028912901 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-minitest-0.x-lockfile
   comments: 3
@@ -494,7 +496,7 @@
   where: github
   who: 8086956
 - _id: 31
-  _time: 2025-09-07 22:18:12.870455272 Z
+  _time: 2025-09-07 23:18:10.333815709 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -513,7 +515,7 @@
   where: github
   who: 526301
 - _id: 32
-  _time: 2025-09-07 22:18:13.218625652 Z
+  _time: 2025-09-07 23:18:10.709555046 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -532,7 +534,7 @@
   where: github
   who: 526301
 - _id: 33
-  _time: 2025-09-07 22:18:13.611075496 Z
+  _time: 2025-09-07 23:18:11.082774798 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -551,7 +553,7 @@
   where: github
   who: 526301
 - _id: 34
-  _time: 2025-09-07 22:18:13.969464810 Z
+  _time: 2025-09-07 23:18:11.398091831 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-minitest-0.x-lockfile
   details: The pull request zerocracy/baza.rb#134 has been opened by @renovate[bot].
@@ -565,7 +567,7 @@
   where: github
   who: 29139614
 - _id: 35
-  _time: 2025-09-07 22:18:13.991163438 Z
+  _time: 2025-09-07 23:18:11.417031599 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   details: The pull request zerocracy/baza.rb#133 has been opened by @renovate[bot].
@@ -579,7 +581,7 @@
   where: github
   who: 29139614
 - _id: 36
-  _time: 2025-09-07 22:18:14.024297374 Z
+  _time: 2025-09-07 23:18:11.436023854 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/baza.rb#132 has been opened by @renovate[bot].
@@ -593,7 +595,7 @@
   where: github
   who: 29139614
 - _id: 37
-  _time: 2025-09-07 22:18:14.296000495 Z
+  _time: 2025-09-07 23:18:11.647040440 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   comments: 3
@@ -617,7 +619,7 @@
   where: github
   who: 8086956
 - _id: 38
-  _time: 2025-09-07 22:18:26.651725956 Z
+  _time: 2025-09-07 23:18:24.153677662 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -636,7 +638,7 @@
   where: github
   who: 526301
 - _id: 39
-  _time: 2025-09-07 22:18:27.179549695 Z
+  _time: 2025-09-07 23:18:24.704273294 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   details: The pull request zerocracy/baza.rb#131 has been opened by @renovate[bot].
@@ -650,7 +652,7 @@
   where: github
   who: 29139614
 - _id: 40
-  _time: 2025-09-07 22:18:27.348489436 Z
+  _time: 2025-09-07 23:18:24.861235181 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/simplecov-cobertura-3.x-lockfile
   comments: 3
@@ -674,7 +676,7 @@
   where: github
   who: 8086956
 - _id: 41
-  _time: 2025-09-07 22:18:39.843556870 Z
+  _time: 2025-09-07 23:18:37.028696953 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -693,7 +695,7 @@
   where: github
   who: 526301
 - _id: 42
-  _time: 2025-09-07 22:18:40.152038890 Z
+  _time: 2025-09-07 23:18:37.368369349 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/simplecov-cobertura-3.x-lockfile
   details: The pull request zerocracy/baza.rb#130 has been opened by @renovate[bot].
@@ -707,7 +709,7 @@
   where: github
   who: 29139614
 - _id: 43
-  _time: 2025-09-07 22:18:40.220441076 Z
+  _time: 2025-09-07 23:18:37.409350313 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 3
@@ -731,7 +733,7 @@
   where: github
   who: 8086956
 - _id: 44
-  _time: 2025-09-07 22:18:47.430107724 Z
+  _time: 2025-09-07 23:18:44.468754745 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   comments: 3
@@ -755,7 +757,7 @@
   where: github
   who: 8086956
 - _id: 45
-  _time: 2025-09-07 22:19:00.593407638 Z
+  _time: 2025-09-07 23:18:56.536012561 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -774,7 +776,7 @@
   where: github
   who: 526301
 - _id: 46
-  _time: 2025-09-07 22:19:01.017309415 Z
+  _time: 2025-09-07 23:18:56.948315933 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -793,7 +795,7 @@
   where: github
   who: 526301
 - _id: 47
-  _time: 2025-09-07 22:19:01.428392250 Z
+  _time: 2025-09-07 23:18:57.587253866 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-1.x-lockfile
   details: The pull request zerocracy/baza.rb#129 has been opened by @renovate[bot].
@@ -807,7 +809,7 @@
   where: github
   who: 29139614
 - _id: 48
-  _time: 2025-09-07 22:19:01.445163878 Z
+  _time: 2025-09-07 23:18:57.608243565 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   details: The pull request zerocracy/baza.rb#128 has been opened by @renovate[bot].
@@ -821,7 +823,7 @@
   where: github
   who: 29139614
 - _id: 49
-  _time: 2025-09-07 22:19:01.484311774 Z
+  _time: 2025-09-07 23:18:57.804191647 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 3
@@ -845,7 +847,7 @@
   where: github
   who: 8086956
 - _id: 50
-  _time: 2025-09-07 22:19:14.100629997 Z
+  _time: 2025-09-07 23:19:09.858919905 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -864,7 +866,7 @@
   where: github
   who: 526301
 - _id: 51
-  _time: 2025-09-07 22:19:14.498342098 Z
+  _time: 2025-09-07 23:19:10.257325469 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   details: The pull request zerocracy/baza.rb#126 has been opened by @renovate[bot].
@@ -878,7 +880,7 @@
   where: github
   who: 29139614
 - _id: 52
-  _time: 2025-09-07 22:19:14.538739170 Z
+  _time: 2025-09-07 23:19:10.281118550 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 3
@@ -902,7 +904,7 @@
   where: github
   who: 8086956
 - _id: 53
-  _time: 2025-09-07 22:19:26.594969567 Z
+  _time: 2025-09-07 23:19:22.297816822 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -921,7 +923,7 @@
   where: github
   who: 526301
 - _id: 54
-  _time: 2025-09-07 22:19:26.950228592 Z
+  _time: 2025-09-07 23:19:23.064448285 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   details: The pull request zerocracy/baza.rb#125 has been opened by @renovate[bot].
@@ -935,7 +937,7 @@
   where: github
   who: 29139614
 - _id: 55
-  _time: 2025-09-07 22:19:27.144890244 Z
+  _time: 2025-09-07 23:19:23.248740930 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 3
@@ -959,7 +961,7 @@
   where: github
   who: 8086956
 - _id: 56
-  _time: 2025-09-07 22:19:39.643046370 Z
+  _time: 2025-09-07 23:19:35.350981726 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -978,7 +980,7 @@
   where: github
   who: 526301
 - _id: 57
-  _time: 2025-09-07 22:19:40.102855724 Z
+  _time: 2025-09-07 23:19:35.864456155 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   details: The pull request zerocracy/baza.rb#123 has been opened by @renovate[bot].
@@ -992,7 +994,7 @@
   where: github
   who: 29139614
 - _id: 58
-  _time: 2025-09-07 22:19:40.269131601 Z
+  _time: 2025-09-07 23:19:36.026317337 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/baza.rb#122 has been opened by @yegor256.
   event_id: 53404492480
@@ -1005,7 +1007,7 @@
   where: github
   who: 526301
 - _id: 59
-  _time: 2025-09-07 22:19:40.313664114 Z
+  _time: 2025-09-07 23:19:36.067752233 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 3
@@ -1029,7 +1031,7 @@
   where: github
   who: 8086956
 - _id: 60
-  _time: 2025-09-07 22:19:52.395102473 Z
+  _time: 2025-09-07 23:19:48.690598874 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -1048,7 +1050,7 @@
   where: github
   who: 526301
 - _id: 61
-  _time: 2025-09-07 22:19:52.777142223 Z
+  _time: 2025-09-07 23:19:49.081260971 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/baza.rb#121 has been opened by @renovate[bot].
@@ -1062,7 +1064,7 @@
   where: github
   who: 29139614
 - _id: 62
-  _time: 2025-09-07 22:19:52.802331356 Z
+  _time: 2025-09-07 23:19:49.110443785 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/baza.rb#120 has been closed by @yegor256.
   event_id: 53220902249
@@ -1075,28 +1077,14 @@
   where: github
   who: 526301
 - _id: 63
-  _time: 2025-09-07 22:19:56.333180965 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 64
-  _time: 2025-09-07 22:19:56.336570427 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 65
-  _time: 2025-09-07 22:19:56.340031182 Z
+  _time: 2025-09-07 23:19:54.106761322 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 66
-  _time: 2025-09-07 22:19:56.612679689 Z
+- _id: 64
+  _time: 2025-09-07 23:19:54.326945320 Z
   _version: 0.9.10/0.39.2/
   details: The '#bug' label was attached by @yegor256 to the issue zerocracy/baza.rb#122.
   issue: 122
@@ -1106,54 +1094,59 @@
   when: 2025-08-15 08:48:30.000000000 Z
   where: github
   who: 526301
-- _id: 68
-  _time: 2025-09-07 22:19:56.618248715 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 69
-  _time: 2025-09-07 22:19:56.621839565 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 70
-  _time: 2025-09-07 22:19:56.625528167 Z
+- _id: 66
+  _time: 2025-09-07 23:19:54.333751629 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 71
-  _time: 2025-09-07 22:19:56.629057731 Z
+- _id: 67
+  _time: 2025-09-07 23:19:54.337855716 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 68
+  _time: 2025-09-07 23:19:54.342279162 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 69
+  _time: 2025-09-07 23:19:54.346544451 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
+- _id: 70
+  _time: 2025-09-07 23:19:54.350598595 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 71
+  _time: 2025-09-07 23:19:54.353929835 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
 - _id: 72
-  _time: 2025-09-07 22:19:56.635373687 Z
+  _time: 2025-09-07 23:19:54.359238980 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
 - _id: 73
-  _time: 2025-09-07 22:21:06.233636800 Z
+  _time: 2025-09-07 23:19:58.855839577 Z
   _version: 0.9.10/0.39.2/
-  average_pull_files_size: 1.6292134831460674
-  average_pull_hoc_size: 9.561797752808989
-  since: 2025-08-10 22:19:56.638218969 Z
+  average_release_interval: 40859.875
+  since: 2025-08-10 23:19:54.361868162 Z
   what: quality-of-service
-  when: 2025-09-07 22:19:56.638191387 Z
-- _id: 74
-  _time: 2025-09-07 22:23:55.870179708 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-08-10 22:21:06.236247914 Z
-  total_builds_ran: 11226
-  total_releases_published: 57
-  what: quantity-of-deliverables
-  when: 2025-09-07 22:21:06.236224059 Z
+  when: 2025-09-07 23:19:54.361841332 Z
