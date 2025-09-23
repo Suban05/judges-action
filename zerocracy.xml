@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.9.6" size="20349">
+<fb version="0.9.6" size="10760">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <deleted t="I">8</deleted>
-    <error t="S">Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired</error>
+    <error>
+      <v t="S">GET https://api.github.com/repos/zerocracy/fbe/actions/jobs/50334476010: 502 - Server Error</v>
+      <v t="S">Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired</v>
+    </error>
     <inserted t="I">8</inserted>
-    <seconds t="F">405.114997865</seconds>
+    <seconds t="F">319.864820525</seconds>
     <version t="S">0.39.2</version>
     <what t="S">judges-summary</what>
-    <when t="T">2025-09-23T16:30:42Z</when>
+    <when t="T">2025-09-23T17:33:36Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <total_active_contributors t="I">7</total_active_contributors>
     <total_commits t="I">5918</total_commits>
@@ -21,16 +24,25 @@
     <total_files t="I">688</total_files>
     <total_forks t="I">28</total_forks>
     <total_issues t="I">884</total_issues>
-    <total_pulls t="I">1818</total_pulls>
+    <total_pulls t="I">1819</total_pulls>
     <total_releases t="I">706</total_releases>
     <total_repositories t="I">8</total_repositories>
     <total_stars t="I">55</total_stars>
     <what t="S">dimensions-of-terrain</what>
-    <when t="T">2025-09-23T16:23:57Z</when>
+    <when t="T">2025-09-23T17:28:17Z</when>
   </f>
   <f>
     <_id t="I">2</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799113787</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">3</_id>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">840215648</repository>
@@ -38,8 +50,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">3</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
+    <_id t="I">4</_id>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">802720676</repository>
@@ -47,26 +59,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">4</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">849726475</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
     <_id t="I">5</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">6</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">974194993</repository>
@@ -74,8 +68,17 @@
     <where t="S">github</where>
   </f>
   <f>
+    <_id t="I">6</_id>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">849726475</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
     <_id t="I">7</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">820463873</repository>
@@ -84,921 +87,385 @@
   </f>
   <f>
     <_id t="I">8</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
+    <repository t="I">798641472</repository>
     <what t="S">min-issue-was-found</what>
     <where t="S">github</where>
   </f>
   <f>
     <_id t="I">9</_id>
-    <_time t="T">2025-09-23T16:24:20Z</_time>
+    <_time t="T">2025-09-23T17:28:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">798641472</repository>
+    <repository t="I">799177290</repository>
     <what t="S">min-issue-was-found</what>
     <where t="S">github</where>
   </f>
   <f>
     <_id t="I">10</_id>
-    <_time t="T">2025-09-23T16:24:21Z</_time>
+    <_time t="T">2025-09-23T17:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
-    <details t="S">The pull request zerocracy/judges-action#1058 has been opened by @renovate[bot].</details>
-    <event_id t="I">55037568253</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">1058</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-22T16:44:00Z</when>
+    <details t="S">The issue zerocracy/fbe#313 has been closed by @yegor256.</details>
+    <event_id t="I">54841107357</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">313</issue>
+    <repository t="I">820463873</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2025-09-17T18:32:09Z</when>
     <where t="S">github</where>
-    <who t="I">29139614</who>
+    <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">11</_id>
-    <_time t="T">2025-09-23T16:24:21Z</_time>
+    <_time t="T">2025-09-23T17:28:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">version-up</branch>
-    <details t="S">The pull request zerocracy/judges-action#1057 has been opened by @github-actions[bot].</details>
-    <event_id t="I">55036137581</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">1057</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-22T16:13:31Z</when>
-    <where t="S">github</where>
-    <who t="I">41898282</who>
-  </f>
-  <f>
-    <_id t="I">12</_id>
-    <_time t="T">2025-09-23T16:24:22Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commits t="I">2184</commits>
+    <commits t="I">746</commits>
     <contributors>
       <v t="I">526301</v>
       <v t="I">29139614</v>
-      <v t="I">8086956</v>
       <v t="I">2566462</v>
       <v t="I">88084038</v>
-      <v t="I">41898282</v>
-      <v t="I">70346889</v>
-      <v t="I">1646020</v>
-      <v t="I">46713109</v>
+      <v t="I">123500333</v>
+      <v t="I">8086956</v>
     </contributors>
-    <details t="S">A new release '' has been published in zerocracy/judges-action by @rultor.</details>
-    <event_id t="I">55036032620</event_id>
+    <details t="S">A new release '' has been published in zerocracy/fbe by @rultor.</details>
+    <event_id t="I">54840894662</event_id>
     <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">12529</hoc>
+    <hoc t="I">10921</hoc>
     <is_human t="I">0</is_human>
-    <last_commit t="S">8a0e2ddfc4eca2946fc778e746bca7c552149a49</last_commit>
-    <release t="I">249093448</release>
-    <repository t="I">799177290</repository>
-    <tag t="S">0.15.44</tag>
+    <last_commit t="S">037c0cc4d70f6e4122bef042184621b170841b41</last_commit>
+    <release t="I">248071426</release>
+    <repository t="I">820463873</repository>
+    <tag t="S">0.38.1</tag>
     <what t="S">release-published</what>
-    <when t="T">2025-09-22T16:11:15Z</when>
+    <when t="T">2025-09-17T18:27:10Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">12</_id>
+    <_time t="T">2025-09-23T17:28:57Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">A new tag '0.38.1' has been created in zerocracy/fbe by @rultor.</details>
+    <event_id t="I">54840812493</event_id>
+    <event_type t="S">CreateEvent</event_type>
+    <is_human t="I">0</is_human>
+    <repository t="I">820463873</repository>
+    <tag t="S">0.38.1</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2025-09-17T18:25:16Z</when>
     <where t="S">github</where>
     <who t="I">8086956</who>
   </f>
   <f>
     <_id t="I">13</_id>
-    <_time t="T">2025-09-23T16:24:53Z</_time>
+    <_time t="T">2025-09-23T17:28:57Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.15.44' has been created in zerocracy/judges-action by @rultor.</details>
-    <event_id t="I">55035937687</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799177290</repository>
-    <tag t="S">0.15.44</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-09-22T16:09:17Z</when>
+    <commit t="S">d8a2db12eb48f52d5d1b5b5f4fd193b9ebba1df3</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #26878633845 has arrived to zerocracy/fbe, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">54840509706</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">26878633845</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">820463873</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-09-17T18:18:15Z</when>
     <where t="S">github</where>
-    <who t="I">8086956</who>
+    <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">14</_id>
-    <_time t="T">2025-09-23T16:24:54Z</_time>
+    <_time t="T">2025-09-23T17:28:57Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/hadolint-hadolint-action-3.x</branch>
-    <comments t="I">0</comments>
-    <comments_appreciated t="I">0</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">0</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1055 has been closed by @yegor256, with 2 HoC and 0 comments.</details>
-    <event_id t="I">55034355664</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
+    <details t="S">The issue zerocracy/fbe#313 has been opened by @yegor256.</details>
+    <event_id t="I">54840471013</event_id>
+    <event_type t="S">IssuesEvent</event_type>
     <is_human t="I">1</is_human>
-    <issue t="I">1055</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-22T15:37:48Z</when>
+    <issue t="I">313</issue>
+    <repository t="I">820463873</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2025-09-17T18:17:19Z</when>
     <where t="S">github</where>
     <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">15</_id>
-    <_time t="T">2025-09-23T16:25:00Z</_time>
+    <_time t="T">2025-09-23T17:28:57Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1054 has been closed by @yegor256.</details>
-    <event_id t="I">55034342558</event_id>
+    <details t="S">The issue zerocracy/fbe#312 has been closed by @yegor256.</details>
+    <event_id t="I">54837670594</event_id>
     <event_type t="S">IssuesEvent</event_type>
     <is_human t="I">1</is_human>
-    <issue t="I">1054</issue>
-    <repository t="I">799177290</repository>
+    <issue t="I">312</issue>
+    <repository t="I">820463873</repository>
     <what t="S">issue-was-closed</what>
-    <when t="T">2025-09-22T15:37:33Z</when>
+    <when t="T">2025-09-17T17:11:52Z</when>
     <where t="S">github</where>
     <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">16</_id>
-    <_time t="T">2025-09-23T16:25:01Z</_time>
+    <_time t="T">2025-09-23T17:28:57Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1054</branch>
-    <comments t="I">9</comments>
-    <comments_appreciated t="I">5</comments_appreciated>
-    <comments_by_author t="I">3</comments_by_author>
-    <comments_by_reviewers t="I">8</comments_by_reviewers>
-    <comments_resolved t="I">2</comments_resolved>
-    <comments_to_code t="I">7</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1056 has been closed by @yegor256, with 52 HoC and 9 comments.</details>
-    <event_id t="I">55034342102</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">52</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1056</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-22T15:37:33Z</when>
+    <commits t="I">1</commits>
+    <contributors t="I">8086956</contributors>
+    <details t="S">A new release '`Fbe.conclude` should pay attention to the moment of start of judge' has been published in zerocracy/fbe by @rultor.</details>
+    <event_id t="I">54837640068</event_id>
+    <event_type t="S">ReleaseEvent</event_type>
+    <hoc t="I">2</hoc>
+    <is_human t="I">0</is_human>
+    <last_commit t="S">473b8c8f1ed10440191d36cc44af7c4d95d7cea8</last_commit>
+    <release t="I">248051240</release>
+    <repository t="I">820463873</repository>
+    <tag t="S">0.38.0</tag>
+    <what t="S">release-published</what>
+    <when t="T">2025-09-17T17:11:08Z</when>
     <where t="S">github</where>
-    <who t="I">526301</who>
+    <who t="I">8086956</who>
   </f>
   <f>
     <_id t="I">17</_id>
-    <_time t="T">2025-09-23T16:25:09Z</_time>
+    <_time t="T">2025-09-23T17:28:58Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <comments t="I">11</comments>
-    <commits t="I">1</commits>
-    <details t="S">The pull request zerocracy/judges-action#1056 has been reviewed by @yegor256 with 52 HoC and 11 comments.</details>
-    <event_id t="I">55034336980</event_id>
-    <event_type t="S">PullRequestReviewEvent</event_type>
-    <files t="I">2</files>
-    <hoc t="I">52</hoc>
+    <details t="S">A new tag '0.38.0' has been created in zerocracy/fbe by @rultor.</details>
+    <event_id t="I">54837557994</event_id>
+    <event_type t="S">CreateEvent</event_type>
+    <is_human t="I">0</is_human>
+    <repository t="I">820463873</repository>
+    <tag t="S">0.38.0</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2025-09-17T17:09:13Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">18</_id>
+    <_time t="T">2025-09-23T17:28:58Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">db815a5119b18ac853969c2f40ccec8795d89d3d</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #26877081375 has arrived to zerocracy/fbe, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">54837281560</event_id>
+    <event_type t="S">PushEvent</event_type>
     <is_human t="I">1</is_human>
-    <issue t="I">1056</issue>
-    <repository t="I">799177290</repository>
-    <review_comments t="I">7</review_comments>
-    <what t="S">pull-was-reviewed</what>
-    <when t="T">2025-09-22T15:37:27Z</when>
+    <push_id t="I">26877081375</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">820463873</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-09-17T17:02:59Z</when>
     <where t="S">github</where>
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">18</_id>
-    <_time t="T">2025-09-23T16:25:10Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1054</branch>
-    <details t="S">The pull request zerocracy/judges-action#1056 has been opened by @Yegorov.</details>
-    <event_id t="I">55031251600</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1056</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-22T14:42:19Z</when>
-    <where t="S">github</where>
-    <who t="I">2566462</who>
-  </f>
-  <f>
     <_id t="I">19</_id>
-    <_time t="T">2025-09-23T16:25:10Z</_time>
+    <_time t="T">2025-09-23T17:28:58Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/hadolint-hadolint-action-3.x</branch>
-    <details t="S">The pull request zerocracy/judges-action#1055 has been opened by @renovate[bot].</details>
-    <event_id t="I">55025262637</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">1055</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-22T13:00:16Z</when>
+    <commit t="S">c76c167f697844d31044d318da086d36375da195</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #26877031026 has arrived to zerocracy/fbe, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">54837182420</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">26877031026</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">820463873</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-09-17T17:00:50Z</when>
     <where t="S">github</where>
-    <who t="I">29139614</who>
+    <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">20</_id>
-    <_time t="T">2025-09-23T16:25:10Z</_time>
+    <_time t="T">2025-09-23T17:28:58Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
-    <comments t="I">2</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">4</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1053 has been closed by @yegor256, with 2 HoC and 2 comments.</details>
-    <event_id t="I">54990682499</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
+    <commit t="S">b35df9d0213e4af4426e5e2aa14698fc60cc1653</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #26876645946 has arrived to zerocracy/fbe, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">54836380177</event_id>
+    <event_type t="S">PushEvent</event_type>
     <is_human t="I">1</is_human>
-    <issue t="I">1053</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-21T16:55:23Z</when>
+    <push_id t="I">26876645946</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">820463873</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-09-17T16:42:31Z</when>
     <where t="S">github</where>
     <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">21</_id>
-    <_time t="T">2025-09-23T16:25:18Z</_time>
+    <_time t="T">2025-09-23T17:28:58Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <comments t="I">4</comments>
-    <commits t="I">1</commits>
-    <details t="S">The pull request zerocracy/judges-action#1053 has been reviewed by @yegor256 with 2 HoC and 4 comments.</details>
-    <event_id t="I">54990533329</event_id>
-    <event_type t="S">PullRequestReviewEvent</event_type>
-    <files t="I">1</files>
-    <hoc t="I">2</hoc>
+    <details t="S">The issue zerocracy/fbe#312 has been opened by @yegor256.</details>
+    <event_id t="I">54836367493</event_id>
+    <event_type t="S">IssuesEvent</event_type>
     <is_human t="I">1</is_human>
-    <issue t="I">1053</issue>
-    <repository t="I">799177290</repository>
-    <review_comments t="I">0</review_comments>
-    <what t="S">pull-was-reviewed</what>
-    <when t="T">2025-09-21T16:45:09Z</when>
+    <issue t="I">312</issue>
+    <repository t="I">820463873</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2025-09-17T16:42:14Z</when>
     <where t="S">github</where>
     <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">22</_id>
-    <_time t="T">2025-09-23T16:25:18Z</_time>
+    <_time t="T">2025-09-23T17:28:58Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1054 has been opened by @yegor256.</details>
-    <event_id t="I">54990300572</event_id>
+    <details t="S">The issue zerocracy/fbe#310 has been closed by @yegor256.</details>
+    <event_id t="I">54741665030</event_id>
     <event_type t="S">IssuesEvent</event_type>
     <is_human t="I">1</is_human>
-    <issue t="I">1054</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-09-21T16:29:39Z</when>
+    <issue t="I">310</issue>
+    <repository t="I">820463873</repository>
+    <what t="S">issue-was-closed</what>
+    <when t="T">2025-09-16T02:53:00Z</when>
     <where t="S">github</where>
     <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">23</_id>
-    <_time t="T">2025-09-23T16:25:18Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/zerocracy-judges-action-0.x</branch>
-    <details t="S">The pull request zerocracy/judges-action#1053 has been opened by @renovate[bot].</details>
-    <event_id t="I">54989373138</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">1053</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-21T15:28:35Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">24</_id>
-    <_time t="T">2025-09-23T16:25:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">version-up</branch>
-    <comments t="I">0</comments>
-    <comments_appreciated t="I">0</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">0</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1052 has been closed by @yegor256, with 2 HoC and 0 comments.</details>
-    <event_id t="I">54989366621</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1052</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">0</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-21T15:28:10Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">25</_id>
-    <_time t="T">2025-09-23T16:25:19Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">version-up</branch>
-    <details t="S">The pull request zerocracy/judges-action#1052 has been opened by @github-actions[bot].</details>
-    <event_id t="I">54989250355</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">1052</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-21T15:20:38Z</when>
-    <where t="S">github</where>
-    <who t="I">41898282</who>
-  </f>
-  <f>
-    <_id t="I">26</_id>
-    <_time t="T">2025-09-23T16:25:19Z</_time>
+    <_time t="T">2025-09-23T17:28:58Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">1</commits>
     <contributors t="I">8086956</contributors>
-    <details t="S">A new release 'Faulty logic in `quality-of-service.rb` and `quantity-of-deliverables.rb` for creating and incrementing `what=quality-of-service` fact' has been published in zerocracy/judges-action by @rultor.</details>
-    <event_id t="I">54989208039</event_id>
+    <details t="S">A new release '`Fbe.conclude` must be `timeout_aware`' has been published in zerocracy/fbe by @rultor.</details>
+    <event_id t="I">54741604758</event_id>
     <event_type t="S">ReleaseEvent</event_type>
-    <hoc t="I">6</hoc>
+    <hoc t="I">2</hoc>
     <is_human t="I">0</is_human>
-    <last_commit t="S">b219c0b928d87fa91aed2df261c1c491db9c5d86</last_commit>
-    <release t="I">248866922</release>
-    <repository t="I">799177290</repository>
-    <tag t="S">0.15.43</tag>
+    <last_commit t="S">a5f5579e10313029d8e2a9949ff78cf5275df3a2</last_commit>
+    <release t="I">247485053</release>
+    <repository t="I">820463873</repository>
+    <tag t="S">0.36.0</tag>
     <what t="S">release-published</what>
-    <when t="T">2025-09-21T15:18:03Z</when>
+    <when t="T">2025-09-16T02:50:18Z</when>
     <where t="S">github</where>
     <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">24</_id>
+    <_time t="T">2025-09-23T17:28:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">A new tag '0.36.0' has been created in zerocracy/fbe by @rultor.</details>
+    <event_id t="I">54741567375</event_id>
+    <event_type t="S">CreateEvent</event_type>
+    <is_human t="I">0</is_human>
+    <repository t="I">820463873</repository>
+    <tag t="S">0.36.0</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2025-09-16T02:48:37Z</when>
+    <where t="S">github</where>
+    <who t="I">8086956</who>
+  </f>
+  <f>
+    <_id t="I">25</_id>
+    <_time t="T">2025-09-23T17:28:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">a3b510cd8ba9c29aaa484dd02070febc45310abe</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #26831438651 has arrived to zerocracy/fbe, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">54741416921</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">26831438651</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">820463873</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-09-16T02:41:40Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">26</_id>
+    <_time t="T">2025-09-23T17:28:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <commit t="S">f2c01d1a2861a3a23d3ecf20fe4db929e3bf1303</commit>
+    <default_branch t="S">master</default_branch>
+    <details t="S">A new Git push #26831401451 has arrived to zerocracy/fbe, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
+    <event_id t="I">54741343899</event_id>
+    <event_type t="S">PushEvent</event_type>
+    <is_human t="I">1</is_human>
+    <push_id t="I">26831401451</push_id>
+    <ref t="S">refs/heads/master</ref>
+    <repository t="I">820463873</repository>
+    <to_master t="I">1</to_master>
+    <what t="S">git-was-pushed</what>
+    <when t="T">2025-09-16T02:38:19Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">27</_id>
-    <_time t="T">2025-09-23T16:25:20Z</_time>
+    <_time t="T">2025-09-23T17:28:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">A new tag '0.15.43' has been created in zerocracy/judges-action by @rultor.</details>
-    <event_id t="I">54989182581</event_id>
-    <event_type t="S">CreateEvent</event_type>
-    <is_human t="I">0</is_human>
-    <repository t="I">799177290</repository>
-    <tag t="S">0.15.43</tag>
-    <what t="S">tag-was-created</what>
-    <when t="T">2025-09-21T15:16:25Z</when>
+    <details t="S">The issue zerocracy/fbe#310 has been opened by @yegor256.</details>
+    <event_id t="I">54741274498</event_id>
+    <event_type t="S">IssuesEvent</event_type>
+    <is_human t="I">1</is_human>
+    <issue t="I">310</issue>
+    <repository t="I">820463873</repository>
+    <what t="S">issue-was-opened</what>
+    <when t="T">2025-09-16T02:35:09Z</when>
     <where t="S">github</where>
-    <who t="I">8086956</who>
+    <who t="I">526301</who>
   </f>
   <f>
     <_id t="I">28</_id>
-    <_time t="T">2025-09-23T16:25:20Z</_time>
+    <_time t="T">2025-09-23T17:28:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1044 has been closed by @yegor256.</details>
-    <event_id t="I">54988845004</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1044</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-09-21T14:55:49Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">29</_id>
-    <_time t="T">2025-09-23T16:25:20Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1044</branch>
-    <comments t="I">1</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">1</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1051 has been closed by @yegor256, with 236 HoC and 1 comments.</details>
-    <event_id t="I">54988844885</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">236</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1051</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-21T14:55:49Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">30</_id>
-    <_time t="T">2025-09-23T16:25:27Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <comments t="I">4</comments>
-    <commits t="I">3</commits>
-    <details t="S">The pull request zerocracy/judges-action#1051 has been reviewed by @yegor256 with 236 HoC and 4 comments.</details>
-    <event_id t="I">54988843482</event_id>
-    <event_type t="S">PullRequestReviewEvent</event_type>
-    <files t="I">7</files>
-    <hoc t="I">236</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1051</issue>
-    <repository t="I">799177290</repository>
-    <review_comments t="I">0</review_comments>
-    <what t="S">pull-was-reviewed</what>
-    <when t="T">2025-09-21T14:55:43Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">31</_id>
-    <_time t="T">2025-09-23T16:25:28Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1044</branch>
-    <details t="S">The pull request zerocracy/judges-action#1051 has been opened by @Yegorov.</details>
-    <event_id t="I">54988357044</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1051</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-21T14:24:26Z</when>
-    <where t="S">github</where>
-    <who t="I">2566462</who>
-  </f>
-  <f>
-    <_id t="I">32</_id>
-    <_time t="T">2025-09-23T16:25:28Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1043 has been closed by @yegor256.</details>
-    <event_id t="I">54913872044</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1043</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-09-19T04:10:27Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">33</_id>
-    <_time t="T">2025-09-23T16:25:28Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1043</branch>
-    <comments t="I">1</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">1</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1050 has been closed by @yegor256, with 304 HoC and 1 comments.</details>
-    <event_id t="I">54913871672</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">304</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1050</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-19T04:10:26Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">34</_id>
-    <_time t="T">2025-09-23T16:25:35Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <comments t="I">4</comments>
     <commits t="I">1</commits>
-    <details t="S">The pull request zerocracy/judges-action#1050 has been reviewed by @yegor256 with 304 HoC and 4 comments.</details>
-    <event_id t="I">54913869192</event_id>
-    <event_type t="S">PullRequestReviewEvent</event_type>
-    <files t="I">10</files>
-    <hoc t="I">304</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1050</issue>
-    <repository t="I">799177290</repository>
-    <review_comments t="I">0</review_comments>
-    <what t="S">pull-was-reviewed</what>
-    <when t="T">2025-09-19T04:10:21Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">35</_id>
-    <_time t="T">2025-09-23T16:25:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1043</branch>
-    <details t="S">The pull request zerocracy/judges-action#1050 has been opened by @Yegorov.</details>
-    <event_id t="I">54902584000</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1050</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-18T20:39:54Z</when>
-    <where t="S">github</where>
-    <who t="I">2566462</who>
-  </f>
-  <f>
-    <_id t="I">36</_id>
-    <_time t="T">2025-09-23T16:25:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">b76e364028580796b98b00d5dd717cd729c20643</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #26877660676 has arrived to zerocracy/judges-action, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">54838488888</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">26877660676</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799177290</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-09-17T17:30:13Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">37</_id>
-    <_time t="T">2025-09-23T16:25:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1049 has been opened by @yegor256.</details>
-    <event_id t="I">54835750872</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1049</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-09-17T16:28:17Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">38</_id>
-    <_time t="T">2025-09-23T16:25:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">1</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">4</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1048 has been closed by @renovate[bot], with 4 HoC and 1 comments.</details>
-    <event_id t="I">54826637942</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">2</failed_builds>
-    <hoc t="I">4</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">1048</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">11</succeeded_builds>
-    <what t="S">pull-was-closed</what>
-    <when t="T">2025-09-17T13:43:54Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">39</_id>
-    <_time t="T">2025-09-23T16:25:45Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">ac218f539a59709ce2b13020fd48c6ba7bf327b1</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #26871642805 has arrived to zerocracy/judges-action, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">54825518744</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">26871642805</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">799177290</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-09-17T13:24:51Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">40</_id>
-    <_time t="T">2025-09-23T16:25:45Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/factbase-0.x-lockfile</branch>
-    <comments t="I">1</comments>
-    <comments_appreciated t="I">0</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">1</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1042 has been closed by @renovate[bot], with 2 HoC and 1 comments.</details>
-    <event_id t="I">54824362833</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">2</failed_builds>
+    <contributors t="I">8086956</contributors>
+    <details t="S">A new release 'judges-action#1034: fix `Fbe::FakeOctokit`, make `Fbe.octo#with_disable_auto_paginate`' has been published in zerocracy/fbe by @rultor.</details>
+    <event_id t="I">54673283387</event_id>
+    <event_type t="S">ReleaseEvent</event_type>
     <hoc t="I">2</hoc>
     <is_human t="I">0</is_human>
-    <issue t="I">1042</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">11</succeeded_builds>
-    <what t="S">pull-was-closed</what>
-    <when t="T">2025-09-17T13:05:07Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">41</_id>
-    <_time t="T">2025-09-23T16:25:52Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1039 has been closed by @yegor256.</details>
-    <event_id t="I">54824288338</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1039</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-09-17T13:03:52Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">42</_id>
-    <_time t="T">2025-09-23T16:25:52Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1039</branch>
-    <comments t="I">10</comments>
-    <comments_appreciated t="I">6</comments_appreciated>
-    <comments_by_author t="I">4</comments_by_author>
-    <comments_by_reviewers t="I">9</comments_by_reviewers>
-    <comments_resolved t="I">2</comments_resolved>
-    <comments_to_code t="I">6</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1047 has been closed by @yegor256, with 303 HoC and 10 comments.</details>
-    <event_id t="I">54824287686</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">303</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1047</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-17T13:03:51Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">43</_id>
-    <_time t="T">2025-09-23T16:26:01Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <comments t="I">13</comments>
-    <commits t="I">3</commits>
-    <details t="S">The pull request zerocracy/judges-action#1047 has been reviewed by @yegor256 with 303 HoC and 13 comments.</details>
-    <event_id t="I">54824281587</event_id>
-    <event_type t="S">PullRequestReviewEvent</event_type>
-    <files t="I">16</files>
-    <hoc t="I">303</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1047</issue>
-    <repository t="I">799177290</repository>
-    <review_comments t="I">6</review_comments>
-    <what t="S">pull-was-reviewed</what>
-    <when t="T">2025-09-17T13:03:45Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">44</_id>
-    <_time t="T">2025-09-23T16:26:01Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <details t="S">The pull request zerocracy/judges-action#1048 has been opened by @renovate[bot].</details>
-    <event_id t="I">54813315976</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">1048</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-17T09:27:31Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">45</_id>
-    <_time t="T">2025-09-23T16:26:02Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fbe-0.x-lockfile</branch>
-    <comments t="I">3</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">5</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1046 has been closed by @rultor, with 2 HoC and 3 comments.</details>
-    <event_id t="I">54780970958</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">2</hoc>
-    <is_human t="I">0</is_human>
-    <issue t="I">1046</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-16T17:21:34Z</when>
+    <last_commit t="S">ee76b3246b534a8c33acc991aae62e443fe715a4</last_commit>
+    <release t="I">247096657</release>
+    <repository t="I">820463873</repository>
+    <tag t="S">0.35.0</tag>
+    <what t="S">release-published</what>
+    <when t="T">2025-09-14T15:47:10Z</when>
     <where t="S">github</where>
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">46</_id>
-    <_time t="T">2025-09-23T16:26:31Z</_time>
+    <_id t="I">29</_id>
+    <_time t="T">2025-09-23T17:29:00Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <comments t="I">5</comments>
-    <commits t="I">1</commits>
-    <details t="S">The pull request zerocracy/judges-action#1046 has been reviewed by @yegor256 with 2 HoC and 5 comments.</details>
-    <event_id t="I">54780096139</event_id>
-    <event_type t="S">PullRequestReviewEvent</event_type>
-    <files t="I">1</files>
-    <hoc t="I">2</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1046</issue>
-    <repository t="I">799177290</repository>
-    <review_comments t="I">0</review_comments>
-    <what t="S">pull-was-reviewed</what>
-    <when t="T">2025-09-16T17:01:36Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">47</_id>
-    <_time t="T">2025-09-23T16:26:32Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1034 has been closed by @yegor256.</details>
-    <event_id t="I">54698308838</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1034</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">issue-was-closed</what>
-    <when t="T">2025-09-15T09:41:31Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">48</_id>
-    <_time t="T">2025-09-23T16:26:32Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1034</branch>
-    <comments t="I">12</comments>
-    <comments_appreciated t="I">6</comments_appreciated>
-    <comments_by_author t="I">5</comments_by_author>
-    <comments_by_reviewers t="I">10</comments_by_reviewers>
-    <comments_resolved t="I">3</comments_resolved>
-    <comments_to_code t="I">8</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1040 has been closed by @yegor256, with 191 HoC and 12 comments.</details>
-    <event_id t="I">54698308331</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">191</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1040</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-15T09:41:31Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">49</_id>
-    <_time t="T">2025-09-23T16:26:41Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <comments t="I">15</comments>
-    <commits t="I">2</commits>
-    <details t="S">The pull request zerocracy/judges-action#1040 has been reviewed by @yegor256 with 191 HoC and 15 comments.</details>
-    <event_id t="I">54698303235</event_id>
-    <event_type t="S">PullRequestReviewEvent</event_type>
-    <files t="I">3</files>
-    <hoc t="I">191</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1040</issue>
-    <repository t="I">799177290</repository>
-    <review_comments t="I">8</review_comments>
-    <what t="S">pull-was-reviewed</what>
-    <when t="T">2025-09-15T09:41:25Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">50</_id>
-    <_time t="T">2025-09-23T16:26:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/factbase-0.x-lockfile</branch>
-    <comments t="I">1</comments>
-    <comments_appreciated t="I">0</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">1</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1042 has been closed by @renovate[bot], with 8 HoC and 1 comments.</details>
-    <event_id t="I">54694695283</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">3</failed_builds>
-    <hoc t="I">8</hoc>
+    <details t="S">A new tag '0.35.0' has been created in zerocracy/fbe by @rultor.</details>
+    <event_id t="I">54673259655</event_id>
+    <event_type t="S">CreateEvent</event_type>
     <is_human t="I">0</is_human>
-    <issue t="I">1042</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">23</succeeded_builds>
-    <what t="S">pull-was-closed</what>
-    <when t="T">2025-09-15T08:31:12Z</when>
+    <repository t="I">820463873</repository>
+    <tag t="S">0.35.0</tag>
+    <what t="S">tag-was-created</what>
+    <when t="T">2025-09-14T15:45:38Z</when>
     <where t="S">github</where>
-    <who t="I">29139614</who>
+    <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">51</_id>
-    <_time t="T">2025-09-23T16:26:54Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1040</branch>
-    <comments t="I">1</comments>
-    <comments_appreciated t="I">1</comments_appreciated>
-    <comments_by_author t="I">0</comments_by_author>
-    <comments_by_reviewers t="I">3</comments_by_reviewers>
-    <comments_resolved t="I">0</comments_resolved>
-    <comments_to_code t="I">0</comments_to_code>
-    <details t="S">The pull request zerocracy/judges-action#1045 has been closed by @yegor256, with 3 HoC and 1 comments.</details>
-    <event_id t="I">54694652648</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <failed_builds t="I">0</failed_builds>
-    <hoc t="I">3</hoc>
-    <is_human t="I">1</is_human>
-    <issue t="I">1045</issue>
-    <repository t="I">799177290</repository>
-    <succeeded_builds t="I">13</succeeded_builds>
-    <what t="S">pull-was-merged</what>
-    <when t="T">2025-09-15T08:30:22Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">52</_id>
-    <_time t="T">2025-09-23T16:27:02Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">1040</branch>
-    <details t="S">The pull request zerocracy/judges-action#1045 has been opened by @Yegorov.</details>
-    <event_id t="I">54694508339</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1045</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-09-15T08:27:31Z</when>
-    <where t="S">github</where>
-    <who t="I">2566462</who>
-  </f>
-  <f>
-    <_id t="I">53</_id>
-    <_time t="T">2025-09-23T16:27:02Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1044 has been opened by @yegor256.</details>
-    <event_id t="I">54694482828</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1044</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-09-15T08:27:01Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">54</_id>
-    <_time t="T">2025-09-23T16:27:02Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/judges-action#1043 has been opened by @yegor256.</details>
-    <event_id t="I">54694180931</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">1043</issue>
-    <repository t="I">799177290</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-09-15T08:20:51Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">55</_id>
-    <_time t="T">2025-09-23T16:27:02Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">55078313588</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">events-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">56</_id>
-    <_time t="T">2025-09-23T16:27:04Z</_time>
+    <_id t="I">30</_id>
+    <_time t="T">2025-09-23T17:29:19Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">798641472</repository>
+    <repository t="I">799113787</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">57</_id>
-    <_time t="T">2025-09-23T16:27:04Z</_time>
+    <_id t="I">31</_id>
+    <_time t="T">2025-09-23T17:29:19Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">802720676</repository>
@@ -1006,30 +473,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">58</_id>
-    <_time t="T">2025-09-23T16:27:04Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">849726475</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">59</_id>
-    <_time t="T">2025-09-23T16:27:04Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#1043.</details>
-    <issue t="I">1043</issue>
-    <label t="S">bug</label>
-    <repository t="I">799177290</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-09-15T08:20:51Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">61</_id>
-    <_time t="T">2025-09-23T16:27:04Z</_time>
+    <_id t="I">32</_id>
+    <_time t="T">2025-09-23T17:29:19Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">974194993</repository>
@@ -1037,8 +482,17 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">62</_id>
-    <_time t="T">2025-09-23T16:27:04Z</_time>
+    <_id t="I">34</_id>
+    <_time t="T">2025-09-23T17:29:20Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">849726475</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">35</_id>
+    <_time t="T">2025-09-23T17:29:20Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">840215648</repository>
@@ -1046,8 +500,52 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">63</_id>
-    <_time t="T">2025-09-23T16:27:04Z</_time>
+    <_id t="I">36</_id>
+    <_time t="T">2025-09-23T17:29:20Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799177290</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">37</_id>
+    <_time t="T">2025-09-23T17:29:20Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">798641472</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">38</_id>
+    <_time t="T">2025-09-23T17:29:20Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#312.</details>
+    <issue t="I">312</issue>
+    <label t="S">bug</label>
+    <repository t="I">820463873</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2025-09-17T16:42:14Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">39</_id>
+    <_time t="T">2025-09-23T17:29:20Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#313.</details>
+    <issue t="I">313</issue>
+    <label t="S">bug</label>
+    <repository t="I">820463873</repository>
+    <what t="S">label-was-attached</what>
+    <when t="T">2025-09-17T18:17:19Z</when>
+    <where t="S">github</where>
+    <who t="I">526301</who>
+  </f>
+  <f>
+    <_id t="I">40</_id>
+    <_time t="T">2025-09-23T17:29:20Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">820463873</repository>
@@ -1055,81 +553,23 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">64</_id>
-    <_time t="T">2025-09-23T16:27:04Z</_time>
+    <_id t="I">41</_id>
+    <_time t="T">2025-09-23T17:30:36Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">65</_id>
-    <_time t="T">2025-09-23T16:27:05Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#1044.</details>
-    <issue t="I">1044</issue>
-    <label t="S">bug</label>
-    <repository t="I">799177290</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-09-15T08:27:00Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">66</_id>
-    <_time t="T">2025-09-23T16:27:05Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#1049.</details>
-    <issue t="I">1049</issue>
-    <label t="S">bug</label>
-    <repository t="I">799177290</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-09-17T16:28:16Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">67</_id>
-    <_time t="T">2025-09-23T16:27:06Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#1054.</details>
-    <issue t="I">1054</issue>
-    <label t="S">bug</label>
-    <repository t="I">799177290</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-09-21T16:29:39Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">68</_id>
-    <_time t="T">2025-09-23T16:27:06Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">69</_id>
-    <_time t="T">2025-09-23T16:27:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
+    <average_issue_lifetime t="F">694545.3194444445</average_issue_lifetime>
+    <average_pull_lifetime t="F">225707.69607843139</average_pull_lifetime>
     <average_pull_rejection_rate t="F">0.11274509803921569</average_pull_rejection_rate>
-    <average_release_commits_size t="F">7.473684210526316</average_release_commits_size>
-    <average_release_hoc_size t="F">111.01754385964912</average_release_hoc_size>
-    <since t="T">2025-08-26T16:27:06Z</since>
+    <since t="T">2025-08-26T17:29:20Z</since>
     <what t="S">quality-of-service</what>
-    <when t="T">2025-09-23T16:27:06Z</when>
+    <when t="T">2025-09-23T17:29:20Z</when>
   </f>
   <f>
-    <_id t="I">70</_id>
-    <_time t="T">2025-09-23T16:27:45Z</_time>
+    <_id t="I">42</_id>
+    <_time t="T">2025-09-23T17:30:43Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <since t="T">2025-08-26T16:27:42Z</since>
-    <total_issues_created t="I">44</total_issues_created>
-    <total_pulls_submitted t="I">19</total_pulls_submitted>
+    <since t="T">2025-08-26T17:30:36Z</since>
+    <total_releases_published t="I">62</total_releases_published>
     <what t="S">quantity-of-deliverables</what>
-    <when t="T">2025-09-23T16:27:42Z</when>
+    <when t="T">2025-09-23T17:30:36Z</when>
   </f>
 </fb>
