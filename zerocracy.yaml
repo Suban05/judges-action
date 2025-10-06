@@ -4,14 +4,14 @@
   deleted: 8
   error:
   - 'Judge github-events stopped by timeout after 3m0s: execution expired'
-  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 451.173621005
+  seconds: 391.886731933
   version: 0.39.2
   what: judges-summary
-  when: 2025-10-06 10:28:41.244944469 Z
+  when: 2025-10-06 11:22:43.167520698 Z
 - _id: 1
-  _time: 2025-10-06 10:21:32.007665875 Z
+  _time: 2025-10-06 11:16:39.742880607 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6060
@@ -24,65 +24,65 @@
   total_repositories: 8
   total_stars: 57
   what: dimensions-of-terrain
-  when: 2025-10-06 10:21:10.411138360 Z
+  when: 2025-10-06 11:16:11.641377301 Z
 - _id: 2
-  _time: 2025-10-06 10:21:32.039783754 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2025-10-06 10:21:32.042542936 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-10-06 10:21:32.045246184 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-10-06 10:21:32.047940225 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-10-06 10:21:32.050766332 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-10-06 10:21:32.053398938 Z
+  _time: 2025-10-06 11:16:39.783515698 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2025-10-06 10:21:32.056337865 Z
+- _id: 3
+  _time: 2025-10-06 11:16:39.789531237 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 9
-  _time: 2025-10-06 10:21:32.061109651 Z
+- _id: 4
+  _time: 2025-10-06 11:16:39.793832202 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2025-10-06 11:16:39.799622489 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
+- _id: 6
+  _time: 2025-10-06 11:16:39.802814163 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2025-10-06 11:16:39.806904472 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-10-06 11:16:39.810376062 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2025-10-06 11:16:39.813827483 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
 - _id: 10
-  _time: 2025-10-06 10:21:33.542120086 Z
+  _time: 2025-10-06 11:16:42.003056398 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/fbe-0.x-lockfile
   comments: 4
@@ -106,7 +106,7 @@
   where: github
   who: 526301
 - _id: 11
-  _time: 2025-10-06 10:21:41.582963228 Z
+  _time: 2025-10-06 11:16:53.960584361 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 3
@@ -130,7 +130,7 @@
   where: github
   who: 8086956
 - _id: 12
-  _time: 2025-10-06 10:22:06.821188741 Z
+  _time: 2025-10-06 11:17:29.804711693 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -149,7 +149,7 @@
   where: github
   who: 526301
 - _id: 13
-  _time: 2025-10-06 10:22:07.213859354 Z
+  _time: 2025-10-06 11:17:30.420752529 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/pages-action#391 has been opened by @renovate[bot].
@@ -163,7 +163,7 @@
   where: github
   who: 29139614
 - _id: 14
-  _time: 2025-10-06 10:22:07.330574201 Z
+  _time: 2025-10-06 11:17:30.667965915 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   comments: 3
@@ -187,7 +187,7 @@
   where: github
   who: 8086956
 - _id: 15
-  _time: 2025-10-06 10:22:28.996246090 Z
+  _time: 2025-10-06 11:18:01.675239544 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -206,7 +206,7 @@
   where: github
   who: 526301
 - _id: 16
-  _time: 2025-10-06 10:22:29.374440375 Z
+  _time: 2025-10-06 11:18:02.100032777 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/factbase-0.x-lockfile
   details: The pull request zerocracy/pages-action#390 has been opened by @renovate[bot].
@@ -220,7 +220,7 @@
   where: github
   who: 29139614
 - _id: 17
-  _time: 2025-10-06 10:22:29.404993397 Z
+  _time: 2025-10-06 11:18:02.338494530 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/pages-action#389 has been opened by @renovate[bot].
@@ -234,7 +234,7 @@
   where: github
   who: 29139614
 - _id: 18
-  _time: 2025-10-06 10:22:29.466062432 Z
+  _time: 2025-10-06 11:18:02.363457137 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   comments: 3
@@ -258,7 +258,7 @@
   where: github
   who: 8086956
 - _id: 19
-  _time: 2025-10-06 10:22:48.388117248 Z
+  _time: 2025-10-06 11:18:30.266711432 Z
   _version: 0.9.10/0.39.2/
   comments: 5
   commits: 1
@@ -277,7 +277,7 @@
   where: github
   who: 526301
 - _id: 20
-  _time: 2025-10-06 10:22:48.750375902 Z
+  _time: 2025-10-06 11:18:30.881146826 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request zerocracy/pages-action#388 has been opened by @renovate[bot].
@@ -291,146 +291,66 @@
   where: github
   who: 29139614
 - _id: 21
-  _time: 2025-10-06 10:22:48.968286812 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  comments: 3
-  comments_appreciated: 1
-  comments_by_author: 0
-  comments_by_reviewers: 5
-  comments_resolved: 0
-  comments_to_code: 0
-  details: The pull request zerocracy/pages-action#386 has been closed by @rultor,
-    with 2 HoC and 3 comments.
-  event_id: 55279542367
-  event_type: PullRequestEvent
-  failed_builds: 0
-  hoc: 2
-  is_human: 0
-  issue: 386
-  repository: 802720676
-  succeeded_builds: 14
-  what: pull-was-merged
-  when: 2025-09-27 03:09:54.000000000 Z
-  where: github
-  who: 8086956
-- _id: 22
-  _time: 2025-10-06 10:23:51.202050222 Z
-  _version: 0.9.10/0.39.2/
-  comments: 5
-  commits: 1
-  details: The pull request zerocracy/pages-action#386 has been reviewed by @yegor256
-    with 2 HoC and 5 comments.
-  event_id: 55279361464
-  event_type: PullRequestReviewEvent
-  files: 1
-  hoc: 2
-  is_human: 1
-  issue: 386
-  repository: 802720676
-  review_comments: 0
-  what: pull-was-reviewed
-  when: 2025-09-27 02:58:25.000000000 Z
-  where: github
-  who: 526301
-- _id: 23
-  _time: 2025-10-06 10:23:51.657154785 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/pages-action#386 has been opened by @renovate[bot].
-  event_id: 55264423826
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 386
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-09-26 17:14:17.000000000 Z
-  where: github
-  who: 29139614
-- _id: 24
-  _time: 2025-10-06 10:23:51.786383946 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/pages-action#384 has been opened by @renovate[bot].
-  event_id: 55206126513
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 384
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-09-25 15:33:24.000000000 Z
-  where: github
-  who: 29139614
-- _id: 25
-  _time: 2025-10-06 10:24:33.516737142 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 26
-  _time: 2025-10-06 10:24:33.519371275 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 27
-  _time: 2025-10-06 10:24:33.522121323 Z
+  _time: 2025-10-06 11:19:43.121914728 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 28
-  _time: 2025-10-06 10:24:33.524832679 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 29
-  _time: 2025-10-06 10:24:33.527607753 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 30
-  _time: 2025-10-06 10:24:33.530430086 Z
+- _id: 22
+  _time: 2025-10-06 11:19:43.124968980 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 31
-  _time: 2025-10-06 10:24:33.533248141 Z
+- _id: 23
+  _time: 2025-10-06 11:19:43.127784635 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 24
+  _time: 2025-10-06 11:19:43.130417767 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 25
+  _time: 2025-10-06 11:19:43.133130177 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 32
-  _time: 2025-10-06 10:24:33.536039876 Z
+- _id: 26
+  _time: 2025-10-06 11:19:43.135950190 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 27
+  _time: 2025-10-06 11:19:43.155880943 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 33
-  _time: 2025-10-06 10:25:41.241918948 Z
+- _id: 28
+  _time: 2025-10-06 11:19:43.164347131 Z
   _version: 0.9.10/0.39.2/
-  average_review_size: 0.4316546762589928
-  average_review_time: 49636.707070707074
-  average_reviewers_per_pull: 0.8129496402877698
-  average_reviews_per_pull: 1.1007194244604317
-  since: 2025-09-08 10:24:33.538771664 Z
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 29
+  _time: 2025-10-06 11:19:51.046753660 Z
+  _version: 0.9.10/0.39.2/
+  average_issue_lifetime: 906995.7540983607
+  average_pull_lifetime: 265700.1842105263
+  since: 2025-09-08 11:19:43.168785024 Z
   what: quality-of-service
-  when: 2025-10-06 10:24:33.538746998 Z
-- _id: 34
-  _time: 2025-10-06 10:25:47.242345883 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-09-08 10:25:41.243871740 Z
-  total_releases_published: 40
-  what: quantity-of-deliverables
-  when: 2025-10-06 10:25:41.243848376 Z
+  when: 2025-10-06 11:19:43.168759065 Z
