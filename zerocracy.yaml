@@ -4,17 +4,17 @@
   deleted: 8
   error:
   - undefined method '[]' for nil
-  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 306.763538673
+  seconds: 213.860265137
   version: 0.39.2
   what: judges-summary
-  when: 2025-10-16 18:33:23.011818706 Z
+  when: 2025-10-16 19:17:43.129170275 Z
 - _id: 1
-  _time: 2025-10-16 18:28:47.997905797 Z
+  _time: 2025-10-16 19:14:38.733010238 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 8
-  total_commits: 6204
+  total_commits: 6205
   total_contributors: 17
   total_files: 709
   total_forks: 33
@@ -24,238 +24,142 @@
   total_repositories: 9
   total_stars: 60
   what: dimensions-of-terrain
-  when: 2025-10-16 18:28:16.576846804 Z
+  when: 2025-10-16 19:14:09.602063480 Z
 - _id: 2
-  _time: 2025-10-16 18:28:48.025542278 Z
+  _time: 2025-10-16 19:14:38.759951196 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-10-16 18:28:48.028333567 Z
+  _time: 2025-10-16 19:14:38.762927510 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-10-16 18:28:48.031150784 Z
+  _time: 2025-10-16 19:14:38.765669646 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2025-10-16 18:28:48.034053611 Z
+  _time: 2025-10-16 19:14:38.787178717 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-10-16 18:28:48.036862021 Z
+  _time: 2025-10-16 19:14:38.794189096 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2025-10-16 19:14:38.799584052 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-10-16 19:14:38.804172794 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
-- _id: 7
-  _time: 2025-10-16 18:28:48.039796668 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-10-16 18:28:48.042806304 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
 - _id: 9
-  _time: 2025-10-16 18:28:48.045591311 Z
+  _time: 2025-10-16 19:14:38.809450931 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-10-16 18:28:48.048495580 Z
+  _time: 2025-10-16 19:14:38.813369362 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 11
-  _time: 2025-10-16 18:28:51.187469343 Z
-  _version: 0.9.10/0.39.2/
-  commit: 196257fdfa96340282fa5b06400b5d8012cf34f1
-  default_branch: master
-  details: 'A new Git push #27550103604 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5260815354
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27550103604
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 18:19:33.000000000 Z
-  where: github
-  who: 526301
-- _id: 12
-  _time: 2025-10-16 18:28:52.671396535 Z
-  _version: 0.9.10/0.39.2/
-  commits: 772
-  contributors:
-  - 526301
-  - 29139614
-  - 8086956
-  - 41898282
-  - 31362961
-  - 106069210
-  details: A new release 'badge.svg fails to generate despite it being possible' has
-    been published in zerocracy/pages-action by @rultor.
-  event_id: 4079145159
-  event_type: ReleaseEvent
-  hoc: 4062
-  is_human: 0
-  last_commit: 2b461eca0e05e7815e28e2058b4ec35c90114dc6
-  release: 255023224
-  repository: 802720676
-  tag: 0.5.0
-  what: release-published
-  when: 2025-10-16 14:14:29.000000000 Z
-  where: github
-  who: 8086956
-- _id: 13
-  _time: 2025-10-16 18:29:07.281917543 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/pages-action#414 has been opened by @github-actions[bot].
-  event_id: 4079107547
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 414
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-10-16 14:13:10.000000000 Z
-  where: github
-  who: 41898282
-- _id: 14
-  _time: 2025-10-16 18:29:07.494662174 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#413 has been opened by @yegor256.
-  event_id: 4078945372
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 413
-  repository: 802720676
-  what: issue-was-opened
-  when: 2025-10-16 14:07:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2025-10-16 18:29:07.930327317 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#410 has been closed by @yegor256.
-  event_id: 4078756103
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 410
-  repository: 802720676
-  what: issue-was-closed
-  when: 2025-10-16 14:00:54.000000000 Z
-  where: github
-  who: 526301
-- _id: 16
-  _time: 2025-10-16 18:29:07.973309653 Z
+  _time: 2025-10-16 19:14:43.092342387 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 17
-  _time: 2025-10-16 18:29:07.976333948 Z
+- _id: 12
+  _time: 2025-10-16 19:14:43.096432966 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: labels-were-scanned
   where: github
-- _id: 18
-  _time: 2025-10-16 18:29:07.979122003 Z
+- _id: 13
+  _time: 2025-10-16 19:14:43.099533537 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 19
-  _time: 2025-10-16 18:29:07.982219705 Z
+- _id: 14
+  _time: 2025-10-16 19:14:43.103413333 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 20
-  _time: 2025-10-16 18:29:07.985298633 Z
+- _id: 15
+  _time: 2025-10-16 19:14:43.106843580 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 16
+  _time: 2025-10-16 19:14:43.110385625 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 21
-  _time: 2025-10-16 18:29:07.988583715 Z
+- _id: 17
+  _time: 2025-10-16 19:14:43.114724288 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 22
-  _time: 2025-10-16 18:29:08.358053539 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#413.
-  issue: 413
-  label: bug
   repository: 802720676
-  what: label-was-attached
-  when: 2025-10-16 14:07:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 24
-  _time: 2025-10-16 18:29:08.363360766 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 25
-  _time: 2025-10-16 18:29:08.366559858 Z
+- _id: 18
+  _time: 2025-10-16 19:14:43.118705484 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 26
-  _time: 2025-10-16 18:29:08.370213128 Z
+- _id: 19
+  _time: 2025-10-16 19:14:43.122496314 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 27
-  _time: 2025-10-16 18:30:23.008754227 Z
+- _id: 20
+  _time: 2025-10-16 19:14:43.125456893 Z
   _version: 0.9.10/0.39.2/
-  average_pull_files_size: 1.5945945945945945
-  average_pull_hoc_size: 24.64189189189189
-  since: 2025-09-18 18:29:08.372967029 Z
+  since: 2025-09-18 19:14:43.125562270 Z
   what: quality-of-service
-  when: 2025-10-16 18:29:08.372937153 Z
-- _id: 28
-  _time: 2025-10-16 18:30:23.010920735 Z
+  when: 2025-10-16 19:14:43.125537343 Z
+- _id: 21
+  _time: 2025-10-16 19:17:43.125550650 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-09-18 18:30:23.011051769 Z
+  since: 2025-09-18 19:17:43.125732630 Z
   what: quantity-of-deliverables
-  when: 2025-10-16 18:30:23.011024809 Z
+  when: 2025-10-16 19:17:43.125692786 Z
