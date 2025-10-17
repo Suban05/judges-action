@@ -2,14 +2,17 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '[]' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 289.353744883
+  seconds: 387.836414639
   version: 0.39.2
   what: judges-summary
-  when: 2025-10-17 15:24:18.099953278 Z
+  when: 2025-10-17 16:30:17.059903522 Z
 - _id: 1
-  _time: 2025-10-17 15:19:59.581594585 Z
+  _time: 2025-10-17 16:24:14.487614146 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6233
@@ -19,970 +22,145 @@
   total_issues: 926
   total_pulls: 1978
   total_releases: 727
+  total_repositories: 9
   total_stars: 61
   what: dimensions-of-terrain
-  when: 2025-10-17 15:19:29.075566118 Z
+  when: 2025-10-17 16:23:49.553530992 Z
 - _id: 2
-  _time: 2025-10-17 15:19:59.612819473 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2025-10-17 15:19:59.616189172 Z
+  _time: 2025-10-17 16:24:14.522312152 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 4
-  _time: 2025-10-17 15:19:59.619294507 Z
+- _id: 3
+  _time: 2025-10-17 16:24:14.525733322 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
+- _id: 4
+  _time: 2025-10-17 16:24:14.529228560 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
 - _id: 5
-  _time: 2025-10-17 15:19:59.622281110 Z
+  _time: 2025-10-17 16:24:14.532115041 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-10-17 15:19:59.625657361 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-10-17 15:19:59.628777103 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-10-17 15:19:59.631991121 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2025-10-17 15:19:59.635131131 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2025-10-17 15:19:59.638243449 Z
+  _time: 2025-10-17 16:24:14.535682745 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
-- _id: 11
-  _time: 2025-10-17 15:20:00.701930007 Z
+- _id: 7
+  _time: 2025-10-17 16:24:14.539228537 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/fsfe-reuse-action-6.x
-  details: The pull request zerocracy/zerocracy-mcp-server#21 has been opened by @renovate[bot].
-  event_id: 3879991873
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 21
-  repository: 974194993
-  what: pull-was-opened
-  when: 2025-10-06 18:40:29.000000000 Z
+  latest: 0
+  repository: 802720676
+  what: min-issue-was-found
   where: github
-  who: 29139614
-- _id: 12
-  _time: 2025-10-17 15:20:01.008308578 Z
+- _id: 8
+  _time: 2025-10-17 16:24:14.542814986 Z
   _version: 0.9.10/0.39.2/
-  latest: 5263672453
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2025-10-17 16:24:14.546401614 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2025-10-17 16:24:14.550055779 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
   repository: 974194993
-  what: events-were-scanned
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2025-10-17 16:24:17.024439582 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 12
+  _time: 2025-10-17 16:24:17.029696862 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
   where: github
 - _id: 13
-  _time: 2025-10-17 15:20:01.672495115 Z
-  _version: 0.9.10/0.39.2/
-  commit: 1a7c91e793092162ab5f7be1bfdd1e0f5897ef68
-  default_branch: master
-  details: 'A new Git push #27550290624 has arrived to zerocracy/.github, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5261000748
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27550290624
-  ref: refs/heads/master
-  repository: 1077707334
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 18:28:08.000000000 Z
-  where: github
-  who: 526301
-- _id: 14
-  _time: 2025-10-17 15:20:02.226945377 Z
-  _version: 0.9.10/0.39.2/
-  commit: 32c065501bd2e31b1c9fc47d487191562f942a5e
-  default_branch: master
-  details: 'A new Git push #27550281419 has arrived to zerocracy/.github, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5260991741
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27550281419
-  ref: refs/heads/master
-  repository: 1077707334
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 18:27:43.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2025-10-17 15:20:02.545091224 Z
-  _version: 0.9.10/0.39.2/
-  commit: d5c9bc39b1c27cd3bd100ce8d938c5aac53f920e
-  default_branch: master
-  details: 'A new Git push #27550072342 has arrived to zerocracy/.github, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5260784467
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27550072342
-  ref: refs/heads/master
-  repository: 1077707334
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 18:18:05.000000000 Z
-  where: github
-  who: 526301
-- _id: 16
-  _time: 2025-10-17 15:20:02.902656636 Z
-  _version: 0.9.10/0.39.2/
-  commit: 1403655857b6e1f61c1a298f162ebb27b5ceb76d
-  default_branch: master
-  details: 'A new Git push #27548123801 has arrived to zerocracy/.github, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5258861541
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27548123801
-  ref: refs/heads/master
-  repository: 1077707334
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 16:47:59.000000000 Z
-  where: github
-  who: 526301
-- _id: 17
-  _time: 2025-10-17 15:20:03.248559643 Z
-  _version: 0.9.10/0.39.2/
-  commit: 49d949f152e2789cf283ed046dd44cb4e090091b
-  default_branch: master
-  details: 'A new Git push #27548032377 has arrived to zerocracy/.github, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5258770560
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27548032377
-  ref: refs/heads/master
-  repository: 1077707334
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 16:43:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 18
-  _time: 2025-10-17 15:20:03.601296598 Z
-  _version: 0.9.10/0.39.2/
-  commit: 87683101d83a5e8b027741d02c485a396ab1a4fc
-  default_branch: master
-  details: 'A new Git push #27547565877 has arrived to zerocracy/.github, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5258305921
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27547565877
-  ref: refs/heads/master
-  repository: 1077707334
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 16:22:05.000000000 Z
-  where: github
-  who: 526301
-- _id: 19
-  _time: 2025-10-17 15:20:03.955780791 Z
-  _version: 0.9.10/0.39.2/
-  latest: 4089699323
-  repository: 1077707334
-  what: events-were-scanned
-  where: github
-- _id: 20
-  _time: 2025-10-17 15:20:05.114729985 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#304 has been opened by @yegor256.
-  event_id: 4074743007
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 304
-  repository: 799113787
-  what: issue-was-opened
-  when: 2025-10-16 11:01:16.000000000 Z
-  where: github
-  who: 526301
-- _id: 21
-  _time: 2025-10-17 15:20:05.123641078 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/ruby-3.x
-  details: The pull request yegor256/judges#303 has been opened by @renovate[bot].
-  event_id: 3947238668
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 303
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-09 15:07:19.000000000 Z
-  where: github
-  who: 29139614
-- _id: 22
-  _time: 2025-10-17 15:20:05.131777524 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/cucumber-10.x-lockfile
-  details: The pull request yegor256/judges#302 has been opened by @renovate[bot].
-  event_id: 3918964559
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 302
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-08 10:48:18.000000000 Z
-  where: github
-  who: 29139614
-- _id: 23
-  _time: 2025-10-17 15:20:05.137908309 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/minitest-5.x-lockfile
-  details: The pull request yegor256/judges#301 has been opened by @renovate[bot].
-  event_id: 3912223051
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 301
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-08 04:52:03.000000000 Z
-  where: github
-  who: 29139614
-- _id: 24
-  _time: 2025-10-17 15:20:05.172492592 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fsfe-reuse-action-6.x
-  details: The pull request yegor256/judges#300 has been opened by @renovate[bot].
-  event_id: 3876802404
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 300
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-06 16:27:14.000000000 Z
-  where: github
-  who: 29139614
-- _id: 25
-  _time: 2025-10-17 15:20:05.212078328 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request yegor256/judges#299 has been opened by @renovate[bot].
-  event_id: 3688106216
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 299
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-09-25 23:07:21.000000000 Z
-  where: github
-  who: 29139614
-- _id: 26
-  _time: 2025-10-17 15:20:05.226169549 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request yegor256/judges#298 has been opened by @renovate[bot].
-  event_id: 3682171035
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 298
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-09-25 16:31:05.000000000 Z
-  where: github
-  who: 29139614
-- _id: 27
-  _time: 2025-10-17 15:20:05.236777717 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/random-port-0.x-lockfile
-  details: The pull request yegor256/judges#297 has been opened by @renovate[bot].
-  event_id: 3603970996
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 297
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-09-22 13:39:26.000000000 Z
-  where: github
-  who: 29139614
-- _id: 28
-  _time: 2025-10-17 15:20:05.471189430 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#296 has been closed by @yegor256.
-  event_id: 3524576156
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 296
-  repository: 799113787
-  what: issue-was-closed
-  when: 2025-09-17 17:25:09.000000000 Z
-  where: github
-  who: 526301
-- _id: 29
-  _time: 2025-10-17 15:20:05.688531938 Z
-  _version: 0.9.10/0.39.2/
-  commits: 683
-  contributors:
-  - 526301
-  - 29139614
-  - 29793349
-  - 8086956
-  - 198982749
-  - 1646020
-  - 2566462
-  details: A new release '`$epoch` and `$kickoff`' has been published in yegor256/judges
-    by @rultor.
-  event_id: 3524530069
-  event_type: ReleaseEvent
-  hoc: 6979
-  is_human: 0
-  last_commit: aa966d222a24670826528e4d5256857b4c95875f
-  release: 248054350
-  repository: 799113787
-  tag: 0.54.0
-  what: release-published
-  when: 2025-09-17 17:22:33.000000000 Z
-  where: github
-  who: 8086956
-- _id: 30
-  _time: 2025-10-17 15:20:18.718762679 Z
-  _version: 0.9.10/0.39.2/
-  commit: 6aae455cde3be1039928f1c0ceea34b5887267f2
-  default_branch: master
-  details: 'A new Git push #26877302290 has arrived to yegor256/judges, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 4587860053
-  event_type: PushEvent
-  is_human: 1
-  push_id: 26877302290
-  ref: refs/heads/master
-  repository: 799113787
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-09-17 17:13:33.000000000 Z
-  where: github
-  who: 526301
-- _id: 31
-  _time: 2025-10-17 15:20:19.035277411 Z
-  _version: 0.9.10/0.39.2/
-  commit: a5e78878088b86fbbd3cea027ee9095859c89b9e
-  default_branch: master
-  details: 'A new Git push #26877189715 has arrived to yegor256/judges, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 4587746753
-  event_type: PushEvent
-  is_human: 1
-  push_id: 26877189715
-  ref: refs/heads/master
-  repository: 799113787
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-09-17 17:08:04.000000000 Z
-  where: github
-  who: 526301
-- _id: 32
-  _time: 2025-10-17 15:20:19.419209026 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#296 has been opened by @yegor256.
-  event_id: 3524196566
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 296
-  repository: 799113787
-  what: issue-was-opened
-  when: 2025-09-17 17:03:23.000000000 Z
-  where: github
-  who: 526301
-- _id: 33
-  _time: 2025-10-17 15:20:19.427945488 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#295 has been closed by @yegor256.
-  event_id: 3524189087
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 295
-  repository: 799113787
-  what: issue-was-closed
-  when: 2025-09-17 17:02:58.000000000 Z
-  where: github
-  who: 526301
-- _id: 34
-  _time: 2025-10-17 15:20:19.447176221 Z
-  _version: 0.9.10/0.39.2/
-  commits: 1
-  contributors: 8086956
-  details: A new release 'refresh' has been published in yegor256/judges by @rultor.
-  event_id: 3523910422
-  event_type: ReleaseEvent
-  hoc: 4
-  is_human: 0
-  last_commit: b3e34f3113f3f0d8d62cf54137bd13dd0a7cabf4
-  release: 248045373
-  repository: 799113787
-  tag: 0.53.9
-  what: release-published
-  when: 2025-09-17 16:47:19.000000000 Z
-  where: github
-  who: 8086956
-- _id: 35
-  _time: 2025-10-17 15:20:19.889742327 Z
-  _version: 0.9.10/0.39.2/
-  commit: 7b600a0b62d1517e66a1a0a4884b27b366658ecd
-  default_branch: master
-  details: 'A new Git push #26876565121 has arrived to yegor256/judges, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 4587121741
-  event_type: PushEvent
-  is_human: 1
-  push_id: 26876565121
-  ref: refs/heads/master
-  repository: 799113787
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-09-17 16:38:42.000000000 Z
-  where: github
-  who: 526301
-- _id: 36
-  _time: 2025-10-17 15:20:20.253902371 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#295 has been opened by @yegor256.
-  event_id: 3523646757
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 295
-  repository: 799113787
-  what: issue-was-opened
-  when: 2025-09-17 16:32:30.000000000 Z
-  where: github
-  who: 526301
-- _id: 37
-  _time: 2025-10-17 15:20:20.264386241 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#292 has been closed by @yegor256.
-  event_id: 3523571472
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 292
-  repository: 799113787
-  what: issue-was-closed
-  when: 2025-09-17 16:28:20.000000000 Z
-  where: github
-  who: 526301
-- _id: 38
-  _time: 2025-10-17 15:20:20.271939290 Z
-  _version: 0.9.10/0.39.2/
-  latest: 4075017248
-  repository: 799113787
-  what: events-were-scanned
-  where: github
-- _id: 39
-  _time: 2025-10-17 15:20:24.264049653 Z
-  _version: 0.9.10/0.39.2/
-  commit: 17efa8f8eb244ae03351027bc0b7c57f25753b20
-  default_branch: master
-  details: 'A new Git push #27565113763 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5275719435
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27565113763
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-17 09:29:46.000000000 Z
-  where: github
-  who: 526301
-- _id: 40
-  _time: 2025-10-17 15:20:25.008000609 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#417 has been closed by @yegor256.
-  event_id: 4097339443
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 417
-  repository: 802720676
-  what: issue-was-closed
-  when: 2025-10-17 09:27:01.000000000 Z
-  where: github
-  who: 526301
-- _id: 41
-  _time: 2025-10-17 15:20:25.146206055 Z
-  _version: 0.9.10/0.39.2/
-  commits: 783
-  contributors:
-  - 526301
-  - 29139614
-  - 8086956
-  - 41898282
-  - 31362961
-  - 106069210
-  details: A new release 'Badge calculation inaccurately includes more than 256 days'
-    has been published in zerocracy/pages-action by @rultor.
-  event_id: 4097300345
-  event_type: ReleaseEvent
-  hoc: 4145
-  is_human: 0
-  last_commit: 2b461eca0e05e7815e28e2058b4ec35c90114dc6
-  release: 255259166
-  repository: 802720676
-  tag: 0.5.2
-  what: release-published
-  when: 2025-10-17 09:25:06.000000000 Z
-  where: github
-  who: 8086956
-- _id: 42
-  _time: 2025-10-17 15:20:39.768009319 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/pages-action#418 has been opened by @github-actions[bot].
-  event_id: 4097279131
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 418
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-10-17 09:24:06.000000000 Z
-  where: github
-  who: 41898282
-- _id: 43
-  _time: 2025-10-17 15:20:40.015167283 Z
-  _version: 0.9.10/0.39.2/
-  commit: 5ca624e2fd6d332a02f5de00a436d1e91f0abe4f
-  default_branch: master
-  details: 'A new Git push #27564666030 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5275272449
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27564666030
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-17 09:10:24.000000000 Z
-  where: github
-  who: 526301
-- _id: 44
-  _time: 2025-10-17 15:20:40.578341280 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#417 has been opened by @yegor256.
-  event_id: 4096983569
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 417
-  repository: 802720676
-  what: issue-was-opened
-  when: 2025-10-17 09:10:06.000000000 Z
-  where: github
-  who: 526301
-- _id: 45
-  _time: 2025-10-17 15:20:41.048776172 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#415 has been closed by @yegor256.
-  event_id: 4095718065
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 415
-  repository: 802720676
-  what: issue-was-closed
-  when: 2025-10-17 08:08:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 46
-  _time: 2025-10-17 15:20:41.069597119 Z
-  _version: 0.9.10/0.39.2/
-  commits: 1
-  contributors: 8086956
-  details: A new release 'Lack of indication for current location in the code' has
-    been published in zerocracy/pages-action by @rultor.
-  event_id: 4095383913
-  event_type: ReleaseEvent
-  hoc: 6
-  is_human: 0
-  last_commit: 9ef3f989993a933d466e49e9a81c4ab091287c22
-  release: 255236960
-  repository: 802720676
-  tag: 0.5.1
-  what: release-published
-  when: 2025-10-17 07:50:48.000000000 Z
-  where: github
-  who: 8086956
-- _id: 47
-  _time: 2025-10-17 15:20:41.529157427 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/pages-action#416 has been opened by @github-actions[bot].
-  event_id: 4095368681
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 416
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-10-17 07:49:56.000000000 Z
-  where: github
-  who: 41898282
-- _id: 48
-  _time: 2025-10-17 15:20:41.564278296 Z
-  _version: 0.9.10/0.39.2/
-  commit: b17ccdbfde7016e880bd9aeaafc944da4192d49a
-  default_branch: master
-  details: 'A new Git push #27562437152 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5273055441
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27562437152
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-17 07:25:41.000000000 Z
-  where: github
-  who: 526301
-- _id: 49
-  _time: 2025-10-17 15:20:41.904869324 Z
-  _version: 0.9.10/0.39.2/
-  commit: a551b994b6c58d1e7b9ec77206154a2f64d9a511
-  default_branch: master
-  details: 'A new Git push #27562205980 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5272825925
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27562205980
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-17 07:14:03.000000000 Z
-  where: github
-  who: 526301
-- _id: 50
-  _time: 2025-10-17 15:20:42.304224123 Z
-  _version: 0.9.10/0.39.2/
-  commit: 2d02e257b29f505e1c99ff70e64a7184280aecd6
-  default_branch: master
-  details: 'A new Git push #27562051891 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5272672442
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27562051891
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-17 07:06:12.000000000 Z
-  where: github
-  who: 526301
-- _id: 51
-  _time: 2025-10-17 15:20:42.594788069 Z
-  _version: 0.9.10/0.39.2/
-  commit: 12efc82c6ea1987af9aebb7011e6b898e64910b7
-  default_branch: master
-  details: 'A new Git push #27561713182 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5272335017
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27561713182
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-17 06:49:51.000000000 Z
-  where: github
-  who: 526301
-- _id: 52
-  _time: 2025-10-17 15:20:42.946609630 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#415 has been opened by @yegor256.
-  event_id: 4094302121
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 415
-  repository: 802720676
-  what: issue-was-opened
-  when: 2025-10-17 06:46:17.000000000 Z
-  where: github
-  who: 526301
-- _id: 53
-  _time: 2025-10-17 15:20:42.973515030 Z
-  _version: 0.9.10/0.39.2/
-  commit: 18cc1cd682ab5a6abc764f20122f002d12519760
-  default_branch: master
-  details: 'A new Git push #27551169617 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5261871827
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27551169617
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 19:10:43.000000000 Z
-  where: github
-  who: 526301
-- _id: 54
-  _time: 2025-10-17 15:20:43.319353585 Z
-  _version: 0.9.10/0.39.2/
-  commit: 196257fdfa96340282fa5b06400b5d8012cf34f1
-  default_branch: master
-  details: 'A new Git push #27550103604 has arrived to zerocracy/pages-action, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5260815354
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27550103604
-  ref: refs/heads/master
-  repository: 802720676
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-16 18:19:33.000000000 Z
-  where: github
-  who: 526301
-- _id: 55
-  _time: 2025-10-17 15:20:44.401588000 Z
-  _version: 0.9.10/0.39.2/
-  commits: 1
-  contributors: 8086956
-  details: A new release 'badge.svg fails to generate despite it being possible' has
-    been published in zerocracy/pages-action by @rultor.
-  event_id: 4079145159
-  event_type: ReleaseEvent
-  hoc: 6
-  is_human: 0
-  last_commit: 495cdc90343057c511bc9c135dc46b04c916efaf
-  release: 255023224
-  repository: 802720676
-  tag: 0.5.0
-  what: release-published
-  when: 2025-10-16 14:14:29.000000000 Z
-  where: github
-  who: 8086956
-- _id: 56
-  _time: 2025-10-17 15:20:44.936486876 Z
-  _version: 0.9.10/0.39.2/
-  branch: version-up
-  details: The pull request zerocracy/pages-action#414 has been opened by @github-actions[bot].
-  event_id: 4079107547
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 414
-  repository: 802720676
-  what: pull-was-opened
-  when: 2025-10-16 14:13:10.000000000 Z
-  where: github
-  who: 41898282
-- _id: 57
-  _time: 2025-10-17 15:20:44.965653425 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#413 has been opened by @yegor256.
-  event_id: 4078945372
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 413
-  repository: 802720676
-  what: issue-was-opened
-  when: 2025-10-16 14:07:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 58
-  _time: 2025-10-17 15:20:45.497203672 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#410 has been closed by @yegor256.
-  event_id: 4078756103
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 410
-  repository: 802720676
-  what: issue-was-closed
-  when: 2025-10-16 14:00:54.000000000 Z
-  where: github
-  who: 526301
-- _id: 60
-  _time: 2025-10-17 15:20:49.574250689 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#413.
-  issue: 413
-  label: bug
-  repository: 802720676
-  what: label-was-attached
-  when: 2025-10-16 14:07:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 62
-  _time: 2025-10-17 15:20:49.579781605 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 63
-  _time: 2025-10-17 15:20:49.583111779 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 64
-  _time: 2025-10-17 15:20:49.586458023 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 65
-  _time: 2025-10-17 15:20:49.590036350 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 66
-  _time: 2025-10-17 15:20:49.593662036 Z
+  _time: 2025-10-17 16:24:17.035574660 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 67
-  _time: 2025-10-17 15:20:49.597033367 Z
+- _id: 14
+  _time: 2025-10-17 16:24:17.039497506 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 68
-  _time: 2025-10-17 15:20:49.600694990 Z
+- _id: 15
+  _time: 2025-10-17 16:24:17.042995760 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 1077707334
   what: labels-were-scanned
   where: github
-- _id: 70
-  _time: 2025-10-17 15:20:50.426676691 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#415.
-  issue: 415
-  label: bug
-  repository: 802720676
-  what: label-was-attached
-  when: 2025-10-17 06:46:17.000000000 Z
-  where: github
-  who: 526301
-- _id: 72
-  _time: 2025-10-17 15:20:50.866941485 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue yegor256/judges#304.
-  issue: 304
-  label: bug
-  repository: 799113787
-  what: label-was-attached
-  when: 2025-10-16 11:01:16.000000000 Z
-  where: github
-  who: 526301
-- _id: 74
-  _time: 2025-10-17 15:20:51.248870494 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#417.
-  issue: 417
-  label: bug
-  repository: 802720676
-  what: label-was-attached
-  when: 2025-10-17 09:10:06.000000000 Z
-  where: github
-  who: 526301
-- _id: 76
-  _time: 2025-10-17 15:20:51.258769825 Z
+- _id: 16
+  _time: 2025-10-17 16:24:17.046044625 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 77
-  _time: 2025-10-17 15:20:51.265798280 Z
+- _id: 17
+  _time: 2025-10-17 16:24:17.049461186 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 18
+  _time: 2025-10-17 16:24:17.053080415 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 78
-  _time: 2025-10-17 15:22:09.681102065 Z
+- _id: 19
+  _time: 2025-10-17 16:24:17.056428729 Z
   _version: 0.9.10/0.39.2/
-  average_issue_lifetime: 4386701.744680851
-  average_pull_lifetime: 245854.47530864197
-  average_pull_rejection_rate: 0.024691358024691357
-  since: 2025-09-19 15:20:51.269072710 Z
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 20
+  _time: 2025-10-17 16:24:17.059310865 Z
+  _version: 0.9.10/0.39.2/
+  since: 2025-09-19 16:24:17.059411694 Z
   what: quality-of-service
-  when: 2025-10-17 15:20:51.269048425 Z
-- _id: 79
-  _time: 2025-10-17 15:24:17.208646509 Z
+  when: 2025-10-17 16:24:17.059387398 Z
+- _id: 21
+  _time: 2025-10-17 16:27:17.059519008 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-09-19 15:22:09.683230722 Z
-  total_commits_pushed: 335
-  total_hoc_committed: 8134
-  total_releases_published: 24
+  since: 2025-09-19 16:27:17.059651565 Z
   what: quantity-of-deliverables
-  when: 2025-10-17 15:22:09.683207027 Z
-- _id: 80
-  _time: 2025-10-17 15:24:17.214823557 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2025-10-17 15:24:17.214979980 Z
-  where: github
-  who: 29139614
-- _id: 81
-  _time: 2025-10-17 15:24:17.429661150 Z
-  _version: 0.9.10/0.39.2/
-  name: yegor256
-  what: who-has-name
-  when: 2025-10-17 15:24:17.429843401 Z
-  where: github
-  who: 526301
-- _id: 82
-  _time: 2025-10-17 15:24:17.646720579 Z
-  _version: 0.9.10/0.39.2/
-  name: rultor
-  what: who-has-name
-  when: 2025-10-17 15:24:17.646888042 Z
-  where: github
-  who: 8086956
-- _id: 83
-  _time: 2025-10-17 15:24:17.886405638 Z
-  _version: 0.9.10/0.39.2/
-  name: github-actions[bot]
-  what: who-has-name
-  when: 2025-10-17 15:24:17.886600602 Z
-  where: github
-  who: 41898282
+  when: 2025-10-17 16:27:17.059626739 Z
