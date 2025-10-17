@@ -2,166 +2,550 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '[]' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 244.485754889
+  seconds: 280.220398038
   version: 0.39.2
   what: judges-summary
-  when: 2025-10-17 17:20:30.463482407 Z
+  when: 2025-10-17 18:30:07.721557020 Z
 - _id: 1
-  _time: 2025-10-17 17:16:50.615174941 Z
+  _time: 2025-10-17 18:25:49.864332866 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6234
   total_contributors: 17
   total_files: 712
-  total_forks: 36
+  total_forks: 37
   total_issues: 926
   total_pulls: 1978
   total_releases: 727
   total_repositories: 9
   total_stars: 61
   what: dimensions-of-terrain
-  when: 2025-10-17 17:16:26.289362044 Z
+  when: 2025-10-17 18:25:27.811659099 Z
 - _id: 2
-  _time: 2025-10-17 17:16:50.645319995 Z
+  _time: 2025-10-17 18:25:49.911487297 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-10-17 17:16:50.647729183 Z
+  _time: 2025-10-17 18:25:49.915492574 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-10-17 17:16:50.650230392 Z
+  _time: 2025-10-17 18:25:49.918789586 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2025-10-17 17:16:50.652758300 Z
+  _time: 2025-10-17 18:25:49.922422257 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-10-17 17:16:50.655314862 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-10-17 17:16:50.657852478 Z
+  _time: 2025-10-17 18:25:49.926366800 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2025-10-17 17:16:50.660387980 Z
+- _id: 7
+  _time: 2025-10-17 18:25:49.930591847 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 799113787
   what: min-issue-was-found
   where: github
-- _id: 9
-  _time: 2025-10-17 17:16:50.662851639 Z
+- _id: 8
+  _time: 2025-10-17 18:25:49.934006329 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2025-10-17 17:16:50.665534636 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2025-10-17 17:16:54.344980280 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 12
-  _time: 2025-10-17 17:16:54.347862699 Z
+- _id: 9
+  _time: 2025-10-17 18:25:49.937392229 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2025-10-17 17:16:54.350783038 Z
+- _id: 10
+  _time: 2025-10-17 18:25:49.941087997 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2025-10-17 18:25:52.974631957 Z
+  _version: 0.9.10/0.39.2/
+  commit: 17efa8f8eb244ae03351027bc0b7c57f25753b20
+  default_branch: master
+  details: 'A new Git push #27565113763 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 5275719435
+  event_type: PushEvent
+  is_human: 1
+  push_id: 27565113763
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-10-17 09:29:46.000000000 Z
+  where: github
+  who: 526301
+- _id: 12
+  _time: 2025-10-17 18:25:53.623555589 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#417 has been closed by @yegor256.
+  event_id: 4097339443
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 417
+  repository: 802720676
+  what: issue-was-closed
+  when: 2025-10-17 09:27:01.000000000 Z
+  where: github
+  who: 526301
+- _id: 13
+  _time: 2025-10-17 18:25:53.725539910 Z
+  _version: 0.9.10/0.39.2/
+  commits: 783
+  contributors:
+  - 526301
+  - 29139614
+  - 8086956
+  - 41898282
+  - 31362961
+  - 106069210
+  details: A new release 'Badge calculation inaccurately includes more than 256 days'
+    has been published in zerocracy/pages-action by @rultor.
+  event_id: 4097300345
+  event_type: ReleaseEvent
+  hoc: 4145
+  is_human: 0
+  last_commit: 2b461eca0e05e7815e28e2058b4ec35c90114dc6
+  release: 255259166
+  repository: 802720676
+  tag: 0.5.2
+  what: release-published
+  when: 2025-10-17 09:25:06.000000000 Z
+  where: github
+  who: 8086956
+- _id: 14
+  _time: 2025-10-17 18:26:04.653817745 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  details: The pull request zerocracy/pages-action#418 has been opened by @github-actions[bot].
+  event_id: 4097279131
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 418
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-10-17 09:24:06.000000000 Z
+  where: github
+  who: 41898282
+- _id: 15
+  _time: 2025-10-17 18:26:04.787970617 Z
+  _version: 0.9.10/0.39.2/
+  commit: 5ca624e2fd6d332a02f5de00a436d1e91f0abe4f
+  default_branch: master
+  details: 'A new Git push #27564666030 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 5275272449
+  event_type: PushEvent
+  is_human: 1
+  push_id: 27564666030
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-10-17 09:10:24.000000000 Z
+  where: github
+  who: 526301
+- _id: 16
+  _time: 2025-10-17 18:26:05.009118299 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#417 has been opened by @yegor256.
+  event_id: 4096983569
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 417
+  repository: 802720676
+  what: issue-was-opened
+  when: 2025-10-17 09:10:06.000000000 Z
+  where: github
+  who: 526301
+- _id: 17
+  _time: 2025-10-17 18:26:05.327554348 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#415 has been closed by @yegor256.
+  event_id: 4095718065
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 415
+  repository: 802720676
+  what: issue-was-closed
+  when: 2025-10-17 08:08:36.000000000 Z
+  where: github
+  who: 526301
+- _id: 18
+  _time: 2025-10-17 18:26:05.341080810 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release 'Lack of indication for current location in the code' has
+    been published in zerocracy/pages-action by @rultor.
+  event_id: 4095383913
+  event_type: ReleaseEvent
+  hoc: 6
+  is_human: 0
+  last_commit: 9ef3f989993a933d466e49e9a81c4ab091287c22
+  release: 255236960
+  repository: 802720676
+  tag: 0.5.1
+  what: release-published
+  when: 2025-10-17 07:50:48.000000000 Z
+  where: github
+  who: 8086956
+- _id: 19
+  _time: 2025-10-17 18:26:05.767035394 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  details: The pull request zerocracy/pages-action#416 has been opened by @github-actions[bot].
+  event_id: 4095368681
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 416
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-10-17 07:49:56.000000000 Z
+  where: github
+  who: 41898282
+- _id: 20
+  _time: 2025-10-17 18:26:05.803740719 Z
+  _version: 0.9.10/0.39.2/
+  commit: b17ccdbfde7016e880bd9aeaafc944da4192d49a
+  default_branch: master
+  details: 'A new Git push #27562437152 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 5273055441
+  event_type: PushEvent
+  is_human: 1
+  push_id: 27562437152
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-10-17 07:25:41.000000000 Z
+  where: github
+  who: 526301
+- _id: 21
+  _time: 2025-10-17 18:26:05.965139169 Z
+  _version: 0.9.10/0.39.2/
+  commit: a551b994b6c58d1e7b9ec77206154a2f64d9a511
+  default_branch: master
+  details: 'A new Git push #27562205980 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 5272825925
+  event_type: PushEvent
+  is_human: 1
+  push_id: 27562205980
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-10-17 07:14:03.000000000 Z
+  where: github
+  who: 526301
+- _id: 22
+  _time: 2025-10-17 18:26:06.156050679 Z
+  _version: 0.9.10/0.39.2/
+  commit: 2d02e257b29f505e1c99ff70e64a7184280aecd6
+  default_branch: master
+  details: 'A new Git push #27562051891 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 5272672442
+  event_type: PushEvent
+  is_human: 1
+  push_id: 27562051891
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-10-17 07:06:12.000000000 Z
+  where: github
+  who: 526301
+- _id: 23
+  _time: 2025-10-17 18:26:06.290266620 Z
+  _version: 0.9.10/0.39.2/
+  commit: 12efc82c6ea1987af9aebb7011e6b898e64910b7
+  default_branch: master
+  details: 'A new Git push #27561713182 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 5272335017
+  event_type: PushEvent
+  is_human: 1
+  push_id: 27561713182
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-10-17 06:49:51.000000000 Z
+  where: github
+  who: 526301
+- _id: 24
+  _time: 2025-10-17 18:26:06.481195391 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#415 has been opened by @yegor256.
+  event_id: 4094302121
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 415
+  repository: 802720676
+  what: issue-was-opened
+  when: 2025-10-17 06:46:17.000000000 Z
+  where: github
+  who: 526301
+- _id: 25
+  _time: 2025-10-17 18:26:06.509205545 Z
+  _version: 0.9.10/0.39.2/
+  commit: 18cc1cd682ab5a6abc764f20122f002d12519760
+  default_branch: master
+  details: 'A new Git push #27551169617 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 5261871827
+  event_type: PushEvent
+  is_human: 1
+  push_id: 27551169617
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-10-16 19:10:43.000000000 Z
+  where: github
+  who: 526301
+- _id: 26
+  _time: 2025-10-17 18:26:06.692411470 Z
+  _version: 0.9.10/0.39.2/
+  commit: 196257fdfa96340282fa5b06400b5d8012cf34f1
+  default_branch: master
+  details: 'A new Git push #27550103604 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 5260815354
+  event_type: PushEvent
+  is_human: 1
+  push_id: 27550103604
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-10-16 18:19:33.000000000 Z
+  where: github
+  who: 526301
+- _id: 27
+  _time: 2025-10-17 18:26:07.187037722 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1
+  contributors: 8086956
+  details: A new release 'badge.svg fails to generate despite it being possible' has
+    been published in zerocracy/pages-action by @rultor.
+  event_id: 4079145159
+  event_type: ReleaseEvent
+  hoc: 6
+  is_human: 0
+  last_commit: 495cdc90343057c511bc9c135dc46b04c916efaf
+  release: 255023224
+  repository: 802720676
+  tag: 0.5.0
+  what: release-published
+  when: 2025-10-16 14:14:29.000000000 Z
+  where: github
+  who: 8086956
+- _id: 28
+  _time: 2025-10-17 18:26:07.529555411 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  details: The pull request zerocracy/pages-action#414 has been opened by @github-actions[bot].
+  event_id: 4079107547
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 414
+  repository: 802720676
+  what: pull-was-opened
+  when: 2025-10-16 14:13:10.000000000 Z
+  where: github
+  who: 41898282
+- _id: 29
+  _time: 2025-10-17 18:26:07.548439095 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#413 has been opened by @yegor256.
+  event_id: 4078945372
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 413
+  repository: 802720676
+  what: issue-was-opened
+  when: 2025-10-16 14:07:36.000000000 Z
+  where: github
+  who: 526301
+- _id: 30
+  _time: 2025-10-17 18:26:07.843068949 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#410 has been closed by @yegor256.
+  event_id: 4078756103
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 410
+  repository: 802720676
+  what: issue-was-closed
+  when: 2025-10-16 14:00:54.000000000 Z
+  where: github
+  who: 526301
+- _id: 31
+  _time: 2025-10-17 18:26:08.016455292 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 14
-  _time: 2025-10-17 17:16:54.353596889 Z
+- _id: 32
+  _time: 2025-10-17 18:26:08.208384998 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#413.
+  issue: 413
+  label: bug
+  repository: 802720676
+  what: label-was-attached
+  when: 2025-10-16 14:07:36.000000000 Z
+  where: github
+  who: 526301
+- _id: 34
+  _time: 2025-10-17 18:26:08.214185840 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 15
-  _time: 2025-10-17 17:16:54.356580526 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 16
-  _time: 2025-10-17 17:16:54.359543825 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 17
-  _time: 2025-10-17 17:16:54.362486676 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 18
-  _time: 2025-10-17 17:16:54.365522039 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 19
-  _time: 2025-10-17 17:16:54.368422531 Z
+- _id: 35
+  _time: 2025-10-17 18:26:08.217733120 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 20
-  _time: 2025-10-17 17:17:55.978137504 Z
+- _id: 36
+  _time: 2025-10-17 18:26:08.221438766 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
+- _id: 37
+  _time: 2025-10-17 18:26:08.224896980 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 38
+  _time: 2025-10-17 18:26:08.228773636 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 39
+  _time: 2025-10-17 18:26:08.232718359 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 40
+  _time: 2025-10-17 18:26:08.236343474 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 41
+  _time: 2025-10-17 18:26:08.486275517 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#415.
+  issue: 415
+  label: bug
+  repository: 802720676
+  what: label-was-attached
+  when: 2025-10-17 06:46:17.000000000 Z
+  where: github
+  who: 526301
+- _id: 42
+  _time: 2025-10-17 18:26:08.772806889 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#417.
+  issue: 417
+  label: bug
+  repository: 802720676
+  what: label-was-attached
+  when: 2025-10-17 09:10:06.000000000 Z
+  where: github
+  who: 526301
+- _id: 43
+  _time: 2025-10-17 18:26:08.780047602 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 44
+  _time: 2025-10-17 18:27:07.393178394 Z
   _version: 0.9.10/0.39.2/
   average_pull_files_size: 1.5723270440251573
   average_pull_hoc_size: 23.77987421383648
-  average_triage_time: 0
-  since: 2025-09-19 17:16:54.371020330 Z
+  since: 2025-09-19 18:26:08.782981405 Z
   what: quality-of-service
-  when: 2025-10-17 17:16:54.370992719 Z
-- _id: 21
-  _time: 2025-10-17 17:20:30.460348327 Z
+  when: 2025-10-17 18:26:08.782958031 Z
+- _id: 45
+  _time: 2025-10-17 18:27:07.395352504 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-09-19 17:17:55.980254439 Z
-  total_builds_ran: 9147
+  since: 2025-09-19 18:27:07.395460255 Z
   what: quantity-of-deliverables
-  when: 2025-10-17 17:17:55.980219434 Z
+  when: 2025-10-17 18:27:07.395436931 Z
+- _id: 46
+  _time: 2025-10-17 18:30:07.399665513 Z
+  _version: 0.9.10/0.39.2/
+  name: yegor256
+  what: who-has-name
+  when: 2025-10-17 18:30:07.399923034 Z
+  where: github
+  who: 526301
+- _id: 47
+  _time: 2025-10-17 18:30:07.502956803 Z
+  _version: 0.9.10/0.39.2/
+  name: rultor
+  what: who-has-name
+  when: 2025-10-17 18:30:07.503135908 Z
+  where: github
+  who: 8086956
+- _id: 48
+  _time: 2025-10-17 18:30:07.607869539 Z
+  _version: 0.9.10/0.39.2/
+  name: github-actions[bot]
+  what: who-has-name
+  when: 2025-10-17 18:30:07.608033986 Z
+  where: github
+  who: 41898282
