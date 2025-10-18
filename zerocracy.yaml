@@ -2,14 +2,16 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '[]' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 28.12656843
+  seconds: 315.318546937
   version: 0.39.2
   what: judges-summary
-  when: 2025-10-18 10:18:27.217112752 Z
+  when: 2025-10-18 11:19:32.749002064 Z
 - _id: 1
-  _time: 2025-10-18 10:18:18.999117727 Z
+  _time: 2025-10-18 11:14:48.282554627 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6238
@@ -22,72 +24,72 @@
   total_repositories: 9
   total_stars: 62
   what: dimensions-of-terrain
-  when: 2025-10-18 10:17:59.416836246 Z
+  when: 2025-10-18 11:14:17.748779884 Z
 - _id: 2
-  _time: 2025-10-18 10:18:19.025244865 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2025-10-18 10:18:19.027827912 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-10-18 10:18:19.030385471 Z
+  _time: 2025-10-18 11:14:48.313735280 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
-- _id: 5
-  _time: 2025-10-18 10:18:19.032773884 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-10-18 10:18:19.035348103 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-10-18 10:18:19.037918376 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-10-18 10:18:19.040368815 Z
+- _id: 3
+  _time: 2025-10-18 11:14:48.316595512 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
-- _id: 9
-  _time: 2025-10-18 10:18:19.042973321 Z
+- _id: 4
+  _time: 2025-10-18 11:14:48.319678102 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2025-10-18 11:14:48.323406996 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2025-10-18 10:18:19.045600670 Z
+- _id: 6
+  _time: 2025-10-18 11:14:48.325961855 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2025-10-18 11:14:48.328495644 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-10-18 11:14:48.331105626 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2025-10-18 11:14:48.333691593 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
+- _id: 10
+  _time: 2025-10-18 11:14:48.336320391 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
 - _id: 11
-  _time: 2025-10-18 10:18:21.036896274 Z
+  _time: 2025-10-18 11:14:50.958399902 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rubocop-performance-1.x-lockfile
   details: The pull request zerocracy/judges-action#1143 has been opened by @renovate[bot].
@@ -101,86 +103,81 @@
   where: github
   who: 29139614
 - _id: 12
-  _time: 2025-10-18 10:18:22.384977501 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 13
-  _time: 2025-10-18 10:18:22.388482340 Z
+  _time: 2025-10-18 11:14:52.955578855 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 14
-  _time: 2025-10-18 10:18:22.391538219 Z
+- _id: 13
+  _time: 2025-10-18 11:14:52.958224825 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 15
-  _time: 2025-10-18 10:18:22.394111867 Z
+- _id: 14
+  _time: 2025-10-18 11:14:52.960899178 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 16
-  _time: 2025-10-18 10:18:22.396780243 Z
+- _id: 15
+  _time: 2025-10-18 11:14:52.968839051 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: labels-were-scanned
   where: github
+- _id: 16
+  _time: 2025-10-18 11:14:52.972758453 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
 - _id: 17
-  _time: 2025-10-18 10:18:22.399511375 Z
+  _time: 2025-10-18 11:14:52.976259839 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
 - _id: 18
-  _time: 2025-10-18 10:18:22.402244792 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 19
-  _time: 2025-10-18 10:18:22.404808351 Z
+  _time: 2025-10-18 11:14:52.980349310 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
+- _id: 19
+  _time: 2025-10-18 11:14:52.985141742 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
 - _id: 20
-  _time: 2025-10-18 10:18:22.407549923 Z
+  _time: 2025-10-18 11:14:52.988748987 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
 - _id: 21
-  _time: 2025-10-18 10:18:27.208457411 Z
+  _time: 2025-10-18 11:16:32.744380749 Z
   _version: 0.9.10/0.39.2/
-  average_pull_rejection_rate: 0.024242424242424242
-  since: 2025-09-20 10:18:22.410075091 Z
+  average_review_size: 0.4782608695652174
+  average_review_time: 41551.28571428572
+  average_reviewers_per_pull: 0.7763975155279503
+  average_reviews_per_pull: 1.049689440993789
+  since: 2025-09-20 11:14:52.992063562 Z
   what: quality-of-service
-  when: 2025-10-18 10:18:22.410029275 Z
+  when: 2025-10-18 11:14:52.992040048 Z
 - _id: 22
-  _time: 2025-10-18 10:18:27.210850462 Z
+  _time: 2025-10-18 11:16:32.747949624 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-09-20 10:18:27.210955248 Z
+  since: 2025-09-20 11:16:32.748047167 Z
   what: quantity-of-deliverables
-  when: 2025-10-18 10:18:27.210931283 Z
-- _id: 23
-  _time: 2025-10-18 10:18:27.213410865 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2025-10-18 10:18:27.213566947 Z
-  where: github
-  who: 29139614
+  when: 2025-10-18 11:16:32.748025076 Z
