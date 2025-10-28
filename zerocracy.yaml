@@ -2,14 +2,17 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '[]' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 233.578753611
+  seconds: 387.066958829
   version: 0.39.2
   what: judges-summary
-  when: 2025-10-28 15:26:19.352294252 Z
+  when: 2025-10-28 16:33:37.279715742 Z
 - _id: 1
-  _time: 2025-10-28 15:22:55.006026491 Z
+  _time: 2025-10-28 16:27:34.769686766 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6320
@@ -22,165 +25,159 @@
   total_repositories: 10
   total_stars: 69
   what: dimensions-of-terrain
-  when: 2025-10-28 15:22:26.110337694 Z
+  when: 2025-10-28 16:27:10.536995421 Z
 - _id: 2
-  _time: 2025-10-28 15:22:55.046760844 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2025-10-28 15:22:55.050148027 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-10-28 15:22:55.053906825 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-10-28 15:22:55.057512066 Z
+  _time: 2025-10-28 16:27:34.803999707 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
+- _id: 3
+  _time: 2025-10-28 16:27:34.807386524 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 4
+  _time: 2025-10-28 16:27:34.810208599 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2025-10-28 16:27:34.813281696 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
 - _id: 6
-  _time: 2025-10-28 15:22:55.061066071 Z
+  _time: 2025-10-28 16:27:34.815861415 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 7
-  _time: 2025-10-28 15:22:55.064447704 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-10-28 15:22:55.068034130 Z
+  _time: 2025-10-28 16:27:34.819136241 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
-- _id: 9
-  _time: 2025-10-28 15:22:55.071614233 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2025-10-28 15:22:55.075151598 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2025-10-28 15:22:55.078666069 Z
+- _id: 8
+  _time: 2025-10-28 16:27:34.821698147 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 12
-  _time: 2025-10-28 15:22:58.067187798 Z
+- _id: 9
+  _time: 2025-10-28 16:27:34.824268258 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2025-10-28 16:27:34.827025982 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2025-10-28 16:27:34.829743100 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2025-10-28 15:22:58.070019563 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 14
-  _time: 2025-10-28 15:22:58.072752954 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 15
-  _time: 2025-10-28 15:22:58.075512494 Z
+- _id: 12
+  _time: 2025-10-28 16:27:37.250251092 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 16
-  _time: 2025-10-28 15:22:58.078284727 Z
+- _id: 13
+  _time: 2025-10-28 16:27:37.253167535 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 1081929119
   what: labels-were-scanned
   where: github
-- _id: 17
-  _time: 2025-10-28 15:22:58.080984284 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 18
-  _time: 2025-10-28 15:22:58.083815788 Z
+- _id: 14
+  _time: 2025-10-28 16:27:37.255705996 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 19
-  _time: 2025-10-28 15:22:58.124617197 Z
+- _id: 15
+  _time: 2025-10-28 16:27:37.258440937 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 16
+  _time: 2025-10-28 16:27:37.261365565 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
+- _id: 17
+  _time: 2025-10-28 16:27:37.264297366 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 18
+  _time: 2025-10-28 16:27:37.267253022 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 19
+  _time: 2025-10-28 16:27:37.270240999 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
 - _id: 20
-  _time: 2025-10-28 15:22:58.132557574 Z
+  _time: 2025-10-28 16:27:37.273292205 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
 - _id: 21
-  _time: 2025-10-28 15:22:58.141091370 Z
+  _time: 2025-10-28 16:27:37.276140519 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 802720676
   what: labels-were-scanned
   where: github
 - _id: 22
-  _time: 2025-10-28 15:24:32.411796840 Z
+  _time: 2025-10-28 16:27:37.278537845 Z
   _version: 0.9.10/0.39.2/
-  average_review_size: 0.46794871794871795
-  average_review_time: 34173.99056603773
-  average_reviewers_per_pull: 0.7564102564102564
-  average_reviews_per_pull: 1.0320512820512822
-  since: 2025-09-30 15:22:58.144239235 Z
+  since: 2025-09-30 16:27:37.278640118 Z
   what: quality-of-service
-  when: 2025-10-28 15:22:58.144206574 Z
+  when: 2025-10-28 16:27:37.278614419 Z
 - _id: 23
-  _time: 2025-10-28 15:26:19.349199906 Z
+  _time: 2025-10-28 16:30:47.837235424 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-09-30 15:24:32.414180617 Z
-  total_commits_pushed: 322
-  total_hoc_committed: 9054
+  since: 2025-09-30 16:30:37.278985116 Z
   total_issues_created: 52
   total_pulls_submitted: 29
   total_releases_published: 17
   what: quantity-of-deliverables
-  when: 2025-10-28 15:24:32.414153977 Z
+  when: 2025-10-28 16:30:37.278932837 Z
