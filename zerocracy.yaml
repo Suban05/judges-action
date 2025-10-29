@@ -2,17 +2,18 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '+' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 162.028905807
+  seconds: 300.658516399
   version: 0.39.2
   what: judges-summary
-  when: 2025-10-29 16:29:54.368700319 Z
+  when: 2025-10-29 17:23:56.422968506 Z
 - _id: 1
-  _time: 2025-10-29 16:27:35.826778283 Z
+  _time: 2025-10-29 17:19:26.015704516 Z
   _version: 0.9.10/0.39.2/
-  total_active_contributors: 7
-  total_commits: 6321
+  total_commits: 6323
   total_contributors: 17
   total_files: 755
   total_forks: 41
@@ -22,233 +23,173 @@
   total_repositories: 10
   total_stars: 69
   what: dimensions-of-terrain
-  when: 2025-10-29 16:27:12.660661334 Z
+  when: 2025-10-29 17:18:56.014495839 Z
 - _id: 2
-  _time: 2025-10-29 16:27:35.858246858 Z
+  _time: 2025-10-29 17:19:26.065066501 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-10-29 16:27:35.861284992 Z
+  _time: 2025-10-29 17:19:26.068186753 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-10-29 16:27:35.864155705 Z
+  _time: 2025-10-29 17:19:26.071318529 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2025-10-29 16:27:35.867193849 Z
+  _time: 2025-10-29 17:19:26.074393369 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
+  repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-10-29 16:27:35.870267609 Z
+  _time: 2025-10-29 17:19:26.077619478 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 7
-  _time: 2025-10-29 16:27:35.873547604 Z
+  _time: 2025-10-29 17:19:26.080459654 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 8
-  _time: 2025-10-29 16:27:35.876640490 Z
+  _time: 2025-10-29 17:19:26.083626893 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-10-29 16:27:35.879760787 Z
+  _time: 2025-10-29 17:19:26.086651910 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-10-29 16:27:35.882440093 Z
+  _time: 2025-10-29 17:19:26.089846570 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 11
-  _time: 2025-10-29 16:27:35.885087991 Z
+  _time: 2025-10-29 17:19:26.093401363 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 12
-  _time: 2025-10-29 16:27:38.196024426 Z
-  _version: 0.9.10/0.39.2/
-  branch: 302-refactor-term-classes
-  details: The pull request yegor256/factbase#349 has been opened by @volodya-lombrozo.
-  event_id: 4336332770
-  event_type: PullRequestEvent
-  is_human: 1
-  issue: 349
-  repository: 798641472
-  what: pull-was-opened
-  when: 2025-10-29 14:39:47.000000000 Z
-  where: github
-  who: 51804353
-- _id: 13
-  _time: 2025-10-29 16:27:38.204762809 Z
+  _time: 2025-10-29 17:19:29.138318458 Z
   _version: 0.9.10/0.39.2/
   branch: renovate/rake-13.x-lockfile
-  details: The pull request yegor256/factbase#348 has been opened by @renovate[bot].
-  event_id: 4326666139
+  details: The pull request zerocracy/baza.rb#178 has been opened by @renovate[bot].
+  event_id: 4329619941
   event_type: PullRequestEvent
   is_human: 0
-  issue: 348
-  repository: 798641472
+  issue: 178
+  repository: 840215648
   what: pull-was-opened
-  when: 2025-10-29 07:52:34.000000000 Z
+  when: 2025-10-29 10:12:59.000000000 Z
   where: github
   who: 29139614
+- _id: 13
+  _time: 2025-10-29 17:19:30.742661451 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
 - _id: 14
-  _time: 2025-10-29 16:27:38.954390559 Z
+  _time: 2025-10-29 17:19:30.745508254 Z
   _version: 0.9.10/0.39.2/
-  branch: 302-refactor-term-classes
-  details: The pull request yegor256/factbase#347 has been opened by @volodya-lombrozo.
-  event_id: 4283540915
-  event_type: PullRequestEvent
-  is_human: 1
-  issue: 347
-  repository: 798641472
-  what: pull-was-opened
-  when: 2025-10-27 15:18:42.000000000 Z
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
   where: github
-  who: 51804353
 - _id: 15
-  _time: 2025-10-29 16:27:39.447598748 Z
+  _time: 2025-10-29 17:19:30.748196612 Z
   _version: 0.9.10/0.39.2/
-  branch: 302-refactor-term-classes
-  details: The pull request yegor256/factbase#346 has been opened by @volodya-lombrozo.
-  event_id: 4262378991
-  event_type: PullRequestEvent
-  is_human: 1
-  issue: 346
-  repository: 798641472
-  what: pull-was-opened
-  when: 2025-10-26 09:58:29.000000000 Z
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
   where: github
-  who: 51804353
 - _id: 16
-  _time: 2025-10-29 16:27:39.528368431 Z
+  _time: 2025-10-29 17:19:30.751007806 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
 - _id: 17
-  _time: 2025-10-29 16:27:39.531900128 Z
+  _time: 2025-10-29 17:19:30.753926923 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
+  repository: 820463873
   what: labels-were-scanned
   where: github
 - _id: 18
-  _time: 2025-10-29 16:27:39.535131976 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 19
-  _time: 2025-10-29 16:27:39.538332616 Z
+  _time: 2025-10-29 17:19:30.756762179 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
+- _id: 19
+  _time: 2025-10-29 17:19:30.759516142 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
 - _id: 20
-  _time: 2025-10-29 16:27:39.541430905 Z
+  _time: 2025-10-29 17:19:30.762408577 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
 - _id: 21
-  _time: 2025-10-29 16:27:39.544119421 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 22
-  _time: 2025-10-29 16:27:39.546820641 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: labels-were-scanned
-  where: github
-- _id: 23
-  _time: 2025-10-29 16:27:39.549576202 Z
+  _time: 2025-10-29 17:19:30.765318332 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 24
-  _time: 2025-10-29 16:27:39.552337725 Z
+- _id: 22
+  _time: 2025-10-29 17:19:30.768331518 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 25
-  _time: 2025-10-29 16:27:39.555048903 Z
+- _id: 23
+  _time: 2025-10-29 17:20:56.420340134 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 26
-  _time: 2025-10-29 16:28:37.251553976 Z
-  _version: 0.9.10/0.39.2/
-  average_pull_files_size: 1.777027027027027
-  average_pull_hoc_size: 27.41891891891892
-  since: 2025-10-01 16:27:39.557614441 Z
+  average_pull_files_size: 1.7666666666666666
+  average_pull_hoc_size: 27.08
+  average_pull_rejection_rate: 0.05063291139240506
+  since: 2025-10-01 17:19:30.770590109 Z
   what: quality-of-service
-  when: 2025-10-29 16:27:39.557589454 Z
-- _id: 27
-  _time: 2025-10-29 16:29:54.140840175 Z
+  when: 2025-10-29 17:19:30.770383903 Z
+- _id: 24
+  _time: 2025-10-29 17:20:56.423101119 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-10-01 16:28:37.253456058 Z
-  total_commits_pushed: 311
-  total_hoc_committed: 8936
-  total_releases_published: 16
+  since: 2025-10-01 17:20:56.423296218 Z
   what: quantity-of-deliverables
-  when: 2025-10-29 16:28:37.253396718 Z
-- _id: 28
-  _time: 2025-10-29 16:29:54.143360134 Z
-  _version: 0.9.10/0.39.2/
-  name: volodya-lombrozo
-  what: who-has-name
-  when: 2025-10-29 16:29:54.143544216 Z
-  where: github
-  who: 51804353
-- _id: 29
-  _time: 2025-10-29 16:29:54.252493173 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2025-10-29 16:29:54.252651648 Z
-  where: github
-  who: 29139614
+  when: 2025-10-29 17:20:56.423258757 Z
