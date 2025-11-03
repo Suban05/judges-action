@@ -2,19 +2,20 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '+' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 187.011972492
+  seconds: 287.343914469
   version: 0.39.2
   what: judges-summary
-  when: 2025-11-03 19:18:59.834806914 Z
+  when: 2025-11-03 20:27:13.686448350 Z
 - _id: 1
-  _time: 2025-11-03 19:16:18.993695585 Z
+  _time: 2025-11-03 20:22:59.108914393 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6418
   total_contributors: 17
-  total_files: 791
   total_forks: 43
   total_issues: 940
   total_pulls: 2075
@@ -22,442 +23,171 @@
   total_repositories: 11
   total_stars: 71
   what: dimensions-of-terrain
-  when: 2025-11-03 19:15:53.169228798 Z
+  when: 2025-11-03 20:22:26.672241904 Z
 - _id: 2
-  _time: 2025-11-03 19:16:19.034763451 Z
+  _time: 2025-11-03 20:22:59.154542728 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-11-03 19:16:19.037921881 Z
+  _time: 2025-11-03 20:22:59.157857032 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
+  repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-11-03 19:16:19.041087124 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-11-03 19:16:19.044021985 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-11-03 19:16:19.047285983 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-11-03 19:16:19.050590857 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-11-03 19:16:19.054010145 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2025-11-03 19:16:19.057328595 Z
+  _time: 2025-11-03 20:22:59.161165966 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2025-11-03 19:16:19.060648467 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2025-11-03 19:16:19.069977102 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2025-11-03 19:16:19.082675874 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 13
-  _time: 2025-11-03 19:16:19.737754577 Z
-  _version: 0.9.10/0.39.2/
-  commit: dd38c775b8c62e5eb25b19c4279141d3ed19ffc7
-  default_branch: master
-  details: 'A new Git push #27765963501 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5475266139
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27765963501
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 14:21:08.000000000 Z
-  where: github
-  who: 526301
-- _id: 14
-  _time: 2025-11-03 19:16:20.028482988 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/words#2 has been opened by @yegor256.
-  event_id: 4261094585
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 2
-  repository: 1081929119
-  what: issue-was-opened
-  when: 2025-10-26 07:22:23.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2025-11-03 19:16:20.036963497 Z
-  _version: 0.9.10/0.39.2/
-  commit: 20a4e4d29b1df03828e402b64c3337108e729e1e
-  default_branch: master
-  details: 'A new Git push #27760882450 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470251725
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760882450
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:35:01.000000000 Z
-  where: github
-  who: 526301
-- _id: 16
-  _time: 2025-11-03 19:16:20.245748971 Z
-  _version: 0.9.10/0.39.2/
-  commit: 5a01fe718136c88b0ebfbe36d473be5b28dc022a
-  default_branch: master
-  details: 'A new Git push #27760874569 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470243937
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760874569
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:33:55.000000000 Z
-  where: github
-  who: 526301
-- _id: 17
-  _time: 2025-11-03 19:16:20.399064220 Z
-  _version: 0.9.10/0.39.2/
-  commit: f02b2c81e231f4ed8bc3f214d4988ae2ca158304
-  default_branch: master
-  details: 'A new Git push #27760850869 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470220308
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760850869
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:30:53.000000000 Z
-  where: github
-  who: 526301
-- _id: 18
-  _time: 2025-11-03 19:16:20.563068022 Z
-  _version: 0.9.10/0.39.2/
-  commit: 55f00fef2e3244325bc28ad7c8973802c641c68d
-  default_branch: master
-  details: 'A new Git push #27760831125 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470200687
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760831125
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:28:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 19
-  _time: 2025-11-03 19:16:20.751176036 Z
-  _version: 0.9.10/0.39.2/
-  commit: 12ebea0c076d9cd1bca3f1a0d77dd0c0bddfefb8
-  default_branch: master
-  details: 'A new Git push #27760827982 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470197513
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760827982
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:28:20.000000000 Z
-  where: github
-  who: 526301
-- _id: 20
-  _time: 2025-11-03 19:16:21.085329924 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/configure
-  details: The pull request zerocracy/words#1 has been opened by @renovate[bot].
-  event_id: 4260687786
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 1
-  repository: 1081929119
-  what: pull-was-opened
-  when: 2025-10-26 05:25:50.000000000 Z
-  where: github
-  who: 29139614
-- _id: 21
-  _time: 2025-11-03 19:16:21.191431529 Z
-  _version: 0.9.10/0.39.2/
-  commit: d9cffb60cb8ab18de9db1d791c62b7c4f7c51446
-  default_branch: master
-  details: 'A new Git push #27760797213 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470166905
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760797213
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:25:18.000000000 Z
-  where: github
-  who: 526301
-- _id: 22
-  _time: 2025-11-03 19:16:21.428392659 Z
-  _version: 0.9.10/0.39.2/
-  commit: f29c663493fdacf3f58faa7ccddbb5f0d027922f
-  default_branch: master
-  details: 'A new Git push #27760785715 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470155445
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760785715
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:24:01.000000000 Z
-  where: github
-  who: 526301
-- _id: 23
-  _time: 2025-11-03 19:16:21.621044011 Z
-  _version: 0.9.10/0.39.2/
-  latest: 5475266139
-  repository: 1081929119
-  what: events-were-scanned
-  where: github
-- _id: 24
-  _time: 2025-11-03 19:16:24.368992672 Z
-  _version: 0.9.10/0.39.2/
-  commit: 39c5cad10959cac7024e5483c8fb86104fe209f5
-  default_branch: master
-  details: 'A new Git push #27948917422 has arrived to zerocracy/fbe, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5657420260
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27948917422
-  ref: refs/heads/master
-  repository: 820463873
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-03 07:09:31.000000000 Z
-  where: github
-  who: 526301
-- _id: 25
-  _time: 2025-11-03 19:16:24.880270188 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/fbe#349 has been closed by @yegor256.
-  event_id: 4407708602
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 349
-  repository: 820463873
-  what: issue-was-closed
-  when: 2025-11-02 04:15:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 26
-  _time: 2025-11-03 19:16:25.035026242 Z
-  _version: 0.9.10/0.39.2/
-  commits: 794
-  contributors:
-  - 526301
-  - 29139614
-  - 2566462
-  - 88084038
-  - 123500333
-  - 8086956
-  details: A new release '`unmask_repos()` is not using `over?` good enough' has been
-    published in zerocracy/fbe by @rultor.
-  event_id: 4407650956
-  event_type: ReleaseEvent
-  hoc: 11596
-  is_human: 0
-  last_commit: 037c0cc4d70f6e4122bef042184621b170841b41
-  release: 259050256
-  repository: 820463873
-  tag: 0.41.5
-  what: release-published
-  when: 2025-11-02 04:01:35.000000000 Z
-  where: github
-  who: 8086956
-- _id: 27
-  _time: 2025-11-03 19:16:36.367426742 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 28
-  _time: 2025-11-03 19:16:36.370556088 Z
+- _id: 5
+  _time: 2025-11-03 20:22:59.164457828 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 29
-  _time: 2025-11-03 19:16:36.373720489 Z
+- _id: 6
+  _time: 2025-11-03 20:22:59.167605521 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 30
-  _time: 2025-11-03 19:16:36.376920808 Z
+- _id: 7
+  _time: 2025-11-03 20:22:59.170817273 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-11-03 20:22:59.174191960 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2025-11-03 20:22:59.177398843 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2025-11-03 20:22:59.180685155 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2025-11-03 20:22:59.184033833 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2025-11-03 20:22:59.187167951 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 31
-  _time: 2025-11-03 19:16:36.380106499 Z
+- _id: 13
+  _time: 2025-11-03 20:23:02.589093070 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 32
-  _time: 2025-11-03 19:16:36.562769015 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/words#2.
-  issue: 2
-  label: bug
-  repository: 1081929119
-  what: label-was-attached
-  when: 2025-10-26 07:22:28.000000000 Z
-  where: github
-  who: 526301
-- _id: 34
-  _time: 2025-11-03 19:16:36.568303251 Z
+- _id: 14
+  _time: 2025-11-03 20:23:02.592517259 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 35
-  _time: 2025-11-03 19:16:36.571735987 Z
+- _id: 15
+  _time: 2025-11-03 20:23:02.596437203 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 16
+  _time: 2025-11-03 20:23:02.599884535 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 36
-  _time: 2025-11-03 19:16:36.575131281 Z
+- _id: 17
+  _time: 2025-11-03 20:23:02.603238773 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1084843345
+  repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 37
-  _time: 2025-11-03 19:16:36.578460591 Z
+- _id: 18
+  _time: 2025-11-03 20:23:02.606511520 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 38
-  _time: 2025-11-03 19:16:36.581773891 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 39
-  _time: 2025-11-03 19:16:36.585853635 Z
+- _id: 19
+  _time: 2025-11-03 20:23:02.609775530 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: labels-were-scanned
   where: github
-- _id: 40
-  _time: 2025-11-03 19:17:43.324273691 Z
+- _id: 20
+  _time: 2025-11-03 20:23:02.613337185 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 21
+  _time: 2025-11-03 20:23:02.616429184 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 22
+  _time: 2025-11-03 20:23:02.620106355 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
+- _id: 23
+  _time: 2025-11-03 20:23:02.623382979 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 24
+  _time: 2025-11-03 20:24:13.644083020 Z
   _version: 0.9.10/0.39.2/
   average_pull_rejection_rate: 0.075
-  since: 2025-10-06 19:16:36.588686415 Z
+  since: 2025-10-06 20:23:02.626241913 Z
   what: quality-of-service
-  when: 2025-11-03 19:16:36.588663493 Z
-- _id: 41
-  _time: 2025-11-03 19:18:59.522541728 Z
+  when: 2025-11-03 20:23:02.626217959 Z
+- _id: 25
+  _time: 2025-11-03 20:24:13.646020929 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-10-06 19:17:43.326265137 Z
-  total_commits_pushed: 346
-  total_hoc_committed: 9832
+  since: 2025-10-06 20:24:13.646130985 Z
   what: quantity-of-deliverables
-  when: 2025-11-03 19:17:43.326241703 Z
-- _id: 42
-  _time: 2025-11-03 19:18:59.529295507 Z
-  _version: 0.9.10/0.39.2/
-  name: yegor256
-  what: who-has-name
-  when: 2025-11-03 19:18:59.529736292 Z
-  where: github
-  who: 526301
-- _id: 43
-  _time: 2025-11-03 19:18:59.618852888 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2025-11-03 19:18:59.619055087 Z
-  where: github
-  who: 29139614
-- _id: 44
-  _time: 2025-11-03 19:18:59.713667029 Z
-  _version: 0.9.10/0.39.2/
-  name: rultor
-  what: who-has-name
-  when: 2025-11-03 19:18:59.713842557 Z
-  where: github
-  who: 8086956
+  when: 2025-11-03 20:24:13.646107391 Z
