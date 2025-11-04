@@ -2,14 +2,16 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '+' for nil
+  error:
+  - undefined method '+' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 271.863146084
+  seconds: 219.166411812
   version: 0.39.2
   what: judges-summary
-  when: 2025-11-04 18:33:32.315532789 Z
+  when: 2025-11-04 19:19:59.752761907 Z
 - _id: 1
-  _time: 2025-11-04 18:29:28.745907174 Z
+  _time: 2025-11-04 19:16:45.841480879 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6440
@@ -22,1139 +24,86 @@
   total_repositories: 11
   total_stars: 71
   what: dimensions-of-terrain
-  when: 2025-11-04 18:29:00.775312073 Z
+  when: 2025-11-04 19:16:20.921623927 Z
 - _id: 2
-  _time: 2025-11-04 18:29:28.775029808 Z
+  _time: 2025-11-04 19:16:45.880053285 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 3
+  _time: 2025-11-04 19:16:45.882567347 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
-- _id: 3
-  _time: 2025-11-04 18:29:28.803004490 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
 - _id: 4
-  _time: 2025-11-04 18:29:28.809033658 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-11-04 18:29:28.816778597 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-11-04 18:29:28.821678260 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-11-04 18:29:28.826244178 Z
+  _time: 2025-11-04 19:16:45.885139820 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
+- _id: 5
+  _time: 2025-11-04 19:16:45.887784538 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2025-11-04 19:16:45.890484961 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2025-11-04 19:16:45.893173332 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
 - _id: 8
-  _time: 2025-11-04 18:29:28.829806357 Z
+  _time: 2025-11-04 19:16:45.895902239 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-11-04 18:29:28.833232201 Z
+  _time: 2025-11-04 19:16:45.898665901 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1081929119
+  repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-11-04 18:29:28.836459954 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2025-11-04 18:29:28.839861933 Z
+  _time: 2025-11-04 19:16:45.901420536 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
-- _id: 12
-  _time: 2025-11-04 18:29:28.842892016 Z
+- _id: 11
+  _time: 2025-11-04 19:16:45.919901574 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 1081929119
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2025-11-04 19:16:45.925000321 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
   what: min-issue-was-found
   where: github
 - _id: 13
-  _time: 2025-11-04 18:29:29.378456102 Z
-  _version: 0.9.10/0.39.2/
-  commit: dd38c775b8c62e5eb25b19c4279141d3ed19ffc7
-  default_branch: master
-  details: 'A new Git push #27765963501 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5475266139
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27765963501
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 14:21:08.000000000 Z
-  where: github
-  who: 526301
-- _id: 14
-  _time: 2025-11-04 18:29:29.779023008 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/words#2 has been opened by @yegor256.
-  event_id: 4261094585
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 2
-  repository: 1081929119
-  what: issue-was-opened
-  when: 2025-10-26 07:22:23.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2025-11-04 18:29:29.786288971 Z
-  _version: 0.9.10/0.39.2/
-  commit: 20a4e4d29b1df03828e402b64c3337108e729e1e
-  default_branch: master
-  details: 'A new Git push #27760882450 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470251725
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760882450
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:35:01.000000000 Z
-  where: github
-  who: 526301
-- _id: 16
-  _time: 2025-11-04 18:29:30.023223520 Z
-  _version: 0.9.10/0.39.2/
-  commit: 5a01fe718136c88b0ebfbe36d473be5b28dc022a
-  default_branch: master
-  details: 'A new Git push #27760874569 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470243937
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760874569
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:33:55.000000000 Z
-  where: github
-  who: 526301
-- _id: 17
-  _time: 2025-11-04 18:29:30.249968370 Z
-  _version: 0.9.10/0.39.2/
-  commit: f02b2c81e231f4ed8bc3f214d4988ae2ca158304
-  default_branch: master
-  details: 'A new Git push #27760850869 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470220308
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760850869
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:30:53.000000000 Z
-  where: github
-  who: 526301
-- _id: 18
-  _time: 2025-11-04 18:29:30.488485276 Z
-  _version: 0.9.10/0.39.2/
-  commit: 55f00fef2e3244325bc28ad7c8973802c641c68d
-  default_branch: master
-  details: 'A new Git push #27760831125 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470200687
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760831125
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:28:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 19
-  _time: 2025-11-04 18:29:30.743141012 Z
-  _version: 0.9.10/0.39.2/
-  commit: 12ebea0c076d9cd1bca3f1a0d77dd0c0bddfefb8
-  default_branch: master
-  details: 'A new Git push #27760827982 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470197513
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760827982
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:28:20.000000000 Z
-  where: github
-  who: 526301
-- _id: 20
-  _time: 2025-11-04 18:29:31.105854369 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/configure
-  details: The pull request zerocracy/words#1 has been opened by @renovate[bot].
-  event_id: 4260687786
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 1
-  repository: 1081929119
-  what: pull-was-opened
-  when: 2025-10-26 05:25:50.000000000 Z
-  where: github
-  who: 29139614
-- _id: 21
-  _time: 2025-11-04 18:29:31.240907720 Z
-  _version: 0.9.10/0.39.2/
-  commit: d9cffb60cb8ab18de9db1d791c62b7c4f7c51446
-  default_branch: master
-  details: 'A new Git push #27760797213 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470166905
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760797213
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:25:18.000000000 Z
-  where: github
-  who: 526301
-- _id: 22
-  _time: 2025-11-04 18:29:31.445228671 Z
-  _version: 0.9.10/0.39.2/
-  commit: f29c663493fdacf3f58faa7ccddbb5f0d027922f
-  default_branch: master
-  details: 'A new Git push #27760785715 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5470155445
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27760785715
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-26 05:24:01.000000000 Z
-  where: github
-  who: 526301
-- _id: 23
-  _time: 2025-11-04 18:29:31.667241759 Z
-  _version: 0.9.10/0.39.2/
-  latest: 5475266139
-  repository: 1081929119
-  what: events-were-scanned
-  where: github
-- _id: 24
-  _time: 2025-11-04 18:29:32.345462032 Z
-  _version: 0.9.10/0.39.2/
-  commit: b82adb14979bee54e08dcc93c77c8283fa58f049
-  default_branch: master
-  details: 'A new Git push #27990173902 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5698478641
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27990173902
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-04 15:46:23.000000000 Z
-  where: github
-  who: 526301
-- _id: 25
-  _time: 2025-11-04 18:29:32.559414359 Z
-  _version: 0.9.10/0.39.2/
-  commit: 29600f7fc89fe1133331cd13506248dcb4a818fc
-  default_branch: master
-  details: 'A new Git push #27989988836 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5698295456
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27989988836
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-04 15:39:34.000000000 Z
-  where: github
-  who: 526301
-- _id: 26
-  _time: 2025-11-04 18:29:32.861257755 Z
-  _version: 0.9.10/0.39.2/
-  commit: ba65966223a1c9a99cf647dab3b484fc7278f429
-  default_branch: master
-  details: 'A new Git push #27988783821 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5697099486
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27988783821
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-04 14:56:30.000000000 Z
-  where: github
-  who: 526301
-- _id: 27
-  _time: 2025-11-04 18:29:33.032063065 Z
-  _version: 0.9.10/0.39.2/
-  commit: e528e6d3b4d81a15cd0615035f6da238ee4ac4cd
-  default_branch: master
-  details: 'A new Git push #27988424097 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5696740499
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27988424097
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-04 14:43:24.000000000 Z
-  where: github
-  who: 526301
-- _id: 28
-  _time: 2025-11-04 18:29:33.236424484 Z
-  _version: 0.9.10/0.39.2/
-  commit: 8ab539652084efd4834457c14d253ea77cda4c51
-  default_branch: master
-  details: 'A new Git push #27988320190 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5696639313
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27988320190
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-04 14:39:35.000000000 Z
-  where: github
-  who: 526301
-- _id: 29
-  _time: 2025-11-04 18:29:33.468517206 Z
-  _version: 0.9.10/0.39.2/
-  commit: 589a0f6b87645386daed8127c5945a0b9e404bda
-  default_branch: master
-  details: 'A new Git push #27988231127 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5696550889
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27988231127
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-04 14:36:24.000000000 Z
-  where: github
-  who: 526301
-- _id: 30
-  _time: 2025-11-04 18:29:33.958344105 Z
-  _version: 0.9.10/0.39.2/
-  commit: a5578d410464a3e27695315536184db43a3fe1ba
-  default_branch: master
-  details: 'A new Git push #27988209931 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5696529897
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27988209931
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-04 14:35:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 31
-  _time: 2025-11-04 18:29:34.606551226 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/brand-book#4 has been opened by @renovate[bot].
-  event_id: 4453995468
-  event_type: IssuesEvent
-  is_human: 0
-  issue: 4
-  repository: 1084843345
-  what: issue-was-opened
-  when: 2025-11-04 14:34:53.000000000 Z
-  where: github
-  who: 29139614
-- _id: 32
-  _time: 2025-11-04 18:29:34.619749926 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fsfe-reuse-action-6.x
-  details: The pull request zerocracy/brand-book#3 has been opened by @renovate[bot].
-  event_id: 4453994691
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 3
-  repository: 1084843345
-  what: pull-was-opened
-  when: 2025-11-04 14:34:51.000000000 Z
-  where: github
-  who: 29139614
-- _id: 33
-  _time: 2025-11-04 18:29:34.628592954 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request zerocracy/brand-book#2 has been opened by @renovate[bot].
-  event_id: 4453993438
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 2
-  repository: 1084843345
-  what: pull-was-opened
-  when: 2025-11-04 14:34:47.000000000 Z
-  where: github
-  who: 29139614
-- _id: 34
-  _time: 2025-11-04 18:29:34.948616115 Z
-  _version: 0.9.10/0.39.2/
-  commit: a83493f9b3c039c3d4e339a155b3ba782fad82e7
-  default_branch: master
-  details: 'A new Git push #27988041552 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5696362519
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27988041552
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-04 14:29:53.000000000 Z
-  where: github
-  who: 526301
-- _id: 35
-  _time: 2025-11-04 18:29:35.150410363 Z
-  _version: 0.9.10/0.39.2/
-  commit: 3fedea6ce160c7d33d144a45fe8d8a8ae0a566d6
-  default_branch: master
-  details: 'A new Git push #27938045666 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5646653291
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27938045666
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-02 15:14:26.000000000 Z
-  where: github
-  who: 526301
-- _id: 36
-  _time: 2025-11-04 18:29:35.397525059 Z
-  _version: 0.9.10/0.39.2/
-  commit: ad422d60e85af78457fa1a1946c7088329716e1e
-  default_branch: master
-  details: 'A new Git push #27897644982 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5606268985
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27897644982
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-31 08:50:54.000000000 Z
-  where: github
-  who: 526301
-- _id: 37
-  _time: 2025-11-04 18:29:35.616150306 Z
-  _version: 0.9.10/0.39.2/
-  commit: 84f11a1e8d8c0218fab2a3069b38a884e75d78bd
-  default_branch: master
-  details: 'A new Git push #27897339998 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5605965310
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27897339998
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-31 08:35:28.000000000 Z
-  where: github
-  who: 526301
-- _id: 38
-  _time: 2025-11-04 18:29:35.877602065 Z
-  _version: 0.9.10/0.39.2/
-  commit: 65d66d5260c74bb914bbbe2c361ef085c3b88b05
-  default_branch: master
-  details: 'A new Git push #27895306389 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5603938545
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27895306389
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-31 06:41:22.000000000 Z
-  where: github
-  who: 526301
-- _id: 39
-  _time: 2025-11-04 18:29:36.125569869 Z
-  _version: 0.9.10/0.39.2/
-  commit: 9c50f43d13de316b7fad08d3318d395fe3b7c443
-  default_branch: master
-  details: 'A new Git push #27894294015 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5602928476
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27894294015
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-31 05:32:18.000000000 Z
-  where: github
-  who: 526301
-- _id: 40
-  _time: 2025-11-04 18:29:36.318811244 Z
-  _version: 0.9.10/0.39.2/
-  commit: 5575a11c6da79042e8dd8c1d12cc4268f55dbfdc
-  default_branch: master
-  details: 'A new Git push #27893134121 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5601771603
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27893134121
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-31 04:03:04.000000000 Z
-  where: github
-  who: 526301
-- _id: 41
-  _time: 2025-11-04 18:29:36.579347396 Z
-  _version: 0.9.10/0.39.2/
-  commit: 663ea75bb4e87e9354c919dc0b60a1cc092c3bb7
-  default_branch: master
-  details: 'A new Git push #27880670263 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5589340844
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27880670263
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 15:55:11.000000000 Z
-  where: github
-  who: 526301
-- _id: 42
-  _time: 2025-11-04 18:29:36.792900043 Z
-  _version: 0.9.10/0.39.2/
-  commit: e52f1d3e16a868559e0495077cb358f00b63dd94
-  default_branch: master
-  details: 'A new Git push #27879788274 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5588460616
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27879788274
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 15:22:35.000000000 Z
-  where: github
-  who: 526301
-- _id: 43
-  _time: 2025-11-04 18:29:36.998954475 Z
-  _version: 0.9.10/0.39.2/
-  commit: 6f2540fbb91b3b88173c3e2392477ba584f0c2b7
-  default_branch: master
-  details: 'A new Git push #27879723985 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5588396472
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27879723985
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 15:20:15.000000000 Z
-  where: github
-  who: 526301
-- _id: 44
-  _time: 2025-11-04 18:29:37.220185860 Z
-  _version: 0.9.10/0.39.2/
-  commit: 3c80ef09c135379e71379b705e13b29942306877
-  default_branch: master
-  details: 'A new Git push #27878353280 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5587027882
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27878353280
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 14:32:14.000000000 Z
-  where: github
-  who: 526301
-- _id: 45
-  _time: 2025-11-04 18:29:37.459731536 Z
-  _version: 0.9.10/0.39.2/
-  commit: 375a545f3a72941a902713f6499ff09fd539685f
-  default_branch: master
-  details: 'A new Git push #27877105266 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5585781685
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27877105266
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 13:49:13.000000000 Z
-  where: github
-  who: 526301
-- _id: 46
-  _time: 2025-11-04 18:29:37.677403477 Z
-  _version: 0.9.10/0.39.2/
-  commit: a84180cd7ecfd11787bd16bb73cbffd5a71bd65c
-  default_branch: master
-  details: 'A new Git push #27876284484 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5584962786
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27876284484
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 13:19:47.000000000 Z
-  where: github
-  who: 526301
-- _id: 47
-  _time: 2025-11-04 18:29:37.973559338 Z
-  _version: 0.9.10/0.39.2/
-  commit: 367fb60b4a3283487d66c5556f0b256e76083dfd
-  default_branch: master
-  details: 'A new Git push #27874685202 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5583366692
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27874685202
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 12:20:45.000000000 Z
-  where: github
-  who: 526301
-- _id: 48
-  _time: 2025-11-04 18:29:38.215142636 Z
-  _version: 0.9.10/0.39.2/
-  commit: 7d3aac57563706cadda0ec0b65dc1239fd0cb60c
-  default_branch: master
-  details: 'A new Git push #27874579195 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5583260909
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27874579195
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 12:16:46.000000000 Z
-  where: github
-  who: 526301
-- _id: 49
-  _time: 2025-11-04 18:29:38.398649683 Z
-  _version: 0.9.10/0.39.2/
-  commit: dede1f8d4bcf4d079b52252d790d4eec2bae9e24
-  default_branch: master
-  details: 'A new Git push #27867990721 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5576694619
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27867990721
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 07:35:34.000000000 Z
-  where: github
-  who: 526301
-- _id: 50
-  _time: 2025-11-04 18:29:38.576002561 Z
-  _version: 0.9.10/0.39.2/
-  commit: 38c96f307f05995c12b8254d84cea01a24bba5ea
-  default_branch: master
-  details: 'A new Git push #27867936898 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5576641018
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27867936898
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 07:32:44.000000000 Z
-  where: github
-  who: 526301
-- _id: 51
-  _time: 2025-11-04 18:29:38.805635443 Z
-  _version: 0.9.10/0.39.2/
-  commit: f261ac66e4b070937700a46d0a9209562761918d
-  default_branch: master
-  details: 'A new Git push #27867905315 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5576609552
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27867905315
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 07:31:06.000000000 Z
-  where: github
-  who: 526301
-- _id: 52
-  _time: 2025-11-04 18:29:39.127921113 Z
-  _version: 0.9.10/0.39.2/
-  commit: d1a75e68c561d6b42bc7f4200daf4685f4bd45b4
-  default_branch: master
-  details: 'A new Git push #27867800871 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5576505673
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27867800871
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 07:25:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 53
-  _time: 2025-11-04 18:29:39.347900842 Z
-  _version: 0.9.10/0.39.2/
-  commit: 956e11bc60e19df11095ecbb5de0c000f04e6cdf
-  default_branch: master
-  details: 'A new Git push #27865912436 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5574625815
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27865912436
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 05:35:29.000000000 Z
-  where: github
-  who: 526301
-- _id: 54
-  _time: 2025-11-04 18:29:39.576871793 Z
-  _version: 0.9.10/0.39.2/
-  commit: 57a4d0d1482daed9f19bc602410d4b1bf753133e
-  default_branch: master
-  details: 'A new Git push #27865675810 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5574389958
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27865675810
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 05:20:04.000000000 Z
-  where: github
-  who: 526301
-- _id: 55
-  _time: 2025-11-04 18:29:39.820469589 Z
-  _version: 0.9.10/0.39.2/
-  commit: 6290d053d27032177b66aabcbe8a02fa43de9e08
-  default_branch: master
-  details: 'A new Git push #27865613665 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5574328079
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27865613665
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 05:15:40.000000000 Z
-  where: github
-  who: 526301
-- _id: 56
-  _time: 2025-11-04 18:29:40.038609689 Z
-  _version: 0.9.10/0.39.2/
-  commit: 6fb2111a85dcd5fba7ef018e9d7e835005fb79c4
-  default_branch: master
-  details: 'A new Git push #27864958360 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573676931
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864958360
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 04:27:33.000000000 Z
-  where: github
-  who: 526301
-- _id: 57
-  _time: 2025-11-04 18:29:40.256751828 Z
-  _version: 0.9.10/0.39.2/
-  commit: 481f90c9285a8bab8151c0ca95ce50212548ede0
-  default_branch: master
-  details: 'A new Git push #27864901965 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573621158
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864901965
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 04:23:09.000000000 Z
-  where: github
-  who: 526301
-- _id: 58
-  _time: 2025-11-04 18:29:40.524371969 Z
-  _version: 0.9.10/0.39.2/
-  commit: 61e13c00cb429fb45038ea316f08916d0c5bb424
-  default_branch: master
-  details: 'A new Git push #27864832624 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573552282
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864832624
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 04:17:50.000000000 Z
-  where: github
-  who: 526301
-- _id: 59
-  _time: 2025-11-04 18:29:40.730239501 Z
-  _version: 0.9.10/0.39.2/
-  commit: 610f31f825b61f5451d051fea040b85f83afff43
-  default_branch: master
-  details: 'A new Git push #27864824331 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573544012
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864824331
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 04:17:12.000000000 Z
-  where: github
-  who: 526301
-- _id: 60
-  _time: 2025-11-04 18:29:40.907728401 Z
-  _version: 0.9.10/0.39.2/
-  commit: 85df198b5fcf146d9e4f09e3e034c8ed1d6de3bf
-  default_branch: master
-  details: 'A new Git push #27864710491 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573431040
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864710491
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 04:08:40.000000000 Z
-  where: github
-  who: 526301
-- _id: 61
-  _time: 2025-11-04 18:29:41.121085126 Z
-  _version: 0.9.10/0.39.2/
-  commit: d89837d6d6e35aa92e8bceb789355d52e00b33b1
-  default_branch: master
-  details: 'A new Git push #27864617927 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573339085
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864617927
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 04:02:04.000000000 Z
-  where: github
-  who: 526301
-- _id: 62
-  _time: 2025-11-04 18:29:41.325686967 Z
-  _version: 0.9.10/0.39.2/
-  commit: d6a217fb0c6326bf07bb2dc8ded29c21797400df
-  default_branch: master
-  details: 'A new Git push #27864606307 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573327586
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864606307
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 04:01:25.000000000 Z
-  where: github
-  who: 526301
-- _id: 63
-  _time: 2025-11-04 18:29:41.569973459 Z
-  _version: 0.9.10/0.39.2/
-  commit: 14555297a510cd5735e58176024f3e67fbc1d9c2
-  default_branch: master
-  details: 'A new Git push #27864497318 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573219384
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864497318
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 03:53:59.000000000 Z
-  where: github
-  who: 526301
-- _id: 64
-  _time: 2025-11-04 18:29:41.748685325 Z
-  _version: 0.9.10/0.39.2/
-  commit: 76d1f1d454019e5c53c75913106c15e756b88f5b
-  default_branch: master
-  details: 'A new Git push #27864487679 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573209850
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864487679
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 03:53:12.000000000 Z
-  where: github
-  who: 526301
-- _id: 65
-  _time: 2025-11-04 18:29:41.961447157 Z
-  _version: 0.9.10/0.39.2/
-  commit: b58026d0cd6bdee92668381163172f0e8e42098c
-  default_branch: master
-  details: 'A new Git push #27864442716 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5573165370
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27864442716
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-30 03:49:40.000000000 Z
-  where: github
-  who: 526301
-- _id: 66
-  _time: 2025-11-04 18:29:42.175466670 Z
-  _version: 0.9.10/0.39.2/
-  commit: b6aa6542f0a5e63d348a4d98bf89be0f741d8499
-  default_branch: master
-  details: 'A new Git push #27855765649 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5564563899
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27855765649
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-29 18:38:01.000000000 Z
-  where: github
-  who: 526301
-- _id: 67
-  _time: 2025-11-04 18:29:42.425438967 Z
-  _version: 0.9.10/0.39.2/
-  commit: fa4187eca8bd54cdefeab8b2e1858dc90d415545
-  default_branch: master
-  details: 'A new Git push #27855444053 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5564243484
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27855444053
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-29 18:23:09.000000000 Z
-  where: github
-  who: 526301
-- _id: 68
-  _time: 2025-11-04 18:29:42.615692118 Z
-  _version: 0.9.10/0.39.2/
-  commit: 0e65df1ed7fa158981761aaae3be137a7f11ab7d
-  default_branch: master
-  details: 'A new Git push #27855436824 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5564236308
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27855436824
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-29 18:22:48.000000000 Z
-  where: github
-  who: 526301
-- _id: 69
-  _time: 2025-11-04 18:29:42.823870444 Z
-  _version: 0.9.10/0.39.2/
-  commit: 945daa890de8d2b236a17daaec00dde24fab1dac
-  default_branch: master
-  details: 'A new Git push #27855187040 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5563980332
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27855187040
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-29 18:11:13.000000000 Z
-  where: github
-  who: 526301
-- _id: 70
-  _time: 2025-11-04 18:29:43.059863354 Z
-  _version: 0.9.10/0.39.2/
-  commit: 2337d6e3c51f8d7fc908f1dff20a34a82af141a0
-  default_branch: master
-  details: 'A new Git push #27854423419 has arrived to zerocracy/brand-book, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 5563219839
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27854423419
-  ref: refs/heads/master
-  repository: 1084843345
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-29 17:36:03.000000000 Z
-  where: github
-  who: 526301
-- _id: 71
-  _time: 2025-11-04 18:29:43.253079786 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/configure
-  details: The pull request zerocracy/brand-book#1 has been opened by @renovate[bot].
-  event_id: 4340565101
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 1
-  repository: 1084843345
-  what: pull-was-opened
-  when: 2025-10-29 17:13:52.000000000 Z
-  where: github
-  who: 29139614
-- _id: 72
-  _time: 2025-11-04 18:29:43.277990796 Z
-  _version: 0.9.10/0.39.2/
-  latest: 5698592803
-  repository: 1084843345
-  what: events-were-scanned
-  where: github
-- _id: 73
-  _time: 2025-11-04 18:29:43.844550979 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/fsfe-reuse-action-6.x
-  details: The pull request zerocracy/zerocracy-mcp-server#21 has been opened by @renovate[bot].
-  event_id: 3879991873
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 21
-  repository: 974194993
-  what: pull-was-opened
-  when: 2025-10-06 18:40:29.000000000 Z
-  where: github
-  who: 29139614
-- _id: 74
-  _time: 2025-11-04 18:29:43.855495712 Z
-  _version: 0.9.10/0.39.2/
-  latest: 5678484517
-  repository: 974194993
-  what: events-were-scanned
-  where: github
-- _id: 75
-  _time: 2025-11-04 18:29:46.729047577 Z
+  _time: 2025-11-04 19:16:48.853413826 Z
   _version: 0.9.10/0.39.2/
   commit: 39c5cad10959cac7024e5483c8fb86104fe209f5
   default_branch: master
@@ -1171,8 +120,8 @@
   when: 2025-11-03 07:09:31.000000000 Z
   where: github
   who: 526301
-- _id: 76
-  _time: 2025-11-04 18:29:47.108755263 Z
+- _id: 14
+  _time: 2025-11-04 19:16:49.341509244 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/fbe#349 has been closed by @yegor256.
   event_id: 4407708602
@@ -1184,8 +133,8 @@
   when: 2025-11-02 04:15:36.000000000 Z
   where: github
   who: 526301
-- _id: 77
-  _time: 2025-11-04 18:29:47.243652983 Z
+- _id: 15
+  _time: 2025-11-04 19:16:49.462246234 Z
   _version: 0.9.10/0.39.2/
   commits: 794
   contributors:
@@ -1209,129 +158,109 @@
   when: 2025-11-02 04:01:35.000000000 Z
   where: github
   who: 8086956
-- _id: 78
-  _time: 2025-11-04 18:29:58.688403255 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 79
-  _time: 2025-11-04 18:29:58.695226165 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 81
-  _time: 2025-11-04 18:29:59.067888152 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/words#2.
-  issue: 2
-  label: bug
-  repository: 1081929119
-  what: label-was-attached
-  when: 2025-10-26 07:22:28.000000000 Z
-  where: github
-  who: 526301
-- _id: 83
-  _time: 2025-11-04 18:29:59.074165661 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 84
-  _time: 2025-11-04 18:29:59.078371313 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 85
-  _time: 2025-11-04 18:29:59.082951335 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 86
-  _time: 2025-11-04 18:29:59.087340951 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 87
-  _time: 2025-11-04 18:29:59.091846814 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 88
-  _time: 2025-11-04 18:29:59.096636108 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 89
-  _time: 2025-11-04 18:29:59.100937068 Z
+- _id: 16
+  _time: 2025-11-04 19:16:59.525905271 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 90
-  _time: 2025-11-04 18:29:59.108230007 Z
+- _id: 17
+  _time: 2025-11-04 19:16:59.529323015 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1084843345
+  repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 91
-  _time: 2025-11-04 18:29:59.114314055 Z
+- _id: 18
+  _time: 2025-11-04 19:16:59.532301842 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 19
+  _time: 2025-11-04 19:16:59.535696913 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 20
+  _time: 2025-11-04 19:16:59.539128213 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: labels-were-scanned
   where: github
-- _id: 92
-  _time: 2025-11-04 18:30:34.443986049 Z
+- _id: 21
+  _time: 2025-11-04 19:16:59.542476255 Z
   _version: 0.9.10/0.39.2/
-  average_pull_rejection_rate: 0.07741935483870968
-  since: 2025-10-07 18:29:59.117223420 Z
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 22
+  _time: 2025-11-04 19:16:59.546146094 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 23
+  _time: 2025-11-04 19:16:59.549293609 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 24
+  _time: 2025-11-04 19:16:59.552744154 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 25
+  _time: 2025-11-04 19:16:59.556340033 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
+- _id: 26
+  _time: 2025-11-04 19:16:59.559768006 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 27
+  _time: 2025-11-04 19:16:59.935208630 Z
+  _version: 0.9.10/0.39.2/
+  average_release_interval: 147640.6875
+  since: 2025-10-07 19:16:59.562773885 Z
   what: quality-of-service
-  when: 2025-11-04 18:29:59.117197542 Z
-- _id: 93
-  _time: 2025-11-04 18:33:31.983290523 Z
+  when: 2025-11-04 19:16:59.562749158 Z
+- _id: 28
+  _time: 2025-11-04 19:19:59.562894850 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-10-07 18:30:34.445794574 Z
-  total_builds_ran: 9259
+  since: 2025-10-07 19:19:59.563024834 Z
   what: quantity-of-deliverables
-  when: 2025-11-04 18:30:34.445769507 Z
-- _id: 94
-  _time: 2025-11-04 18:33:31.988820337 Z
+  when: 2025-11-04 19:19:59.563000028 Z
+- _id: 29
+  _time: 2025-11-04 19:19:59.565504572 Z
   _version: 0.9.10/0.39.2/
   name: yegor256
   what: who-has-name
-  when: 2025-11-04 18:33:31.988974486 Z
+  when: 2025-11-04 19:19:59.565654454 Z
   where: github
   who: 526301
-- _id: 95
-  _time: 2025-11-04 18:33:32.114882892 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2025-11-04 18:33:32.115024847 Z
-  where: github
-  who: 29139614
-- _id: 96
-  _time: 2025-11-04 18:33:32.204423192 Z
+- _id: 30
+  _time: 2025-11-04 19:19:59.659906540 Z
   _version: 0.9.10/0.39.2/
   name: rultor
   what: who-has-name
-  when: 2025-11-04 18:33:32.204563274 Z
+  when: 2025-11-04 19:19:59.660066501 Z
   where: github
   who: 8086956

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fb version="0.9.6" size="31482">
+<fb version="0.9.6" size="5220">
   <f>
     <added t="I">8</added>
     <cycles t="I">1</cycles>
     <deleted t="I">8</deleted>
-    <error t="S">undefined method '+' for nil</error>
+    <error>
+      <v t="S">undefined method '+' for nil</v>
+      <v t="S">Judge quality-of-service stopped by timeout after 3m0s: execution expired</v>
+    </error>
     <inserted t="I">8</inserted>
-    <seconds t="F">271.863146084</seconds>
+    <seconds t="F">219.166411812</seconds>
     <version t="S">0.39.2</version>
     <what t="S">judges-summary</what>
-    <when t="T">2025-11-04T18:33:32Z</when>
+    <when t="T">2025-11-04T19:19:59Z</when>
   </f>
   <f>
     <_id t="I">1</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <total_active_contributors t="I">7</total_active_contributors>
     <total_commits t="I">6440</total_commits>
@@ -26,11 +29,20 @@
     <total_repositories t="I">11</total_repositories>
     <total_stars t="I">71</total_stars>
     <what t="S">dimensions-of-terrain</what>
-    <when t="T">2025-11-04T18:29:00Z</when>
+    <when t="T">2025-11-04T19:16:20Z</when>
   </f>
   <f>
     <_id t="I">2</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799113787</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">3</_id>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">798641472</repository>
@@ -38,44 +50,8 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">3</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">820463873</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
     <_id t="I">4</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">974194993</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">5</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">6</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">849726475</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">7</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">802720676</repository>
@@ -83,8 +59,35 @@
     <where t="S">github</where>
   </f>
   <f>
+    <_id t="I">5</_id>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">820463873</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">6</_id>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">974194993</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">7</_id>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799177290</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
     <_id t="I">8</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">840215648</repository>
@@ -93,25 +96,16 @@
   </f>
   <f>
     <_id t="I">9</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">1081929119</repository>
+    <repository t="I">849726475</repository>
     <what t="S">min-issue-was-found</what>
     <where t="S">github</where>
   </f>
   <f>
     <_id t="I">10</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">1084843345</repository>
-    <what t="S">min-issue-was-found</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">11</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">1077707334</repository>
@@ -119,1142 +113,26 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">12</_id>
-    <_time t="T">2025-11-04T18:29:28Z</_time>
+    <_id t="I">11</_id>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">799113787</repository>
+    <repository t="I">1081929119</repository>
+    <what t="S">min-issue-was-found</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">12</_id>
+    <_time t="T">2025-11-04T19:16:45Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">1084843345</repository>
     <what t="S">min-issue-was-found</what>
     <where t="S">github</where>
   </f>
   <f>
     <_id t="I">13</_id>
-    <_time t="T">2025-11-04T18:29:29Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">dd38c775b8c62e5eb25b19c4279141d3ed19ffc7</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27765963501 has arrived to zerocracy/words, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5475266139</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27765963501</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1081929119</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-26T14:21:08Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">14</_id>
-    <_time t="T">2025-11-04T18:29:29Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/words#2 has been opened by @yegor256.</details>
-    <event_id t="I">4261094585</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">1</is_human>
-    <issue t="I">2</issue>
-    <repository t="I">1081929119</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-10-26T07:22:23Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">15</_id>
-    <_time t="T">2025-11-04T18:29:29Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">20a4e4d29b1df03828e402b64c3337108e729e1e</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27760882450 has arrived to zerocracy/words, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5470251725</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27760882450</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1081929119</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-26T05:35:01Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">16</_id>
-    <_time t="T">2025-11-04T18:29:30Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">5a01fe718136c88b0ebfbe36d473be5b28dc022a</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27760874569 has arrived to zerocracy/words, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5470243937</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27760874569</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1081929119</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-26T05:33:55Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">17</_id>
-    <_time t="T">2025-11-04T18:29:30Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">f02b2c81e231f4ed8bc3f214d4988ae2ca158304</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27760850869 has arrived to zerocracy/words, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5470220308</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27760850869</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1081929119</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-26T05:30:53Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">18</_id>
-    <_time t="T">2025-11-04T18:29:30Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">55f00fef2e3244325bc28ad7c8973802c641c68d</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27760831125 has arrived to zerocracy/words, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5470200687</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27760831125</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1081929119</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-26T05:28:38Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">19</_id>
-    <_time t="T">2025-11-04T18:29:30Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">12ebea0c076d9cd1bca3f1a0d77dd0c0bddfefb8</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27760827982 has arrived to zerocracy/words, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5470197513</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27760827982</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1081929119</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-26T05:28:20Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">20</_id>
-    <_time t="T">2025-11-04T18:29:31Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/configure</branch>
-    <details t="S">The pull request zerocracy/words#1 has been opened by @renovate[bot].</details>
-    <event_id t="I">4260687786</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">1</issue>
-    <repository t="I">1081929119</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-10-26T05:25:50Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">21</_id>
-    <_time t="T">2025-11-04T18:29:31Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">d9cffb60cb8ab18de9db1d791c62b7c4f7c51446</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27760797213 has arrived to zerocracy/words, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5470166905</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27760797213</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1081929119</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-26T05:25:18Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">22</_id>
-    <_time t="T">2025-11-04T18:29:31Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">f29c663493fdacf3f58faa7ccddbb5f0d027922f</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27760785715 has arrived to zerocracy/words, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5470155445</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27760785715</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1081929119</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-26T05:24:01Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">23</_id>
-    <_time t="T">2025-11-04T18:29:31Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">5475266139</latest>
-    <repository t="I">1081929119</repository>
-    <what t="S">events-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">24</_id>
-    <_time t="T">2025-11-04T18:29:32Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">b82adb14979bee54e08dcc93c77c8283fa58f049</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27990173902 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5698478641</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27990173902</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-04T15:46:23Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">25</_id>
-    <_time t="T">2025-11-04T18:29:32Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">29600f7fc89fe1133331cd13506248dcb4a818fc</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27989988836 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5698295456</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27989988836</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-04T15:39:34Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">26</_id>
-    <_time t="T">2025-11-04T18:29:32Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">ba65966223a1c9a99cf647dab3b484fc7278f429</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27988783821 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5697099486</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27988783821</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-04T14:56:30Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">27</_id>
-    <_time t="T">2025-11-04T18:29:33Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">e528e6d3b4d81a15cd0615035f6da238ee4ac4cd</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27988424097 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5696740499</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27988424097</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-04T14:43:24Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">28</_id>
-    <_time t="T">2025-11-04T18:29:33Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">8ab539652084efd4834457c14d253ea77cda4c51</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27988320190 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5696639313</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27988320190</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-04T14:39:35Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">29</_id>
-    <_time t="T">2025-11-04T18:29:33Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">589a0f6b87645386daed8127c5945a0b9e404bda</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27988231127 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5696550889</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27988231127</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-04T14:36:24Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">30</_id>
-    <_time t="T">2025-11-04T18:29:33Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">a5578d410464a3e27695315536184db43a3fe1ba</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27988209931 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5696529897</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27988209931</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-04T14:35:38Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">31</_id>
-    <_time t="T">2025-11-04T18:29:34Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The issue zerocracy/brand-book#4 has been opened by @renovate[bot].</details>
-    <event_id t="I">4453995468</event_id>
-    <event_type t="S">IssuesEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">4</issue>
-    <repository t="I">1084843345</repository>
-    <what t="S">issue-was-opened</what>
-    <when t="T">2025-11-04T14:34:53Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">32</_id>
-    <_time t="T">2025-11-04T18:29:34Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fsfe-reuse-action-6.x</branch>
-    <details t="S">The pull request zerocracy/brand-book#3 has been opened by @renovate[bot].</details>
-    <event_id t="I">4453994691</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">3</issue>
-    <repository t="I">1084843345</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-11-04T14:34:51Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">33</_id>
-    <_time t="T">2025-11-04T18:29:34Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/crate-ci-typos-1.x</branch>
-    <details t="S">The pull request zerocracy/brand-book#2 has been opened by @renovate[bot].</details>
-    <event_id t="I">4453993438</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">2</issue>
-    <repository t="I">1084843345</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-11-04T14:34:47Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">34</_id>
-    <_time t="T">2025-11-04T18:29:34Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">a83493f9b3c039c3d4e339a155b3ba782fad82e7</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27988041552 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5696362519</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27988041552</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-04T14:29:53Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">35</_id>
-    <_time t="T">2025-11-04T18:29:35Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">3fedea6ce160c7d33d144a45fe8d8a8ae0a566d6</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27938045666 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5646653291</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27938045666</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-11-02T15:14:26Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">36</_id>
-    <_time t="T">2025-11-04T18:29:35Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">ad422d60e85af78457fa1a1946c7088329716e1e</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27897644982 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5606268985</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27897644982</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-31T08:50:54Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">37</_id>
-    <_time t="T">2025-11-04T18:29:35Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">84f11a1e8d8c0218fab2a3069b38a884e75d78bd</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27897339998 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5605965310</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27897339998</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-31T08:35:28Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">38</_id>
-    <_time t="T">2025-11-04T18:29:35Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">65d66d5260c74bb914bbbe2c361ef085c3b88b05</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27895306389 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5603938545</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27895306389</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-31T06:41:22Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">39</_id>
-    <_time t="T">2025-11-04T18:29:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">9c50f43d13de316b7fad08d3318d395fe3b7c443</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27894294015 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5602928476</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27894294015</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-31T05:32:18Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">40</_id>
-    <_time t="T">2025-11-04T18:29:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">5575a11c6da79042e8dd8c1d12cc4268f55dbfdc</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27893134121 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5601771603</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27893134121</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-31T04:03:04Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">41</_id>
-    <_time t="T">2025-11-04T18:29:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">663ea75bb4e87e9354c919dc0b60a1cc092c3bb7</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27880670263 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5589340844</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27880670263</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T15:55:11Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">42</_id>
-    <_time t="T">2025-11-04T18:29:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">e52f1d3e16a868559e0495077cb358f00b63dd94</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27879788274 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5588460616</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27879788274</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T15:22:35Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">43</_id>
-    <_time t="T">2025-11-04T18:29:36Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">6f2540fbb91b3b88173c3e2392477ba584f0c2b7</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27879723985 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5588396472</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27879723985</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T15:20:15Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">44</_id>
-    <_time t="T">2025-11-04T18:29:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">3c80ef09c135379e71379b705e13b29942306877</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27878353280 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5587027882</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27878353280</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T14:32:14Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">45</_id>
-    <_time t="T">2025-11-04T18:29:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">375a545f3a72941a902713f6499ff09fd539685f</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27877105266 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5585781685</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27877105266</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T13:49:13Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">46</_id>
-    <_time t="T">2025-11-04T18:29:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">a84180cd7ecfd11787bd16bb73cbffd5a71bd65c</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27876284484 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5584962786</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27876284484</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T13:19:47Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">47</_id>
-    <_time t="T">2025-11-04T18:29:37Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">367fb60b4a3283487d66c5556f0b256e76083dfd</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27874685202 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5583366692</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27874685202</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T12:20:45Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">48</_id>
-    <_time t="T">2025-11-04T18:29:38Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">7d3aac57563706cadda0ec0b65dc1239fd0cb60c</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27874579195 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5583260909</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27874579195</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T12:16:46Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">49</_id>
-    <_time t="T">2025-11-04T18:29:38Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">dede1f8d4bcf4d079b52252d790d4eec2bae9e24</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27867990721 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5576694619</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27867990721</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T07:35:34Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">50</_id>
-    <_time t="T">2025-11-04T18:29:38Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">38c96f307f05995c12b8254d84cea01a24bba5ea</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27867936898 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5576641018</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27867936898</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T07:32:44Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">51</_id>
-    <_time t="T">2025-11-04T18:29:38Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">f261ac66e4b070937700a46d0a9209562761918d</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27867905315 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5576609552</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27867905315</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T07:31:06Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">52</_id>
-    <_time t="T">2025-11-04T18:29:39Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">d1a75e68c561d6b42bc7f4200daf4685f4bd45b4</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27867800871 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5576505673</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27867800871</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T07:25:38Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">53</_id>
-    <_time t="T">2025-11-04T18:29:39Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">956e11bc60e19df11095ecbb5de0c000f04e6cdf</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27865912436 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5574625815</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27865912436</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T05:35:29Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">54</_id>
-    <_time t="T">2025-11-04T18:29:39Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">57a4d0d1482daed9f19bc602410d4b1bf753133e</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27865675810 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5574389958</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27865675810</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T05:20:04Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">55</_id>
-    <_time t="T">2025-11-04T18:29:39Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">6290d053d27032177b66aabcbe8a02fa43de9e08</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27865613665 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5574328079</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27865613665</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T05:15:40Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">56</_id>
-    <_time t="T">2025-11-04T18:29:40Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">6fb2111a85dcd5fba7ef018e9d7e835005fb79c4</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864958360 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573676931</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864958360</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T04:27:33Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">57</_id>
-    <_time t="T">2025-11-04T18:29:40Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">481f90c9285a8bab8151c0ca95ce50212548ede0</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864901965 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573621158</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864901965</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T04:23:09Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">58</_id>
-    <_time t="T">2025-11-04T18:29:40Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">61e13c00cb429fb45038ea316f08916d0c5bb424</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864832624 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573552282</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864832624</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T04:17:50Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">59</_id>
-    <_time t="T">2025-11-04T18:29:40Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">610f31f825b61f5451d051fea040b85f83afff43</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864824331 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573544012</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864824331</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T04:17:12Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">60</_id>
-    <_time t="T">2025-11-04T18:29:40Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">85df198b5fcf146d9e4f09e3e034c8ed1d6de3bf</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864710491 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573431040</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864710491</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T04:08:40Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">61</_id>
-    <_time t="T">2025-11-04T18:29:41Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">d89837d6d6e35aa92e8bceb789355d52e00b33b1</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864617927 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573339085</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864617927</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T04:02:04Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">62</_id>
-    <_time t="T">2025-11-04T18:29:41Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">d6a217fb0c6326bf07bb2dc8ded29c21797400df</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864606307 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573327586</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864606307</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T04:01:25Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">63</_id>
-    <_time t="T">2025-11-04T18:29:41Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">14555297a510cd5735e58176024f3e67fbc1d9c2</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864497318 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573219384</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864497318</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T03:53:59Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">64</_id>
-    <_time t="T">2025-11-04T18:29:41Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">76d1f1d454019e5c53c75913106c15e756b88f5b</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864487679 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573209850</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864487679</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T03:53:12Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">65</_id>
-    <_time t="T">2025-11-04T18:29:41Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">b58026d0cd6bdee92668381163172f0e8e42098c</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27864442716 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5573165370</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27864442716</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-30T03:49:40Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">66</_id>
-    <_time t="T">2025-11-04T18:29:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">b6aa6542f0a5e63d348a4d98bf89be0f741d8499</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27855765649 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5564563899</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27855765649</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-29T18:38:01Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">67</_id>
-    <_time t="T">2025-11-04T18:29:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">fa4187eca8bd54cdefeab8b2e1858dc90d415545</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27855444053 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5564243484</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27855444053</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-29T18:23:09Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">68</_id>
-    <_time t="T">2025-11-04T18:29:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">0e65df1ed7fa158981761aaae3be137a7f11ab7d</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27855436824 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5564236308</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27855436824</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-29T18:22:48Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">69</_id>
-    <_time t="T">2025-11-04T18:29:42Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">945daa890de8d2b236a17daaec00dde24fab1dac</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27855187040 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5563980332</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27855187040</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-29T18:11:13Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">70</_id>
-    <_time t="T">2025-11-04T18:29:43Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <commit t="S">2337d6e3c51f8d7fc908f1dff20a34a82af141a0</commit>
-    <default_branch t="S">master</default_branch>
-    <details t="S">A new Git push #27854423419 has arrived to zerocracy/brand-book, made by @yegor256 (default branch is 'master'), not associated with any pull request.</details>
-    <event_id t="I">5563219839</event_id>
-    <event_type t="S">PushEvent</event_type>
-    <is_human t="I">1</is_human>
-    <push_id t="I">27854423419</push_id>
-    <ref t="S">refs/heads/master</ref>
-    <repository t="I">1084843345</repository>
-    <to_master t="I">1</to_master>
-    <what t="S">git-was-pushed</what>
-    <when t="T">2025-10-29T17:36:03Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">71</_id>
-    <_time t="T">2025-11-04T18:29:43Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/configure</branch>
-    <details t="S">The pull request zerocracy/brand-book#1 has been opened by @renovate[bot].</details>
-    <event_id t="I">4340565101</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">1</issue>
-    <repository t="I">1084843345</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-10-29T17:13:52Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">72</_id>
-    <_time t="T">2025-11-04T18:29:43Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">5698592803</latest>
-    <repository t="I">1084843345</repository>
-    <what t="S">events-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">73</_id>
-    <_time t="T">2025-11-04T18:29:43Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <branch t="S">renovate/fsfe-reuse-action-6.x</branch>
-    <details t="S">The pull request zerocracy/zerocracy-mcp-server#21 has been opened by @renovate[bot].</details>
-    <event_id t="I">3879991873</event_id>
-    <event_type t="S">PullRequestEvent</event_type>
-    <is_human t="I">0</is_human>
-    <issue t="I">21</issue>
-    <repository t="I">974194993</repository>
-    <what t="S">pull-was-opened</what>
-    <when t="T">2025-10-06T18:40:29Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">74</_id>
-    <_time t="T">2025-11-04T18:29:43Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">5678484517</latest>
-    <repository t="I">974194993</repository>
-    <what t="S">events-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">75</_id>
-    <_time t="T">2025-11-04T18:29:46Z</_time>
+    <_time t="T">2025-11-04T19:16:48Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commit t="S">39c5cad10959cac7024e5483c8fb86104fe209f5</commit>
     <default_branch t="S">master</default_branch>
@@ -1272,8 +150,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">76</_id>
-    <_time t="T">2025-11-04T18:29:47Z</_time>
+    <_id t="I">14</_id>
+    <_time t="T">2025-11-04T19:16:49Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <details t="S">The issue zerocracy/fbe#349 has been closed by @yegor256.</details>
     <event_id t="I">4407708602</event_id>
@@ -1287,8 +165,8 @@
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">77</_id>
-    <_time t="T">2025-11-04T18:29:47Z</_time>
+    <_id t="I">15</_id>
+    <_time t="T">2025-11-04T19:16:49Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <commits t="I">794</commits>
     <contributors>
@@ -1314,93 +192,8 @@
     <who t="I">8086956</who>
   </f>
   <f>
-    <_id t="I">78</_id>
-    <_time t="T">2025-11-04T18:29:58Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">974194993</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">79</_id>
-    <_time t="T">2025-11-04T18:29:58Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">1077707334</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">81</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <details t="S">The '#bug' label was attached by @yegor256 to the issue zerocracy/words#2.</details>
-    <issue t="I">2</issue>
-    <label t="S">bug</label>
-    <repository t="I">1081929119</repository>
-    <what t="S">label-was-attached</what>
-    <when t="T">2025-10-26T07:22:28Z</when>
-    <where t="S">github</where>
-    <who t="I">526301</who>
-  </f>
-  <f>
-    <_id t="I">83</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">799177290</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">84</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">849726475</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">85</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">798641472</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">86</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">802720676</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">87</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">820463873</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">88</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <latest t="I">0</latest>
-    <repository t="I">840215648</repository>
-    <what t="S">labels-were-scanned</what>
-    <where t="S">github</where>
-  </f>
-  <f>
-    <_id t="I">89</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
+    <_id t="I">16</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">799113787</repository>
@@ -1408,17 +201,35 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">90</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
+    <_id t="I">17</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
-    <repository t="I">1084843345</repository>
+    <repository t="I">974194993</repository>
     <what t="S">labels-were-scanned</what>
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">91</_id>
-    <_time t="T">2025-11-04T18:29:59Z</_time>
+    <_id t="I">18</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">798641472</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">19</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">802720676</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">20</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <latest t="I">0</latest>
     <repository t="I">1081929119</repository>
@@ -1426,50 +237,93 @@
     <where t="S">github</where>
   </f>
   <f>
-    <_id t="I">92</_id>
-    <_time t="T">2025-11-04T18:30:34Z</_time>
+    <_id t="I">21</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <average_pull_rejection_rate t="F">0.07741935483870968</average_pull_rejection_rate>
-    <since t="T">2025-10-07T18:29:59Z</since>
+    <latest t="I">0</latest>
+    <repository t="I">849726475</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">22</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">840215648</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">23</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">799177290</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">24</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">1084843345</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">25</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">1077707334</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">26</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <latest t="I">0</latest>
+    <repository t="I">820463873</repository>
+    <what t="S">labels-were-scanned</what>
+    <where t="S">github</where>
+  </f>
+  <f>
+    <_id t="I">27</_id>
+    <_time t="T">2025-11-04T19:16:59Z</_time>
+    <_version t="S">0.9.10/0.39.2/</_version>
+    <average_release_interval t="F">147640.6875</average_release_interval>
+    <since t="T">2025-10-07T19:16:59Z</since>
     <what t="S">quality-of-service</what>
-    <when t="T">2025-11-04T18:29:59Z</when>
+    <when t="T">2025-11-04T19:16:59Z</when>
   </f>
   <f>
-    <_id t="I">93</_id>
-    <_time t="T">2025-11-04T18:33:31Z</_time>
+    <_id t="I">28</_id>
+    <_time t="T">2025-11-04T19:19:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
-    <since t="T">2025-10-07T18:30:34Z</since>
-    <total_builds_ran t="I">9259</total_builds_ran>
+    <since t="T">2025-10-07T19:19:59Z</since>
     <what t="S">quantity-of-deliverables</what>
-    <when t="T">2025-11-04T18:30:34Z</when>
+    <when t="T">2025-11-04T19:19:59Z</when>
   </f>
   <f>
-    <_id t="I">94</_id>
-    <_time t="T">2025-11-04T18:33:31Z</_time>
+    <_id t="I">29</_id>
+    <_time t="T">2025-11-04T19:19:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <name t="S">yegor256</name>
     <what t="S">who-has-name</what>
-    <when t="T">2025-11-04T18:33:31Z</when>
+    <when t="T">2025-11-04T19:19:59Z</when>
     <where t="S">github</where>
     <who t="I">526301</who>
   </f>
   <f>
-    <_id t="I">95</_id>
-    <_time t="T">2025-11-04T18:33:32Z</_time>
-    <_version t="S">0.9.10/0.39.2/</_version>
-    <name t="S">renovate[bot]</name>
-    <what t="S">who-has-name</what>
-    <when t="T">2025-11-04T18:33:32Z</when>
-    <where t="S">github</where>
-    <who t="I">29139614</who>
-  </f>
-  <f>
-    <_id t="I">96</_id>
-    <_time t="T">2025-11-04T18:33:32Z</_time>
+    <_id t="I">30</_id>
+    <_time t="T">2025-11-04T19:19:59Z</_time>
     <_version t="S">0.9.10/0.39.2/</_version>
     <name t="S">rultor</name>
     <what t="S">who-has-name</what>
-    <when t="T">2025-11-04T18:33:32Z</when>
+    <when t="T">2025-11-04T19:19:59Z</when>
     <where t="S">github</where>
     <who t="I">8086956</who>
   </f>
