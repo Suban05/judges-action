@@ -2,14 +2,16 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '+' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 254.005906472
+  seconds: 212.532247844
   version: 0.39.2
   what: judges-summary
-  when: 2025-11-06 18:34:09.406767446 Z
+  when: 2025-11-06 19:19:49.036633797 Z
 - _id: 1
-  _time: 2025-11-06 18:30:24.473445076 Z
+  _time: 2025-11-06 19:16:45.478982461 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6461
@@ -22,359 +24,184 @@
   total_repositories: 12
   total_stars: 75
   what: dimensions-of-terrain
-  when: 2025-11-06 18:29:55.742650493 Z
+  when: 2025-11-06 19:16:16.822276533 Z
 - _id: 2
-  _time: 2025-11-06 18:30:24.522326385 Z
+  _time: 2025-11-06 19:16:45.517767824 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1084843345
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-11-06 18:30:24.525162464 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-11-06 18:30:24.528387168 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-11-06 18:30:24.531447385 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-11-06 18:30:24.534891519 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-11-06 18:30:24.538006899 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-11-06 18:30:24.541376574 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2025-11-06 18:30:24.544667452 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2025-11-06 18:30:24.548008553 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2025-11-06 18:30:24.550821789 Z
+  _time: 2025-11-06 19:16:45.520276362 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: min-issue-was-found
   where: github
-- _id: 12
-  _time: 2025-11-06 18:30:24.553825921 Z
+- _id: 4
+  _time: 2025-11-06 19:16:45.522730909 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2025-11-06 19:16:45.525259313 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2025-11-06 19:16:45.527646284 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2025-11-06 19:16:45.530218801 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2025-11-06 19:16:45.532980330 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2025-11-06 18:30:24.556785380 Z
+- _id: 9
+  _time: 2025-11-06 19:16:45.535606337 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2025-11-06 19:16:45.538280934 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2025-11-06 19:16:45.541019731 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2025-11-06 19:16:45.543714977 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2025-11-06 19:16:45.546294957 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 14
-  _time: 2025-11-06 18:30:25.381817254 Z
-  _version: 0.9.10/0.39.2/
-  commit: a178cb2abe890f17895c455c584c0c9b04d14b26
-  default_branch: master
-  details: 'A new Git push #27948932079 has arrived to yegor256/judges, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5657434717
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27948932079
-  ref: refs/heads/master
-  repository: 799113787
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-03 07:10:15.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2025-11-06 18:30:25.669090834 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request yegor256/judges#311 has been opened by @renovate[bot].
-  event_id: 4394754172
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 311
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-31 19:45:13.000000000 Z
-  where: github
-  who: 29139614
-- _id: 16
-  _time: 2025-11-06 18:30:25.802011119 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request yegor256/judges#310 has been opened by @renovate[bot].
-  event_id: 4386245565
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 310
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-31 12:38:30.000000000 Z
-  where: github
-  who: 29139614
-- _id: 17
-  _time: 2025-11-06 18:30:25.822415016 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rake-13.x-lockfile
-  details: The pull request yegor256/judges#309 has been opened by @renovate[bot].
-  event_id: 4325093968
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 309
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-29 06:09:08.000000000 Z
-  where: github
-  who: 29139614
-- _id: 18
-  _time: 2025-11-06 18:30:25.845511514 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/webmock-3.x-lockfile
-  details: The pull request yegor256/judges#308 has been opened by @renovate[bot].
-  event_id: 4254753782
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 308
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-25 09:44:57.000000000 Z
-  where: github
-  who: 29139614
-- _id: 19
-  _time: 2025-11-06 18:30:25.964843411 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/qbash-0.x-lockfile
-  details: The pull request yegor256/judges#307 has been opened by @renovate[bot].
-  event_id: 4247325717
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 307
-  repository: 799113787
-  what: pull-was-opened
-  when: 2025-10-24 19:04:19.000000000 Z
-  where: github
-  who: 29139614
-- _id: 20
-  _time: 2025-11-06 18:30:25.975923941 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#306 has been closed by @yegor256.
-  event_id: 4238243579
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 306
-  repository: 799113787
-  what: issue-was-closed
-  when: 2025-10-24 11:50:24.000000000 Z
-  where: github
-  who: 526301
-- _id: 21
-  _time: 2025-11-06 18:30:26.080549356 Z
-  _version: 0.9.10/0.39.2/
-  commits: 689
-  contributors:
-  - 526301
-  - 29139614
-  - 29793349
-  - 8086956
-  - 198982749
-  - 1646020
-  - 2566462
-  details: A new release '`--offline` option to disable any Internet calls' has been
-    published in yegor256/judges by @rultor.
-  event_id: 4235320247
-  event_type: ReleaseEvent
-  hoc: 6982
-  is_human: 0
-  last_commit: aa966d222a24670826528e4d5256857b4c95875f
-  release: 256946739
-  repository: 799113787
-  tag: 0.55.0
-  what: release-published
-  when: 2025-10-24 09:34:07.000000000 Z
-  where: github
-  who: 8086956
-- _id: 22
-  _time: 2025-11-06 18:30:35.144266482 Z
-  _version: 0.9.10/0.39.2/
-  commit: e6aaa43813fc8c493c75a9ebeaeb826560677ef5
-  default_branch: master
-  details: 'A new Git push #27726336507 has arrived to yegor256/judges, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5435973236
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27726336507
-  ref: refs/heads/master
-  repository: 799113787
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-10-24 09:12:35.000000000 Z
-  where: github
-  who: 526301
-- _id: 23
-  _time: 2025-11-06 18:30:35.396220459 Z
+  _time: 2025-11-06 19:16:48.997705114 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 24
-  _time: 2025-11-06 18:30:35.399815305 Z
+- _id: 15
+  _time: 2025-11-06 19:16:49.000574972 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 16
+  _time: 2025-11-06 19:16:49.003422619 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
   what: labels-were-scanned
   where: github
-- _id: 25
-  _time: 2025-11-06 18:30:35.403925855 Z
+- _id: 17
+  _time: 2025-11-06 19:16:49.006250979 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 26
-  _time: 2025-11-06 18:30:35.407304146 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 27
-  _time: 2025-11-06 18:30:35.410967720 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 28
-  _time: 2025-11-06 18:30:35.414589437 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 29
-  _time: 2025-11-06 18:30:35.418370280 Z
+- _id: 18
+  _time: 2025-11-06 19:16:49.009067018 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 30
-  _time: 2025-11-06 18:30:35.421625311 Z
+- _id: 19
+  _time: 2025-11-06 19:16:49.012009972 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
+- _id: 20
+  _time: 2025-11-06 19:16:49.014790153 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 21
+  _time: 2025-11-06 19:16:49.017655252 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 31
-  _time: 2025-11-06 18:30:35.425346934 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: labels-were-scanned
-  where: github
-- _id: 32
-  _time: 2025-11-06 18:30:35.429150069 Z
+- _id: 22
+  _time: 2025-11-06 19:16:49.020802207 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 33
-  _time: 2025-11-06 18:30:35.432698869 Z
+- _id: 23
+  _time: 2025-11-06 19:16:49.023871837 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 34
-  _time: 2025-11-06 18:30:35.436513937 Z
+- _id: 24
+  _time: 2025-11-06 19:16:49.026985630 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 1081929119
   what: labels-were-scanned
   where: github
-- _id: 35
-  _time: 2025-11-06 18:31:31.941061613 Z
+- _id: 25
+  _time: 2025-11-06 19:16:49.030079365 Z
   _version: 0.9.10/0.39.2/
-  average_review_size: 0.6434782608695652
-  average_review_time: 29746.102941176472
-  average_reviewers_per_pull: 0.6956521739130435
-  average_reviews_per_pull: 1.0869565217391304
-  average_triage_time: 0
-  since: 2025-10-09 18:30:35.439483615 Z
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
+- _id: 26
+  _time: 2025-11-06 19:16:49.032646940 Z
+  _version: 0.9.10/0.39.2/
+  since: 2025-10-09 19:16:49.032795818 Z
   what: quality-of-service
-  when: 2025-11-06 18:30:35.439457055 Z
-- _id: 36
-  _time: 2025-11-06 18:34:09.128369094 Z
+  when: 2025-11-06 19:16:49.032732800 Z
+- _id: 27
+  _time: 2025-11-06 19:19:49.033100497 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-10-09 18:31:31.943875380 Z
-  total_builds_ran: 8655
+  since: 2025-10-09 19:19:49.033300621 Z
   what: quantity-of-deliverables
-  when: 2025-11-06 18:31:31.943851806 Z
-- _id: 37
-  _time: 2025-11-06 18:34:09.131447158 Z
-  _version: 0.9.10/0.39.2/
-  name: yegor256
-  what: who-has-name
-  when: 2025-11-06 18:34:09.131614211 Z
-  where: github
-  who: 526301
-- _id: 38
-  _time: 2025-11-06 18:34:09.230325956 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2025-11-06 18:34:09.230515210 Z
-  where: github
-  who: 29139614
-- _id: 39
-  _time: 2025-11-06 18:34:09.315702893 Z
-  _version: 0.9.10/0.39.2/
-  name: rultor
-  what: who-has-name
-  when: 2025-11-06 18:34:09.315902536 Z
-  where: github
-  who: 8086956
+  when: 2025-11-06 19:19:49.033258182 Z
