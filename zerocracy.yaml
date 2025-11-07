@@ -3,15 +3,16 @@
   cycles: 1
   deleted: 8
   error:
-  - undefined method '+' for nil
+  - undefined method '[]' for nil
   - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 396.005433754
+  seconds: 390.034316209
   version: 0.39.2
   what: judges-summary
-  when: 2025-11-07 18:34:30.761405926 Z
+  when: 2025-11-07 19:23:14.628199514 Z
 - _id: 1
-  _time: 2025-11-07 18:28:27.323268672 Z
+  _time: 2025-11-07 19:17:10.804372701 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 6461
@@ -20,243 +21,239 @@
   total_forks: 43
   total_issues: 945
   total_pulls: 2085
+  total_releases: 734
+  total_repositories: 12
   total_stars: 75
   what: dimensions-of-terrain
-  when: 2025-11-07 18:27:55.019494922 Z
+  when: 2025-11-07 19:16:44.934921124 Z
 - _id: 2
-  _time: 2025-11-07 18:28:27.357583171 Z
+  _time: 2025-11-07 19:17:10.894627841 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
+- _id: 3
+  _time: 2025-11-07 19:17:10.898497184 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
-- _id: 3
-  _time: 2025-11-07 18:28:27.360121338 Z
+- _id: 4
+  _time: 2025-11-07 19:17:10.901762254 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 798641472
   what: min-issue-was-found
   where: github
-- _id: 4
-  _time: 2025-11-07 18:28:27.362704640 Z
+- _id: 5
+  _time: 2025-11-07 19:17:10.905129824 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2025-11-07 19:17:10.908599263 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
-- _id: 5
-  _time: 2025-11-07 18:28:27.365302925 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-11-07 18:28:27.367904882 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
 - _id: 7
-  _time: 2025-11-07 18:28:27.370471575 Z
+  _time: 2025-11-07 19:17:10.912019231 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 8
-  _time: 2025-11-07 18:28:27.373073066 Z
+  _time: 2025-11-07 19:17:10.915442705 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-11-07 18:28:27.375646962 Z
+  _time: 2025-11-07 19:17:10.919172880 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1084843345
+  repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-11-07 18:28:27.378282063 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2025-11-07 18:28:27.380782700 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2025-11-07 18:28:27.396362065 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 13
-  _time: 2025-11-07 18:28:27.402985225 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 14
-  _time: 2025-11-07 18:28:30.067012170 Z
-  _version: 0.9.10/0.39.2/
-  commit: 39c5cad10959cac7024e5483c8fb86104fe209f5
-  default_branch: master
-  details: 'A new Git push #27948917422 has arrived to zerocracy/fbe, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 5657420260
-  event_type: PushEvent
-  is_human: 1
-  push_id: 27948917422
-  ref: refs/heads/master
-  repository: 820463873
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-11-03 07:09:31.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2025-11-07 18:28:30.976561808 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/fbe#349 has been closed by @yegor256.
-  event_id: 4407708602
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 349
-  repository: 820463873
-  what: issue-was-closed
-  when: 2025-11-02 04:15:36.000000000 Z
-  where: github
-  who: 526301
-- _id: 16
-  _time: 2025-11-07 18:28:31.243534254 Z
-  _version: 0.9.10/0.39.2/
-  commits: 794
-  contributors:
-  - 526301
-  - 29139614
-  - 2566462
-  - 88084038
-  - 123500333
-  - 8086956
-  details: A new release '`unmask_repos()` is not using `over?` good enough' has been
-    published in zerocracy/fbe by @rultor.
-  event_id: 4407650956
-  event_type: ReleaseEvent
-  hoc: 11596
-  is_human: 0
-  last_commit: 037c0cc4d70f6e4122bef042184621b170841b41
-  release: 259050256
-  repository: 820463873
-  tag: 0.41.5
-  what: release-published
-  when: 2025-11-02 04:01:35.000000000 Z
-  where: github
-  who: 8086956
-- _id: 17
-  _time: 2025-11-07 18:28:46.083505308 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: labels-were-scanned
-  where: github
-- _id: 18
-  _time: 2025-11-07 18:28:46.087034226 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 19
-  _time: 2025-11-07 18:28:46.090225797 Z
+  _time: 2025-11-07 19:17:10.922698664 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 20
-  _time: 2025-11-07 18:28:46.093643897 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: labels-were-scanned
-  where: github
-- _id: 21
-  _time: 2025-11-07 18:28:46.096927986 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 22
-  _time: 2025-11-07 18:28:46.100513365 Z
+- _id: 11
+  _time: 2025-11-07 19:17:10.926451160 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 23
-  _time: 2025-11-07 18:28:46.103620829 Z
+- _id: 12
+  _time: 2025-11-07 19:17:10.930037607 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 24
-  _time: 2025-11-07 18:28:46.106905414 Z
+- _id: 13
+  _time: 2025-11-07 19:17:10.934045618 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 14
+  _time: 2025-11-07 19:17:12.979415405 Z
+  _version: 0.9.10/0.39.2/
+  branch: '1115'
+  details: The pull request zerocracy/judges-action#1178 has been opened by @danilax86.
+  event_id: 4538076557
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 1178
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-11-07 16:38:36.000000000 Z
+  where: github
+  who: 46713109
+- _id: 15
+  _time: 2025-11-07 19:17:13.388242869 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1177 has been closed by @yegor256.
+  event_id: 4493371904
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1177
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-11-06 01:50:45.000000000 Z
+  where: github
+  who: 526301
+- _id: 16
+  _time: 2025-11-07 19:17:14.119321780 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1177 has been opened by @yegor256.
+  event_id: 4476731401
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1177
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-11-05 12:10:52.000000000 Z
+  where: github
+  who: 526301
+- _id: 17
+  _time: 2025-11-07 19:17:14.332243958 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 25
-  _time: 2025-11-07 18:28:46.110544851 Z
+- _id: 18
+  _time: 2025-11-07 19:17:14.335340825 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 19
+  _time: 2025-11-07 19:17:14.338425399 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 26
-  _time: 2025-11-07 18:28:46.113842128 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 27
-  _time: 2025-11-07 18:28:46.117463101 Z
+- _id: 20
+  _time: 2025-11-07 19:17:14.341237537 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
+- _id: 21
+  _time: 2025-11-07 19:17:14.344269503 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
+- _id: 22
+  _time: 2025-11-07 19:17:14.347660788 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 23
+  _time: 2025-11-07 19:17:14.603494567 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#1177.
+  issue: 1177
+  label: bug
+  repository: 799177290
+  what: label-was-attached
+  when: 2025-11-05 12:10:52.000000000 Z
+  where: github
+  who: 526301
+- _id: 25
+  _time: 2025-11-07 19:17:14.608463394 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 26
+  _time: 2025-11-07 19:17:14.611229476 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 27
+  _time: 2025-11-07 19:17:14.614102767 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
 - _id: 28
-  _time: 2025-11-07 18:28:46.121217172 Z
+  _time: 2025-11-07 19:17:14.616913272 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
+- _id: 29
+  _time: 2025-11-07 19:17:14.619744445 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 30
+  _time: 2025-11-07 19:17:14.623195080 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 29
-  _time: 2025-11-07 18:28:46.123639143 Z
+- _id: 31
+  _time: 2025-11-07 19:17:14.625985918 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-10-10 18:28:46.123734429 Z
+  since: 2025-10-10 19:17:14.626093007 Z
   what: quality-of-service
-  when: 2025-11-07 18:28:46.123711968 Z
-- _id: 30
-  _time: 2025-11-07 18:34:30.759678449 Z
+  when: 2025-11-07 19:17:14.626067029 Z
+- _id: 32
+  _time: 2025-11-07 19:20:14.626535567 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-10-10 18:31:46.124327957 Z
-  total_builds_ran: 8523
+  since: 2025-10-10 19:20:14.626665188 Z
   what: quantity-of-deliverables
-  when: 2025-11-07 18:31:46.124302181 Z
+  when: 2025-11-07 19:20:14.626640262 Z
