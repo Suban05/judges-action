@@ -3,19 +3,19 @@
   cycles: 1
   deleted: 8
   error:
-  - undefined method '+' for nil
+  - undefined method '[]' for nil
   - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 214.95605282
+  seconds: 264.406514329
   version: 0.39.2
   what: judges-summary
-  when: 2025-12-01 16:33:02.423391994 Z
+  when: 2025-12-01 17:26:32.699381338 Z
 - _id: 1
-  _time: 2025-12-01 16:30:01.118265458 Z
+  _time: 2025-12-01 17:22:39.974206686 Z
   _version: 0.9.10/0.39.2/
+  total_active_contributors: 12
   total_commits: 6877
   total_contributors: 22
-  total_files: 909
   total_forks: 57
   total_issues: 991
   total_pulls: 2239
@@ -23,184 +23,526 @@
   total_repositories: 12
   total_stars: 81
   what: dimensions-of-terrain
-  when: 2025-12-01 16:29:27.803579066 Z
+  when: 2025-12-01 17:22:08.616624690 Z
 - _id: 2
-  _time: 2025-12-01 16:30:01.156639092 Z
+  _time: 2025-12-01 17:22:40.011896448 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-12-01 16:30:01.159341318 Z
+  _time: 2025-12-01 17:22:40.015217369 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-12-01 16:30:01.161879878 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2025-12-01 16:30:01.164598414 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-12-01 16:30:01.167344722 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-12-01 16:30:01.180519241 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2025-12-01 16:30:01.186090955 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2025-12-01 16:30:01.191910003 Z
+  _time: 2025-12-01 17:22:40.018425960 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2025-12-01 16:30:01.198001199 Z
+- _id: 5
+  _time: 2025-12-01 17:22:40.021326017 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: min-issue-was-found
   where: github
-- _id: 11
-  _time: 2025-12-01 16:30:01.202207849 Z
+- _id: 6
+  _time: 2025-12-01 17:22:40.032133645 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 974194993
   what: min-issue-was-found
   where: github
-- _id: 12
-  _time: 2025-12-01 16:30:01.205768271 Z
+- _id: 7
+  _time: 2025-12-01 17:22:40.034779898 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2025-12-01 16:30:01.209534397 Z
+- _id: 8
+  _time: 2025-12-01 17:22:40.037348877 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 1081929119
   what: min-issue-was-found
   where: github
-- _id: 14
-  _time: 2025-12-01 16:30:02.378318842 Z
+- _id: 9
+  _time: 2025-12-01 17:22:40.039992976 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 15
-  _time: 2025-12-01 16:30:02.381487611 Z
+- _id: 10
+  _time: 2025-12-01 17:22:40.042472829 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
-  what: labels-were-scanned
+  repository: 799113787
+  what: min-issue-was-found
   where: github
+- _id: 11
+  _time: 2025-12-01 17:22:40.044989240 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2025-12-01 17:22:40.047697129 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2025-12-01 17:22:40.050385631 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 14
+  _time: 2025-12-01 17:22:43.206074077 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1202 has been opened by @MaksZhukov.
+  event_id: 5014302100
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1202
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-12-01 15:28:36.000000000 Z
+  where: github
+  who: 23615115
+- _id: 15
+  _time: 2025-12-01 17:22:43.214838469 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1201 has been opened by @MaksZhukov.
+  event_id: 5014224884
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1201
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-12-01 15:25:58.000000000 Z
+  where: github
+  who: 23615115
 - _id: 16
-  _time: 2025-12-01 16:30:02.384645579 Z
+  _time: 2025-12-01 17:22:43.536870529 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1200 has been opened by @volodya-lombrozo.
+  event_id: 5003601999
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1200
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-12-01 08:23:40.000000000 Z
+  where: github
+  who: 51804353
+- _id: 17
+  _time: 2025-12-01 17:22:44.083944475 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1198 has been closed by @yegor256.
+  event_id: 5002915774
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1198
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-12-01 07:52:58.000000000 Z
+  where: github
+  who: 526301
+- _id: 18
+  _time: 2025-12-01 17:22:44.248217686 Z
+  _version: 0.9.10/0.39.2/
+  commits: 2433
+  contributors:
+  - 526301
+  - 29139614
+  - 2566462
+  - 8086956
+  - 41898282
+  - 88084038
+  - 46713109
+  - 33164517
+  - 70346889
+  - 1646020
+  details: A new release 'refresh' has been published in zerocracy/judges-action by
+    @rultor.
+  event_id: 5002888841
+  event_type: ReleaseEvent
+  hoc: 14360
+  is_human: 0
+  last_commit: 8a0e2ddfc4eca2946fc778e746bca7c552149a49
+  release: 266298623
+  repository: 799177290
+  tag: 0.16.3
+  what: release-published
+  when: 2025-12-01 07:51:32.000000000 Z
+  where: github
+  who: 8086956
+- _id: 19
+  _time: 2025-12-01 17:23:23.219109804 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  details: The pull request zerocracy/judges-action#1199 has been opened by @github-actions[bot].
+  event_id: 5002847078
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 1199
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-12-01 07:49:28.000000000 Z
+  where: github
+  who: 41898282
+- _id: 20
+  _time: 2025-12-01 17:23:23.392985329 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1198 has been opened by @yegor256.
+  event_id: 5002332726
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1198
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-12-01 07:24:27.000000000 Z
+  where: github
+  who: 526301
+- _id: 21
+  _time: 2025-12-01 17:23:24.039478220 Z
+  _version: 0.9.10/0.39.2/
+  commit: 2b2dcdd7ff83cbdd9791934ce42126ffa393d3b2
+  default_branch: master
+  details: 'A new Git push #28658952109 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 6365175269
+  event_type: PushEvent
+  is_human: 1
+  push_id: 28658952109
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-01 06:52:26.000000000 Z
+  where: github
+  who: 526301
+- _id: 22
+  _time: 2025-12-01 17:23:24.294361867 Z
+  _version: 0.9.10/0.39.2/
+  commit: 76bef0454c7450bab75b60e94ceef18ccdfad110
+  default_branch: master
+  details: 'A new Git push #28658905366 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 6365128606
+  event_type: PushEvent
+  is_human: 1
+  push_id: 28658905366
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-01 06:50:00.000000000 Z
+  where: github
+  who: 526301
+- _id: 23
+  _time: 2025-12-01 17:23:24.782259756 Z
+  _version: 0.9.10/0.39.2/
+  commit: 39c6a080a35ce4d432466f9daddbc7093748724c
+  default_branch: master
+  details: 'A new Git push #28658828027 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 6365051353
+  event_type: PushEvent
+  is_human: 1
+  push_id: 28658828027
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-01 06:45:47.000000000 Z
+  where: github
+  who: 526301
+- _id: 24
+  _time: 2025-12-01 17:23:25.048636931 Z
+  _version: 0.9.10/0.39.2/
+  commit: efc27c0a613747d989121ca37f8889ea8cdea4b3
+  default_branch: master
+  details: 'A new Git push #28658800056 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 6365023409
+  event_type: PushEvent
+  is_human: 1
+  push_id: 28658800056
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-01 06:44:17.000000000 Z
+  where: github
+  who: 526301
+- _id: 25
+  _time: 2025-12-01 17:23:25.321130678 Z
+  _version: 0.9.10/0.39.2/
+  commit: 3315b969210e6b0563cdf1a52dacb0e6481725a1
+  default_branch: master
+  details: 'A new Git push #28658580429 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 6364803924
+  event_type: PushEvent
+  is_human: 1
+  push_id: 28658580429
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-01 06:32:38.000000000 Z
+  where: github
+  who: 526301
+- _id: 26
+  _time: 2025-12-01 17:23:25.643641663 Z
+  _version: 0.9.10/0.39.2/
+  branch: version-up
+  details: The pull request zerocracy/judges-action#1197 has been opened by @github-actions[bot].
+  event_id: 5001229711
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 1197
+  repository: 799177290
+  what: pull-was-opened
+  when: 2025-12-01 06:30:30.000000000 Z
+  where: github
+  who: 41898282
+- _id: 27
+  _time: 2025-12-01 17:23:25.653877259 Z
+  _version: 0.9.10/0.39.2/
+  commit: 1d31f46e2b9acbcabf4d7484759d43546d79cd4e
+  default_branch: master
+  details: 'A new Git push #28658532725 has arrived to zerocracy/judges-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 6364756293
+  event_type: PushEvent
+  is_human: 1
+  push_id: 28658532725
+  ref: refs/heads/master
+  repository: 799177290
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-01 06:30:05.000000000 Z
+  where: github
+  who: 526301
+- _id: 28
+  _time: 2025-12-01 17:23:26.045888910 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1196 has been closed by @yegor256.
+  event_id: 4987790428
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1196
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-11-30 03:23:56.000000000 Z
+  where: github
+  who: 526301
+- _id: 29
+  _time: 2025-12-01 17:23:26.081247384 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1196 has been opened by @MaksZhukov.
+  event_id: 4986991843
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1196
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-11-29 23:31:44.000000000 Z
+  where: github
+  who: 23615115
+- _id: 30
+  _time: 2025-12-01 17:23:27.054754181 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1193 has been closed by @yegor256.
+  event_id: 4982188151
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1193
+  repository: 799177290
+  what: issue-was-closed
+  when: 2025-11-29 05:43:49.000000000 Z
+  where: github
+  who: 526301
+- _id: 31
+  _time: 2025-12-01 17:23:27.118068309 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/judges-action#1195 has been opened by @Yegorov.
+  event_id: 4979835513
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 1195
+  repository: 799177290
+  what: issue-was-opened
+  when: 2025-11-28 21:33:45.000000000 Z
+  where: github
+  who: 2566462
+- _id: 32
+  _time: 2025-12-01 17:23:30.235563122 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 17
-  _time: 2025-12-01 16:30:02.388204809 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 18
-  _time: 2025-12-01 16:30:02.391502368 Z
+- _id: 33
+  _time: 2025-12-01 17:23:30.239011470 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: labels-were-scanned
   where: github
-- _id: 19
-  _time: 2025-12-01 16:30:02.394703227 Z
+- _id: 34
+  _time: 2025-12-01 17:23:30.242332010 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 20
-  _time: 2025-12-01 16:30:02.398202925 Z
+- _id: 35
+  _time: 2025-12-01 17:23:30.245936981 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 21
-  _time: 2025-12-01 16:30:02.401599409 Z
+- _id: 36
+  _time: 2025-12-01 17:23:30.249512887 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 22
-  _time: 2025-12-01 16:30:02.405427922 Z
+- _id: 37
+  _time: 2025-12-01 17:23:30.252899741 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 23
-  _time: 2025-12-01 16:30:02.409038267 Z
+- _id: 38
+  _time: 2025-12-01 17:23:30.256421936 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 1084843345
   what: labels-were-scanned
   where: github
-- _id: 24
-  _time: 2025-12-01 16:30:02.411801908 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 25
-  _time: 2025-12-01 16:30:02.414555980 Z
+- _id: 40
+  _time: 2025-12-01 17:23:30.456938243 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 26
-  _time: 2025-12-01 16:30:02.417134925 Z
+- _id: 41
+  _time: 2025-12-01 17:23:30.460583368 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-11-03 16:30:02.417244942 Z
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 42
+  _time: 2025-12-01 17:23:30.464134959 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
+- _id: 43
+  _time: 2025-12-01 17:23:30.467900028 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
+- _id: 44
+  _time: 2025-12-01 17:23:30.809417596 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#1196.
+  issue: 1196
+  label: bug
+  repository: 799177290
+  what: label-was-attached
+  when: 2025-11-30 03:23:40.000000000 Z
+  where: github
+  who: 526301
+- _id: 45
+  _time: 2025-12-01 17:23:31.817754681 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 46
+  _time: 2025-12-01 17:23:34.070777690 Z
+  _version: 0.9.10/0.39.2/
+  average_release_interval: 177479.15384615384
+  since: 2025-11-03 17:23:31.820634511 Z
   what: quality-of-service
-  when: 2025-12-01 16:30:02.417218572 Z
-- _id: 27
-  _time: 2025-12-01 16:33:02.418433605 Z
+  when: 2025-12-01 17:23:31.820608252 Z
+- _id: 47
+  _time: 2025-12-01 17:26:31.820613237 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-11-03 16:33:02.418570501 Z
+  since: 2025-11-03 17:26:31.820782813 Z
   what: quantity-of-deliverables
-  when: 2025-12-01 16:33:02.418544784 Z
+  when: 2025-12-01 17:26:31.820756724 Z
+- _id: 48
+  _time: 2025-12-01 17:26:31.824273853 Z
+  _version: 0.9.10/0.39.2/
+  name: MaksZhukov
+  what: who-has-name
+  when: 2025-12-01 17:26:31.824781209 Z
+  where: github
+  who: 23615115
+- _id: 49
+  _time: 2025-12-01 17:26:31.974637374 Z
+  _version: 0.9.10/0.39.2/
+  name: volodya-lombrozo
+  what: who-has-name
+  when: 2025-12-01 17:26:31.974813943 Z
+  where: github
+  who: 51804353
+- _id: 50
+  _time: 2025-12-01 17:26:32.121165367 Z
+  _version: 0.9.10/0.39.2/
+  name: yegor256
+  what: who-has-name
+  when: 2025-12-01 17:26:32.121321839 Z
+  where: github
+  who: 526301
+- _id: 51
+  _time: 2025-12-01 17:26:32.255786437 Z
+  _version: 0.9.10/0.39.2/
+  name: rultor
+  what: who-has-name
+  when: 2025-12-01 17:26:32.256322076 Z
+  where: github
+  who: 8086956
+- _id: 52
+  _time: 2025-12-01 17:26:32.407790258 Z
+  _version: 0.9.10/0.39.2/
+  name: github-actions[bot]
+  what: who-has-name
+  when: 2025-12-01 17:26:32.407963160 Z
+  where: github
+  who: 41898282
+- _id: 53
+  _time: 2025-12-01 17:26:32.572365527 Z
+  _version: 0.9.10/0.39.2/
+  name: Yegorov
+  what: who-has-name
+  when: 2025-12-01 17:26:32.572522650 Z
+  where: github
+  who: 2566462
