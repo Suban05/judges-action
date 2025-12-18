@@ -3,221 +3,200 @@
   cycles: 1
   deleted: 8
   error:
-  - Failed to open TCP connection to api.github.com:443 (execution expired)
   - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 65.279233644
+  seconds: 398.923710998
   version: 0.39.2
   what: judges-summary
-  when: 2025-12-18 16:31:55.117654998 Z
+  when: 2025-12-18 17:30:01.203498773 Z
 - _id: 1
-  _time: 2025-12-18 16:30:50.177914304 Z
+  _time: 2025-12-18 17:23:57.484000049 Z
   _version: 0.9.10/0.39.2/
+  total_active_contributors: 12
+  total_commits: 7159
+  total_contributors: 23
+  total_releases: 779
   what: dimensions-of-terrain
-  when: 2025-12-18 16:30:50.178068444 Z
+  when: 2025-12-18 17:23:22.626902152 Z
 - _id: 2
-  _time: 2025-12-18 16:31:10.148379480 Z
+  _time: 2025-12-18 17:23:57.521558741 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1081929119
+  repository: 1084843345
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2025-12-18 16:31:10.151663801 Z
+  _time: 2025-12-18 17:23:57.524221541 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2025-12-18 16:31:10.154763395 Z
+  _time: 2025-12-18 17:23:57.529586395 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2025-12-18 16:31:10.158175476 Z
+  _time: 2025-12-18 17:23:57.534618307 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-12-18 16:31:10.160539167 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2025-12-18 16:31:10.163074180 Z
+  _time: 2025-12-18 17:23:57.538766159 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2025-12-18 16:31:10.169929170 Z
+- _id: 7
+  _time: 2025-12-18 17:23:57.543354082 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 1081929119
   what: min-issue-was-found
   where: github
-- _id: 9
-  _time: 2025-12-18 16:31:10.173364795 Z
+- _id: 8
+  _time: 2025-12-18 17:23:57.547070609 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2025-12-18 16:31:10.176466093 Z
+- _id: 9
+  _time: 2025-12-18 17:23:57.550528012 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2025-12-18 17:23:57.553795792 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 11
-  _time: 2025-12-18 16:31:10.179573321 Z
+  _time: 2025-12-18 17:23:57.556688611 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1084843345
+  repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 12
-  _time: 2025-12-18 16:31:10.182915811 Z
+  _time: 2025-12-18 17:23:57.560094778 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 13
-  _time: 2025-12-18 16:31:10.185581610 Z
+  _time: 2025-12-18 17:23:57.563436285 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 14
-  _time: 2025-12-18 16:31:12.970075023 Z
-  _version: 0.9.10/0.39.2/
-  commit: 982a6262631a525274bbfa8d636f6b355150515a
-  default_branch: master
-  details: 'A new Git push #29132011922 has arrived to zerocracy/swarm-template, made
-    by @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 6838102793
-  event_type: PushEvent
-  is_human: 1
-  push_id: 29132011922
-  ref: refs/heads/master
-  repository: 849726475
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-12-18 15:36:38.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2025-12-18 16:31:13.619257026 Z
+  _time: 2025-12-18 17:24:01.131208930 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 15
+  _time: 2025-12-18 17:24:01.134157062 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
   what: labels-were-scanned
   where: github
 - _id: 16
-  _time: 2025-12-18 16:31:13.636515865 Z
+  _time: 2025-12-18 17:24:01.137135261 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 1081929119
   what: labels-were-scanned
   where: github
 - _id: 17
-  _time: 2025-12-18 16:31:13.641443817 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 18
-  _time: 2025-12-18 16:31:13.645799241 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 19
-  _time: 2025-12-18 16:31:13.648858627 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: labels-were-scanned
-  where: github
-- _id: 20
-  _time: 2025-12-18 16:31:13.651897034 Z
+  _time: 2025-12-18 17:24:01.139832355 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 21
-  _time: 2025-12-18 16:31:13.654975726 Z
+- _id: 18
+  _time: 2025-12-18 17:24:01.169042269 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
+- _id: 19
+  _time: 2025-12-18 17:24:01.176332757 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
+- _id: 20
+  _time: 2025-12-18 17:24:01.181917952 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 21
+  _time: 2025-12-18 17:24:01.185858907 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
 - _id: 22
-  _time: 2025-12-18 16:31:13.657888837 Z
+  _time: 2025-12-18 17:24:01.189375060 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
 - _id: 23
-  _time: 2025-12-18 16:31:13.660926753 Z
+  _time: 2025-12-18 17:24:01.192616490 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 820463873
   what: labels-were-scanned
   where: github
 - _id: 24
-  _time: 2025-12-18 16:31:13.664013230 Z
+  _time: 2025-12-18 17:24:01.195774835 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
 - _id: 25
-  _time: 2025-12-18 16:31:13.667078627 Z
+  _time: 2025-12-18 17:24:01.198946565 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1084843345
+  repository: 840215648
   what: labels-were-scanned
   where: github
 - _id: 26
-  _time: 2025-12-18 16:31:13.670157720 Z
+  _time: 2025-12-18 17:24:01.201750398 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: labels-were-scanned
-  where: github
-- _id: 27
-  _time: 2025-12-18 16:31:13.672890233 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-11-20 16:31:13.672997515 Z
+  since: 2025-11-20 17:24:01.201851627 Z
   what: quality-of-service
-  when: 2025-12-18 16:31:13.672971596 Z
-- _id: 28
-  _time: 2025-12-18 16:31:31.462065443 Z
+  when: 2025-12-18 17:24:01.201827402 Z
+- _id: 27
+  _time: 2025-12-18 17:27:01.202536616 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-11-20 16:31:31.462191019 Z
+  since: 2025-11-20 17:27:01.202678561 Z
   what: quantity-of-deliverables
-  when: 2025-12-18 16:31:31.462165912 Z
-- _id: 29
-  _time: 2025-12-18 16:31:55.101254252 Z
-  _version: 0.9.10/0.39.2/
-  name: yegor256
-  what: who-has-name
-  when: 2025-12-18 16:31:55.101520833 Z
-  where: github
-  who: 526301
+  when: 2025-12-18 17:27:01.202653184 Z
