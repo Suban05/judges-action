@@ -2,16 +2,17 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '[]' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 202.218078002
+  seconds: 215.660247861
   version: 0.39.2
   what: judges-summary
-  when: 2025-12-22 03:46:28.698713858 Z
+  when: 2025-12-22 04:44:06.734674846 Z
 - _id: 1
-  _time: 2025-12-22 03:43:36.800629579 Z
+  _time: 2025-12-22 04:41:01.473985565 Z
   _version: 0.9.10/0.39.2/
-  total_active_contributors: 12
   total_commits: 7167
   total_contributors: 23
   total_files: 920
@@ -22,189 +23,223 @@
   total_repositories: 12
   total_stars: 90
   what: dimensions-of-terrain
-  when: 2025-12-22 03:43:06.822657738 Z
+  when: 2025-12-22 04:40:31.394982215 Z
 - _id: 2
-  _time: 2025-12-22 03:43:36.853103545 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2025-12-22 03:43:36.856521513 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2025-12-22 03:43:36.859674745 Z
+  _time: 2025-12-22 04:41:01.517460576 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: min-issue-was-found
   where: github
-- _id: 5
-  _time: 2025-12-22 03:43:36.862385449 Z
+- _id: 3
+  _time: 2025-12-22 04:41:01.521289862 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 4
+  _time: 2025-12-22 04:41:01.524573870 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2025-12-22 04:41:01.527878828 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2025-12-22 03:43:36.865125327 Z
+  _time: 2025-12-22 04:41:01.531158468 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
+  repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 7
-  _time: 2025-12-22 03:43:36.867739299 Z
+  _time: 2025-12-22 04:41:01.534223177 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 8
-  _time: 2025-12-22 03:43:36.870652512 Z
+  _time: 2025-12-22 04:41:01.536850270 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2025-12-22 03:43:36.873542311 Z
+  _time: 2025-12-22 04:41:01.539415887 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2025-12-22 03:43:36.881274594 Z
+  _time: 2025-12-22 04:41:01.541986154 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1081929119
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 11
-  _time: 2025-12-22 03:43:36.885704846 Z
+  _time: 2025-12-22 04:41:01.545717407 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 12
-  _time: 2025-12-22 03:43:36.892460791 Z
+  _time: 2025-12-22 04:41:01.549542816 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 13
-  _time: 2025-12-22 03:43:36.897355733 Z
+  _time: 2025-12-22 04:41:01.553530477 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 1081929119
   what: min-issue-was-found
   where: github
 - _id: 14
-  _time: 2025-12-22 03:43:37.923159518 Z
+  _time: 2025-12-22 04:41:04.365123078 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#438 has been closed by @yegor256.
+  event_id: 5432917157
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 438
+  repository: 802720676
+  what: issue-was-closed
+  when: 2025-12-21 16:04:51.000000000 Z
+  where: github
+  who: 526301
+- _id: 15
+  _time: 2025-12-22 04:41:04.901642237 Z
+  _version: 0.9.10/0.39.2/
+  commit: 914ce99f0dc5a2d1ce444f8ab230ceb9062935ee
+  default_branch: master
+  details: 'A new Git push #29131985377 has arrived to zerocracy/pages-action, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 6838076240
+  event_type: PushEvent
+  is_human: 1
+  push_id: 29131985377
+  ref: refs/heads/master
+  repository: 802720676
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-18 15:35:40.000000000 Z
+  where: github
+  who: 526301
+- _id: 16
+  _time: 2025-12-22 04:41:06.493539817 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 15
-  _time: 2025-12-22 03:43:37.928562110 Z
+- _id: 17
+  _time: 2025-12-22 04:41:06.496577817 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 18
+  _time: 2025-12-22 04:41:06.499544614 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 19
+  _time: 2025-12-22 04:41:06.502493076 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 16
-  _time: 2025-12-22 03:43:37.935338594 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 17
-  _time: 2025-12-22 03:43:37.940261318 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 18
-  _time: 2025-12-22 03:43:37.944202755 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: labels-were-scanned
-  where: github
-- _id: 19
-  _time: 2025-12-22 03:43:37.947711663 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
 - _id: 20
-  _time: 2025-12-22 03:43:37.951628684 Z
+  _time: 2025-12-22 04:41:06.505533170 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: labels-were-scanned
   where: github
 - _id: 21
-  _time: 2025-12-22 03:43:37.956421465 Z
+  _time: 2025-12-22 04:41:06.508656308 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1081929119
+  repository: 840215648
   what: labels-were-scanned
   where: github
 - _id: 22
-  _time: 2025-12-22 03:43:37.973076148 Z
+  _time: 2025-12-22 04:41:06.511757436 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 1084843345
   what: labels-were-scanned
   where: github
 - _id: 23
-  _time: 2025-12-22 03:43:37.988533330 Z
+  _time: 2025-12-22 04:41:06.514856860 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 802720676
   what: labels-were-scanned
   where: github
 - _id: 24
-  _time: 2025-12-22 03:43:38.009782532 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 25
-  _time: 2025-12-22 03:43:38.016998158 Z
+  _time: 2025-12-22 04:41:06.517863211 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
+- _id: 25
+  _time: 2025-12-22 04:41:06.521128635 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
 - _id: 26
-  _time: 2025-12-22 03:44:49.279553018 Z
+  _time: 2025-12-22 04:41:06.524269898 Z
   _version: 0.9.10/0.39.2/
-  average_pull_files_size: 2.074829931972789
-  average_pull_hoc_size: 32.795918367346935
-  average_triage_time: 0
-  since: 2025-11-24 03:43:38.020644743 Z
-  what: quality-of-service
-  when: 2025-12-22 03:43:38.020617953 Z
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
 - _id: 27
-  _time: 2025-12-22 03:46:28.695113517 Z
+  _time: 2025-12-22 04:41:06.527396092 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-11-24 03:44:49.282076968 Z
-  total_commits_pushed: 415
-  total_hoc_committed: 12200
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 28
+  _time: 2025-12-22 04:41:06.529844722 Z
+  _version: 0.9.10/0.39.2/
+  since: 2025-11-24 04:41:06.529946362 Z
+  what: quality-of-service
+  when: 2025-12-22 04:41:06.529921355 Z
+- _id: 29
+  _time: 2025-12-22 04:44:06.530267540 Z
+  _version: 0.9.10/0.39.2/
+  since: 2025-11-24 04:44:06.530502308 Z
   what: quantity-of-deliverables
-  when: 2025-12-22 03:44:49.282052322 Z
+  when: 2025-12-22 04:44:06.530457535 Z
+- _id: 30
+  _time: 2025-12-22 04:44:06.533554305 Z
+  _version: 0.9.10/0.39.2/
+  name: yegor256
+  what: who-has-name
+  when: 2025-12-22 04:44:06.533785927 Z
+  where: github
+  who: 526301
