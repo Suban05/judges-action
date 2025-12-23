@@ -4,17 +4,16 @@
   deleted: 8
   error:
   - undefined method '[]' for nil
-  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
-  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
+  - 'GET https://api.github.com/repositories/799177290/actions/runs?created=%3E2025-11-25&page=10&per_page=100:
+    502 - Server Error'
   inserted: 8
-  seconds: 389.22134289
+  seconds: 282.400036113
   version: 0.39.2
   what: judges-summary
-  when: 2025-12-23 13:42:44.962138319 Z
+  when: 2025-12-23 14:26:29.627895974 Z
 - _id: 1
-  _time: 2025-12-23 13:36:43.704945530 Z
+  _time: 2025-12-23 14:22:20.281814399 Z
   _version: 0.9.10/0.39.2/
-  total_active_contributors: 12
   total_commits: 7174
   total_contributors: 23
   total_files: 920
@@ -25,204 +24,188 @@
   total_repositories: 12
   total_stars: 90
   what: dimensions-of-terrain
-  when: 2025-12-23 13:36:16.085917214 Z
+  when: 2025-12-23 14:21:47.544419164 Z
 - _id: 2
-  _time: 2025-12-23 13:36:43.741716900 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2025-12-23 13:36:43.744404829 Z
+  _time: 2025-12-23 14:22:20.340554416 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: min-issue-was-found
   where: github
+- _id: 3
+  _time: 2025-12-23 14:22:20.348145176 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
 - _id: 4
-  _time: 2025-12-23 13:36:43.747066189 Z
+  _time: 2025-12-23 14:22:20.355997664 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2025-12-23 13:36:43.749745422 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2025-12-23 13:36:43.752429042 Z
+  _time: 2025-12-23 14:22:20.362736884 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
-- _id: 7
-  _time: 2025-12-23 13:36:43.755148460 Z
+- _id: 6
+  _time: 2025-12-23 14:22:20.368159667 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 1084843345
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2025-12-23 13:36:43.757837772 Z
+- _id: 7
+  _time: 2025-12-23 14:22:20.372421512 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
-- _id: 9
-  _time: 2025-12-23 13:36:43.760632059 Z
+- _id: 8
+  _time: 2025-12-23 14:22:20.377495083 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 849726475
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2025-12-23 13:36:43.763593840 Z
+- _id: 9
+  _time: 2025-12-23 14:22:20.383477029 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 11
-  _time: 2025-12-23 13:36:43.773873925 Z
+- _id: 10
+  _time: 2025-12-23 14:22:20.388893680 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2025-12-23 14:22:20.392665111 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
   what: min-issue-was-found
   where: github
 - _id: 12
-  _time: 2025-12-23 13:36:43.780360256 Z
+  _time: 2025-12-23 14:22:20.396489209 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 13
-  _time: 2025-12-23 13:36:43.785718842 Z
+  _time: 2025-12-23 14:22:20.400420007 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 14
-  _time: 2025-12-23 13:36:44.445678856 Z
-  _version: 0.9.10/0.39.2/
-  commit: 5ceeefc201d332ebc3fe50a577d8318be4c8a8a2
-  default_branch: master
-  details: 'A new Git push #29023673901 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 6729849499
-  event_type: PushEvent
-  is_human: 1
-  push_id: 29023673901
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-12-15 05:43:05.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2025-12-23 13:36:44.922105375 Z
+  _time: 2025-12-23 14:22:22.751957566 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
   what: labels-were-scanned
   where: github
-- _id: 16
-  _time: 2025-12-23 13:36:44.925612414 Z
+- _id: 15
+  _time: 2025-12-23 14:22:22.754542061 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 16
+  _time: 2025-12-23 14:22:22.756987746 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
   what: labels-were-scanned
   where: github
 - _id: 17
-  _time: 2025-12-23 13:36:44.929215101 Z
+  _time: 2025-12-23 14:22:22.759592508 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
+- _id: 18
+  _time: 2025-12-23 14:22:22.762262883 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 18
-  _time: 2025-12-23 13:36:44.932361245 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
 - _id: 19
-  _time: 2025-12-23 13:36:44.935991885 Z
+  _time: 2025-12-23 14:22:22.764903993 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: labels-were-scanned
   where: github
 - _id: 20
-  _time: 2025-12-23 13:36:44.939289442 Z
+  _time: 2025-12-23 14:22:22.767527220 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 1077707334
   what: labels-were-scanned
   where: github
 - _id: 21
-  _time: 2025-12-23 13:36:44.942774740 Z
+  _time: 2025-12-23 14:22:22.770139086 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 820463873
   what: labels-were-scanned
   where: github
 - _id: 22
-  _time: 2025-12-23 13:36:44.946390611 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 23
-  _time: 2025-12-23 13:36:44.949733553 Z
+  _time: 2025-12-23 14:22:22.772796276 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 24
-  _time: 2025-12-23 13:36:44.952424177 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 25
-  _time: 2025-12-23 13:36:44.955198919 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 26
-  _time: 2025-12-23 13:36:44.958097722 Z
+- _id: 23
+  _time: 2025-12-23 14:22:22.775484133 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 27
-  _time: 2025-12-23 13:36:44.960673301 Z
+- _id: 24
+  _time: 2025-12-23 14:22:22.778060292 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-11-25 13:36:44.960781302 Z
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 25
+  _time: 2025-12-23 14:22:22.780911945 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 26
+  _time: 2025-12-23 14:24:01.786359583 Z
+  _version: 0.9.10/0.39.2/
+  average_review_size: 0.8478260869565217
+  average_review_time: 82184.59139784946
+  average_reviewers_per_pull: 0.7681159420289855
+  average_reviews_per_pull: 1.289855072463768
+  since: 2025-11-25 14:22:22.783499826 Z
   what: quality-of-service
-  when: 2025-12-23 13:36:44.960755785 Z
-- _id: 28
-  _time: 2025-12-23 13:39:51.116649186 Z
+  when: 2025-12-23 14:22:22.783474639 Z
+- _id: 27
+  _time: 2025-12-23 14:24:01.789483564 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-11-25 13:39:44.961900871 Z
-  total_issues_created: 69
-  total_pulls_submitted: 36
+  since: 2025-11-25 14:24:01.789631711 Z
   what: quantity-of-deliverables
-  when: 2025-12-23 13:39:44.961859985 Z
+  when: 2025-12-23 14:24:01.789591105 Z
