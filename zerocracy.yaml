@@ -4,14 +4,14 @@
   deleted: 8
   error:
   - undefined method '[]' for nil
-  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 377.922849911
+  seconds: 262.923783265
   version: 0.39.2
   what: judges-summary
-  when: 2026-01-02 09:31:47.373057529 Z
+  when: 2026-01-02 10:26:53.896526267 Z
 - _id: 1
-  _time: 2026-01-02 09:25:56.845435409 Z
+  _time: 2026-01-02 10:23:02.718570789 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 8
   total_commits: 7245
@@ -24,330 +24,212 @@
   total_repositories: 12
   total_stars: 92
   what: dimensions-of-terrain
-  when: 2026-01-02 09:25:29.806940362 Z
+  when: 2026-01-02 10:22:31.299651481 Z
 - _id: 2
-  _time: 2026-01-02 09:25:56.893066939 Z
+  _time: 2026-01-02 10:23:02.760285227 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2026-01-02 09:25:56.897494613 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2026-01-02 09:25:56.902159440 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2026-01-02 09:25:56.905491269 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2026-01-02 09:25:56.908604725 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2026-01-02 09:25:56.911947752 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2026-01-02 09:25:56.915118713 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2026-01-02 09:25:56.918160793 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2026-01-02 09:25:56.921294029 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2026-01-02 09:25:56.924487984 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2026-01-02 09:25:56.927912872 Z
+  _time: 2026-01-02 10:23:02.764965723 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2026-01-02 09:25:56.931082271 Z
+- _id: 4
+  _time: 2026-01-02 10:23:02.770843467 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2026-01-02 10:23:02.775802142 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2026-01-02 10:23:02.780673143 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2026-01-02 10:23:02.784178163 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
-- _id: 14
-  _time: 2026-01-02 09:25:57.270170479 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: events-were-scanned
-  where: github
-- _id: 15
-  _time: 2026-01-02 09:25:59.121071451 Z
-  _version: 0.9.10/0.39.2/
-  commit: a9f71223c45be08112bf36bd1727ae0bcde1b31f
-  default_branch: master
-  details: 'A new Git push #29411517137 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 7116815477
-  event_type: PushEvent
-  is_human: 1
-  push_id: 29411517137
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2026-01-01 09:22:03.000000000 Z
-  where: github
-  who: 526301
-- _id: 16
-  _time: 2026-01-02 09:25:59.583536944 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request zerocracy/baza.rb#216 has been opened by @renovate[bot].
-  event_id: 5530471153
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 216
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-12-29 17:09:10.000000000 Z
-  where: github
-  who: 29139614
-- _id: 17
-  _time: 2026-01-02 09:25:59.702637568 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/online-0.x-lockfile
-  details: The pull request zerocracy/baza.rb#215 has been opened by @renovate[bot].
-  event_id: 5518092531
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 215
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-12-28 18:04:21.000000000 Z
-  where: github
-  who: 29139614
-- _id: 18
-  _time: 2026-01-02 09:25:59.742613547 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/minitest-6.x-lockfile
-  details: The pull request zerocracy/baza.rb#214 has been opened by @renovate[bot].
-  event_id: 5508586592
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 214
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-12-27 00:48:40.000000000 Z
-  where: github
-  who: 29139614
-- _id: 19
-  _time: 2026-01-02 09:25:59.763059878 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/ruby-4.x
-  details: The pull request zerocracy/baza.rb#213 has been opened by @renovate[bot].
-  event_id: 5492436348
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 213
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-12-25 05:04:03.000000000 Z
-  where: github
-  who: 29139614
-- _id: 20
-  _time: 2026-01-02 09:25:59.788694138 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request zerocracy/baza.rb#212 has been opened by @renovate[bot].
-  event_id: 5482756780
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 212
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-12-24 09:02:19.000000000 Z
-  where: github
-  who: 29139614
-- _id: 21
-  _time: 2026-01-02 09:25:59.806341625 Z
-  _version: 0.9.10/0.39.2/
-  commit: 1c572f799a67cef2db74820a1902f0356a12e3d9
-  default_branch: master
-  details: 'A new Git push #29131880396 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 6837971288
-  event_type: PushEvent
-  is_human: 1
-  push_id: 29131880396
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-12-18 15:31:52.000000000 Z
-  where: github
-  who: 526301
-- _id: 22
-  _time: 2026-01-02 09:26:00.000746452 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rdoc-7.x
-  details: The pull request zerocracy/baza.rb#211 has been opened by @renovate[bot].
-  event_id: 5385670512
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 211
-  repository: 840215648
-  what: pull-was-opened
-  when: 2025-12-18 12:43:15.000000000 Z
-  where: github
-  who: 29139614
-- _id: 23
-  _time: 2026-01-02 09:26:00.009496330 Z
-  _version: 0.9.10/0.39.2/
-  commit: b6d8f4b97d40d27db78ec683250b883076c5c0bb
-  default_branch: master
-  details: 'A new Git push #29125952020 has arrived to zerocracy/baza.rb, made by
-    @yegor256 (default branch is ''master''), not associated with any pull request.'
-  event_id: 6832047669
-  event_type: PushEvent
-  is_human: 1
-  push_id: 29125952020
-  ref: refs/heads/master
-  repository: 840215648
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-12-18 11:55:15.000000000 Z
-  where: github
-  who: 526301
-- _id: 24
-  _time: 2026-01-02 09:26:00.624848756 Z
+- _id: 8
+  _time: 2026-01-02 10:23:02.787627590 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 25
-  _time: 2026-01-02 09:26:00.627538038 Z
+- _id: 9
+  _time: 2026-01-02 10:23:02.791177243 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2026-01-02 10:23:02.794330899 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2026-01-02 10:23:02.798061970 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-01-02 10:23:02.801387767 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-01-02 10:23:02.804847613 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 14
+  _time: 2026-01-02 10:23:03.510456131 Z
+  _version: 0.9.10/0.39.2/
+  commit: 2691e3f863557724c68453982cc79f6f89d72815
+  default_branch: master
+  details: 'A new Git push #29341248840 has arrived to zerocracy/sales-deck, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 7046848768
+  event_type: PushEvent
+  is_human: 1
+  push_id: 29341248840
+  ref: refs/heads/master
+  repository: 1090089359
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-29 03:59:06.000000000 Z
+  where: github
+  who: 526301
+- _id: 15
+  _time: 2026-01-02 10:23:04.145539406 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
   what: labels-were-scanned
   where: github
-- _id: 26
-  _time: 2026-01-02 09:26:00.630209733 Z
+- _id: 16
+  _time: 2026-01-02 10:23:04.148838944 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: labels-were-scanned
   where: github
-- _id: 27
-  _time: 2026-01-02 09:26:00.632918363 Z
+- _id: 17
+  _time: 2026-01-02 10:23:04.152071447 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 18
+  _time: 2026-01-02 10:23:04.155224092 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 19
+  _time: 2026-01-02 10:23:04.158345408 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
+- _id: 20
+  _time: 2026-01-02 10:23:04.161525825 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 21
+  _time: 2026-01-02 10:23:04.164960514 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 22
+  _time: 2026-01-02 10:23:04.168238772 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 23
+  _time: 2026-01-02 10:23:04.171717123 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 24
+  _time: 2026-01-02 10:23:04.174916704 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 25
+  _time: 2026-01-02 10:23:04.177984691 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 26
+  _time: 2026-01-02 10:23:04.181564100 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: labels-were-scanned
   where: github
-- _id: 28
-  _time: 2026-01-02 09:26:00.635806520 Z
+- _id: 27
+  _time: 2026-01-02 10:23:53.738397700 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 29
-  _time: 2026-01-02 09:26:00.658506975 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 30
-  _time: 2026-01-02 09:26:00.665119393 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 31
-  _time: 2026-01-02 09:26:00.670747106 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: labels-were-scanned
-  where: github
-- _id: 32
-  _time: 2026-01-02 09:26:00.675027465 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 33
-  _time: 2026-01-02 09:26:00.679124220 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 34
-  _time: 2026-01-02 09:26:00.682631719 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 35
-  _time: 2026-01-02 09:26:00.686043305 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 36
-  _time: 2026-01-02 09:26:00.689065306 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-12-05 09:26:00.689163342 Z
+  average_pull_files_size: 1.672
+  average_pull_hoc_size: 24.064
+  since: 2025-12-05 10:23:04.184162463 Z
   what: quality-of-service
-  when: 2026-01-02 09:26:00.689140789 Z
-- _id: 37
-  _time: 2026-01-02 09:31:47.371089705 Z
+  when: 2026-01-02 10:23:04.184138549 Z
+- _id: 28
+  _time: 2026-01-02 10:23:53.740649368 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-12-05 09:29:00.689222071 Z
-  total_builds_ran: 8401
+  since: 2025-12-05 10:23:53.740774181 Z
   what: quantity-of-deliverables
-  when: 2026-01-02 09:29:00.689197265 Z
+  when: 2026-01-02 10:23:53.740750086 Z
+- _id: 29
+  _time: 2026-01-02 10:26:53.743789185 Z
+  _version: 0.9.10/0.39.2/
+  name: yegor256
+  what: who-has-name
+  when: 2026-01-02 10:26:53.744050771 Z
+  where: github
+  who: 526301
