@@ -2,19 +2,18 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error:
-  - undefined method '[]' for nil
-  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
+  error: 'GET https://api.github.com/repos/zerocracy/sales-deck/commits/2691e3f863557724c68453982cc79f6f89d72815/pulls?per_page=100:
+    500 - '
   inserted: 8
-  seconds: 277.907171272
+  seconds: 129.746714185
   version: 0.39.2
   what: judges-summary
-  when: 2026-01-14 01:55:43.626092892 Z
+  when: 2026-01-14 03:50:11.665457347 Z
 - _id: 1
-  _time: 2026-01-14 01:51:33.883631296 Z
+  _time: 2026-01-14 03:48:31.856897366 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 6
-  total_commits: 7268
+  total_commits: 7269
   total_contributors: 24
   total_files: 928
   total_forks: 62
@@ -24,239 +23,188 @@
   total_repositories: 12
   total_stars: 92
   what: dimensions-of-terrain
-  when: 2026-01-14 01:51:06.045915567 Z
+  when: 2026-01-14 03:48:02.257330884 Z
 - _id: 2
-  _time: 2026-01-14 01:51:33.922362467 Z
+  _time: 2026-01-14 03:48:31.905303982 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
+- _id: 3
+  _time: 2026-01-14 03:48:31.908604242 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
-- _id: 3
-  _time: 2026-01-14 01:51:33.926408631 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
 - _id: 4
-  _time: 2026-01-14 01:51:33.930229034 Z
+  _time: 2026-01-14 03:48:31.911978490 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2026-01-14 01:51:33.933750498 Z
+  _time: 2026-01-14 03:48:31.914730236 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 798641472
+  repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 6
-  _time: 2026-01-14 01:51:33.936967885 Z
+  _time: 2026-01-14 03:48:31.917261851 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
+  repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 7
-  _time: 2026-01-14 01:51:33.940005256 Z
+  _time: 2026-01-14 03:48:31.919722644 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 8
-  _time: 2026-01-14 01:51:33.943058667 Z
+  _time: 2026-01-14 03:48:31.922302088 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1084843345
+  repository: 1081929119
   what: min-issue-was-found
   where: github
 - _id: 9
-  _time: 2026-01-14 01:51:33.946186306 Z
+  _time: 2026-01-14 03:48:31.924941915 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 1084843345
   what: min-issue-was-found
   where: github
 - _id: 10
-  _time: 2026-01-14 01:51:33.949388164 Z
+  _time: 2026-01-14 03:48:31.927730870 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 11
-  _time: 2026-01-14 01:51:33.952482421 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2026-01-14 01:51:33.955572850 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 13
-  _time: 2026-01-14 01:51:33.958783084 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 14
-  _time: 2026-01-14 01:51:34.342075573 Z
-  _version: 0.9.10/0.39.2/
-  commit: 5ceeefc201d332ebc3fe50a577d8318be4c8a8a2
-  default_branch: master
-  details: 'A new Git push #29023673901 has arrived to zerocracy/words, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 6729849499
-  event_type: PushEvent
-  is_human: 1
-  push_id: 29023673901
-  ref: refs/heads/master
-  repository: 1081929119
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-12-15 05:43:05.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2026-01-14 01:51:34.616207540 Z
-  _version: 0.9.10/0.39.2/
-  latest: 7276823595
-  repository: 1081929119
-  what: events-were-scanned
-  where: github
-- _id: 16
-  _time: 2026-01-14 01:51:36.193125883 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/pages-action#514 has been opened by @aidarkdev.
-  event_id: 5783748491
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 514
-  repository: 802720676
-  what: issue-was-opened
-  when: 2026-01-13 16:19:28.000000000 Z
-  where: github
-  who: 161327834
-- _id: 17
-  _time: 2026-01-14 01:51:37.115344336 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 18
-  _time: 2026-01-14 01:51:37.118076527 Z
+  _time: 2026-01-14 03:48:31.930340761 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 20
-  _time: 2026-01-14 01:51:37.305679437 Z
+- _id: 12
+  _time: 2026-01-14 03:48:31.933383570 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-01-14 03:48:31.936246654 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 21
-  _time: 2026-01-14 01:51:37.308714242 Z
+- _id: 14
+  _time: 2026-01-14 03:48:32.728456433 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 22
-  _time: 2026-01-14 01:51:37.311836872 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 23
-  _time: 2026-01-14 01:51:37.314980121 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: labels-were-scanned
-  where: github
-- _id: 24
-  _time: 2026-01-14 01:51:37.318078225 Z
+- _id: 15
+  _time: 2026-01-14 03:48:32.732258690 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
   what: labels-were-scanned
   where: github
-- _id: 25
-  _time: 2026-01-14 01:51:37.321293899 Z
+- _id: 16
+  _time: 2026-01-14 03:48:32.735403158 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 26
-  _time: 2026-01-14 01:51:37.324450161 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: labels-were-scanned
-  where: github
-- _id: 27
-  _time: 2026-01-14 01:51:37.345651474 Z
+- _id: 17
+  _time: 2026-01-14 03:48:32.738145998 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 28
-  _time: 2026-01-14 01:51:37.352061902 Z
+- _id: 18
+  _time: 2026-01-14 03:48:32.741118115 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
+- _id: 19
+  _time: 2026-01-14 03:48:32.744113846 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 29
-  _time: 2026-01-14 01:51:37.358315377 Z
+- _id: 20
+  _time: 2026-01-14 03:48:32.747043985 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 1077707334
   what: labels-were-scanned
   where: github
-- _id: 30
-  _time: 2026-01-14 01:52:43.416239815 Z
+- _id: 21
+  _time: 2026-01-14 03:48:32.749965217 Z
   _version: 0.9.10/0.39.2/
-  average_pull_rejection_rate: 0.09090909090909091
-  since: 2025-12-17 01:51:37.361098313 Z
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 22
+  _time: 2026-01-14 03:48:32.752827880 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 23
+  _time: 2026-01-14 03:48:32.755663092 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 24
+  _time: 2026-01-14 03:48:32.763688450 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 25
+  _time: 2026-01-14 03:48:32.770444370 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
+- _id: 26
+  _time: 2026-01-14 03:49:40.057594198 Z
+  _version: 0.9.10/0.39.2/
+  average_pull_rejection_rate: 0.08955223880597014
+  average_release_interval: 424051.0
+  since: 2025-12-17 03:48:32.773206555 Z
   what: quality-of-service
-  when: 2026-01-14 01:51:37.361075019 Z
-- _id: 31
-  _time: 2026-01-14 01:52:43.418010712 Z
+  when: 2026-01-14 03:48:32.773180697 Z
+- _id: 27
+  _time: 2026-01-14 03:50:11.660472539 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-12-17 01:52:43.418122201 Z
+  since: 2025-12-17 03:49:40.059644467 Z
+  total_commits_pushed: 123
+  total_hoc_committed: 4126
   what: quantity-of-deliverables
-  when: 2026-01-14 01:52:43.418096703 Z
-- _id: 32
-  _time: 2026-01-14 01:55:43.421071117 Z
-  _version: 0.9.10/0.39.2/
-  name: yegor256
-  what: who-has-name
-  when: 2026-01-14 01:55:43.421351230 Z
-  where: github
-  who: 526301
-- _id: 33
-  _time: 2026-01-14 01:55:43.525479234 Z
-  _version: 0.9.10/0.39.2/
-  name: aidarkdev
-  what: who-has-name
-  when: 2026-01-14 01:55:43.525646116 Z
-  where: github
-  who: 161327834
+  when: 2026-01-14 03:49:40.059618879 Z
