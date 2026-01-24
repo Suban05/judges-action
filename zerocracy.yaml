@@ -2,16 +2,17 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '[]' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 285.397150453
+  seconds: 271.933711874
   version: 0.39.2
   what: judges-summary
-  when: 2026-01-24 01:49:25.853590731 Z
+  when: 2026-01-24 03:31:40.558745195 Z
 - _id: 1
-  _time: 2026-01-24 01:45:07.896613834 Z
+  _time: 2026-01-24 03:27:41.106627852 Z
   _version: 0.9.10/0.39.2/
-  total_active_contributors: 5
   total_commits: 7332
   total_contributors: 24
   total_files: 929
@@ -19,117 +20,134 @@
   total_issues: 1053
   total_pulls: 2450
   total_releases: 789
-  total_repositories: 12
   total_stars: 93
   what: dimensions-of-terrain
-  when: 2026-01-24 01:44:40.793828743 Z
+  when: 2026-01-24 03:27:08.938317641 Z
 - _id: 2
-  _time: 2026-01-24 01:45:07.935738358 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2026-01-24 01:45:07.938137968 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2026-01-24 01:45:07.940778808 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2026-01-24 01:45:07.943437432 Z
+  _time: 2026-01-24 03:27:41.146338391 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
-- _id: 6
-  _time: 2026-01-24 01:45:07.946139156 Z
+- _id: 3
+  _time: 2026-01-24 03:27:41.149559711 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 7
-  _time: 2026-01-24 01:45:07.952598395 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2026-01-24 01:45:07.957140895 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2026-01-24 01:45:07.961306282 Z
+- _id: 4
+  _time: 2026-01-24 03:27:41.152472126 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2026-01-24 01:45:07.965230709 Z
+- _id: 5
+  _time: 2026-01-24 03:27:41.155269318 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
-- _id: 11
-  _time: 2026-01-24 01:45:07.968923323 Z
+- _id: 6
+  _time: 2026-01-24 03:27:41.158278964 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2026-01-24 03:27:41.160777831 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: min-issue-was-found
   where: github
-- _id: 12
-  _time: 2026-01-24 01:45:07.972403299 Z
+- _id: 8
+  _time: 2026-01-24 03:27:41.163301694 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799177290
+  repository: 849726475
   what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2026-01-24 01:45:07.975627980 Z
+- _id: 9
+  _time: 2026-01-24 03:27:41.165814346 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
   what: min-issue-was-found
   where: github
+- _id: 10
+  _time: 2026-01-24 03:27:41.168405634 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2026-01-24 03:27:41.170861962 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-01-24 03:27:41.175848254 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-01-24 03:27:41.180052241 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
 - _id: 14
-  _time: 2026-01-24 01:45:08.399561531 Z
+  _time: 2026-01-24 03:27:42.058681679 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: events-were-scanned
   where: github
 - _id: 15
-  _time: 2026-01-24 01:45:08.836276203 Z
-  _version: 0.9.10/0.39.2/
-  latest: 7622210616
-  repository: 1084843345
-  what: events-were-scanned
-  where: github
-- _id: 16
-  _time: 2026-01-24 01:45:09.267708023 Z
+  _time: 2026-01-24 03:27:42.726366418 Z
   _version: 0.9.10/0.39.2/
   latest: 7614182364
   repository: 1081929119
   what: events-were-scanned
   where: github
+- _id: 16
+  _time: 2026-01-24 03:27:43.403831002 Z
+  _version: 0.9.10/0.39.2/
+  commit: 2691e3f863557724c68453982cc79f6f89d72815
+  default_branch: master
+  details: 'A new Git push #29341248840 has arrived to zerocracy/sales-deck, made
+    by @yegor256 (default branch is ''master''), not associated with any pull request.'
+  event_id: 7046848768
+  event_type: PushEvent
+  is_human: 1
+  push_id: 29341248840
+  ref: refs/heads/master
+  repository: 1090089359
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-12-29 03:59:06.000000000 Z
+  where: github
+  who: 526301
 - _id: 17
-  _time: 2026-01-24 01:45:11.831745331 Z
+  _time: 2026-01-24 03:27:43.986819664 Z
+  _version: 0.9.10/0.39.2/
+  latest: 7619183526
+  repository: 1090089359
+  what: events-were-scanned
+  where: github
+- _id: 18
+  _time: 2026-01-24 03:27:47.511511848 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#1276 has been closed by @yegor256.
   event_id: 6010860320
@@ -141,8 +159,8 @@
   when: 2026-01-23 08:14:21.000000000 Z
   where: github
   who: 526301
-- _id: 18
-  _time: 2026-01-24 01:45:12.119629937 Z
+- _id: 19
+  _time: 2026-01-24 03:27:47.749261181 Z
   _version: 0.9.10/0.39.2/
   commits: 2563
   contributors:
@@ -170,8 +188,8 @@
   when: 2026-01-23 08:11:03.000000000 Z
   where: github
   who: 8086956
-- _id: 19
-  _time: 2026-01-24 01:45:49.778292640 Z
+- _id: 20
+  _time: 2026-01-24 03:28:32.531655496 Z
   _version: 0.9.10/0.39.2/
   branch: version-up
   details: The pull request zerocracy/judges-action#1277 has been opened by @github-actions[bot].
@@ -184,8 +202,8 @@
   when: 2026-01-23 08:08:58.000000000 Z
   where: github
   who: 41898282
-- _id: 20
-  _time: 2026-01-24 01:45:49.956413857 Z
+- _id: 21
+  _time: 2026-01-24 03:28:32.805470907 Z
   _version: 0.9.10/0.39.2/
   commit: f12dfd3f795889d8e14181130e68d6ff2ad6de54
   default_branch: master
@@ -202,8 +220,8 @@
   when: 2026-01-23 07:41:18.000000000 Z
   where: github
   who: 526301
-- _id: 21
-  _time: 2026-01-24 01:45:50.352883185 Z
+- _id: 22
+  _time: 2026-01-24 03:28:33.619714946 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/judges-action#1276 has been opened by @yegor256.
   event_id: 6010141176
@@ -215,22 +233,22 @@
   when: 2026-01-23 07:40:01.000000000 Z
   where: github
   who: 526301
-- _id: 22
-  _time: 2026-01-24 01:45:53.654675143 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
 - _id: 23
-  _time: 2026-01-24 01:45:53.665098866 Z
+  _time: 2026-01-24 03:28:39.373412807 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1081929119
+  repository: 820463873
   what: labels-were-scanned
   where: github
 - _id: 24
-  _time: 2026-01-24 01:45:54.010696380 Z
+  _time: 2026-01-24 03:28:39.378196463 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 25
+  _time: 2026-01-24 03:28:39.795447546 Z
   _version: 0.9.10/0.39.2/
   details: The '#bug' label was attached by @yegor256 to the issue zerocracy/judges-action#1276.
   issue: 1276
@@ -240,114 +258,109 @@
   when: 2026-01-23 07:40:01.000000000 Z
   where: github
   who: 526301
-- _id: 26
-  _time: 2026-01-24 01:45:54.025965058 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
 - _id: 27
-  _time: 2026-01-24 01:45:54.034554436 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 28
-  _time: 2026-01-24 01:45:54.042967674 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 29
-  _time: 2026-01-24 01:45:54.051745724 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 30
-  _time: 2026-01-24 01:45:54.059977153 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
-  where: github
-- _id: 31
-  _time: 2026-01-24 01:45:54.068758999 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: labels-were-scanned
-  where: github
-- _id: 32
-  _time: 2026-01-24 01:45:54.078687026 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 33
-  _time: 2026-01-24 01:45:54.087727084 Z
+  _time: 2026-01-24 03:28:39.802657453 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: labels-were-scanned
   where: github
+- _id: 28
+  _time: 2026-01-24 03:28:39.807569888 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 29
+  _time: 2026-01-24 03:28:39.811596987 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 30
+  _time: 2026-01-24 03:28:39.815529620 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
+- _id: 31
+  _time: 2026-01-24 03:28:39.819244939 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
+- _id: 32
+  _time: 2026-01-24 03:28:39.822692810 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 33
+  _time: 2026-01-24 03:28:39.826389364 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
 - _id: 34
-  _time: 2026-01-24 01:45:54.096663399 Z
+  _time: 2026-01-24 03:28:39.830143706 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 35
+  _time: 2026-01-24 03:28:39.833753959 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: labels-were-scanned
   where: github
-- _id: 35
-  _time: 2026-01-24 01:45:54.108987289 Z
+- _id: 36
+  _time: 2026-01-24 03:28:39.837948289 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 36
-  _time: 2026-01-24 01:47:25.252624938 Z
-  _version: 0.9.10/0.39.2/
-  average_issue_lifetime: 1669779.4615384615
-  average_pull_files_size: 1.3035714285714286
-  average_pull_hoc_size: 4.410714285714286
-  average_pull_lifetime: 444177.80303030304
-  since: 2025-12-27 01:45:54.114810118 Z
-  what: quality-of-service
-  when: 2026-01-24 01:45:54.114782817 Z
 - _id: 37
-  _time: 2026-01-24 01:49:25.445821447 Z
+  _time: 2026-01-24 03:28:39.840522164 Z
   _version: 0.9.10/0.39.2/
-  since: 2025-12-27 01:47:25.254576121 Z
-  total_builds_ran: 5765
-  what: quantity-of-deliverables
-  when: 2026-01-24 01:47:25.254549742 Z
+  since: 2025-12-27 03:28:39.840622911 Z
+  what: quality-of-service
+  when: 2026-01-24 03:28:39.840598816 Z
 - _id: 38
-  _time: 2026-01-24 01:49:25.449217746 Z
+  _time: 2026-01-24 03:31:39.841103927 Z
+  _version: 0.9.10/0.39.2/
+  since: 2025-12-27 03:31:39.841224321 Z
+  what: quantity-of-deliverables
+  when: 2026-01-24 03:31:39.841200847 Z
+- _id: 39
+  _time: 2026-01-24 03:31:39.844488362 Z
   _version: 0.9.10/0.39.2/
   name: yegor256
   what: who-has-name
-  when: 2026-01-24 01:49:25.449371243 Z
+  when: 2026-01-24 03:31:39.844637760 Z
   where: github
   who: 526301
-- _id: 39
-  _time: 2026-01-24 01:49:25.582420540 Z
+- _id: 40
+  _time: 2026-01-24 03:31:40.069861562 Z
   _version: 0.9.10/0.39.2/
   name: rultor
   what: who-has-name
-  when: 2026-01-24 01:49:25.582616586 Z
+  when: 2026-01-24 03:31:40.070048761 Z
   where: github
   who: 8086956
-- _id: 40
-  _time: 2026-01-24 01:49:25.720775102 Z
+- _id: 41
+  _time: 2026-01-24 03:31:40.311130021 Z
   _version: 0.9.10/0.39.2/
   name: github-actions[bot]
   what: who-has-name
-  when: 2026-01-24 01:49:25.720929931 Z
+  when: 2026-01-24 03:31:40.311303684 Z
   where: github
   who: 41898282
