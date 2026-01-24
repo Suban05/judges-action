@@ -4,14 +4,15 @@
   deleted: 8
   error:
   - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 253.83063113
+  seconds: 406.605855526
   version: 0.39.2
   what: judges-summary
-  when: 2026-01-24 21:23:17.013983417 Z
+  when: 2026-01-24 22:27:11.196378089 Z
 - _id: 1
-  _time: 2026-01-24 21:19:27.186821394 Z
+  _time: 2026-01-24 22:20:56.222336173 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 5
   total_commits: 7332
@@ -24,93 +25,119 @@
   total_repositories: 12
   total_stars: 93
   what: dimensions-of-terrain
-  when: 2026-01-24 21:19:03.522976017 Z
+  when: 2026-01-24 22:20:24.924969370 Z
 - _id: 2
-  _time: 2026-01-24 21:19:27.234623230 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2026-01-24 21:19:27.239435768 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2026-01-24 21:19:27.243248131 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2026-01-24 21:19:27.246620402 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2026-01-24 21:19:27.249516575 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2026-01-24 21:19:27.252475154 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2026-01-24 21:19:27.255537838 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2026-01-24 21:19:27.258866728 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2026-01-24 21:19:27.261956272 Z
+  _time: 2026-01-24 22:20:56.259687330 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
-- _id: 11
-  _time: 2026-01-24 21:19:27.264850401 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2026-01-24 21:19:27.267633854 Z
+- _id: 3
+  _time: 2026-01-24 22:20:56.262188932 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2026-01-24 21:19:27.270471498 Z
+- _id: 4
+  _time: 2026-01-24 22:20:56.264718045 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2026-01-24 22:20:56.267249362 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2026-01-24 22:20:56.269867722 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2026-01-24 22:20:56.272353573 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2026-01-24 22:20:56.275070287 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2026-01-24 22:20:56.281663886 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
+- _id: 10
+  _time: 2026-01-24 22:20:56.285375973 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2026-01-24 22:20:56.289881504 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-01-24 22:20:56.295071366 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-01-24 22:20:56.299009366 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
 - _id: 14
-  _time: 2026-01-24 21:19:28.718741163 Z
+  _time: 2026-01-24 22:20:56.751831907 Z
+  _version: 0.9.10/0.39.2/
+  commit: b42cc6534438bd4837f09f48e60973b769206325
+  default_branch: master
+  details: 'A new Git push #29412118705 has arrived to zerocracy/zerocracy-mcp-server,
+    made by @yegor256 (default branch is ''master''), not associated with any pull
+    request.'
+  event_id: 7117413420
+  event_type: PushEvent
+  is_human: 1
+  push_id: 29412118705
+  ref: refs/heads/master
+  repository: 974194993
+  to_master: 1
+  what: git-was-pushed
+  when: 2026-01-01 10:15:05.000000000 Z
+  where: github
+  who: 526301
+- _id: 15
+  _time: 2026-01-24 22:20:57.074063094 Z
+  _version: 0.9.10/0.39.2/
+  latest: 7759561322
+  repository: 974194993
+  what: events-were-scanned
+  where: github
+- _id: 16
+  _time: 2026-01-24 22:20:58.452037487 Z
   _version: 0.9.10/0.39.2/
   commit: c99c5a20c58c77bab98a10490977811560ed9dc1
   default_branch: master
@@ -127,8 +154,8 @@
   when: 2026-01-21 11:51:59.000000000 Z
   where: github
   who: 526301
-- _id: 15
-  _time: 2026-01-24 21:19:28.949168431 Z
+- _id: 17
+  _time: 2026-01-24 22:20:58.625878225 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/fbe#391 has been closed by @yegor256.
   event_id: 5956672143
@@ -140,8 +167,8 @@
   when: 2026-01-21 12:03:26.000000000 Z
   where: github
   who: 526301
-- _id: 16
-  _time: 2026-01-24 21:19:29.049444424 Z
+- _id: 18
+  _time: 2026-01-24 22:20:58.751866635 Z
   _version: 0.9.10/0.39.2/
   commits: 863
   contributors:
@@ -165,8 +192,8 @@
   when: 2026-01-21 12:00:46.000000000 Z
   where: github
   who: 8086956
-- _id: 17
-  _time: 2026-01-24 21:19:41.061350102 Z
+- _id: 19
+  _time: 2026-01-24 22:21:08.820618559 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/fbe#391 has been opened by @yegor256.
   event_id: 5956310124
@@ -178,8 +205,8 @@
   when: 2026-01-21 11:47:25.000000000 Z
   where: github
   who: 526301
-- _id: 18
-  _time: 2026-01-24 21:19:41.076947086 Z
+- _id: 20
+  _time: 2026-01-24 22:21:08.833963586 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/fbe#390 has been closed by @yegor256.
   event_id: 5934625733
@@ -191,8 +218,8 @@
   when: 2026-01-20 16:09:32.000000000 Z
   where: github
   who: 526301
-- _id: 19
-  _time: 2026-01-24 21:19:41.097118754 Z
+- _id: 21
+  _time: 2026-01-24 22:21:08.850246542 Z
   _version: 0.9.10/0.39.2/
   commits: 1
   contributors: 8086956
@@ -209,8 +236,8 @@
   when: 2026-01-20 16:08:11.000000000 Z
   where: github
   who: 8086956
-- _id: 20
-  _time: 2026-01-24 21:19:41.470898769 Z
+- _id: 22
+  _time: 2026-01-24 22:21:09.190009673 Z
   _version: 0.9.10/0.39.2/
   commit: cb2cbdb8389fc81334437978d536c02c5eadfc6a
   default_branch: master
@@ -227,8 +254,8 @@
   when: 2026-01-20 15:57:39.000000000 Z
   where: github
   who: 526301
-- _id: 21
-  _time: 2026-01-24 21:19:41.653693912 Z
+- _id: 23
+  _time: 2026-01-24 22:21:09.384043870 Z
   _version: 0.9.10/0.39.2/
   commit: 0b562283928536439a7a6291450f08a7c0271ab0
   default_branch: master
@@ -245,8 +272,8 @@
   when: 2026-01-20 15:54:58.000000000 Z
   where: github
   who: 526301
-- _id: 22
-  _time: 2026-01-24 21:19:41.828724257 Z
+- _id: 24
+  _time: 2026-01-24 22:21:09.544332537 Z
   _version: 0.9.10/0.39.2/
   commit: 165fdbe4e637ccd409d54146834dd33103078386
   default_branch: master
@@ -263,8 +290,8 @@
   when: 2026-01-20 15:53:47.000000000 Z
   where: github
   who: 526301
-- _id: 23
-  _time: 2026-01-24 21:19:42.001101516 Z
+- _id: 25
+  _time: 2026-01-24 22:21:09.718400369 Z
   _version: 0.9.10/0.39.2/
   commit: 1cf5a5fddce693f1c2a7255fce5a01bd1c6efb9c
   default_branch: master
@@ -281,8 +308,8 @@
   when: 2026-01-20 15:51:35.000000000 Z
   where: github
   who: 526301
-- _id: 24
-  _time: 2026-01-24 21:19:42.176629661 Z
+- _id: 26
+  _time: 2026-01-24 22:21:09.889970541 Z
   _version: 0.9.10/0.39.2/
   details: The issue zerocracy/fbe#390 has been opened by @yegor256.
   event_id: 5929074483
@@ -294,78 +321,64 @@
   when: 2026-01-20 12:41:18.000000000 Z
   where: github
   who: 526301
-- _id: 25
-  _time: 2026-01-24 21:19:42.887770892 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 26
-  _time: 2026-01-24 21:19:42.890866236 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: labels-were-scanned
-  where: github
 - _id: 27
-  _time: 2026-01-24 21:19:42.894056588 Z
+  _time: 2026-01-24 22:21:10.640429096 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 802720676
   what: labels-were-scanned
   where: github
 - _id: 28
-  _time: 2026-01-24 21:19:42.897229767 Z
+  _time: 2026-01-24 22:21:10.643780038 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
 - _id: 29
-  _time: 2026-01-24 21:19:42.900464561 Z
+  _time: 2026-01-24 22:21:10.646906369 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 30
+  _time: 2026-01-24 22:21:10.649695119 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 31
+  _time: 2026-01-24 22:21:10.652437702 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: labels-were-scanned
   where: github
-- _id: 30
-  _time: 2026-01-24 21:19:42.904118446 Z
+- _id: 32
+  _time: 2026-01-24 22:21:10.655325807 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 974194993
   what: labels-were-scanned
   where: github
-- _id: 31
-  _time: 2026-01-24 21:19:42.907601995 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 32
-  _time: 2026-01-24 21:19:42.910990565 Z
+- _id: 33
+  _time: 2026-01-24 22:21:10.658427262 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: labels-were-scanned
   where: github
-- _id: 33
-  _time: 2026-01-24 21:19:42.914469766 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
 - _id: 34
-  _time: 2026-01-24 21:19:42.918098455 Z
+  _time: 2026-01-24 22:21:10.661549155 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 840215648
   what: labels-were-scanned
   where: github
 - _id: 35
-  _time: 2026-01-24 21:19:43.174848799 Z
+  _time: 2026-01-24 22:21:10.918013473 Z
   _version: 0.9.10/0.39.2/
   details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#390.
   issue: 390
@@ -376,14 +389,28 @@
   where: github
   who: 526301
 - _id: 37
-  _time: 2026-01-24 21:19:43.180765546 Z
+  _time: 2026-01-24 22:21:10.923238974 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 799177290
   what: labels-were-scanned
   where: github
 - _id: 38
-  _time: 2026-01-24 21:19:43.508997189 Z
+  _time: 2026-01-24 22:21:10.926429084 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 39
+  _time: 2026-01-24 22:21:10.929631689 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
+- _id: 40
+  _time: 2026-01-24 22:21:11.184511331 Z
   _version: 0.9.10/0.39.2/
   details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#391.
   issue: 391
@@ -393,44 +420,23 @@
   when: 2026-01-21 11:47:25.000000000 Z
   where: github
   who: 526301
-- _id: 39
-  _time: 2026-01-24 21:19:43.515046163 Z
+- _id: 41
+  _time: 2026-01-24 22:21:11.191102838 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
-- _id: 40
-  _time: 2026-01-24 21:20:16.826190654 Z
-  _version: 0.9.10/0.39.2/
-  average_release_commits_size: 10.5
-  average_release_hoc_size: 223.0
-  average_review_size: 0.05357142857142857
-  average_review_time: 113204.34042553192
-  average_reviewers_per_pull: 0.875
-  average_reviews_per_pull: 0.875
-  since: 2025-12-27 21:19:43.517747401 Z
-  what: quality-of-service
-  when: 2026-01-24 21:19:43.517722655 Z
-- _id: 41
-  _time: 2026-01-24 21:20:16.828184242 Z
-  _version: 0.9.10/0.39.2/
-  since: 2025-12-27 21:20:16.828285551 Z
-  what: quantity-of-deliverables
-  when: 2026-01-24 21:20:16.828262117 Z
 - _id: 42
-  _time: 2026-01-24 21:23:16.831742447 Z
+  _time: 2026-01-24 22:21:11.667565586 Z
   _version: 0.9.10/0.39.2/
-  name: yegor256
-  what: who-has-name
-  when: 2026-01-24 21:23:16.832092891 Z
-  where: github
-  who: 526301
+  average_release_interval: 293815.28571428574
+  since: 2025-12-27 22:21:11.193821035 Z
+  what: quality-of-service
+  when: 2026-01-24 22:21:11.193737008 Z
 - _id: 43
-  _time: 2026-01-24 21:23:16.916966062 Z
+  _time: 2026-01-24 22:24:11.194484020 Z
   _version: 0.9.10/0.39.2/
-  name: rultor
-  what: who-has-name
-  when: 2026-01-24 21:23:16.917131591 Z
-  where: github
-  who: 8086956
+  since: 2025-12-27 22:24:11.194634242 Z
+  what: quantity-of-deliverables
+  when: 2026-01-24 22:24:11.194605929 Z
