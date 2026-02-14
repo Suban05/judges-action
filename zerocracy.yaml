@@ -2,302 +2,267 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '+' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 164.14410575
+  seconds: 400.483150458
   version: 0.39.2
   what: judges-summary
-  when: 2026-02-14 11:25:57.339043271 Z
+  when: 2026-02-14 12:57:08.608575918 Z
 - _id: 1
-  _time: 2026-02-14 11:23:46.761203295 Z
+  _time: 2026-02-14 12:51:02.401091155 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
-  total_commits: 7501
-  total_files: 938
-  total_forks: 64
+  total_contributors: 26
   total_issues: 1066
   total_pulls: 2523
   total_releases: 796
-  total_repositories: 12
-  total_stars: 94
   what: dimensions-of-terrain
-  when: 2026-02-14 11:23:13.547439064 Z
+  when: 2026-02-14 12:50:28.466658208 Z
 - _id: 2
-  _time: 2026-02-14 11:23:46.835219126 Z
+  _time: 2026-02-14 12:51:02.433943003 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1081929119
+  repository: 802720676
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2026-02-14 11:23:46.839242770 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2026-02-14 11:23:46.843169812 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2026-02-14 11:23:46.847141909 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2026-02-14 11:23:46.850849099 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2026-02-14 11:23:46.854295459 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2026-02-14 11:23:46.858236978 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2026-02-14 11:23:46.862056929 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2026-02-14 11:23:46.865908029 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2026-02-14 11:23:46.869867222 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2026-02-14 11:23:46.873405805 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
-- _id: 13
-  _time: 2026-02-14 11:23:46.876857325 Z
+  _time: 2026-02-14 12:51:02.436581913 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
-- _id: 14
-  _time: 2026-02-14 11:23:48.691439447 Z
-  _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#343 has been closed by @yegor256.
-  event_id: 6529983679
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 343
-  repository: 799113787
-  what: issue-was-closed
-  when: 2026-02-12 15:19:40.000000000 Z
-  where: github
-  who: 526301
-- _id: 15
-  _time: 2026-02-14 11:23:49.169234172 Z
-  _version: 0.9.10/0.39.2/
-  branch: '343'
-  details: The pull request yegor256/judges#388 has been opened by @Yegorov.
-  event_id: 6526621025
-  event_type: PullRequestEvent
-  is_human: 1
-  issue: 388
-  repository: 799113787
-  what: pull-was-opened
-  when: 2026-02-12 13:31:33.000000000 Z
-  where: github
-  who: 2566462
-- _id: 16
-  _time: 2026-02-14 11:23:49.195151328 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/rubocop-1.x-lockfile
-  details: The pull request yegor256/judges#387 has been opened by @renovate[bot].
-  event_id: 6523277358
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 387
-  repository: 799113787
-  what: pull-was-opened
-  when: 2026-02-12 11:31:04.000000000 Z
-  where: github
-  who: 29139614
-- _id: 17
-  _time: 2026-02-14 11:23:49.622928427 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/random-port-0.x-lockfile
-  details: The pull request yegor256/judges#386 has been opened by @renovate[bot].
-  event_id: 6473894527
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 386
-  repository: 799113787
-  what: pull-was-opened
-  when: 2026-02-10 21:33:52.000000000 Z
-  where: github
-  who: 29139614
-- _id: 18
-  _time: 2026-02-14 11:23:49.963602492 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/crate-ci-typos-1.x
-  details: The pull request yegor256/judges#385 has been opened by @renovate[bot].
-  event_id: 6439682557
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 385
-  repository: 799113787
-  what: pull-was-opened
-  when: 2026-02-09 21:56:09.000000000 Z
-  where: github
-  who: 29139614
-- _id: 19
-  _time: 2026-02-14 11:23:50.289289571 Z
+- _id: 4
+  _time: 2026-02-14 12:51:02.439117459 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
-  what: labels-were-scanned
+  repository: 849726475
+  what: min-issue-was-found
   where: github
-- _id: 20
-  _time: 2026-02-14 11:23:50.293170454 Z
+- _id: 5
+  _time: 2026-02-14 12:51:02.441629091 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
-  what: labels-were-scanned
+  repository: 840215648
+  what: min-issue-was-found
   where: github
-- _id: 21
-  _time: 2026-02-14 11:23:50.296924920 Z
+- _id: 6
+  _time: 2026-02-14 12:51:02.444102341 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2026-02-14 12:51:02.449163686 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 22
-  _time: 2026-02-14 11:23:50.301684471 Z
+- _id: 8
+  _time: 2026-02-14 12:51:02.454088847 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 23
-  _time: 2026-02-14 11:23:50.306463951 Z
+- _id: 9
+  _time: 2026-02-14 12:51:02.458904253 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2026-02-14 12:51:02.462972797 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2026-02-14 12:51:02.466646415 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-02-14 12:51:02.469593208 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-02-14 12:51:02.472809874 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 14
+  _time: 2026-02-14 12:51:03.158561899 Z
+  _version: 0.9.10/0.39.2/
+  latest: 8275277550
+  repository: 1081929119
+  what: events-were-scanned
+  where: github
+- _id: 15
+  _time: 2026-02-14 12:51:05.451123244 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/judges-action#1288 has been opened by @renovate[bot].
+  event_id: 6481434328
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 1288
+  repository: 799177290
+  what: pull-was-opened
+  when: 2026-02-11 05:48:51.000000000 Z
+  where: github
+  who: 29139614
+- _id: 16
+  _time: 2026-02-14 12:51:05.897122830 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/baza.rb-0.x-lockfile
+  details: The pull request zerocracy/judges-action#1287 has been opened by @renovate[bot].
+  event_id: 6429705605
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 1287
+  repository: 799177290
+  what: pull-was-opened
+  when: 2026-02-09 14:59:11.000000000 Z
+  where: github
+  who: 29139614
+- _id: 17
+  _time: 2026-02-14 12:51:06.666874368 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/ruby-4.0
+  details: The pull request zerocracy/judges-action#1286 has been opened by @renovate[bot].
+  event_id: 6291105755
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 1286
+  repository: 799177290
+  what: pull-was-opened
+  when: 2026-02-03 23:47:59.000000000 Z
+  where: github
+  who: 29139614
+- _id: 18
+  _time: 2026-02-14 12:51:07.404247729 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/crate-ci-typos-1.x
+  details: The pull request zerocracy/judges-action#1285 has been opened by @renovate[bot].
+  event_id: 6283481613
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 1285
+  repository: 799177290
+  what: pull-was-opened
+  when: 2026-02-03 18:18:58.000000000 Z
+  where: github
+  who: 29139614
+- _id: 19
+  _time: 2026-02-14 12:51:08.562891193 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 24
-  _time: 2026-02-14 11:23:50.310814635 Z
+- _id: 20
+  _time: 2026-02-14 12:51:08.565554177 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 849726475
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 21
+  _time: 2026-02-14 12:51:08.572316112 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: labels-were-scanned
+  where: github
+- _id: 22
+  _time: 2026-02-14 12:51:08.578012420 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 23
+  _time: 2026-02-14 12:51:08.582169530 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 24
+  _time: 2026-02-14 12:51:08.585151217 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
   what: labels-were-scanned
   where: github
 - _id: 25
-  _time: 2026-02-14 11:23:50.315095438 Z
+  _time: 2026-02-14 12:51:08.588545876 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
+- _id: 26
+  _time: 2026-02-14 12:51:08.591658107 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: labels-were-scanned
   where: github
-- _id: 26
-  _time: 2026-02-14 11:23:50.319434581 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: labels-were-scanned
-  where: github
 - _id: 27
-  _time: 2026-02-14 11:23:50.323871607 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: labels-were-scanned
-  where: github
-- _id: 28
-  _time: 2026-02-14 11:23:50.328331617 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 29
-  _time: 2026-02-14 11:23:50.332428275 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 30
-  _time: 2026-02-14 11:23:50.337177417 Z
+  _time: 2026-02-14 12:51:08.594797499 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
+- _id: 28
+  _time: 2026-02-14 12:51:08.598122647 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
+- _id: 29
+  _time: 2026-02-14 12:51:08.601334935 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 30
+  _time: 2026-02-14 12:51:08.604628204 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
+  where: github
 - _id: 31
-  _time: 2026-02-14 11:24:38.410434883 Z
+  _time: 2026-02-14 12:51:08.607493645 Z
   _version: 0.9.10/0.39.2/
-  average_review_size: 0.3150684931506849
-  average_review_time: 109070.74418604652
-  average_reviewers_per_pull: 0.6986301369863014
-  average_reviews_per_pull: 0.8356164383561644
-  since: 2026-01-17 11:23:50.340514008 Z
+  since: 2026-01-17 12:51:08.607593972 Z
   what: quality-of-service
-  when: 2026-02-14 11:23:50.340486577 Z
+  when: 2026-02-14 12:51:08.607570138 Z
 - _id: 32
-  _time: 2026-02-14 11:25:56.713068710 Z
+  _time: 2026-02-14 12:54:18.329968271 Z
   _version: 0.9.10/0.39.2/
-  since: 2026-01-17 11:24:38.412483070 Z
-  total_commits_pushed: 222
-  total_hoc_committed: 25023
+  since: 2026-01-17 12:54:08.607538685 Z
+  total_issues_created: 64
+  total_pulls_submitted: 49
   what: quantity-of-deliverables
-  when: 2026-02-14 11:24:38.412459786 Z
-- _id: 33
-  _time: 2026-02-14 11:25:56.716744248 Z
-  _version: 0.9.10/0.39.2/
-  name: yegor256
-  what: who-has-name
-  when: 2026-02-14 11:25:56.716903867 Z
-  where: github
-  who: 526301
-- _id: 34
-  _time: 2026-02-14 11:25:56.937146193 Z
-  _version: 0.9.10/0.39.2/
-  name: Yegorov
-  what: who-has-name
-  when: 2026-02-14 11:25:56.937306404 Z
-  where: github
-  who: 2566462
-- _id: 35
-  _time: 2026-02-14 11:25:57.125357347 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2026-02-14 11:25:57.125529680 Z
-  where: github
-  who: 29139614
+  when: 2026-02-14 12:54:08.607514690 Z
