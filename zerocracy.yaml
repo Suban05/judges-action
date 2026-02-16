@@ -3,19 +3,20 @@
   cycles: 1
   deleted: 8
   error:
-  - undefined method '+' for nil
-  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - undefined method '[]' for nil
+  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 238.257038063
+  seconds: 258.015108377
   version: 0.39.2
   what: judges-summary
-  when: 2026-02-16 08:54:01.746857561 Z
+  when: 2026-02-16 09:58:59.734534769 Z
 - _id: 1
-  _time: 2026-02-16 08:50:42.278931374 Z
+  _time: 2026-02-16 09:55:15.168602629 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 7520
   total_contributors: 26
+  total_files: 940
   total_forks: 64
   total_issues: 1074
   total_pulls: 2538
@@ -23,232 +24,358 @@
   total_repositories: 12
   total_stars: 94
   what: dimensions-of-terrain
-  when: 2026-02-16 08:50:03.819810072 Z
+  when: 2026-02-16 09:54:42.052374029 Z
 - _id: 2
-  _time: 2026-02-16 08:50:42.314238180 Z
+  _time: 2026-02-16 09:55:15.222608690 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 1081929119
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2026-02-16 08:50:42.316871635 Z
+  _time: 2026-02-16 09:55:15.225510080 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 799113787
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2026-02-16 08:50:42.319439047 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2026-02-16 08:50:42.322052124 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2026-02-16 08:50:42.324507999 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2026-02-16 08:50:42.327258431 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2026-02-16 08:50:42.330111975 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2026-02-16 08:50:42.332892132 Z
+  _time: 2026-02-16 09:55:15.228191740 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2026-02-16 08:50:42.335895896 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2026-02-16 08:50:42.339480558 Z
+- _id: 5
+  _time: 2026-02-16 09:55:15.231221018 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
-- _id: 12
-  _time: 2026-02-16 08:50:42.352076961 Z
+- _id: 6
+  _time: 2026-02-16 09:55:15.234171700 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2026-02-16 09:55:15.237157157 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2026-02-16 09:55:15.239716589 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2026-02-16 09:55:15.242323230 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2026-02-16 09:55:15.244925963 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2026-02-16 08:50:42.359701713 Z
+- _id: 11
+  _time: 2026-02-16 09:55:15.255679254 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 799113787
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-02-16 09:55:15.260526252 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-02-16 09:55:15.265388979 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
   what: min-issue-was-found
   where: github
 - _id: 14
-  _time: 2026-02-16 08:50:43.068167271 Z
+  _time: 2026-02-16 09:55:16.188159414 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
+  latest: 8386594129
+  repository: 974194993
   what: events-were-scanned
   where: github
 - _id: 15
-  _time: 2026-02-16 08:50:46.075419028 Z
+  _time: 2026-02-16 09:55:16.752913910 Z
   _version: 0.9.10/0.39.2/
-  commits: 807
-  contributors:
-  - 526301
-  - 29139614
-  - 33164517
-  - 8086956
-  - 29793349
-  - 2566462
-  - 161327834
-  - 198982749
-  - 1646020
-  - 121491022
-  details: A new release '`bundle exec rake` command fails on `TestDownload` and `TestUpload`
-    tests' has been published in yegor256/judges by @rultor.
-  event_id: 6604068921
-  event_type: ReleaseEvent
-  hoc: 7860
+  latest: 8485849551
+  repository: 849726475
+  what: events-were-scanned
+  where: github
+- _id: 16
+  _time: 2026-02-16 09:55:19.526476924 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/judges-0.x-lockfile
+  details: The pull request zerocracy/pages-action#537 has been opened by @renovate[bot].
+  event_id: 6604474712
+  event_type: PullRequestEvent
   is_human: 0
-  last_commit: aa966d222a24670826528e4d5256857b4c95875f
-  release: 286692516
-  repository: 799113787
-  tag: 0.60.0
-  what: release-published
-  when: 2026-02-16 05:50:46.000000000 Z
+  issue: 537
+  repository: 802720676
+  what: pull-was-opened
+  when: 2026-02-16 06:15:51.000000000 Z
+  where: github
+  who: 29139614
+- _id: 17
+  _time: 2026-02-16 09:55:19.695985754 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/rubocop-1.x-lockfile
+  details: The pull request zerocracy/pages-action#536 has been opened by @renovate[bot].
+  event_id: 6522216239
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 536
+  repository: 802720676
+  what: pull-was-opened
+  when: 2026-02-12 10:54:00.000000000 Z
+  where: github
+  who: 29139614
+- _id: 18
+  _time: 2026-02-16 09:55:19.703347724 Z
+  _version: 0.9.10/0.39.2/
+  branch: renovate/factbase-0.x-lockfile
+  details: The pull request zerocracy/pages-action#535 has been opened by @renovate[bot].
+  event_id: 6486845465
+  event_type: PullRequestEvent
+  is_human: 0
+  issue: 535
+  repository: 802720676
+  what: pull-was-opened
+  when: 2026-02-11 09:57:30.000000000 Z
+  where: github
+  who: 29139614
+- _id: 19
+  _time: 2026-02-16 09:55:20.007179972 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#533 has been closed by @yegor256.
+  event_id: 6481071934
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 533
+  repository: 802720676
+  what: issue-was-closed
+  when: 2026-02-11 05:23:34.000000000 Z
+  where: github
+  who: 526301
+- _id: 20
+  _time: 2026-02-16 09:55:20.884848509 Z
+  _version: 0.9.10/0.39.2/
+  branch: '533'
+  details: The pull request zerocracy/pages-action#534 has been opened by @belfil.
+  event_id: 6450557353
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 534
+  repository: 802720676
+  what: pull-was-opened
+  when: 2026-02-10 08:13:04.000000000 Z
+  where: github
+  who: 94894473
+- _id: 21
+  _time: 2026-02-16 09:55:21.339999332 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#532 has been closed by @aidarkdev.
+  event_id: 6443852267
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 532
+  repository: 802720676
+  what: issue-was-closed
+  when: 2026-02-10 01:44:45.000000000 Z
+  where: github
+  who: 161327834
+- _id: 22
+  _time: 2026-02-16 09:55:21.515041158 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#533 has been opened by @belfil.
+  event_id: 6439232509
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 533
+  repository: 802720676
+  what: issue-was-opened
+  when: 2026-02-09 21:36:37.000000000 Z
+  where: github
+  who: 94894473
+- _id: 23
+  _time: 2026-02-16 09:55:21.714255601 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/pages-action#147 has been closed by @rultor.
+  event_id: 6434746253
+  event_type: IssuesEvent
+  is_human: 0
+  issue: 147
+  repository: 802720676
+  what: issue-was-closed
+  when: 2026-02-09 18:10:50.000000000 Z
   where: github
   who: 8086956
-- _id: 16
-  _time: 2026-02-16 08:51:01.434383170 Z
+- _id: 24
+  _time: 2026-02-16 09:55:22.175634064 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
+  where: github
+- _id: 25
+  _time: 2026-02-16 09:55:22.178943546 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 17
-  _time: 2026-02-16 08:51:01.437157538 Z
+- _id: 26
+  _time: 2026-02-16 09:55:22.182086378 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 27
+  _time: 2026-02-16 09:55:22.185551090 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: labels-were-scanned
   where: github
-- _id: 18
-  _time: 2026-02-16 08:51:01.439580724 Z
+- _id: 28
+  _time: 2026-02-16 09:55:22.690565310 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/pages-action#533.
+  issue: 533
+  label: bug
+  repository: 802720676
+  what: label-was-attached
+  when: 2026-02-10 07:49:22.000000000 Z
+  where: github
+  who: 526301
+- _id: 30
+  _time: 2026-02-16 09:55:22.695424904 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 31
+  _time: 2026-02-16 09:55:22.698183679 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 19
-  _time: 2026-02-16 08:51:01.442253453 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: labels-were-scanned
-  where: github
-- _id: 20
-  _time: 2026-02-16 08:51:01.445028833 Z
+- _id: 32
+  _time: 2026-02-16 09:55:22.701171812 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 21
-  _time: 2026-02-16 08:51:01.447835110 Z
+- _id: 33
+  _time: 2026-02-16 09:55:22.703922172 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
+- _id: 34
+  _time: 2026-02-16 09:55:22.706815257 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 35
+  _time: 2026-02-16 09:55:22.709735614 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
+- _id: 36
+  _time: 2026-02-16 09:55:22.712756718 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 37
+  _time: 2026-02-16 09:55:22.716620184 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 22
-  _time: 2026-02-16 08:51:01.450568883 Z
+- _id: 38
+  _time: 2026-02-16 09:55:58.948883209 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: labels-were-scanned
-  where: github
-- _id: 23
-  _time: 2026-02-16 08:51:01.453352177 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 24
-  _time: 2026-02-16 08:51:01.456069799 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 25
-  _time: 2026-02-16 08:51:01.459086577 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 26
-  _time: 2026-02-16 08:51:01.462100289 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 27
-  _time: 2026-02-16 08:51:01.465136242 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 28
-  _time: 2026-02-16 08:51:25.018595437 Z
-  _version: 0.9.10/0.39.2/
-  average_issue_lifetime: 3327400.6333333333
-  average_pull_lifetime: 734144.9462365592
-  average_release_commits_size: 15.3
-  average_release_hoc_size: 1108.2
-  since: 2026-01-19 08:51:01.468022185 Z
+  average_pull_rejection_rate: 0.17204301075268819
+  since: 2026-01-19 09:55:22.730739187 Z
   what: quality-of-service
-  when: 2026-02-16 08:51:01.467997790 Z
-- _id: 29
-  _time: 2026-02-16 08:54:01.467946355 Z
+  when: 2026-02-16 09:55:22.730713259 Z
+- _id: 39
+  _time: 2026-02-16 09:55:58.950725224 Z
   _version: 0.9.10/0.39.2/
-  since: 2026-01-19 08:54:01.468181393 Z
+  since: 2026-01-19 09:55:58.950866317 Z
   what: quantity-of-deliverables
-  when: 2026-02-16 08:54:01.468133373 Z
-- _id: 30
-  _time: 2026-02-16 08:54:01.470863392 Z
+  when: 2026-02-16 09:55:58.950841491 Z
+- _id: 40
+  _time: 2026-02-16 09:58:58.957365417 Z
+  _version: 0.9.10/0.39.2/
+  name: renovate[bot]
+  what: who-has-name
+  when: 2026-02-16 09:58:58.957802241 Z
+  where: github
+  who: 29139614
+- _id: 41
+  _time: 2026-02-16 09:58:59.107749733 Z
+  _version: 0.9.10/0.39.2/
+  name: yegor256
+  what: who-has-name
+  when: 2026-02-16 09:58:59.107942142 Z
+  where: github
+  who: 526301
+- _id: 42
+  _time: 2026-02-16 09:58:59.248104016 Z
+  _version: 0.9.10/0.39.2/
+  name: belfil
+  what: who-has-name
+  when: 2026-02-16 09:58:59.248254537 Z
+  where: github
+  who: 94894473
+- _id: 43
+  _time: 2026-02-16 09:58:59.429033177 Z
+  _version: 0.9.10/0.39.2/
+  name: aidarkdev
+  what: who-has-name
+  when: 2026-02-16 09:58:59.429196692 Z
+  where: github
+  who: 161327834
+- _id: 44
+  _time: 2026-02-16 09:58:59.579023198 Z
   _version: 0.9.10/0.39.2/
   name: rultor
   what: who-has-name
-  when: 2026-02-16 08:54:01.471013621 Z
+  when: 2026-02-16 09:58:59.579195379 Z
   where: github
   who: 8086956
