@@ -4,14 +4,14 @@
   deleted: 8
   error:
   - undefined method '+' for nil
-  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 272.67017311
+  seconds: 224.263786329
   version: 0.39.2
   what: judges-summary
-  when: 2026-03-15 07:02:10.039280517 Z
+  when: 2026-03-15 07:53:01.084408549 Z
 - _id: 1
-  _time: 2026-03-15 06:58:01.838827544 Z
+  _time: 2026-03-15 07:49:40.831024865 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 7
   total_commits: 7663
@@ -24,244 +24,358 @@
   total_repositories: 12
   total_stars: 98
   what: dimensions-of-terrain
-  when: 2026-03-15 06:57:37.701713840 Z
+  when: 2026-03-15 07:49:17.156096935 Z
 - _id: 2
-  _time: 2026-03-15 06:58:01.883743804 Z
+  _time: 2026-03-15 07:49:40.864352428 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 802720676
+  repository: 820463873
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2026-03-15 06:58:01.886546864 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2026-03-15 06:58:01.889425926 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2026-03-15 06:58:01.892377974 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2026-03-15 06:58:01.895486726 Z
+  _time: 2026-03-15 07:49:40.867221686 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 7
-  _time: 2026-03-15 06:58:01.898650622 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2026-03-15 06:58:01.901807795 Z
+- _id: 4
+  _time: 2026-03-15 07:49:40.870145636 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: min-issue-was-found
   where: github
-- _id: 9
-  _time: 2026-03-15 06:58:01.904879407 Z
+- _id: 5
+  _time: 2026-03-15 07:49:40.873046192 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1090089359
+  repository: 802720676
   what: min-issue-was-found
   where: github
-- _id: 10
-  _time: 2026-03-15 06:58:01.908059413 Z
+- _id: 6
+  _time: 2026-03-15 07:49:40.892382450 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: min-issue-was-found
   where: github
-- _id: 11
-  _time: 2026-03-15 06:58:01.911357129 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2026-03-15 06:58:01.916183949 Z
+- _id: 7
+  _time: 2026-03-15 07:49:40.896701124 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
-- _id: 13
-  _time: 2026-03-15 06:58:01.918839732 Z
+- _id: 8
+  _time: 2026-03-15 07:49:40.900214575 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2026-03-15 07:49:40.903417265 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2026-03-15 07:49:40.907250734 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2026-03-15 07:49:40.910859733 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-03-15 07:49:40.913494763 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
-- _id: 14
-  _time: 2026-03-15 06:58:02.289495502 Z
+- _id: 13
+  _time: 2026-03-15 07:49:40.916763397 Z
   _version: 0.9.10/0.39.2/
-  latest: 8877956359
-  repository: 1084843345
-  what: events-were-scanned
-  where: github
-- _id: 15
-  _time: 2026-03-15 06:58:02.616856857 Z
-  _version: 0.9.10/0.39.2/
-  latest: 8883408134
+  latest: 0
   repository: 1090089359
-  what: events-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 16
-  _time: 2026-03-15 06:58:03.092439957 Z
+- _id: 14
+  _time: 2026-03-15 07:49:43.185675920 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/fbe#401 has been closed by @yegor256.
-  event_id: 7298064542
+  details: The issue yegor256/factbase#530 has been closed by @yegor256.
+  event_id: 7012541021
   event_type: IssuesEvent
   is_human: 1
-  issue: 401
-  repository: 820463873
+  issue: 530
+  repository: 798641472
   what: issue-was-closed
-  when: 2026-03-11 15:33:38.000000000 Z
+  when: 2026-03-02 17:37:47.000000000 Z
+  where: github
+  who: 526301
+- _id: 15
+  _time: 2026-03-15 07:49:43.622570253 Z
+  _version: 0.9.10/0.39.2/
+  commits: 1372
+  contributors:
+  - 526301
+  - 29139614
+  - 37025995
+  - 51804353
+  - 94894473
+  - 8086956
+  - 112971443
+  - 88084038
+  - 41898282
+  - 2566462
+  - 69600066
+  - 198982749
+  - 118360545
+  details: A new release '`unique` works incorrectly with `IndexedFactbase`' has been
+    published in yegor256/factbase by @rultor.
+  event_id: 7004359488
+  event_type: ReleaseEvent
+  hoc: 14629
+  is_human: 0
+  last_commit: 95003e8c7d6de6306f2ab96ddae4483b4d9c7b33
+  release: 292072287
+  repository: 798641472
+  tag: 0.19.9
+  what: release-published
+  when: 2026-03-02 13:24:12.000000000 Z
+  where: github
+  who: 8086956
+- _id: 16
+  _time: 2026-03-15 07:49:59.210707407 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#539 has been closed by @yegor256.
+  event_id: 7004043558
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 539
+  repository: 798641472
+  what: issue-was-closed
+  when: 2026-03-02 13:13:50.000000000 Z
   where: github
   who: 526301
 - _id: 17
-  _time: 2026-03-15 06:58:03.879327183 Z
+  _time: 2026-03-15 07:49:59.229429241 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/fbe#401 has been opened by @yegor256.
-  event_id: 7279378866
+  branch: '530'
+  details: The pull request yegor256/factbase#541 has been opened by @belfil.
+  event_id: 7003491113
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 541
+  repository: 798641472
+  what: pull-was-opened
+  when: 2026-03-02 12:54:53.000000000 Z
+  where: github
+  who: 94894473
+- _id: 18
+  _time: 2026-03-15 07:49:59.254677844 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#531 has been closed by @belfil.
+  event_id: 6997143562
   event_type: IssuesEvent
   is_human: 1
-  issue: 401
-  repository: 820463873
-  what: issue-was-opened
-  when: 2026-03-11 05:42:34.000000000 Z
+  issue: 531
+  repository: 798641472
+  what: issue-was-closed
+  when: 2026-03-02 09:15:39.000000000 Z
+  where: github
+  who: 94894473
+- _id: 19
+  _time: 2026-03-15 07:49:59.438290272 Z
+  _version: 0.9.10/0.39.2/
+  branch: '539'
+  details: The pull request yegor256/factbase#540 has been opened by @belfil.
+  event_id: 6985512710
+  event_type: PullRequestEvent
+  is_human: 1
+  issue: 540
+  repository: 798641472
+  what: pull-was-opened
+  when: 2026-03-01 21:20:37.000000000 Z
+  where: github
+  who: 94894473
+- _id: 20
+  _time: 2026-03-15 07:50:00.017623812 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#537 has been closed by @yegor256.
+  event_id: 6978486540
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 537
+  repository: 798641472
+  what: issue-was-closed
+  when: 2026-03-01 11:13:07.000000000 Z
   where: github
   who: 526301
-- _id: 18
-  _time: 2026-03-15 06:58:03.954985690 Z
+- _id: 21
+  _time: 2026-03-15 07:50:00.320208343 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: labels-were-scanned
+  details: The issue yegor256/factbase#539 has been opened by @yegor256.
+  event_id: 6978440949
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 539
+  repository: 798641472
+  what: issue-was-opened
+  when: 2026-03-01 11:08:35.000000000 Z
   where: github
-- _id: 19
-  _time: 2026-03-15 06:58:03.957575240 Z
+  who: 526301
+- _id: 22
+  _time: 2026-03-15 07:50:00.329540110 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue yegor256/factbase#519 has been closed by @belfil.
+  event_id: 6969536380
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 519
+  repository: 798641472
+  what: issue-was-closed
+  when: 2026-02-28 20:07:10.000000000 Z
+  where: github
+  who: 94894473
+- _id: 23
+  _time: 2026-03-15 07:50:00.392313891 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 20
-  _time: 2026-03-15 06:58:03.960174217 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 21
-  _time: 2026-03-15 06:58:03.962852233 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: labels-were-scanned
-  where: github
-- _id: 22
-  _time: 2026-03-15 06:58:03.965564162 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 23
-  _time: 2026-03-15 06:58:03.968127763 Z
+- _id: 24
+  _time: 2026-03-15 07:50:00.395822174 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: labels-were-scanned
   where: github
-- _id: 24
-  _time: 2026-03-15 06:58:03.970842086 Z
+- _id: 25
+  _time: 2026-03-15 07:50:00.399169785 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 26
+  _time: 2026-03-15 07:50:00.402632232 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
+- _id: 27
+  _time: 2026-03-15 07:50:00.406148338 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: labels-were-scanned
+  where: github
+- _id: 28
+  _time: 2026-03-15 07:50:00.409613720 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 29
+  _time: 2026-03-15 07:50:00.413119988 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 25
-  _time: 2026-03-15 06:58:03.973597987 Z
+- _id: 30
+  _time: 2026-03-15 07:50:00.416573728 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 26
-  _time: 2026-03-15 06:58:03.976502036 Z
+- _id: 31
+  _time: 2026-03-15 07:50:00.420188419 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1084843345
+  repository: 1077707334
   what: labels-were-scanned
   where: github
-- _id: 27
-  _time: 2026-03-15 06:58:03.979305567 Z
+- _id: 32
+  _time: 2026-03-15 07:50:00.423558743 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1081929119
+  repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 28
-  _time: 2026-03-15 06:58:03.986827183 Z
+- _id: 33
+  _time: 2026-03-15 07:50:00.815635025 Z
+  _version: 0.9.10/0.39.2/
+  details: The '#bug' label was attached by @yegor256 to the issue yegor256/factbase#539.
+  issue: 539
+  label: bug
+  repository: 798641472
+  what: label-was-attached
+  when: 2026-03-01 11:08:35.000000000 Z
+  where: github
+  who: 526301
+- _id: 35
+  _time: 2026-03-15 07:50:00.821931384 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 36
+  _time: 2026-03-15 07:50:00.826078098 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 29
-  _time: 2026-03-15 06:58:04.174246724 Z
+- _id: 37
+  _time: 2026-03-15 07:50:03.200592768 Z
   _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/fbe#401.
-  issue: 401
-  label: bug
-  repository: 820463873
-  what: label-was-attached
-  when: 2026-03-11 05:42:43.000000000 Z
-  where: github
-  who: 526301
-- _id: 30
-  _time: 2026-03-15 06:58:04.181489048 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 31
-  _time: 2026-03-15 06:59:09.940448271 Z
-  _version: 0.9.10/0.39.2/
-  average_pull_rejection_rate: 0.21794871794871795
-  since: 2026-02-15 06:58:04.184375230 Z
+  average_triage_time: 1.0
+  since: 2026-02-15 07:50:00.829225536 Z
   what: quality-of-service
-  when: 2026-03-15 06:58:04.184350845 Z
-- _id: 32
-  _time: 2026-03-15 06:59:09.942412208 Z
+  when: 2026-03-15 07:50:00.829201732 Z
+- _id: 38
+  _time: 2026-03-15 07:53:00.829023057 Z
   _version: 0.9.10/0.39.2/
-  since: 2026-02-15 06:59:09.942521673 Z
+  since: 2026-02-15 07:53:00.829166745 Z
   what: quantity-of-deliverables
-  when: 2026-03-15 06:59:09.942491817 Z
-- _id: 33
-  _time: 2026-03-15 07:02:09.944207405 Z
+  when: 2026-03-15 07:53:00.829137691 Z
+- _id: 39
+  _time: 2026-03-15 07:53:00.832488966 Z
   _version: 0.9.10/0.39.2/
   name: yegor256
   what: who-has-name
-  when: 2026-03-15 07:02:09.944385218 Z
+  when: 2026-03-15 07:53:00.832664774 Z
   where: github
   who: 526301
+- _id: 40
+  _time: 2026-03-15 07:53:00.919314437 Z
+  _version: 0.9.10/0.39.2/
+  name: rultor
+  what: who-has-name
+  when: 2026-03-15 07:53:00.919455540 Z
+  where: github
+  who: 8086956
+- _id: 41
+  _time: 2026-03-15 07:53:00.997802163 Z
+  _version: 0.9.10/0.39.2/
+  name: belfil
+  what: who-has-name
+  when: 2026-03-15 07:53:00.997942535 Z
+  where: github
+  who: 94894473
