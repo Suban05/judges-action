@@ -4,14 +4,14 @@
   deleted: 8
   error:
   - undefined method '[]' for nil
-  - 'Judge quantity-of-deliverables stopped by timeout after 3m0s: execution expired'
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
   inserted: 8
-  seconds: 277.835055274
+  seconds: 205.960811421
   version: 0.39.2
   what: judges-summary
-  when: 2026-04-06 11:01:34.133176519 Z
+  when: 2026-04-06 11:53:51.308961138 Z
 - _id: 1
-  _time: 2026-04-06 10:57:21.213096637 Z
+  _time: 2026-04-06 11:50:50.298693678 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 4
   total_commits: 7743
@@ -24,224 +24,189 @@
   total_repositories: 12
   total_stars: 99
   what: dimensions-of-terrain
-  when: 2026-04-06 10:56:56.619585694 Z
+  when: 2026-04-06 11:50:25.681700659 Z
 - _id: 2
-  _time: 2026-04-06 10:57:21.252767358 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2026-04-06 10:57:21.256522582 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2026-04-06 10:57:21.260382378 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2026-04-06 10:57:21.264306723 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2026-04-06 10:57:21.269633113 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2026-04-06 10:57:21.273451664 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2026-04-06 10:57:21.277071447 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2026-04-06 10:57:21.280205916 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2026-04-06 10:57:21.283776108 Z
+  _time: 2026-04-06 11:50:50.344054112 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: min-issue-was-found
   where: github
-- _id: 11
-  _time: 2026-04-06 10:57:21.287532785 Z
+- _id: 3
+  _time: 2026-04-06 11:50:50.347661505 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 4
+  _time: 2026-04-06 11:50:50.350994476 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2026-04-06 11:50:50.354456918 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2026-04-06 11:50:50.357991606 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2026-04-06 11:50:50.361745243 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: min-issue-was-found
   where: github
-- _id: 12
-  _time: 2026-04-06 10:57:21.291178156 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 13
-  _time: 2026-04-06 10:57:21.294567535 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 14
-  _time: 2026-04-06 10:57:21.690545241 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: events-were-scanned
-  where: github
-- _id: 15
-  _time: 2026-04-06 10:57:22.055174544 Z
-  _version: 0.9.10/0.39.2/
-  branch: renovate/davidanson-markdownlint-cli2-action-23.x
-  details: The pull request zerocracy/swarm-template#210 has been opened by @renovate[bot].
-  event_id: 7775546214
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 210
-  repository: 849726475
-  what: pull-was-opened
-  when: 2026-03-26 05:18:07.000000000 Z
-  where: github
-  who: 29139614
-- _id: 16
-  _time: 2026-04-06 10:57:22.209117423 Z
-  _version: 0.9.10/0.39.2/
-  latest: 10086247926
-  repository: 849726475
-  what: events-were-scanned
-  where: github
-- _id: 17
-  _time: 2026-04-06 10:57:22.904338096 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 18
-  _time: 2026-04-06 10:57:22.907836273 Z
+- _id: 8
+  _time: 2026-04-06 11:50:50.364943201 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
-  what: labels-were-scanned
+  what: min-issue-was-found
   where: github
-- _id: 19
-  _time: 2026-04-06 10:57:22.911005238 Z
+- _id: 9
+  _time: 2026-04-06 11:50:50.368319172 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
-  what: labels-were-scanned
+  repository: 798641472
+  what: min-issue-was-found
   where: github
-- _id: 20
-  _time: 2026-04-06 10:57:22.914339480 Z
+- _id: 10
+  _time: 2026-04-06 11:50:50.371754723 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
+  repository: 802720676
+  what: min-issue-was-found
   where: github
-- _id: 21
-  _time: 2026-04-06 10:57:22.917734836 Z
+- _id: 11
+  _time: 2026-04-06 11:50:50.374588120 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-04-06 11:50:50.377521964 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-04-06 11:50:50.380250194 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 14
+  _time: 2026-04-06 11:50:51.254205267 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
   what: labels-were-scanned
   where: github
-- _id: 22
-  _time: 2026-04-06 10:57:22.920941271 Z
+- _id: 15
+  _time: 2026-04-06 11:50:51.262532293 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
+  where: github
+- _id: 16
+  _time: 2026-04-06 11:50:51.268344868 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: labels-were-scanned
   where: github
+- _id: 17
+  _time: 2026-04-06 11:50:51.273494535 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: labels-were-scanned
+  where: github
+- _id: 18
+  _time: 2026-04-06 11:50:51.277990459 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
+- _id: 19
+  _time: 2026-04-06 11:50:51.281597101 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 20
+  _time: 2026-04-06 11:50:51.285644838 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 21
+  _time: 2026-04-06 11:50:51.289212296 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
+- _id: 22
+  _time: 2026-04-06 11:50:51.292530299 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
+  where: github
 - _id: 23
-  _time: 2026-04-06 10:57:22.924060834 Z
+  _time: 2026-04-06 11:50:51.296221840 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
 - _id: 24
-  _time: 2026-04-06 10:57:22.927573407 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: labels-were-scanned
-  where: github
-- _id: 25
-  _time: 2026-04-06 10:57:22.931097432 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 26
-  _time: 2026-04-06 10:57:22.934693001 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 27
-  _time: 2026-04-06 10:57:22.937949358 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 28
-  _time: 2026-04-06 10:57:22.941230231 Z
+  _time: 2026-04-06 11:50:51.299531306 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
-- _id: 29
-  _time: 2026-04-06 10:58:33.987214747 Z
+- _id: 25
+  _time: 2026-04-06 11:50:51.302329978 Z
   _version: 0.9.10/0.39.2/
-  average_issue_lifetime: 89720.5
-  average_pull_lifetime: 1414604.2741935484
-  average_release_interval: 0
-  average_triage_time: 0
-  since: 2026-03-09 10:57:22.944104961 Z
-  what: quality-of-service
-  when: 2026-04-06 10:57:22.944078803 Z
-- _id: 30
-  _time: 2026-04-06 10:58:33.989450626 Z
-  _version: 0.9.10/0.39.2/
-  since: 2026-03-09 10:58:33.989555251 Z
-  what: quantity-of-deliverables
-  when: 2026-04-06 10:58:33.989531397 Z
-- _id: 31
-  _time: 2026-04-06 11:01:33.991188851 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2026-04-06 11:01:33.991408609 Z
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
   where: github
-  who: 29139614
+- _id: 26
+  _time: 2026-04-06 11:51:15.568833011 Z
+  _version: 0.9.10/0.39.2/
+  average_release_interval: 0
+  average_review_size: 0.0
+  average_review_time: 10833.130434782608
+  average_reviewers_per_pull: 0.8363636363636363
+  average_reviews_per_pull: 0.8363636363636363
+  since: 2026-03-09 11:50:51.305022972 Z
+  what: quality-of-service
+  when: 2026-04-06 11:50:51.304995420 Z
+- _id: 27
+  _time: 2026-04-06 11:53:51.305462445 Z
+  _version: 0.9.10/0.39.2/
+  since: 2026-03-09 11:53:51.305655315 Z
+  what: quantity-of-deliverables
+  when: 2026-04-06 11:53:51.305615451 Z
