@@ -2,314 +2,236 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '[]' for nil
+  error:
+  - 'GET https://api.github.com/repos/yegor256/judges: 401 - Bad credentials // See:
+    https://docs.github.com/rest'
+  - undefined method '[]' for nil
+  - 'GET https://api.github.com/search/issues?per_page=100&q=repo%3Azerocracy%2Fwords+type%3Aissue+created%3A%3E2026-04-25:
+    401 - Bad credentials // See: https://docs.github.com/rest'
+  - 'GET https://api.github.com/repos/zerocracy/brand-book/issues?per_page=100&since=%3E2026-04-25:
+    401 - Bad credentials // See: https://docs.github.com/rest'
   inserted: 8
-  seconds: 47.718053472
+  seconds: 12.808703694
   version: 0.39.2
   what: judges-summary
-  when: 2026-05-23 09:54:20.425506200 Z
+  when: 2026-05-23 11:12:22.185122707 Z
 - _id: 1
-  _time: 2026-05-23 09:54:05.505576456 Z
+  _time: 2026-05-23 11:12:09.711533733 Z
   _version: 0.9.10/0.39.2/
-  total_active_contributors: 19
-  total_commits: 8835
-  total_contributors: 42
-  total_files: 1034
-  total_forks: 99
-  total_issues: 1180
-  total_pulls: 2906
-  total_releases: 816
-  total_repositories: 13
-  total_stars: 106
   what: dimensions-of-terrain
-  when: 2026-05-23 09:53:33.045182156 Z
+  when: 2026-05-23 11:12:09.711682561 Z
 - _id: 2
-  _time: 2026-05-23 09:54:05.555146282 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
-- _id: 3
-  _time: 2026-05-23 09:54:05.558194067 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 4
-  _time: 2026-05-23 09:54:05.561688766 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 5
-  _time: 2026-05-23 09:54:05.564780813 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2026-05-23 09:54:05.569932058 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1246623470
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2026-05-23 09:54:05.572783796 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 798641472
-  what: min-issue-was-found
-  where: github
-- _id: 8
-  _time: 2026-05-23 09:54:05.576093359 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2026-05-23 09:54:05.579077535 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2026-05-23 09:54:05.581808508 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2026-05-23 09:54:05.584531555 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2026-05-23 09:54:05.587293696 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: min-issue-was-found
-  where: github
-- _id: 13
-  _time: 2026-05-23 09:54:05.589932767 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: min-issue-was-found
-  where: github
-- _id: 14
-  _time: 2026-05-23 09:54:05.592768775 Z
+  _time: 2026-05-23 11:12:13.236469095 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: min-issue-was-found
   where: github
+- _id: 3
+  _time: 2026-05-23 11:12:13.241154330 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1246623470
+  what: min-issue-was-found
+  where: github
+- _id: 4
+  _time: 2026-05-23 11:12:13.244355252 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 5
+  _time: 2026-05-23 11:12:13.247381177 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799177290
+  what: min-issue-was-found
+  where: github
+- _id: 6
+  _time: 2026-05-23 11:12:13.249857625 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 7
+  _time: 2026-05-23 11:12:13.253939433 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 8
+  _time: 2026-05-23 11:12:13.257066357 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
+- _id: 9
+  _time: 2026-05-23 11:12:13.259713624 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 799113787
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2026-05-23 11:12:13.262859934 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 798641472
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2026-05-23 11:12:13.265534262 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-05-23 11:12:13.269076853 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1077707334
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-05-23 11:12:13.272322338 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 14
+  _time: 2026-05-23 11:12:13.275415629 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 849726475
+  what: min-issue-was-found
+  where: github
 - _id: 15
-  _time: 2026-05-23 09:54:06.541133058 Z
+  _time: 2026-05-23 11:12:16.985540055 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/swarm-template#213 has been opened by @morphqdd.
-  event_id: 9321951472
+  details: The issue zerocracy/judges-action#1414 has been opened by @edmoffo.
+  event_id: 9795827496
   event_type: IssuesEvent
   is_human: 1
-  issue: 213
-  repository: 849726475
+  issue: 1414
+  repository: 799177290
   what: issue-was-opened
-  when: 2026-05-11 16:00:24.000000000 Z
+  when: 2026-05-22 16:17:56.000000000 Z
   where: github
-  who: 125282851
+  who: 9535571
 - _id: 16
-  _time: 2026-05-23 09:54:06.550212692 Z
+  _time: 2026-05-23 11:12:17.050199425 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/swarm-template#212 has been opened by @morphqdd.
-  event_id: 9321946730
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 212
-  repository: 849726475
-  what: issue-was-opened
-  when: 2026-05-11 16:00:18.000000000 Z
+  latest: 0
+  repository: 1077707334
+  what: labels-were-scanned
   where: github
-  who: 125282851
 - _id: 17
-  _time: 2026-05-23 09:54:06.559472183 Z
+  _time: 2026-05-23 11:12:17.053277567 Z
   _version: 0.9.10/0.39.2/
-  details: The issue zerocracy/swarm-template#211 has been opened by @morphqdd.
-  event_id: 9321943353
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 211
-  repository: 849726475
-  what: issue-was-opened
-  when: 2026-05-11 16:00:13.000000000 Z
+  latest: 0
+  repository: 802720676
+  what: labels-were-scanned
   where: github
-  who: 125282851
 - _id: 18
-  _time: 2026-05-23 09:54:06.616406287 Z
-  _version: 0.9.10/0.39.2/
-  latest: 12096056784
-  repository: 849726475
-  what: events-were-scanned
-  where: github
-- _id: 19
-  _time: 2026-05-23 09:54:09.225785638 Z
+  _time: 2026-05-23 11:12:17.056562005 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 820463873
   what: labels-were-scanned
   where: github
+- _id: 19
+  _time: 2026-05-23 11:12:17.059586057 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: labels-were-scanned
+  where: github
 - _id: 20
-  _time: 2026-05-23 09:54:09.229699540 Z
+  _time: 2026-05-23 11:12:17.062684958 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1084843345
   what: labels-were-scanned
   where: github
 - _id: 21
-  _time: 2026-05-23 09:54:09.233356493 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1081929119
-  what: labels-were-scanned
-  where: github
-- _id: 22
-  _time: 2026-05-23 09:54:09.236369753 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: labels-were-scanned
-  where: github
-- _id: 23
-  _time: 2026-05-23 09:54:09.240613752 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1246623470
-  what: labels-were-scanned
-  where: github
-- _id: 24
-  _time: 2026-05-23 09:54:09.243517918 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 974194993
-  what: labels-were-scanned
-  where: github
-- _id: 25
-  _time: 2026-05-23 09:54:09.246503687 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: labels-were-scanned
-  where: github
-- _id: 26
-  _time: 2026-05-23 09:54:09.249262462 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 27
-  _time: 2026-05-23 09:54:09.270531941 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: labels-were-scanned
-  where: github
-- _id: 28
-  _time: 2026-05-23 09:54:09.275678667 Z
+  _time: 2026-05-23 11:12:17.065629521 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
-- _id: 29
-  _time: 2026-05-23 09:54:09.568031685 Z
-  _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/swarm-template#211.
-  issue: 211
-  label: bug
-  repository: 849726475
-  what: label-was-attached
-  when: 2026-05-13 10:25:57.000000000 Z
-  where: github
-  who: 526301
-- _id: 31
-  _time: 2026-05-23 09:54:09.574937177 Z
+- _id: 23
+  _time: 2026-05-23 11:12:17.333262579 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: labels-were-scanned
   where: github
-- _id: 32
-  _time: 2026-05-23 09:54:09.579009075 Z
+- _id: 24
+  _time: 2026-05-23 11:12:17.337522351 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 840215648
+  repository: 1246623470
   what: labels-were-scanned
   where: github
-- _id: 33
-  _time: 2026-05-23 09:54:09.918812234 Z
+- _id: 25
+  _time: 2026-05-23 11:12:17.340238216 Z
   _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/swarm-template#212.
-  issue: 212
-  label: bug
-  repository: 849726475
-  what: label-was-attached
-  when: 2026-05-13 10:25:33.000000000 Z
+  latest: 0
+  repository: 799113787
+  what: labels-were-scanned
   where: github
-  who: 526301
-- _id: 34
-  _time: 2026-05-23 09:54:10.218744875 Z
+- _id: 26
+  _time: 2026-05-23 11:12:17.343094093 Z
   _version: 0.9.10/0.39.2/
-  details: The '#bug' label was attached by @yegor256 to the issue zerocracy/swarm-template#213.
-  issue: 213
-  label: bug
-  repository: 849726475
-  what: label-was-attached
-  when: 2026-05-13 10:25:16.000000000 Z
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
   where: github
-  who: 526301
-- _id: 35
-  _time: 2026-05-23 09:54:10.225101541 Z
+- _id: 27
+  _time: 2026-05-23 11:12:17.346121611 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
+  where: github
+- _id: 28
+  _time: 2026-05-23 11:12:17.359021609 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: labels-were-scanned
   where: github
-- _id: 36
-  _time: 2026-05-23 09:54:20.413196903 Z
+- _id: 29
+  _time: 2026-05-23 11:12:17.365044394 Z
   _version: 0.9.10/0.39.2/
-  average_pull_rejection_rate: 0.05913978494623656
-  since: 2026-04-25 09:54:10.227880884 Z
+  latest: 0
+  repository: 799177290
+  what: labels-were-scanned
+  where: github
+- _id: 30
+  _time: 2026-05-23 11:12:17.368261787 Z
+  _version: 0.9.10/0.39.2/
+  since: 2026-04-25 11:12:17.368365671 Z
   what: quality-of-service
-  when: 2026-05-23 09:54:10.227856148 Z
-- _id: 37
-  _time: 2026-05-23 09:54:20.415895918 Z
+  when: 2026-05-23 11:12:17.368339723 Z
+- _id: 31
+  _time: 2026-05-23 11:12:21.926287450 Z
   _version: 0.9.10/0.39.2/
-  since: 2026-04-25 09:54:20.416002568 Z
+  since: 2026-04-25 11:12:21.926414507 Z
   what: quantity-of-deliverables
-  when: 2026-05-23 09:54:20.415978954 Z
-- _id: 38
-  _time: 2026-05-23 09:54:20.419051364 Z
+  when: 2026-05-23 11:12:21.926389370 Z
+- _id: 32
+  _time: 2026-05-23 11:12:22.180077315 Z
   _version: 0.9.10/0.39.2/
-  name: morphqdd
+  name: edmoffo
   what: who-has-name
-  when: 2026-05-23 09:54:20.419203558 Z
+  when: 2026-05-23 11:12:22.180326209 Z
   where: github
-  who: 125282851
-- _id: 39
-  _time: 2026-05-23 09:54:20.421115292 Z
-  _version: 0.9.10/0.39.2/
-  name: yegor256
-  what: who-has-name
-  when: 2026-05-23 09:54:20.421249303 Z
-  where: github
-  who: 526301
+  who: 9535571
