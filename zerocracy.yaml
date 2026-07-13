@@ -2,309 +2,285 @@
 - added: 8
   cycles: 1
   deleted: 8
-  error: undefined method '[]' for nil
+  error:
+  - undefined method '[]' for nil
+  - 'Judge quality-of-service stopped by timeout after 3m0s: execution expired'
+  - 'GET https://api.github.com/repos/zerocracy/pages-action/commits/a7abbec5c75fb5b67c320dcda43672c083afe217:
+    502 - Server Error'
   inserted: 8
-  seconds: 68.844122007
+  seconds: 245.831223543
   version: 0.39.2
   what: judges-summary
-  when: 2026-07-13 13:24:26.561203443 Z
+  when: 2026-07-13 16:37:29.412411062 Z
 - _id: 1
-  _time: 2026-07-13 13:23:50.829117803 Z
+  _time: 2026-07-13 16:33:59.813819176 Z
   _version: 0.9.10/0.39.2/
   total_active_contributors: 14
   total_commits: 9598
   total_contributors: 50
   total_files: 1103
   total_forks: 146
+  total_releases: 829
   total_repositories: 14
   total_stars: 111
   what: dimensions-of-terrain
-  when: 2026-07-13 13:23:18.051024597 Z
+  when: 2026-07-13 16:33:23.917073731 Z
 - _id: 2
-  _time: 2026-07-13 13:23:50.869710910 Z
+  _time: 2026-07-13 16:33:59.861522840 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1246623470
+  repository: 799177290
   what: min-issue-was-found
   where: github
 - _id: 3
-  _time: 2026-07-13 13:23:50.872448196 Z
+  _time: 2026-07-13 16:33:59.864507215 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 1077707334
   what: min-issue-was-found
   where: github
 - _id: 4
-  _time: 2026-07-13 13:23:50.875192744 Z
+  _time: 2026-07-13 16:33:59.867287590 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 849726475
   what: min-issue-was-found
   where: github
 - _id: 5
-  _time: 2026-07-13 13:23:50.882198921 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1236759415
-  what: min-issue-was-found
-  where: github
-- _id: 6
-  _time: 2026-07-13 13:23:50.887745456 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: min-issue-was-found
-  where: github
-- _id: 7
-  _time: 2026-07-13 13:23:50.892306169 Z
+  _time: 2026-07-13 16:33:59.870129579 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1081929119
   what: min-issue-was-found
   where: github
-- _id: 8
-  _time: 2026-07-13 13:23:50.898159504 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 840215648
-  what: min-issue-was-found
-  where: github
-- _id: 9
-  _time: 2026-07-13 13:23:50.903400401 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 820463873
-  what: min-issue-was-found
-  where: github
-- _id: 10
-  _time: 2026-07-13 13:23:50.909171332 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 802720676
-  what: min-issue-was-found
-  where: github
-- _id: 11
-  _time: 2026-07-13 13:23:50.913745410 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1077707334
-  what: min-issue-was-found
-  where: github
-- _id: 12
-  _time: 2026-07-13 13:23:50.917799292 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799177290
-  what: min-issue-was-found
-  where: github
-- _id: 13
-  _time: 2026-07-13 13:23:50.922115471 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1090089359
-  what: min-issue-was-found
-  where: github
-- _id: 14
-  _time: 2026-07-13 13:23:50.925623348 Z
+- _id: 6
+  _time: 2026-07-13 16:33:59.872834142 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: min-issue-was-found
   where: github
-- _id: 15
-  _time: 2026-07-13 13:23:50.929210482 Z
+- _id: 7
+  _time: 2026-07-13 16:33:59.875483322 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799113787
   what: min-issue-was-found
   where: github
-- _id: 16
-  _time: 2026-07-13 13:23:51.596096220 Z
+- _id: 8
+  _time: 2026-07-13 16:33:59.883130542 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1077707334
-  what: events-were-scanned
+  repository: 1246623470
+  what: min-issue-was-found
   where: github
-- _id: 17
-  _time: 2026-07-13 13:23:54.675668396 Z
+- _id: 9
+  _time: 2026-07-13 16:33:59.886138171 Z
   _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#475 has been closed by @morphqdd.
-  event_id: 11678227491
+  latest: 0
+  repository: 1090089359
+  what: min-issue-was-found
+  where: github
+- _id: 10
+  _time: 2026-07-13 16:33:59.888977185 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1084843345
+  what: min-issue-was-found
+  where: github
+- _id: 11
+  _time: 2026-07-13 16:33:59.891759703 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1236759415
+  what: min-issue-was-found
+  where: github
+- _id: 12
+  _time: 2026-07-13 16:33:59.894595712 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 802720676
+  what: min-issue-was-found
+  where: github
+- _id: 13
+  _time: 2026-07-13 16:33:59.897446377 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 840215648
+  what: min-issue-was-found
+  where: github
+- _id: 14
+  _time: 2026-07-13 16:33:59.900324574 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 974194993
+  what: min-issue-was-found
+  where: github
+- _id: 15
+  _time: 2026-07-13 16:33:59.903232206 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: min-issue-was-found
+  where: github
+- _id: 16
+  _time: 2026-07-13 16:34:04.338183654 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/baza.rb#364 has been closed by @yegor256.
+  event_id: 11696192023
   event_type: IssuesEvent
   is_human: 1
-  issue: 475
-  repository: 799113787
+  issue: 364
+  repository: 840215648
   what: issue-was-closed
-  when: 2026-07-12 16:16:21.000000000 Z
+  when: 2026-07-13 06:58:57.000000000 Z
   where: github
-  who: 125282851
+  who: 526301
+- _id: 17
+  _time: 2026-07-13 16:34:04.977101769 Z
+  _version: 0.9.10/0.39.2/
+  details: The issue zerocracy/baza.rb#358 has been closed by @yegor256.
+  event_id: 11696171855
+  event_type: IssuesEvent
+  is_human: 1
+  issue: 358
+  repository: 840215648
+  what: issue-was-closed
+  when: 2026-07-13 06:58:25.000000000 Z
+  where: github
+  who: 526301
 - _id: 18
-  _time: 2026-07-13 13:23:54.683062363 Z
+  _time: 2026-07-13 16:34:05.293279447 Z
   _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#476 has been opened by @morphqdd.
-  event_id: 11678222503
+  details: The issue zerocracy/baza.rb#356 has been closed by @yegor256.
+  event_id: 11696086919
   event_type: IssuesEvent
   is_human: 1
-  issue: 476
-  repository: 799113787
-  what: issue-was-opened
-  when: 2026-07-12 16:16:02.000000000 Z
+  issue: 356
+  repository: 840215648
+  what: issue-was-closed
+  when: 2026-07-13 06:56:04.000000000 Z
   where: github
-  who: 125282851
+  who: 526301
 - _id: 19
-  _time: 2026-07-13 13:23:54.690117010 Z
+  _time: 2026-07-13 16:34:05.408323200 Z
   _version: 0.9.10/0.39.2/
-  details: The issue yegor256/judges#475 has been opened by @morphqdd.
-  event_id: 11678112944
-  event_type: IssuesEvent
-  is_human: 1
-  issue: 475
-  repository: 799113787
-  what: issue-was-opened
-  when: 2026-07-12 16:09:36.000000000 Z
+  latest: 0
+  repository: 849726475
+  what: labels-were-scanned
   where: github
-  who: 125282851
 - _id: 20
-  _time: 2026-07-13 13:23:54.929729733 Z
+  _time: 2026-07-13 16:34:05.412446453 Z
   _version: 0.9.10/0.39.2/
-  branch: renovate/simplecov-1.x
-  details: The pull request yegor256/judges#474 has been opened by @renovate[bot].
-  event_id: 11673568037
-  event_type: PullRequestEvent
-  is_human: 0
-  issue: 474
-  repository: 799113787
-  what: pull-was-opened
-  when: 2026-07-12 11:35:16.000000000 Z
+  latest: 0
+  repository: 974194993
+  what: labels-were-scanned
   where: github
-  who: 29139614
 - _id: 21
-  _time: 2026-07-13 13:23:55.942163678 Z
+  _time: 2026-07-13 16:34:05.416413465 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 820463873
+  what: labels-were-scanned
+  where: github
+- _id: 22
+  _time: 2026-07-13 16:34:05.420631205 Z
+  _version: 0.9.10/0.39.2/
+  latest: 0
+  repository: 1081929119
+  what: labels-were-scanned
+  where: github
+- _id: 23
+  _time: 2026-07-13 16:34:05.426838822 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1246623470
   what: labels-were-scanned
   where: github
-- _id: 23
-  _time: 2026-07-13 13:23:56.293413698 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1236759415
-  what: labels-were-scanned
-  where: github
 - _id: 24
-  _time: 2026-07-13 13:23:56.296286215 Z
+  _time: 2026-07-13 16:34:05.430703474 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 799177290
   what: labels-were-scanned
   where: github
 - _id: 25
-  _time: 2026-07-13 13:23:56.298982484 Z
+  _time: 2026-07-13 16:34:05.434509566 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 798641472
   what: labels-were-scanned
   where: github
 - _id: 26
-  _time: 2026-07-13 13:23:56.301755947 Z
+  _time: 2026-07-13 16:34:05.437950929 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 1081929119
+  repository: 799113787
   what: labels-were-scanned
   where: github
 - _id: 27
-  _time: 2026-07-13 13:23:56.304596965 Z
+  _time: 2026-07-13 16:34:05.442189587 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 802720676
   what: labels-were-scanned
   where: github
 - _id: 28
-  _time: 2026-07-13 13:23:56.307453011 Z
+  _time: 2026-07-13 16:34:05.452871973 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 974194993
+  repository: 1236759415
   what: labels-were-scanned
   where: github
 - _id: 29
-  _time: 2026-07-13 13:23:56.310538003 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 1084843345
-  what: labels-were-scanned
-  where: github
-- _id: 30
-  _time: 2026-07-13 13:23:56.313511327 Z
+  _time: 2026-07-13 16:34:05.476051575 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1090089359
   what: labels-were-scanned
   where: github
-- _id: 31
-  _time: 2026-07-13 13:23:56.345949653 Z
+- _id: 30
+  _time: 2026-07-13 16:34:05.496772417 Z
   _version: 0.9.10/0.39.2/
   latest: 0
-  repository: 820463873
+  repository: 1084843345
   what: labels-were-scanned
   where: github
-- _id: 32
-  _time: 2026-07-13 13:23:56.351663659 Z
+- _id: 31
+  _time: 2026-07-13 16:34:05.508027049 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 1077707334
   what: labels-were-scanned
   where: github
-- _id: 33
-  _time: 2026-07-13 13:23:56.358289239 Z
+- _id: 32
+  _time: 2026-07-13 16:34:05.515212348 Z
   _version: 0.9.10/0.39.2/
   latest: 0
   repository: 840215648
   what: labels-were-scanned
   where: github
-- _id: 34
-  _time: 2026-07-13 13:23:56.364709727 Z
+- _id: 33
+  _time: 2026-07-13 16:34:15.105094408 Z
   _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 849726475
-  what: labels-were-scanned
-  where: github
-- _id: 35
-  _time: 2026-07-13 13:23:56.750109513 Z
-  _version: 0.9.10/0.39.2/
-  latest: 0
-  repository: 799113787
-  what: labels-were-scanned
-  where: github
-- _id: 36
-  _time: 2026-07-13 13:24:26.552033936 Z
-  _version: 0.9.10/0.39.2/
-  average_issue_lifetime: 2764809.958677686
-  average_pull_lifetime: 646014.3038869258
   average_release_commits_size: 5.8
   average_release_hoc_size: 69.6
-  since: 2026-06-15 13:23:56.753260517 Z
+  average_release_interval: 38515.375
+  average_triage_time: 0
+  since: 2026-06-15 16:34:05.520852247 Z
   what: quality-of-service
-  when: 2026-07-13 13:23:56.753235801 Z
-- _id: 37
-  _time: 2026-07-13 13:24:26.554008505 Z
+  when: 2026-07-13 16:34:05.520824706 Z
+- _id: 34
+  _time: 2026-07-13 16:37:05.519245272 Z
   _version: 0.9.10/0.39.2/
-  since: 2026-06-15 13:24:26.554112077 Z
+  since: 2026-06-15 16:37:05.519480560 Z
   what: quantity-of-deliverables
-  when: 2026-07-13 13:24:26.554087842 Z
-- _id: 38
-  _time: 2026-07-13 13:24:26.556420927 Z
+  when: 2026-07-13 16:37:05.519406282 Z
+- _id: 35
+  _time: 2026-07-13 16:37:29.241212201 Z
   _version: 0.9.10/0.39.2/
-  name: morphqdd
+  name: yegor256
   what: who-has-name
-  when: 2026-07-13 13:24:26.556565586 Z
+  when: 2026-07-13 16:37:29.241516258 Z
   where: github
-  who: 125282851
-- _id: 39
-  _time: 2026-07-13 13:24:26.557683533 Z
-  _version: 0.9.10/0.39.2/
-  name: renovate[bot]
-  what: who-has-name
-  when: 2026-07-13 13:24:26.557815529 Z
-  where: github
-  who: 29139614
+  who: 526301
